@@ -1,5 +1,5 @@
 
-n.n.n / 2014-09-16
+0.0.3 / 2014-09-16
 ==================
 
  * Fix incorrect text and pdf links
