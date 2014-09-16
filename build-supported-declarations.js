@@ -81,7 +81,8 @@ fs.writeFileSync('Supported-declarations.md',
         }
 
         if (declaration.hasTXT) {
-            text = '[Yes](data/udhr-txt/' + declaration.filename + '.txt)';
+            text = '[Yes](data/udhr-txt/udhr_' +
+                declaration.filename + '.txt)';
         }
 
         if (declaration.hasJSON) {
@@ -89,7 +90,7 @@ fs.writeFileSync('Supported-declarations.md',
         }
 
         if (declaration.hasPDF) {
-            pdf = '[Yes](http://www.unicode.org/udhr/d/' +
+            pdf = '[Yes](http://www.unicode.org/udhr/d/udhr_' +
                 declaration.filename + '.pdf)';
         }
 
