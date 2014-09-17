@@ -101,9 +101,9 @@ console.log(plainDeclarations.eng);
 
 ## Building
 
-`npm install udhr` will scrape the sources from [unicode.org](http://www.unicode.org/udhr/downloads.html), build and clean the information and JSON files, and create a new Supported-declarations file.
+`npm run build` will scrape the sources from [unicode.org](http://www.unicode.org/udhr/downloads.html), build and clean the information and JSON files, and create a new Supported-declarations file.
 
-Please push any (by the build process created) changes back with a fork!
+Please push any (by this process created) changes back with a fork!
 
 ## Supported declarations
 

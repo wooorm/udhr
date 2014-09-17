@@ -41,7 +41,7 @@
     "build-data": "node build-data.js",
     "build-supported-declarations": "node build-supported-declarations.js",
     "coverage": "node_modules/.bin/istanbul cover node_modules/.bin/_mocha -- -- spec/udhr.spec.js",
-    "prepublish": "npm run scrape-data && npm run unzip-data && npm run build-data && npm run build-supported-declarations",
+    "build": "npm run scrape-data && npm run unzip-data && npm run build-data && npm run build-supported-declarations",
     "make": "npm run lint && npm run coverage"
   }
 }
