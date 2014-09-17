@@ -1,5 +1,5 @@
 
-n.n.n / 2014-09-17
+0.0.4 / 2014-09-17
 ==================
 
  * Add pretty formatted information output
