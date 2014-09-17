@@ -1,5 +1,7 @@
-var fs = require('fs'),
-    declarations = require('./lib/information')();
+var fs, declarations;
+
+fs = require('fs');
+declarations = require('./lib/information')();
 
 fs.writeFileSync('Supported-declarations.md',
     'Supported Declarations\n' +
