@@ -3,4 +3,6 @@ bower_components
 components
 .DS_Store
 coverage
-spec/browser.spec.js
+data/udhr-txt.zip
+data/udhr-xml.zip
+data/udhr-xml
