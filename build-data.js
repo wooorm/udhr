@@ -307,7 +307,7 @@ xmlToJSON({
 
     udhr = cleanData(data);
 
-    writeFile('data/information.json', JSON.stringify(udhr));
+    writeFile('data/information.json', JSON.stringify(udhr, null, 2));
     writeJSONData(udhr);
     writeTXTData(udhr);
 });
