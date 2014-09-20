@@ -1,4 +1,12 @@
 
+n.n.n / 2014-09-20
+==================
+
+ * Add script information
+ * Add coverage to build-data
+ * Update string cleaning methods
+ * Fix code style in build-supported-declarations
+
 0.0.4 / 2014-09-17
 ==================
 
