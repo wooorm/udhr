@@ -1,6 +1,6 @@
 {
   "name": "udhr",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "description": "The Universal Declaration of Human Rights (Unicode) in plain-text and JSON",
   "license": "MIT",
   "keywords": [
