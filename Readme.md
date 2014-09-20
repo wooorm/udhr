@@ -109,6 +109,10 @@ Please push any (by this process created) changes back with a fork!
 
 See [Supported-declarations.md](Supported-declarations.md).
 
+## Script information
+
+There’s also a file on which scripts (according to unicode scripts) are used in each declaration. See [Script-information.md](Script-information.md).
+
 ## License
 
 MIT © Titus Wormer
