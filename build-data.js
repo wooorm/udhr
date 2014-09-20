@@ -88,34 +88,85 @@ function writeTXTData(data) {
     writeFile('data/index-txt.json', JSON.stringify(keys, null, 2));
 }
 
-function cleanXMLJSON(object, key) {
-    var clean, property, value, nestedProperty;
+function shouldIgnore(value, key) {
+    return key === 'number';
+}
+
+var BLACKLIST = /by sprat|missing|^(\?\??)$/i;
+
+function cleanString(value, key, allowDirty) {
+    var newValue,
+        first,
+        last;
+
+    value = value.split(/(?:\r?\n|\r)+/).join('\n');
+
+    if (key === 'language' || key === 'tag') {
+        return value;
+    }
+
+    first = value.charAt(0);
+    last = value.charAt(value.length - 1);
+
+    if (
+        (first === '[' && last === ']') ||
+        (first === '(' && last === ')')
+    ) {
+        if (key === 'title' && !(/preamble/i.test(value))) {
+            newValue = value.slice(1, -1);
+
+            console.log(
+                'Unwrapping title:            "' +
+                value + '" > "' + newValue + '"'
+            );
+
+            value = newValue;
+        } else if (!allowDirty) {
+            console.log(
+                'Removing string:             "' + value + '"'
+            );
+
+            value = '';
+        }
+    }
+
+    if (BLACKLIST.test(value)) {
+        if (!allowDirty) {
+            console.log(
+                'Removing blacklisted string: "' + value + '"'
+            );
+
+            return '';
+        } else {
+            console.log(
+                'Allowing blacklisted string: "' + value + '"'
+            );
+        }
+    }
+
+    return value;
+}
+
+function cleanXMLJSON(object, key, allowDirty) {
+    var clean,
+        property,
+        value,
+        nestedProperty;
+
+    allowDirty = allowDirty === true || key === 'note';
 
     if (typeof object !== 'object') {
         if (key === 'para') {
             object = [object];
+        } else if (typeof object === 'string') {
+            return cleanString(object, key, allowDirty);
         } else {
             return object;
         }
     }
 
     if (key === 'para') {
-        object = object.join('\n').split(/(?:\r?\n|\r)+/).join('\n');
-
-        if (
-            object.toLowerCase().indexOf('missing') !== -1 ||
-            object === '[?]' ||
-            object.indexOf('by SPRAT, Ahmedabad') !== -1 ||
-            object.toLowerCase().indexOf('not available') !== -1
-        ) {
-            console.log(
-                '  removing paragraph: "' + object + '"'
-            );
-
-            object = '';
-        }
-
-        return object;
+        return cleanString(object.join('\n'), key, allowDirty);
     }
 
     if ('length' in object) {
@@ -127,22 +178,22 @@ function cleanXMLJSON(object, key) {
     for (property in object) {
         value = object[property];
 
-        if (property === 'number') {
+        if (shouldIgnore(value, property)) {
             continue;
         }
 
         if (property === '$') {
             for (nestedProperty in value) {
-                if (nestedProperty === 'number') {
+                if (shouldIgnore(value[nestedProperty], nestedProperty)) {
                     continue;
                 }
 
                 clean[nestedProperty] = cleanXMLJSON(
-                    value[nestedProperty], nestedProperty
+                    value[nestedProperty], nestedProperty, allowDirty
                 );
             }
         } else {
-            clean[property] = cleanXMLJSON(value, property);
+            clean[property] = cleanXMLJSON(value, property, allowDirty);
         }
     }
 
@@ -181,28 +232,6 @@ function writeJSONData(data) {
                 data.title = '';
             }
 
-            if (
-                data.title.indexOf('?') !== -1 ||
-                data.title.toLowerCase().indexOf('missing') !== -1
-            ) {
-                console.log(
-                    '  removing title: "' + data.title + '"'
-                );
-
-                data.title = '';
-            }
-
-            if (
-                data.title.charAt(0) === '[' &&
-                data.title.charAt(data.title.length - 1) === ']'
-            ) {
-                console.log(
-                    '  removing square brackets: "' + data.title + '"'
-                );
-
-                data.title = data.title.slice(1, -1);
-            }
-
             if (!data.note) {
                 data.note = [];
             } else if (!Array.isArray(data.note)) {
@@ -214,16 +243,6 @@ function writeJSONData(data) {
             }
 
             if (!data.preamble.title) {
-                data.preamble.title = '';
-            } else if (
-                data.preamble.title.toLowerCase() === '[Preamble]' ||
-                data.preamble.title.toLowerCase() === '[missing]'
-            ) {
-                console.log(
-                    '  removing preamble title: "' +
-                    data.preamble.title + '"'
-                );
-
                 data.preamble.title = '';
             }
 
