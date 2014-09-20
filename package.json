@@ -38,7 +38,7 @@
     "unzip-data-txt": "unzip -o -d data/udhr-txt data/udhr-txt.zip || exit 0",
     "unzip-data-xml": "unzip -o -d data/udhr-xml data/udhr-xml.zip || exit 0",
     "unzip-data": "npm run unzip-data-txt && npm run unzip-data-xml",
-    "build-data": "node build-data.js",
+    "build-data": "node_modules/.bin/istanbul cover build-data.js",
     "build-supported-declarations": "node build-supported-declarations.js",
     "coverage": "node_modules/.bin/istanbul cover node_modules/.bin/_mocha -- -- spec/udhr.spec.js",
     "build": "npm run scrape-data && npm run unzip-data && npm run build-data && npm run build-supported-declarations",

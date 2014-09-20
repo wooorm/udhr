@@ -52,6 +52,7 @@ function cleanData(data) {
                     )
                 );
 
+            /* istanbul ignore if: warning when unicode fixes things. */
             if (cleanDeclaration.hasTXT) {
                 console.log(
                     'Warning: NKU error was fixed. The special code (see ' +
@@ -158,10 +159,8 @@ function cleanXMLJSON(object, key, allowDirty) {
     if (typeof object !== 'object') {
         if (key === 'para') {
             object = [object];
-        } else if (typeof object === 'string') {
-            return cleanString(object, key, allowDirty);
         } else {
-            return object;
+            return cleanString(object, key, allowDirty);
         }
     }
 
@@ -177,10 +176,6 @@ function cleanXMLJSON(object, key, allowDirty) {
 
     for (property in object) {
         value = object[property];
-
-        if (shouldIgnore(value, property)) {
-            continue;
-        }
 
         if (property === '$') {
             for (nestedProperty in value) {
@@ -220,6 +215,7 @@ function writeJSONData(data) {
         xmlToJSON({
             'input' : input
         }, function (error, data) {
+            /* istanbul ignore if: won't error. */
             if (error) {
                 throw error;
             }
@@ -248,16 +244,6 @@ function writeJSONData(data) {
 
             if (!data.preamble.para) {
                 data.preamble.para = '';
-            } else if (
-                data.preamble.para.toLowerCase() === '(preamble missing)' ||
-                data.preamble.para.toLowerCase() === '[missing]'
-            ) {
-                console.log(
-                    '  removing preamble paragraph: "' +
-                    data.preamble.title + '"'
-                );
-
-                data.preamble.para = '';
             }
 
             if (!Array.isArray(data.article)) {
@@ -266,15 +252,6 @@ function writeJSONData(data) {
 
             data.article.forEach(function (article) {
                 if (!article.title) {
-                    article.title = '';
-                } else if (
-                    article.title.indexOf('?') !== -1 ||
-                    article.title.toLowerCase().indexOf('missing') !== -1
-                ) {
-                    console.log(
-                        '  removing article title: "' + article.title + '"'
-                    );
-
                     article.title = '';
                 }
             });
@@ -293,6 +270,7 @@ function writeJSONData(data) {
 
                 firstDigit = article.title.match(/\d/);
 
+                /* istanbul ignore if: future... */
                 if (!firstDigit) {
                     return;
                 }
@@ -320,6 +298,7 @@ xmlToJSON({
 }, function (error, data) {
     var udhr;
 
+    /* istanbul ignore if: won't error. */
     if (error) {
         throw error;
     }
