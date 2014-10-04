@@ -1,5 +1,5 @@
 
-n.n.n / 2014-10-04
+0.0.6 / 2014-10-04
 ==================
 
  * Add markdown-table as a dependency
