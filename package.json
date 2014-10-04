@@ -19,7 +19,6 @@
     "istanbul": "^0.3.0",
     "jscs": "^1.5.0",
     "mocha": "^1.20.0",
-    "unicode-7.0.0": "^0.1.0",
     "xml-to-json": "^0.1.1"
   },
   "repository": {
@@ -30,9 +29,9 @@
     "test": "node_modules/.bin/_mocha --reporter spec --check-leaks -u exports spec/udhr.spec.js",
     "test-travis": "node_modules/.bin/istanbul cover node_modules/.bin/_mocha --report lcovonly -- --reporter spec --check-leaks -u exports spec/udhr.spec.js",
     "lint": "npm run lint-api && npm run lint-test && npm run lint-style",
-    "lint-api": "node_modules/.bin/eslint index.js build-data.js build-script-information.js build-supported-declarations.js --env node --env browser --rule 'quotes: [2, single]'",
+    "lint-api": "node_modules/.bin/eslint index.js build-data.js build-supported-declarations.js --env node --env browser --rule 'quotes: [2, single]'",
     "lint-test": "node_modules/.bin/eslint spec/udhr.spec.js --env node --env mocha --rule 'quotes: [2, single]'",
-    "lint-style": "node_modules/.bin/jscs index.js build-data.js build-script-information.js build-supported-declarations.js spec/udhr.spec.js --reporter=inline",
+    "lint-style": "node_modules/.bin/jscs index.js build-data.js build-supported-declarations.js spec/udhr.spec.js --reporter=inline",
     "scrape-data-txt": "curl --connect-timeout 5 --max-time 10 -L http://www.unicode.org/udhr/assemblies/udhr_txt.zip -o data/udhr-txt.zip || exit 0",
     "scrape-data-xml": "curl --connect-timeout 5 --max-time 10 -L http://www.unicode.org/udhr/assemblies/udhr_xml.zip -o data/udhr-xml.zip || exit 0",
     "scrape-data": "npm run scrape-data-txt && npm run scrape-data-xml",
@@ -41,9 +40,8 @@
     "unzip-data": "npm run unzip-data-txt && npm run unzip-data-xml",
     "build-data": "node_modules/.bin/istanbul cover build-data.js",
     "build-supported-declarations": "node build-supported-declarations.js",
-    "build-script-information": "node build-script-information.js",
     "coverage": "node_modules/.bin/istanbul cover node_modules/.bin/_mocha -- -- spec/udhr.spec.js",
-    "build": "npm run scrape-data && npm run unzip-data && npm run build-data && npm run build-supported-declarations && npm run build-script-information",
+    "build": "npm run scrape-data && npm run unzip-data && npm run build-data && npm run build-supported-declarations",
     "make": "npm run lint && npm run coverage"
   }
 }
