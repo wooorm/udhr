@@ -1,3 +1,5 @@
+'use strict';
+
 var fs, declarations;
 
 fs = require('fs');
