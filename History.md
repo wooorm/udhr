@@ -1,4 +1,11 @@
 
+n.n.n / 2014-10-04
+==================
+
+ * Add markdown-table as a dependency
+ * Add strict mode to supported-declaration generation
+ * Remove script-information generation
+
 0.0.5 / 2014-09-20
 ==================
 
