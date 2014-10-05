@@ -1,9 +1,8 @@
 node_modules
-bower_components
-components
 .DS_Store
 coverage
 data/udhr-txt.zip
 data/udhr-xml.zip
 data/udhr-xml
 .travis.yml
+*.log
