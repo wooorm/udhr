@@ -10,7 +10,7 @@ var fs,
 
 fs = require('fs');
 table = require('markdown-table');
-declarations = require('./lib/information')();
+declarations = require('../lib/information')();
 
 fs.writeFileSync('Supported-declarations.md',
     'Supported Declarations\n' +
