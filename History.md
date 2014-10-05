@@ -1,5 +1,5 @@
 
-n.n.n / 2014-10-05
+0.0.7 / 2014-10-05
 ==================
 
  * Move scripts to `script` directory
