@@ -1,4 +1,11 @@
 
+n.n.n / 2014-10-05
+==================
+
+ * Move scripts to `script` directory
+ * Fix CRLF line-endings from creeping into npm
+ * Update .gitignore, .npmignore
+
 0.0.6 / 2014-10-04
 ==================
 
