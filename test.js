@@ -1,13 +1,34 @@
 'use strict';
 
-var udhr, assert, json, text, information;
+/**
+ * Dependencies.
+ */
+
+var udhr,
+    assert;
 
 udhr = require('./');
 assert = require('assert');
 
+/**
+ * Data.
+ */
+
+var json,
+    text,
+    information;
+
 json = udhr.json();
 text = udhr.text();
 information = udhr.information();
+
+/**
+ * Get all keys, recursively, in an object.
+ *
+ * @param {Object} object
+ * @param {string} key
+ * @return {Array.<*>}
+ */
 
 function all(object, key) {
     var results = [],
@@ -27,17 +48,36 @@ function all(object, key) {
     return results;
 }
 
+/**
+ * Iterate over every value in an object.
+ *
+ * @param {Object} values
+ * @param {function(*, string)} callback
+ */
+
 function each(values, callback) {
     Object.keys(values).forEach(function (key) {
         callback(values[key], key);
     });
 }
 
+/**
+ * Assert every item in `values`.
+ *
+ * @param {Object} values
+ * @param {string} should
+ * @param {function(*, string)} callback
+ */
+
 function every(values, should, callback) {
     it(should, function () {
         each(values, callback);
     });
 }
+
+/**
+ * Tests.
+ */
 
 describe('udhr', function () {
     it('should be an `Object`', function () {
