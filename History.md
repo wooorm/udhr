@@ -1,4 +1,15 @@
 
+n.n.n / 2014-10-19
+==================
+
+ * Refactor tests
+ * Refactor module
+ * Move `script/build-supported-declarations.js` to `script/build-support.js`
+ * Move `spec/udhr.spec.js` to `test.js`
+ * Refactor property order in `package.json`
+ * Update jscs version range
+ * Update `.gitignore`, `.npmignore`
+
 0.0.7 / 2014-10-05
 ==================
 
