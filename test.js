@@ -2,7 +2,7 @@
 
 var udhr, assert, json, text, information;
 
-udhr = require('..');
+udhr = require('./');
 assert = require('assert');
 
 json = udhr.json();

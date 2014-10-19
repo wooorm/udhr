@@ -8,6 +8,6 @@ coverage/
 data/udhr-xml/
 node_modules/
 script/
-spec/
+test.js
 History.md
 Supported-declarations.md
