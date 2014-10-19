@@ -13,6 +13,10 @@
     "plain",
     "text"
   ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/wooorm/udhr.git"
+  },
   "author": "Titus Wormer <tituswormer@gmail.com>",
   "devDependencies": {
     "eol": "^0.2.0",
@@ -22,10 +26,6 @@
     "markdown-table": "^0.0.1",
     "mocha": "^1.20.0",
     "xml-to-json": "^0.1.1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/wooorm/udhr.git"
   },
   "scripts": {
     "test": "node_modules/.bin/_mocha --reporter spec --check-leaks -u exports spec/udhr.spec.js",
