@@ -30,6 +30,7 @@
   "scripts": {
     "test": "node_modules/.bin/_mocha --reporter spec --check-leaks -u exports test.js",
     "test-travis": "node_modules/.bin/istanbul cover node_modules/.bin/_mocha --report lcovonly -- --reporter spec --check-leaks -u exports test.js",
+    "coverage": "node_modules/.bin/istanbul cover node_modules/.bin/_mocha -- -- test.js",
     "lint": "npm run lint-api && npm run lint-test && npm run lint-script && npm run lint-style",
     "lint-api": "node_modules/.bin/eslint index.js",
     "lint-script": "node_modules/.bin/eslint script/build-data.js script/normalize-line-endings.js script/build-support.js",
@@ -44,7 +45,6 @@
     "build-data": "node_modules/.bin/istanbul cover script/build-data.js",
     "build-support": "node script/build-support.js",
     "normalize-line-endings": "node script/normalize-line-endings.js",
-    "coverage": "node_modules/.bin/istanbul cover node_modules/.bin/_mocha -- -- test.js",
     "build": "npm run scrape-data && npm run unzip-data && npm run build-data && npm run build-support && npm run normalize-line-endings",
     "prepublish": "npm run normalize-line-endings",
     "make": "npm run lint && npm run coverage"
