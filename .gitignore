@@ -1,9 +1,6 @@
 .DS_Store
 *.log
 *.zip
-bower_components/
-build/
-components/
 coverage/
 data/udhr-xml/
 node_modules/

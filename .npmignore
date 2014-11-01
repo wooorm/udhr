@@ -1,9 +1,6 @@
 .*
 *.log
 *.zip
-build/
-bower_components/
-components/
 coverage/
 data/udhr-xml/
 node_modules/
