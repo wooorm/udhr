@@ -1,4 +1,16 @@
 
+n.n.n / 2014-11-01
+==================
+
+ * Add `lib/` to lint targets in `package.json`
+ * Add flat badges to `Readme.md`
+ * Refactor npm targets order in `package.json`
+ * Add `.eslintrc`
+ * Refactor `.jscs.json`
+ * Refactor to disallow space after object keys
+ * Update `.gitignore`, `.npmignore`
+ * Update eslint, markdown-table, mocha
+
 0.1.0 / 2014-10-19
 ==================
 
