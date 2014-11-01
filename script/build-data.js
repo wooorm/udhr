@@ -213,7 +213,7 @@ function writeJSONData(data) {
             output = 'data/udhr-json/' + declaration.filename + '.json';
 
         xmlToJSON({
-            'input' : input
+            'input': input
         }, function (error, data) {
             /* istanbul ignore if: won't error. */
             if (error) {
@@ -294,7 +294,7 @@ function writeJSONData(data) {
 }
 
 xmlToJSON({
-    'input' : 'data/udhr-txt/index.xml'
+    'input': 'data/udhr-txt/index.xml'
 }, function (error, data) {
     var udhr;
 

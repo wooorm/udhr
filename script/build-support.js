@@ -42,7 +42,7 @@ fs.writeFileSync('Supported-declarations.md',
             ['notes', 'If notes are available (unicode.org)']
         ],
         {
-            'align' : ['r', 'l']
+            'align': ['r', 'l']
         }
     ) +
     '\n' +
@@ -59,7 +59,7 @@ fs.writeFileSync('Supported-declarations.md',
             ['5', '4', 'complete and reviewed']
         ],
         {
-            'align' : ['c', 'r', 'l']
+            'align': ['c', 'r', 'l']
         }
     ) +
     '\n' +
