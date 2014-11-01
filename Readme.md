@@ -1,4 +1,4 @@
-# udhr [![Build Status](https://travis-ci.org/wooorm/udhr.svg?branch=master)](https://travis-ci.org/wooorm/udhr) [![Coverage Status](https://img.shields.io/coveralls/wooorm/udhr.svg)](https://coveralls.io/r/wooorm/udhr?branch=master)
+# udhr [![Build Status](https://img.shields.io/travis/wooorm/udhr.svg?style=flat)](https://travis-ci.org/wooorm/udhr) [![Coverage Status](https://img.shields.io/coveralls/wooorm/udhr.svg?style=flat)](https://coveralls.io/r/wooorm/udhr?branch=master)
 
 The most translated document, the [Universal Declaration of Human Rights](http://www.ohchr.org/EN/UDHR/Pages/UDHRIndex.aspx), in [Unicode](http://www.unicode.org/udhr/), in JavaScript.
 
