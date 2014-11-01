@@ -1,5 +1,5 @@
 
-n.n.n / 2014-11-01
+0.1.1 / 2014-11-01
 ==================
 
  * Add `lib/` to lint targets in `package.json`
