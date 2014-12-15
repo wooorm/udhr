@@ -1,4 +1,12 @@
 
+n.n.n / 2014-12-15
+==================
+
+ * Refactor npm script targets in `package.json`
+ * Fix incorrect executive rights on `test.js`
+ * Add link to personal website to copyright in `Readme.md`
+ * Update eslint, markdown-table
+
 0.1.1 / 2014-11-01
 ==================
 
