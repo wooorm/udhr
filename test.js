@@ -4,23 +4,16 @@
  * Dependencies.
  */
 
-var udhr,
-    assert;
-
-udhr = require('./');
-assert = require('assert');
+var udhr = require('./');
+var assert = require('assert');
 
 /**
  * Data.
  */
 
-var json,
-    text,
-    information;
-
-json = udhr.json();
-text = udhr.text();
-information = udhr.information();
+var json = udhr.json();
+var text = udhr.text();
+var information = udhr.information();
 
 /**
  * Get all keys, recursively, in an object.
@@ -31,9 +24,9 @@ information = udhr.information();
  */
 
 function all(object, key) {
-    var results = [],
-        property,
-        value;
+    var results = [];
+    var property;
+    var value;
 
     for (property in object) {
         value = object[property];

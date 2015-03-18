@@ -4,13 +4,9 @@
  * Dependencies.
  */
 
-var fs,
-    table,
-    declarations;
-
-fs = require('fs');
-table = require('markdown-table');
-declarations = require('../lib/information')();
+var fs = require('fs');
+var table = require('markdown-table');
+var declarations = require('../lib/information')();
 
 fs.writeFileSync('Supported-declarations.md',
     'Supported Declarations\n' +
@@ -76,18 +72,14 @@ fs.writeFileSync('Supported-declarations.md',
                 'Country', 'TXT', 'JSON', 'PDF', 'Notes'
             ]
         ].concat(Object.keys(declarations).map(function (key) {
-            var declaration,
-                ohchr,
-                iso,
-                location,
-                text,
-                json,
-                pdf,
-                notes;
-
-            declaration = declarations[key];
-
-            ohchr = iso = location = text = json = pdf = notes = '';
+            var declaration = declarations[key];
+            var ohchr = '';
+            var iso = '';
+            var location = '';
+            var text = '';
+            var json = '';
+            var pdf = '';
+            var notes = '';
 
             if (declaration.OHCHR) {
                 ohchr = '[' + declaration.OHCHR + ']' +

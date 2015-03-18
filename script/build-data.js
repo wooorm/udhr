@@ -1,22 +1,18 @@
 'use strict';
 
-var fs, xmlToJSON, readFile, writeFile, exists;
-
-fs = require('fs');
-xmlToJSON = require('xml-to-json');
-readFile = fs.readFileSync;
-writeFile = fs.writeFileSync;
-exists = fs.existsSync;
+var fs = require('fs');
+var xmlToJSON = require('xml-to-json');
+var readFile = fs.readFileSync;
+var writeFile = fs.writeFileSync;
+var exists = fs.existsSync;
 
 function cleanData(data) {
     return data.udhrs.udhr.map(function (declaration) {
         return declaration.$;
     }).map(function (declaration) {
-        var cleanDeclaration,
-            location,
-            filename;
-
-        cleanDeclaration = {};
+        var cleanDeclaration = {};
+        var location;
+        var filename;
 
         cleanDeclaration.region = declaration.region || null;
         cleanDeclaration.country = declaration.country || null;
@@ -78,11 +74,9 @@ function cleanData(data) {
 function writeTXTData(data) {
     var keys;
 
-    data = data.filter(function (declaration) {
+    keys = data.filter(function (declaration) {
         return declaration.hasTXT;
-    });
-
-    keys = data.map(function (declaration) {
+    }).map(function (declaration) {
         return declaration.filename;
     });
 
@@ -96,9 +90,9 @@ function shouldIgnore(value, key) {
 var BLACKLIST = /by sprat|missing|^(\?\??)$/i;
 
 function cleanString(value, key, allowDirty) {
-    var newValue,
-        first,
-        last;
+    var newValue;
+    var first;
+    var last;
 
     value = value.split(/(?:\r?\n|\r)+/).join('\n');
 
@@ -149,10 +143,10 @@ function cleanString(value, key, allowDirty) {
 }
 
 function cleanXMLJSON(object, key, allowDirty) {
-    var clean,
-        property,
-        value,
-        nestedProperty;
+    var clean;
+    var property;
+    var value;
+    var nestedProperty;
 
     allowDirty = allowDirty === true || key === 'note';
 
@@ -209,8 +203,8 @@ function writeJSONData(data) {
     writeFile('data/index-json.json', JSON.stringify(keys, null, 2));
 
     data.forEach(function (declaration) {
-        var input = 'data/udhr-xml/udhr_' + declaration.filename + '.xml',
-            output = 'data/udhr-json/' + declaration.filename + '.json';
+        var input = 'data/udhr-xml/udhr_' + declaration.filename + '.xml';
+        var output = 'data/udhr-json/' + declaration.filename + '.json';
 
         xmlToJSON({
             'input': input

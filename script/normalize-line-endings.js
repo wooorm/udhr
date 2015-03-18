@@ -1,10 +1,7 @@
 'use strict';
 
-var fs,
-    eol;
-
-fs = require('fs');
-eol = require('eol');
+var fs = require('fs');
+var eol = require('eol');
 
 fs.readFile('data/udhr-txt/index.xml', 'utf-8', function (err, contents) {
     if (err) {
