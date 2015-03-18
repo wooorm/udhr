@@ -4,7 +4,7 @@ The most translated document, the [Universal Declaration of Human Rights](http:/
 
 ## Installation
 
-npm:
+[npm](https://docs.npmjs.com/cli/install):
 ```sh
 $ npm install udhr
 ```
@@ -12,8 +12,8 @@ $ npm install udhr
 ## Usage
 
 ```js
-var udhr = require('udhr'),
-    json = udhr.json();
+var udhr = require('udhr');
+var json = udhr.json();
 
 console.log(json.eng);
 ```
