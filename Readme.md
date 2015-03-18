@@ -115,4 +115,4 @@ There’s also a file on which scripts (according to unicode scripts) are used i
 
 ## License
 
-MIT © [Titus Wormer](http://wooorm.com)
+[MIT](LICENSE) © [Titus Wormer](http://wooorm.com)
