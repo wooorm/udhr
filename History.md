@@ -1,4 +1,21 @@
 
+0.1.3 / 2015-03-18
+==================
+
+*   Refactor `History.md` ([6a0959b](https://github.com/wooorm/udhr/commit/6a0959b))
+*   Update copyright notice in `LICENSE` to include 2015 ([1c1ea5e](https://github.com/wooorm/udhr/commit/1c1ea5e))
+*   Fix fenced code block language-flags in `Readme.md` ([ae7b8f8](https://github.com/wooorm/udhr/commit/ae7b8f8))
+*   Add link to whole license in `Readme.md` ([9212055](https://github.com/wooorm/udhr/commit/9212055))
+*   Add links to installation methods in `Readme.md` ([836d36c](https://github.com/wooorm/udhr/commit/836d36c))
+*   Refactor jsdoc comments ([49339bd](https://github.com/wooorm/udhr/commit/49339bd))
+*   Add `jscs-jsdoc` as a dev-dependency ([3245ca4](https://github.com/wooorm/udhr/commit/3245ca4))
+*   Refactor style ([8f55c0c](https://github.com/wooorm/udhr/commit/8f55c0c))
+*   Refactor npm scripts for changes in npm ([642eb36](https://github.com/wooorm/udhr/commit/642eb36))
+*   Refactor for changes in eslint ([1a05a74](https://github.com/wooorm/udhr/commit/1a05a74))
+*   Update description ([561c73a](https://github.com/wooorm/udhr/commit/561c73a))
+*   Update markdown-table ([27f1174](https://github.com/wooorm/udhr/commit/27f1174))
+*   Update eslint ([1e72884](https://github.com/wooorm/udhr/commit/1e72884))
+
 0.1.2 / 2014-12-15
 ==================
 
