@@ -5,13 +5,13 @@ The most translated document, the [Universal Declaration of Human Rights](http:/
 ## Installation
 
 [npm](https://docs.npmjs.com/cli/install):
-```sh
+```bash
 $ npm install udhr
 ```
 
 ## Usage
 
-```js
+```javascript
 var udhr = require('udhr');
 var json = udhr.json();
 
@@ -24,7 +24,7 @@ console.log(json.eng);
 
 Returns an array of information objects. Gets information about the documents: their stage, if a plain text version is available, if an accessible JSON document is available, language regions and lat-long locations, &c.
 
-```js
+```javascript
 var information = udhr.information();
 
 console.log(information.eng);
@@ -56,7 +56,7 @@ console.log(information.eng);
 
 Returns an array of marked up declaration objects.
 
-```js
+```javascript
 var declarations = udhr.json();
 
 console.log(declarations.eng);
@@ -90,7 +90,7 @@ console.log(declarations.eng);
 
 Returns an array of plain-text declaration objects.
 
-```js
+```javascript
 var plainDeclarations = udhr.text();
 
 console.log(plainDeclarations.eng);
