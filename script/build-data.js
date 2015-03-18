@@ -6,6 +6,12 @@ var readFile = fs.readFileSync;
 var writeFile = fs.writeFileSync;
 var exists = fs.existsSync;
 
+/**
+ * Clean data.
+ *
+ * @param {Object} data
+ * @return {Array.<Object>}
+ */
 function cleanData(data) {
     return data.udhrs.udhr.map(function (declaration) {
         return declaration.$;
@@ -71,6 +77,11 @@ function cleanData(data) {
     });
 }
 
+/**
+ * Write text data.
+ *
+ * @param {Object} data
+ */
 function writeTXTData(data) {
     var keys;
 
@@ -83,12 +94,27 @@ function writeTXTData(data) {
     writeFile('data/index-txt.json', JSON.stringify(keys, null, 2));
 }
 
+/**
+ * Check if `value` at `key` should be ignored.
+ *
+ * @param {*} value
+ * @param {string} key
+ * @return {boolean}
+ */
 function shouldIgnore(value, key) {
     return key === 'number';
 }
 
 var BLACKLIST = /by sprat|missing|^(\?\??)$/i;
 
+/**
+ * Clean a string.
+ *
+ * @param {string} value
+ * @param {string} key
+ * @param {boolean?} allowDirty
+ * @return {string}
+ */
 function cleanString(value, key, allowDirty) {
     var newValue;
     var first;
@@ -142,6 +168,14 @@ function cleanString(value, key, allowDirty) {
     return value;
 }
 
+/**
+ * Clean JSON generated form XML.
+ *
+ * @param {Object} object
+ * @param {string} key
+ * @param {boolean?} allowDirty
+ * @return {Object}
+ */
 function cleanXMLJSON(object, key, allowDirty) {
     var clean;
     var property;
@@ -189,6 +223,11 @@ function cleanXMLJSON(object, key, allowDirty) {
     return clean;
 }
 
+/**
+ * Write JSON data.
+ *
+ * @param {Object} data
+ */
 function writeJSONData(data) {
     var keys;
 

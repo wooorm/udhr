@@ -1,13 +1,13 @@
 'use strict';
 
-/**
+/*
  * Dependencies.
  */
 
 var udhr = require('./');
 var assert = require('assert');
 
-/**
+/*
  * Data.
  */
 
@@ -22,7 +22,6 @@ var information = udhr.information();
  * @param {string} key
  * @return {Array.<*>}
  */
-
 function all(object, key) {
     var results = [];
     var property;
@@ -47,7 +46,6 @@ function all(object, key) {
  * @param {Object} values
  * @param {function(*, string)} callback
  */
-
 function each(values, callback) {
     Object.keys(values).forEach(function (key) {
         callback(values[key], key);
@@ -61,14 +59,13 @@ function each(values, callback) {
  * @param {string} should
  * @param {function(*, string)} callback
  */
-
 function every(values, should, callback) {
     it(should, function () {
         each(values, callback);
     });
 }
 
-/**
+/*
  * Tests.
  */
 
