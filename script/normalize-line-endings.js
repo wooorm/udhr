@@ -13,9 +13,9 @@ fs.readFile('data/udhr-txt/index.xml', 'utf-8', function (err, contents) {
 
     contents = eol.lf(contents);
 
-    fs.writeFile('data/udhr-txt/index.xml', contents, function (err) {
-        if (err) {
-            throw err;
+    fs.writeFile('data/udhr-txt/index.xml', contents, function (exception) {
+        if (exception) {
+            throw exception;
         }
     });
 });

@@ -214,49 +214,49 @@ function writeJSONData(data) {
 
         xmlToJSON({
             'input': input
-        }, function (error, data) {
+        }, function (error, json) {
             /* istanbul ignore if: won't error. */
             if (error) {
                 throw error;
             }
 
-            console.log(data.udhr.$.lang);
+            console.log(json.udhr.$.lang);
 
-            data = cleanXMLJSON(data.udhr);
+            json = cleanXMLJSON(json.udhr);
 
-            if (!data.title) {
-                data.title = '';
+            if (!json.title) {
+                json.title = '';
             }
 
-            if (!data.note) {
-                data.note = [];
-            } else if (!Array.isArray(data.note)) {
-                data.note = [data.note];
+            if (!json.note) {
+                json.note = [];
+            } else if (!Array.isArray(json.note)) {
+                json.note = [json.note];
             }
 
-            if (!data.preamble) {
-                data.preamble = {};
+            if (!json.preamble) {
+                json.preamble = {};
             }
 
-            if (!data.preamble.title) {
-                data.preamble.title = '';
+            if (!json.preamble.title) {
+                json.preamble.title = '';
             }
 
-            if (!data.preamble.para) {
-                data.preamble.para = '';
+            if (!json.preamble.para) {
+                json.preamble.para = '';
             }
 
-            if (!Array.isArray(data.article)) {
-                data.article = [data.article];
+            if (!Array.isArray(json.article)) {
+                json.article = [json.article];
             }
 
-            data.article.forEach(function (article) {
+            json.article.forEach(function (article) {
                 if (!article.title) {
                     article.title = '';
                 }
             });
 
-            data.article.forEach(function (article) {
+            json.article.forEach(function (article) {
                 var firstDigit;
 
                 if (!('para' in article) || article.para || !article.title) {
@@ -286,7 +286,7 @@ function writeJSONData(data) {
                 );
             });
 
-            writeFile(output, JSON.stringify(data, null, 2));
+            writeFile(output, JSON.stringify(json, null, 2));
 
             console.log('');
         });
