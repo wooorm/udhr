@@ -1,6 +1,6 @@
 {
-  "lang": "hni",
-  "language": "Hani",
+  "iso639-3": "hni",
+  "key": "hni",
   "xmlns": "http://www.unhchr.ch/udhr",
   "title": "DAVQTAV COLPYUQ EILDOQ",
   "preamble": {
@@ -264,5 +264,7 @@
       "para": "Eildoq xil kaoq meeqzav zol,goljal,colba ssolnei colhhaq,hal qa leil maq bil,eildoq xil kaoq e doqkaol qiq kaol liq maq bi lav siv."
     }
   ],
+  "lang": "hni",
+  "language": "Hani",
   "note": []
 }

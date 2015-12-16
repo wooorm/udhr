@@ -1,6 +1,6 @@
 {
-  "lang": "swh",
-  "language": "Swahili",
+  "iso639-3": "swh",
+  "key": "swh",
   "xmlns": "http://www.unhchr.ch/udhr",
   "note": [
     {
@@ -268,5 +268,7 @@
       "title": "Kifungu cha 30.",
       "para": "Hakuna maneno yo yote katika Taarifa hii yanayoweza kubashiriwa kwamba yanaruhusu nchi yo yote, kikundi cha watu au mtu fulani kufanya au kushughulika na jambo lo lote ambalo nia yake ni kuharibu uhuru haki zilizoelezwa humu."
     }
-  ]
+  ],
+  "lang": "sw",
+  "language": "Swahili"
 }

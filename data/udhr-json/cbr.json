@@ -1,6 +1,6 @@
 {
-  "lang": "cbr",
-  "language": "Cashibo-Cacataibo",
+  "iso639-3": "cbr",
+  "key": "cbr",
   "xmlns": "http://www.unhchr.ch/udhr",
   "title": "A ÑUCAMA SINANXUN CA AXA ANU TIMËCË UNICAMAN ËSAQUIN CAXA:",
   "preamble": {
@@ -264,5 +264,7 @@
       "para": "Enë banacama bëtsioquin ca uinu 'icë uninbi uni raíricama upiti bucunun quixun sinanquinma, 'ëx cuëëncësa oquin 'anun ca a bana quia quixun sinantima 'icën. Uni raíri bëtsi unibë timëcëcama 'imainun gobiernonu ice apucamanribi ca usa oquin sinantima icën."
     }
   ],
+  "lang": "cbr",
+  "language": "Cashibo-Cacataibo",
   "note": []
 }

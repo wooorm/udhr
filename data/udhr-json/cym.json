@@ -1,6 +1,6 @@
 {
-  "lang": "cym",
-  "language": "Welsh",
+  "iso639-3": "cym",
+  "key": "cym",
   "xmlns": "http://www.unhchr.ch/udhr",
   "title": "DATGANIAD CYFFREDINOL O HAWLIAU DYNOL",
   "preamble": {
@@ -264,5 +264,7 @@
       "para": "Ni ellir dehongli dim yn y Datganiad hwn i olygu bod gan Wladwriaeth, grp neu berson unrhyw hawl i ymroddi i unrhyw weithgarwch neu i gyflawni unrhyw weithred gyda'r bwriad o ddistrywio unrhyw un o'r hawliau a'r rhyddfreintiau a nodir yma."
     }
   ],
+  "lang": "cy",
+  "language": "Welsh",
   "note": []
 }

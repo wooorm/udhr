@@ -1,6 +1,6 @@
 {
-  "lang": "aka",
-  "language": "Akan (Asante)",
+  "iso639-3": "aka",
+  "key": "aka_asante",
   "xmlns": "http://www.unhchr.ch/udhr",
   "title": "ADASAMMA YIEDIE HO ANODISƐM",
   "preamble": {
@@ -264,5 +264,7 @@
       "para": "Wɔanhwɛ ɔman anaa nnipakuo bi ho na ɛyɛɛ saa Anodisɛm yi. Ne saa nti, ɛnni sɛ obi bɛgyina Anodisɛm yi so, ayɛ biribi ama atia adwempa a ɛfa onipa asɛdeɛ ne n'ahofadie a Amanaman Nkabom Kuo nya de yɛɛ saa anodisɛm no."
     }
   ],
+  "lang": "ak",
+  "language": "Akan (Asante)",
   "note": []
 }

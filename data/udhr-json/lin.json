@@ -1,6 +1,6 @@
 {
-  "lang": "lin",
-  "language": "Lingala",
+  "iso639-3": "lin",
+  "key": "lin",
   "xmlns": "http://www.unhchr.ch/udhr",
   "title": "Lisakoli ya molongo ya makoki ya moto",
   "preamble": {
@@ -264,5 +264,7 @@
       "para": "Mobeko ata moko te ya Lisanga oyo ekoki kozala po na Leta, na lisanga ya bato, to na moto, likoki ya kosala likambo oyo ekonyata makoki pe bonsomi awa."
     }
   ],
+  "lang": "ln",
+  "language": "Lingala",
   "note": []
 }

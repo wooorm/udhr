@@ -1,6 +1,6 @@
 {
-  "lang": "kin",
-  "language": "Rwanda",
+  "iso639-3": "kin",
+  "key": "kin",
   "xmlns": "http://www.unhchr.ch/udhr",
   "note": [
     {
@@ -268,5 +268,7 @@
       "title": "Article 30.",
       "para": "Mu magambo yose y'ili Tangazo, nta Leta, nta ngaga, nta n'umuntu ushobora kwibwira ko hali ilimuga ububasha bwatuma atambuka ku byemejweho uburenganzira muli ili Tangazo."
     }
-  ]
+  ],
+  "lang": "rw",
+  "language": "Rwanda"
 }

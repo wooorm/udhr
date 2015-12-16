@@ -1,6 +1,6 @@
 {
-  "lang": "vie",
-  "language": "Vietnamese",
+  "iso639-3": "vie",
+  "key": "vie",
   "xmlns": "http://www.unhchr.ch/udhr",
   "title": "Tuyên ngôn toàn thế giới về nhân quyền của Liên Hợp Quốc",
   "note": [
@@ -268,5 +268,7 @@
       "title": "Điều 30:",
       "para": "Không được phép diễn giải bất kỳ điều khoản nào trong Bản tuyên ngôn này theo hướng ngầm ý cho phép bất kỳ quốc gia, nhóm người hay cá nhân nào được quyền tham gia vào bất kỳ hoạt động nào hay thực hiện bất kỳ hành vi nào nhằm phá hoại bất kỳ quyền và tự do nào nêu trong Bản tuyên ngôn này."
     }
-  ]
+  ],
+  "lang": "vi",
+  "language": "Vietnamese"
 }

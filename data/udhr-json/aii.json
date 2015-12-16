@@ -1,6 +1,6 @@
 {
-  "lang": "aii",
-  "language": "Assyrian Neo-Aramaic",
+  "iso639-3": "aii",
+  "key": "aii",
   "xmlns": "http://www.unhchr.ch/udhr",
   "title": "ܒܘܕܩܐ ܬܝܒ݂ܠܝܐ ܠܦܘܬ ܙܕܩܐ ܐܢܫܝܐ",
   "preamble": {
@@ -296,5 +296,7 @@
       "para": "ܡܢܕܝܢܐ ܕܠܝܢܐ ܦܝܫܐ ܡܘܬܚܪܐ ܓܘ ܐܗܐ ܒܘܕܩܐ ܓܪܓ ܠܐ ܦܝܫܝ ܡܬܘܪܓ̰ܡܐ ܒܝܕ ܚܕ ܐܬܪܐ ܝܢ ܓ̰ܡܥܬܐ ܝܢ ܦܪܣܘܦܐ ܠܒܪܬܐ ܓܘ ܥܒܘܕܘܝܬܐ ܡܚܪܘܬܐ ܗܟ̰ ܚܕ ܡܢ ܐܢܐ ܗܩܘܝܬܐ ܝܢ ܚܐܪܘܝܬܐ ܡܘܬܚܪܐ ܥܠܠ."
     }
   ],
+  "lang": "aii",
+  "language": "Assyrian Neo-Aramaic",
   "note": []
 }

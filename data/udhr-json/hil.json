@@ -1,6 +1,6 @@
 {
-  "lang": "hil",
-  "language": "Hiligaynon",
+  "iso639-3": "hil",
+  "key": "hil",
   "xmlns": "http://www.unhchr.ch/udhr",
   "title": "ANG KALIBUTANON NGA PAHAYAG SANG MGA KATARUNGANG PANGKATAOHAN",
   "preamble": {
@@ -264,5 +264,7 @@
       "para": "Wala sing ano man nga bahin sa Pahayag nga ini nga mahimo kabigon nga nagpakahulugan sa ano man nga Estado, grupo ukon tao, sang katarungan nga magpakigbahin sa ano man nga hilikuton ukon hulag nga nagahandum sa pagguba sang ano man nga katarungan kag kahilwayan nga gintakda diri sini."
     }
   ],
+  "lang": "hil",
+  "language": "Hiligaynon",
   "note": []
 }

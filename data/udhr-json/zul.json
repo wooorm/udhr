@@ -1,6 +1,6 @@
 {
-  "lang": "zul",
-  "language": "Zulu",
+  "iso639-3": "zul",
+  "key": "zul",
   "xmlns": "http://www.unhchr.ch/udhr",
   "title": "UMBHALO OGCWELE WOGUNYAZO LWAMALUNGELO OLUNTU JIKELELE",
   "preamble": {
@@ -264,5 +264,7 @@
       "para": "Akukho lutho okukuloluGunyazo okuyohunyushwa ngokuthi kuthi uMbuso mumbe, iqembu noma umuntu unelungelo lokwenza noma isiphi isenzo sokuthikameza noma imaphi amalungebo nenkululeko echazwe ngaphezulu."
     }
   ],
+  "lang": "zu",
+  "language": "Zulu",
   "note": []
 }

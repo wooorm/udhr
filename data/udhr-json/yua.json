@@ -1,6 +1,6 @@
 {
-  "lang": "yua",
-  "language": "Maya, Yucatán",
+  "iso639-3": "yua",
+  "key": "yua",
   "xmlns": "http://www.unhchr.ch/udhr",
   "title": "U DZAʼABAL KʼAJÓOLTBIL U NOJ AʼALMAJ TʼAANIL U NAJMAL WÍINIKOʼOB",
   "preamble": {
@@ -264,5 +264,7 @@
       "para": "Mixbaíal tiʼ le Nuʼuktaj uchak u chʼaʼabal tumeen jalaʼach, junmúuchʼ máak wa juntúul máak tiʼal u beetik mixbaʼal tiʼal u weʼetʼel wa maʼ u dzoʼokbesaʼal le Nuʼuktajoʼob yetel Aʼalmaj Tʼaannoʼob ku dzaʼabal kʼajóoltbil tiʼ le Nuʼuktajaʼ."
     }
   ],
+  "lang": "yua",
+  "language": "Maya, Yucatán",
   "note": []
 }

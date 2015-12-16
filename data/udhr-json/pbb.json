@@ -1,6 +1,6 @@
 {
-  "lang": "pbb",
-  "language": "Páez",
+  "iso639-3": "pbb",
+  "key": "pbb",
   "xmlns": "http://www.unhchr.ch/udhr",
   "title": "NASA YA'NWE'WEWA'TE NAA KIWETE UTA IPEHKSA YUWE'S NEWE'WEN'I WEH'A",
   "preamble": {
@@ -264,5 +264,7 @@
       "para": "Ayte ikahna newe'wen'isa's teec'sama'kyuu, nasa kuhsama'kyuu, teec' c'hab wala kiwete ikahsa kwekwema'kyuu, sa' iv'ituwëc'a' kimyuhpa kihyc'a' yuuya' ewumena. Naa newe'wen'i weh'ate' eena' eena' u'hun'i's, wët wët u'hun'i's mteyuhpa aytey newe'wen'i's hu'gme u'h pu'c'hya' ewumena. Nasa teec'sama'k k'a'hi, pkhakhec'a üssama't' k'a'hi khimec'a' c'hab wala kiwete ikahsa kwekwema'k k'a'hï napa."
     }
   ],
+  "lang": "pbb",
+  "language": "Páez",
   "note": []
 }

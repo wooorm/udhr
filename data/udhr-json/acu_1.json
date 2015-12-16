@@ -1,6 +1,6 @@
 {
-  "lang": "acu",
-  "language": "Achuar-Shiwiar (1)",
+  "iso639-3": "acu",
+  "key": "acu_1",
   "xmlns": "http://www.unhchr.ch/udhr",
   "title": "MASH AINTSTI IWIAKMAU AYAMPRUMATI",
   "note": [
@@ -268,5 +268,7 @@
       "title": "Umiktiniun iniakmauri kampatam nawe. (Artículo 30)",
       "para": "Juu takat emtikmauka pase inintimchamuiti antsu juu takatka aintsti Inlu\ntakakmau páant awajsamu nuya arantukmau ati mash nunkanam tamauwiti."
     }
-  ]
+  ],
+  "lang": "acu",
+  "language": "Achuar-Shiwiar (1)"
 }

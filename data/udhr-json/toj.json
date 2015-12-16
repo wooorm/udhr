@@ -1,6 +1,6 @@
 {
-  "lang": "toj",
-  "language": "Tojolabal",
+  "iso639-3": "toj",
+  "key": "toj",
   "xmlns": "http://www.unhchr.ch/udhr",
   "title": "SPUKJEL YI’B’ANAL JA JAS OJ B’OB’",
   "note": [
@@ -268,5 +268,7 @@
       "title": "Artikulo 30.",
       "para": "Ja b’a ju’un iti, wanix yal kab’tik toj ke mini jun Estado, mini jun tsomjel, cha mini jun swinkil ja lu’um k’inali oj ya makunuk b’a slekilal, ma b’a oj ixtalanuk. Ja’ yuj jel t’ilan oj na’xuk ja jas oj b’ob’ k’ulaxuki, sok ja sijpanub’al wax yala ja b’a ju’un iti."
     }
-  ]
+  ],
+  "lang": "toj",
+  "language": "Tojolabal"
 }

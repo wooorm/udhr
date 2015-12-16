@@ -1,6 +1,6 @@
 {
-  "lang": "bba",
-  "language": "Baatonum",
+  "iso639-3": "bba",
+  "key": "bba",
   "xmlns": "http://www.unhchr.ch/udhr",
   "title": "Mɛ tɔnun asaria yen adunia nɔɔsiabu",
   "preamble": {
@@ -264,5 +264,7 @@
       "para": "Yè ka yè ba yii tɔnun asarian bera mi baasi, kpunaa gaa ka kookoosu gasu maa sari, si ba koo tusia nɛnɛm, tem gam, bu ka saria ka tii mɔɔ te ba kpara mi kpeera - sia pai."
     }
   ],
+  "lang": "bba",
+  "language": "Baatonum",
   "note": []
 }

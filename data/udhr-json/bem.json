@@ -1,6 +1,6 @@
 {
-  "lang": "bem",
-  "language": "Bemba",
+  "iso639-3": "bem",
+  "key": "bem",
   "xmlns": "http://www.unhchr.ch/udhr",
   "title": "IFYASOSELE IFYALO PALWA NSAMBU SHA MUNTU",
   "preamble": {
@@ -264,5 +264,7 @@
       "para": "Tapali nangu cmo muli uku kusosa icinga pilibulwa ukuti icalo icili conse, ibumba lya bantu nangu umuntu umo nakwata insambu ukucita icili conse icakwiminina pa koanula insambu no buntungwa filondolelwe nokulembwa."
     }
   ],
+  "lang": "bem",
+  "language": "Bemba",
   "note": []
 }

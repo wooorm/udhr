@@ -1,6 +1,6 @@
 {
-  "lang": "zro",
-  "language": "Záparo",
+  "iso639-3": "zro",
+  "key": "zro",
   "xmlns": "http://www.unhchr.ch/udhr",
   "title": "",
   "note": [
@@ -268,5 +268,7 @@
       "title": "Akatsuju30",
       "para": "Taikua tamasa ikicha kayapi atijianuka ikicha akasujunuka cha nuka kutukinu ta nuka tina inauja rikuanu ta ikicha kuahu niatajinia ta nuka kiniana amimaja cha nuka miña aitimajanuka kana tina ikicha witsata kanati kawirija ikicha rikuanu puchacha kiniana charanisijanu ikicha itiuarajinia."
     }
-  ]
+  ],
+  "lang": "zro",
+  "language": "Záparo"
 }

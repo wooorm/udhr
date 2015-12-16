@@ -1,6 +1,6 @@
 {
-  "lang": "tur",
-  "language": "Turkish",
+  "iso639-3": "tur",
+  "key": "tur",
   "xmlns": "http://www.unhchr.ch/udhr",
   "title": "İnsan hakları evrensel beyannamesi",
   "preamble": {
@@ -264,5 +264,7 @@
       "para": "İşbu Beyannamenin hiçbir hükmü, herhangi bir devlete, zümreye ya da ferde, bu Beyannamede ilan olunan hak ve hürriyetleri yoketmeye yönelik bir faaliyete girişme ya da eylemde bulunma hakkını verir şekilde yorumlanamaz."
     }
   ],
+  "lang": "tr",
+  "language": "Turkish",
   "note": []
 }

@@ -1,6 +1,6 @@
 {
-  "lang": "dip",
-  "language": "Dinka, Northeastern",
+  "iso639-3": "dip",
+  "key": "dip",
   "xmlns": "http://www.unhchr.ch/udhr",
   "title": "Yïith e raan ci caal e pinynhöm",
   "preamble": {
@@ -264,5 +264,7 @@
       "para": "Acin wɛt lɛu bi war kemen bi cɔkpiny e cɛɛl ken yic ku luel ala ka ci pan ken kemen raan ken aci looi bi lyiith ku lauenhöm ci bɛn thin rac."
     }
   ],
+  "lang": "dip",
+  "language": "Dinka, Northeastern",
   "note": []
 }

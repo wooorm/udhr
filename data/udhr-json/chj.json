@@ -1,6 +1,6 @@
 {
-  "lang": "chj",
-  "language": "Chinanteco, Ojitlán",
+  "iso639-3": "chj",
+  "key": "chj",
   "xmlns": "http://www.unhchr.ch/udhr",
   "title": "Delaraciö' Ki' DERECHO H Ki' la' la köö jmu guue kíä guía' su'",
   "note": [
@@ -268,5 +268,7 @@
       "title": "Artículo 30",
       "para": "Ji-jua-e I ru-tö ñi Declaraciö la a jne jua' tu chi-ñi' Na-jua kö Estado, o kö siä' dsa o jä dsa li-jne' jmo' dsa o kï' dsa Derecho sa ru tö ñi Declaracíö la."
     }
-  ]
+  ],
+  "lang": "chj",
+  "language": "Chinantec, Ojitlán"
 }

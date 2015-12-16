@@ -1,6 +1,6 @@
 {
-  "lang": "crs",
-  "language": "Seselwa Creole French",
+  "iso639-3": "crs",
+  "key": "crs",
   "xmlns": "http://www.unhchr.ch/udhr",
   "title": "Deklarasyon Iniversel Bann Drwa Imen",
   "preamble": {
@@ -264,5 +264,7 @@
       "para": "Napa narnyen dan sa Deklarasyon ki devret ganny enterprete komkwa en leta, an group obyen en dimoun annan en drwa kelkonk pou fer nenport ki aktivite obyen aksyon ki kapab detri bann drwa ek bann liberte kin ganny ekri ladan."
     }
   ],
+  "lang": "crs",
+  "language": "Seselwa Creole French",
   "note": []
 }

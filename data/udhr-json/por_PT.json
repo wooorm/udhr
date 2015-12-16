@@ -1,6 +1,6 @@
 {
-  "lang": "por",
-  "language": "Portuguese (Portugal)",
+  "iso639-3": "por",
+  "key": "por_PT",
   "xmlns": "http://www.unhchr.ch/udhr",
   "title": "Declaração Universal dos Direitos Humanos",
   "preamble": {
@@ -264,5 +264,7 @@
       "para": "Nenhuma disposição da presente Declaração pode ser interpretada de maneira a envolver para qualquer Estado, agrupamento ou indivíduo o direito de se entregar a alguma actividade ou de praticar algum acto destinado a destruir os direitos e liberdades aqui enunciados."
     }
   ],
+  "lang": "pt-PT",
+  "language": "Portuguese (Portugal)",
   "note": []
 }

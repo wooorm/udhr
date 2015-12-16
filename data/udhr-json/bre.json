@@ -1,6 +1,6 @@
 {
-  "lang": "bre",
-  "language": "Breton",
+  "iso639-3": "bre",
+  "key": "bre",
   "xmlns": "http://www.unhchr.ch/udhr",
   "title": "DISKLERIADUR HOLLVEDEL GWIRIOU MAB-DEN",
   "note": [
@@ -268,5 +268,7 @@
       "title": "Mellad tregont (30)",
       "para": "Pennad ebet eus an Disklêriadur-mañ ne c’hello bezañ komprenet evel pa rofe gwir d’ur Stad, d’ur strollad pe d’un den, da ober pe klask ober traoù abenn distrujañ ar gwirioù hag ar frankizioù embannet amañ."
     }
-  ]
+  ],
+  "lang": "br",
+  "language": "Breton"
 }

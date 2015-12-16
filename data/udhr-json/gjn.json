@@ -1,6 +1,6 @@
 {
-  "lang": "gjn",
-  "language": "Gonja",
+  "iso639-3": "gjn",
+  "key": "gjn",
   "xmlns": "http://www.unhchr.ch/udhr",
   "title": "DURNYAŊ KIKƐ BE KEYILI KPRA TA LAŊƐ DIMEDI KIKƐ BE KUMU SO BE ASHYEŊ NƐ MOBE KASHINTEŊ AKPA",
   "preamble": {
@@ -264,5 +264,7 @@
       "para": "Shɛŋ maŋ wɔ kawol ere to a ŋini fanɛ efuli ko pkeleŋ, baasa nko esa ko dawule peyɛ nna, amoso eko maŋ kɔ ekpa nɛ e wɔrɔ kesheŋ ko nɛ ku beeŋ jija kashinteŋ nɛ kumu so be asheŋ nɛ a wɔ kawol ere to."
     }
   ],
+  "lang": "gjn",
+  "language": "Gonja",
   "note": []
 }

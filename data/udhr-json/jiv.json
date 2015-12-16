@@ -1,6 +1,6 @@
 {
-  "lang": "jiv",
-  "language": "Shuar",
+  "iso639-3": "jiv",
+  "key": "jiv",
   "xmlns": "http://www.unhchr.ch/udhr",
   "title": "AENTSU NINIURIN CHICHAME MASHINIU AMIKTIN",
   "note": [
@@ -268,5 +268,7 @@
       "title": "TÁMA MENAINTIU NÁWE",
       "para": "Ju kákaram papi arman nekáwaru asar aents túke umikiartin aíniawai. Aents junanekawar, ankán pénker pujusarat tusar, uunt chikichkimsar surimkiartiniaiti. Tura chikich aents ainiana ausha nunaká surimkiachartin ainiawai. Jú kakaram chicham apipium aarman mash aentstikia umikiartin ají."
     }
-  ]
+  ],
+  "lang": "jiv",
+  "language": "Shuar"
 }

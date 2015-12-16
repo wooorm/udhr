@@ -1,6 +1,6 @@
 {
-  "lang": "sco",
-  "language": "Scots",
+  "iso639-3": "sco",
+  "key": "sco",
   "xmlns": "http://www.unhchr.ch/udhr",
   "title": "Universal Declaration o Human Richts",
   "note": [
@@ -268,5 +268,7 @@
       "title": "Airticle 30",
       "para": "Nocht in this Declaration may be interpret as allouin for ony State, group or person ony richt tae tak pairt in ony ploy or perform ony act ettled at the cowping o ony o the richts and freedoms herein furthset."
     }
-  ]
+  ],
+  "lang": "sco",
+  "language": "Scots"
 }

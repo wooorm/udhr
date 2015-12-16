@@ -1,6 +1,6 @@
 {
-  "lang": "tah",
-  "language": "Tahitian",
+  "iso639-3": "tah",
+  "key": "tah",
   "xmlns": "http://www.unhchr.ch/udhr",
   "title": "FA'IRA'A HA'ATI I TE MAU Tl'AMANARA'A O TE TA'ATA-TUPU",
   "preamble": {
@@ -264,5 +264,7 @@
       "para": "'Eiaha roa te hō'ē noa a'e fa'auera'a a teie Fa'ira'a ia 'iritihia 'ei ti'amanara'a a'e no te hō'ē Hau-Fenua, no te hō'ē aupupu-ta'ata 'aore ra no te hō'ē ta'ata hō'ē, no te rave i te hō'ē 'ohipa no te vāvāhi atu i te mau ti'amanara'a e te mau ti'amāra'a i porohia i roto nei."
     }
   ],
+  "lang": "ty",
+  "language": "Tahitian",
   "note": []
 }

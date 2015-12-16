@@ -1,6 +1,6 @@
 {
-  "lang": "lns",
-  "language": "Lamnso'",
+  "iso639-3": "lns",
+  "key": "lns",
   "xmlns": "http://www.unhchr.ch/udhr",
   "title": "Sá' Yeé Kitu Ke Nsay Yee Kùm Ghay Wìr Msòŋ",
   "preamble": {
@@ -264,5 +264,7 @@
       "para": "Ki nyo ki yò’dzə̀ shó e sa’ fèn ke dzə̀ kitúm, kintatì kìn wír wù bìner ji kí fó wun vitaáví ji wù wàá yii á kinyo ke kí laar á ghay sí wùn à vitaáví ví ve á saŋen é sa’fèn."
     }
   ],
+  "lang": "lns",
+  "language": "Lamnso'",
   "note": []
 }

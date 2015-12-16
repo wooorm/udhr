@@ -1,6 +1,6 @@
 {
-  "lang": "est",
-  "language": "Estonian",
+  "iso639-3": "est",
+  "key": "est",
   "xmlns": "http://www.unhchr.ch/udhr",
   "title": "Inimõiguste ülddeklaratsioon",
   "preamble": {
@@ -264,5 +264,7 @@
       "para": "Käesolevas deklaratsioonis ei tohi midagi tõlgendada kui õiguse andmist mõnele riigile, isikute rühmale või üksikisikutele tegutsemiseks või tegudeks, mis on suunatud kaesolevas deklaratsioonis toodud õiguste ja vabaduste kaotamisele."
     }
   ],
+  "lang": "et",
+  "language": "Estonian",
   "note": []
 }

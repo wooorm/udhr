@@ -1,6 +1,6 @@
 {
-  "lang": "qxn",
-  "language": "Quechua, Northern Conchucos Ancash",
+  "iso639-3": "qxn",
+  "key": "qxn",
   "xmlns": "http://www.unhchr.ch/udhr",
   "title": "KAYMI KAN LLAPAN MUNDUCHAW IMANAW KAQ RUNAKUNAPAPIS DIRICHUNKUNA",
   "preamble": {
@@ -264,5 +264,7 @@
       "para": "Kay diklarasyunchawqa manam ni imapis kantsu mayqan nasyunpis mayqan grupu runakunapis ni mayqan runapis runa mahinkunapa dirichunkunata mana micharnin kayananpaq."
     }
   ],
+  "lang": "qxn",
+  "language": "Quechua, Northern Conchucos Ancash",
   "note": []
 }

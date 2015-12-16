@@ -1,6 +1,6 @@
 {
-  "lang": "nya",
-  "language": "Nyanja (Chechewa)",
+  "iso639-3": "nya",
+  "key": "nya_chechewa",
   "xmlns": "http://www.unhchr.ch/udhr",
   "title": "Chikalata Cha Mgwirizano Chofotokoza Za Ufulu Wa Chibadwidwe Wa Munthu Aliyense",
   "note": [
@@ -268,5 +268,7 @@
       "title": "Ndime 30",
       "para": "Palibe chilichonse m'chikalata chino chomwe chingatanthauziridwe kuti dziko lililonse, gulu kapena munthu aliyense ali ndi ufulu kuchita chinthu ndi cholinga choononga ufulu wachibadwidwe ndi ufulu wina omwe wakhazikitsidwa m'chikalatachi."
     }
-  ]
+  ],
+  "lang": "ny",
+  "language": "Nyanja (Chechewa)"
 }

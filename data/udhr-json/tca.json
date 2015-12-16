@@ -1,6 +1,6 @@
 {
-  "lang": "tca",
-  "language": "Ticuna",
+  "iso639-3": "tca",
+  "key": "tca",
   "xmlns": "http://www.unhchr.ch/udhr",
   "title": "",
   "preamble": {
@@ -264,5 +264,7 @@
       "para": "Rü guxü̃ ĩ nachiü̃ãnewa rü taxucürüwa ṯacü rü ãẽ̱xgacü chixri naga naxĩnü ĩ ñaã popera. Rü name nixĩ na guxü̃ma ĩ togü i duü̃xü̃gü rü ta meã naga naxĩnüẽxü̃ ĩ ñaã popera. Erü tanaxwa̱xe na meã namaxẽxü̃ ĩ guxü̃ma ĩ duü̃xü̃gü ĩ ñaã popera nüxü̃ ixuxü̃rüü̃."
     }
   ],
+  "lang": "tca",
+  "language": "Ticuna",
   "note": []
 }

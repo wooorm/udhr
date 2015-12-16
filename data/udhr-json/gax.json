@@ -1,6 +1,6 @@
 {
-  "lang": "gax",
-  "language": "Oromo, Borana-Arsi-Guji",
+  "iso639-3": "gax",
+  "key": "gax",
   "xmlns": "http://www.unhchr.ch/udhr",
   "title": "Labsii Walii-gala Mirgoota Namummaa",
   "note": [
@@ -268,5 +268,7 @@
       "title": "Qabxii 30",
       "para": "Wanti labsii kana keessatti ibsame hundi, mirgootaa fi bilisummaa ibsaman cabsuuf yaadamee, yookiin gocha tokko raawwachuuf jedhamee, akka waan mootummaa tokko, yookin dhaabbata tokko yookiin nama tokko ilaalu jedhamee lakka'aamu hin qabu."
     }
-  ]
+  ],
+  "lang": "om",
+  "language": "Oromo, Borana-Arsi-Guji"
 }

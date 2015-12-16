@@ -1,6 +1,6 @@
 {
-  "lang": "hrv",
-  "language": "Croatian",
+  "iso639-3": "hrv",
+  "key": "hrv",
   "xmlns": "http://www.unhchr.ch/udhr",
   "title": "OPĆA DEKLARACIJA O PRAVIMA ĆOVJEKA",
   "preamble": {
@@ -264,5 +264,7 @@
       "para": "Ništa se u ovoj Deklaraciji ne moće tumaćiti kao pravo ma koje drćave, skupine ili osobe da sudjeluje bilo u kojoj djelatnosti ili da ćini bilo kakvu radnju usmjerenu uništenju bilo kojih ovdje navedenih prava i sloboda."
     }
   ],
+  "lang": "hr",
+  "language": "Croatian",
   "note": []
 }

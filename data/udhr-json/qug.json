@@ -1,6 +1,6 @@
 {
-  "lang": "qug",
-  "language": "Quichua, Chimborazo Highland",
+  "iso639-3": "qug",
+  "key": "qug",
   "xmlns": "http://www.unhchr.ch/udhr",
   "title": "RUNAKUI\\IAPAK HAYÑITA WILLAY",
   "preamble": {
@@ -264,5 +264,7 @@
       "para": "Kay tinkirishka lIaktakuna willashka hayñikunata, kishpiriykunataka, shuklla\nrunamanpash, tantanakuymanpash yankaka, mana pantata willanallachu.\nRunakunapak hayñita, kishpiriy yuyayta pichana yuyaytaka na charinachu."
     }
   ],
+  "lang": "qug",
+  "language": "Quichua, Chimborazo Highland",
   "note": []
 }

@@ -1,6 +1,6 @@
 {
-  "lang": "min",
-  "language": "Minangkabau",
+  "iso639-3": "min",
+  "key": "min",
   "xmlns": "http://www.unhchr.ch/udhr",
   "note": [
     {
@@ -268,5 +268,7 @@
       "title": "Pasal 30",
       "para": "Indak ciek pun pasal dari Deklarasi ko buliah ditafsirkan sabagai manyatujui adonyo hak suatu negara, kalompok atau sasaurang, untuak malakukan kagiatan apopun, atau malakukan sasuatu nan batujuan marusak hak-hak dan kabebasan-kabebasan nan diuraikan dalam Deklarasi ko."
     }
-  ]
+  ],
+  "lang": "min",
+  "language": "Minangkabau"
 }

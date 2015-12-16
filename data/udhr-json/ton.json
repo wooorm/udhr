@@ -1,6 +1,6 @@
 {
-  "lang": "ton",
-  "language": "Tongan",
+  "iso639-3": "ton",
+  "key": "ton",
   "xmlns": "http://www.unhchr.ch/udhr",
   "title": "KO E TOHI FAKAHAHA FAKA’UNIVEESI ‘O E NGAAHI TOTONU ‘A E TANGATA",
   "preamble": {
@@ -264,5 +264,7 @@
       "para": "‘E ‘ikai ke ngofua ke faka’uhinga’i ha me’a ‘oku ‘asi ‘i he Tohi Fakahaha ni ke taku ai ’oku ‘aha Pule’anga, kulupu pe ‘aha tangata fakafo’ituitui ha totonu ke ne kau ‘i ha fa’ahinga ngaue pe ke ne fakahoko ha ‘ulungaanga ‘oku fakataumu’a ki hano fakata’e’aonga’i ha konga ‘o e ngaahi totonu mo e ngaahi tau’ataina kuo fokotu’u atu heni."
     }
   ],
+  "lang": "to",
+  "language": "Tongan",
   "note": []
 }

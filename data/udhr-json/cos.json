@@ -1,6 +1,6 @@
 {
-  "lang": "cos",
-  "language": "Corsican",
+  "iso639-3": "cos",
+  "key": "cos",
   "xmlns": "http://www.unhchr.ch/udhr",
   "title": "DICHJARAZIONI UNIVIRSALI DI I DIRITTI DI L’OMU",
   "preamble": {
@@ -264,5 +264,7 @@
       "para": "Nisuna dispusizioni d’issa dichjarazioni pò essa capita cum’è s’ella dessi ad unu Statu, ad un gruppu o ad u individuu un dirittu qualunqua d’avè una attività o d’agiscia cù u scopu di fà spariscia i diritti è i libertà chì ci si trovanu scritti."
     }
   ],
+  "lang": "co",
+  "language": "Corsican",
   "note": []
 }

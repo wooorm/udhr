@@ -1,6 +1,6 @@
 {
-  "lang": "gug",
-  "language": "Guaraní",
+  "iso639-3": "gug",
+  "key": "gug",
   "xmlns": "http://www.unhchr.ch/udhr",
   "title": "TEKOVE YVYPORA KUERA MAYMAYVA DERECHO KUAAUKAHA",
   "preamble": {
@@ -264,5 +264,7 @@
       "para": "Mba´evepunto ko Declaraciónpe olva noñentende va´erâi ome´ê Estádope, petel aty térâ petel tapichápe, omoñepirû ha omboguata hagua algún tembiapo ikatúva omboyke petelva jepe umi derecho ha libertad kuéra oñemboysyva ko Declaraciónpe."
     }
   ],
+  "lang": "gn",
+  "language": "Guaraní, Paraguayan",
   "note": []
 }

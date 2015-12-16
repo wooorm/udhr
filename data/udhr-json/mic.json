@@ -1,6 +1,6 @@
 {
-  "lang": "mic",
-  "language": "Micmac",
+  "iso639-3": "mic",
+  "key": "mic",
   "xmlns": "http://www.unhchr.ch/udhr",
   "title": "Mtul’katlku Wjit Koqwajo’taqann Mimajulnu’k Wejkuaqml’tlj",
   "preamble": {
@@ -264,5 +264,7 @@
       "para": "Mu koqoey wla kisi wikasik kisi tlkitmumint tluekin Eleke’wa’ki, mawio’mi kisna mimajuinu wejkui’aqmijl koqwajo’taqan kisi tla’teken kisna kisi tilukwen koqoey ta’n tli-ksika’tutal koqwajo’taqann aqq alsusuti’l ta’n tett kisiwikasikl."
     }
   ],
+  "lang": "mic",
+  "language": "Micmac",
   "note": []
 }

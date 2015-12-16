@@ -1,6 +1,6 @@
 {
-  "lang": "qvn",
-  "language": "Quechua, North Junín",
+  "iso639-3": "qvn",
+  "key": "qvn",
   "xmlns": "http://www.unhchr.ch/udhr",
   "title": "KAY PACHACHRU LAPAN RUNAKUNA WASHAKURKAANAPAQ ISKIRBISHAKUNA KAYKUNATA ISKIRBIPAAKURAA",
   "preamble": {
@@ -264,5 +264,7 @@
       "para": "Juk nasyunchruusi u runa qutukaqchruusi u juk runalatas imata rurananpaqsi pisi kaychru skirbirayaqpita juklasipa imapitas tantiyachinanta manam munapaakuuchu."
     }
   ],
+  "lang": "qvn",
+  "language": "Quechua, North Junín",
   "note": []
 }

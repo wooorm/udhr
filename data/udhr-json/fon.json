@@ -1,6 +1,6 @@
 {
-  "lang": "fon",
-  "language": "Fon",
+  "iso639-3": "fon",
+  "key": "fon",
   "xmlns": "http://www.unhchr.ch/udhr",
   "title": "GBETA GBƐ Ɔ BI TƆN EE ƉƆ XÓ DÓ ACƐ E GBƐTƆ ƉÓ KPODO SISI E ƉO NA ƉÓ N'I LƐ KPO WU E",
   "preamble": {
@@ -264,5 +264,7 @@
       "para": "Yoɖè, kplekpleɖè, gbɛtɔ goɖokponɔɖè na yi huzu nu e ɖɔ do wema elɔ mɛ e ɖo alɔ tɔn ji bo na mɔ̀ tɛn bo ɖe walɔɖe alo ayiɖe tɔn ee na zɔn bɔ e na mɔ tɛn bo do kpo acɛ, sisi kpodo jlokokɔnunɔ ee xo e ɖɔ ɖo fi e bo hɛn gba ǎ."
     }
   ],
+  "lang": "fon",
+  "language": "Fon",
   "note": []
 }

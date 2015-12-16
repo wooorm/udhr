@@ -1,6 +1,6 @@
 {
-  "lang": "lue",
-  "language": "Luvale",
+  "iso639-3": "lue",
+  "key": "lue",
   "xmlns": "http://www.unhchr.ch/udhr",
   "title": "KUZANGA CHA KAYE HALUSESA LWA MUTU",
   "preamble": {
@@ -264,5 +264,7 @@
       "para": "Kanda kuchifwelela nge echikulikasa kana chalufwelelo chinapandama kulifuchi limwe kahako, liwuka chipwe mutu kala lisesa lwa jingolo mwahasa kulilingila vyuma chipwe chuma echi nachihasa kupihisa jishimbi kana jalusesa vanasonekako."
     }
   ],
+  "lang": "lue",
+  "language": "Luvale",
   "note": []
 }

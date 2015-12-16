@@ -1,6 +1,6 @@
 {
-  "lang": "hva",
-  "language": "Huastec, San Luís Potosí",
+  "iso639-3": "hva",
+  "key": "hva",
   "xmlns": "http://www.unhchr.ch/udhr",
   "title": "DHÉY TSALAP ABAL PATAL AN INIK ANI AN UXUM AXI K'WAJÍL TI AL AN TSABÁL",
   "note": [
@@ -268,5 +268,7 @@
       "title": "Jun inik lajuchíl tsalap (art. 30).",
       "para": "Mani jita' kin tsalpay abal axé' xi dhéy tsalap in bínál i k'ij abal ka t'ajan juni pojkaxtaláb, juntij ka t'apiyat abal ka éyan an uchbíláb jawa' tejé' bijidh al axe' xi dhey tsalap."
     }
-  ]
+  ],
+  "lang": "hva",
+  "language": "Huastec, San Luís Potosí"
 }

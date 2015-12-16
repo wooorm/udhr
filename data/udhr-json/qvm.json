@@ -1,6 +1,6 @@
 {
-  "lang": "qvm",
-  "language": "Quechua, Margos-Yarowilca-Lauricocha",
+  "iso639-3": "qvm",
+  "key": "qvm",
   "xmlns": "http://www.unhchr.ch/udhr",
   "title": "INTËRU MUNDUCHO LAPAN RUNAKUNAPA DERËCHUNKUNANTA WILAKUSHQAN",
   "preamble": {
@@ -264,5 +264,7 @@
       "para": "Kay nishqankunacho manami qam tarinkimantsu derëchuykikuna kaptin pipa derëchunkunatapis elqätsinaykipaq imata rurashpaykipis. Tsaynoq kaykan qampaq, juk nasyunpaq, juntakashqa runakunapaq, o pi runalapaqpis."
     }
   ],
+  "lang": "qvm",
+  "language": "Quechua, Margos-Yarowilca-Lauricocha",
   "note": []
 }

@@ -1,6 +1,6 @@
 {
-  "lang": "njo",
-  "language": "Naga, Ao",
+  "iso639-3": "njo",
+  "key": "njo",
   "xmlns": "http://www.unhchr.ch/udhr",
   "title": "ALIMA NUNG ALIR MEIMCHIR AJAK ATEMA KASA TEMETEN SANGDONG",
   "note": [
@@ -268,5 +268,7 @@
       "title": "Ocet 30",
       "para": "Iba Sangdong ya State mesüra, lokti, mesüra kija shingaia pei ajung asaa meratettsüla, kechiaser iba Sangdong ya ajak atema kasa temeten aser nüji asoshi nükla tajung yur lateta ayuba lir."
     }
-  ]
+  ],
+  "lang": "njo",
+  "language": "Naga, Ao"
 }

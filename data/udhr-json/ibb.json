@@ -1,6 +1,6 @@
 {
-  "lang": "ibb",
-  "language": "Ibibio",
+  "iso639-3": "ibb",
+  "key": "ibb",
   "xmlns": "http://www.unhchr.ch/udhr",
   "title": "Edisuan Etop Mbana Mme Unen Owo Ke Ofuri Ekondo",
   "note": [
@@ -268,5 +268,7 @@
       "title": "Ibuot Iko Mbet 30",
       "para": "Owo ndomokiet inyeneke unen ndikabare mbet ndomokiet ke nwed Edisuan Etop Mbana Mme Unen Owo emi, no idut ndomokiet, mme nka, mme owo, man oto do mmo enyene unen ndinam nkpo emi ekemede ndibiat mme unen ye mme usun uboho-ufin emi ewetde ke nwed emi."
     }
-  ]
+  ],
+  "lang": "ibb",
+  "language": "Ibibio"
 }

@@ -1,6 +1,6 @@
 {
-  "lang": "nno",
-  "language": "Norwegian, Nynorsk",
+  "iso639-3": "nno",
+  "key": "nno",
   "xmlns": "http://www.unhchr.ch/udhr",
   "title": "DEN INTERNASJONALE FRÅSEGNA OM MENNESKERETTANE",
   "preamble": {
@@ -264,5 +264,7 @@
       "para": "Ikkje noko i denne fråsegna må tolkast slik at det gjev stat, grupper eller einskildmenneske rett til å vere med på tiltak eller handlingar av noko slag som har til mål å øydeleggje den retten og fridomen som denne fråsegna stadfester."
     }
   ],
+  "lang": "nn",
+  "language": "Norwegian, Nynorsk",
   "note": []
 }

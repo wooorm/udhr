@@ -1,6 +1,6 @@
 {
-  "lang": "swe",
-  "language": "Swedish",
+  "iso639-3": "swe",
+  "key": "swe",
   "xmlns": "http://www.unhchr.ch/udhr",
   "note": [
     {
@@ -268,5 +268,7 @@
       "title": "Artikel 30.",
       "para": "Intet i denna förklaring må tolkas såsom innebärande rättighet för någon stat, grupp eller person att ägna sig åt verksamhet eller utföra handling, som syftar till att omintetgöra någon av häri uttalade fri- och rättigheter."
     }
-  ]
+  ],
+  "lang": "sv",
+  "language": "Swedish"
 }

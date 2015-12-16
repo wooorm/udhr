@@ -1,6 +1,6 @@
 {
-  "lang": "tbz",
-  "language": "Ditammari",
+  "iso639-3": "tbz",
+  "key": "tbz",
   "xmlns": "http://www.unhchr.ch/udhr",
   "title": "Oniti ba we a kpenniti kutenku yanɖú",
   "preamble": {
@@ -264,5 +264,7 @@
       "para": "Ɖipatri ɖi myɛ̃ɛkɛ, tinaanti mati yibo kɛ nɖonnɛ ɖihɛ i mari, ditĩnni mari yoo oniti ɖɔ o tisenkri, kɛnnau kɛwãa ŋwãa, kɛ faari faari kɛ hati bɔkɛbɔkɛ. Oniti ba we, a kpenni ti kutenku yanɖu."
     }
   ],
+  "lang": "tbz",
+  "language": "Ditammari",
   "note": []
 }

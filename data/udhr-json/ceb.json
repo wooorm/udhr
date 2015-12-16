@@ -1,6 +1,6 @@
 {
-  "lang": "ceb",
-  "language": "Cebuano",
+  "iso639-3": "ceb",
+  "key": "ceb",
   "xmlns": "http://www.unhchr.ch/udhr",
   "title": "MALUKPANONG DEKLARASYON SA TAWHANONG MGA KATUNGOD",
   "preamble": {
@@ -264,5 +264,7 @@
       "para": "Walay bisan unsa niining Deklarasyon nga mahimong hubaron sa bisan kinsang Nasud, pundok o tawo ang bisan unsang katungod sa paghimo sa bisan unsang kalihukan o sa paghimo sa bisan unsang buhat nga ang tumong mao ang pagwagtang sa bisan unsang mga katungod ug kagawasan nga nahipatik dinhi."
     }
   ],
+  "lang": "ceb",
+  "language": "Cebuano",
   "note": []
 }

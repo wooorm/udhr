@@ -1,6 +1,6 @@
 {
-  "lang": "sey",
-  "language": "Sequoia",
+  "iso639-3": "sey",
+  "key": "sey",
   "xmlns": "http://www.unhchr.ch/udhr",
   "title": "SIAYËKEMACA SIABAI KËOJËNA KAYAYE KUI'NE JËNA, PAIYE KAWESOSE'EPI SIAYE TUTU PAYE JAI TSUTSUPËA OMETËKANA",
   "note": [
@@ -268,5 +268,7 @@
       "title": "Jëña-nëkañua jëtëna.",
       "para": "Jare iye kawesosikore jare peoji yekë paipi iwa'i kuasayepi dani nejë neño'o kajë nedojaye, paije te'e pai dani iye kato akëpai tsea'ë kajë kuasia'ye nedojaiye peoji, iye kato tsoe kawesosikore."
     }
-  ]
+  ],
+  "lang": "sey",
+  "language": "Secoya"
 }

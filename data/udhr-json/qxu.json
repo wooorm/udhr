@@ -1,6 +1,6 @@
 {
-  "lang": "qxu",
-  "language": "Quechua, Arequipa-La Unión",
+  "iso639-3": "qxu",
+  "key": "qxu",
   "xmlns": "http://www.unhchr.ch/udhr",
   "title": "HATUN WILLAY DERECHONCHISKUNAMANTA LLAPAN RUNAPAQ",
   "preamble": {
@@ -264,5 +264,7 @@
       "para": "Manan pipas kay qawasqanchis derechonchiskunata qechuwaswanchu, nitaq pakawaswanchu yachananchismanta, maypi kaqtinchispas."
     }
   ],
+  "lang": "qxu",
+  "language": "Quechua, Arequipa-La Unión",
   "note": []
 }

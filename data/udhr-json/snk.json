@@ -1,6 +1,6 @@
 {
-  "lang": "snk",
-  "language": "Soninke",
+  "iso639-3": "snk",
+  "key": "snk",
   "xmlns": "http://www.unhchr.ch/udhr",
   "title": "HAADAMA RENMUM TAQUN DORONDEN DANTAQIYE DUNA NOXO (1948)",
   "preamble": {
@@ -268,5 +268,7 @@
     {
       "para": "Duna feddi xooren duŋe na dantaqi i batu xoore. Taagumansen ga ni 217 (III), a ga wuti Desamburu 10, 1948 siine"
     }
-  ]
+  ],
+  "lang": "snk",
+  "language": "Soninke"
 }

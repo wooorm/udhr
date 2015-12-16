@@ -1,6 +1,6 @@
 {
-  "lang": "tzh",
-  "language": "Tzeltal, Oxchuc",
+  "iso639-3": "tzh",
+  "key": "tzh",
   "xmlns": "http://www.unhchr.ch/udhr",
   "title": "´SYALJI´BAL TO SPAMLEL TE BELUK AYKU´UNTIKE YU´UN JICH YA JKOLTABATIKA TE JPISILTIK WINIKOTIKE",
   "note": [
@@ -268,5 +268,7 @@
       "title": "Artikulo 30.-",
       "para": "Te Muk´ul Jun jachbil tey to´ ma sk´an yak´ noptiok te junax lum o tul nax winik ya yak´bey srerecho, o teme ya jtatik ta nopel te ya stubotik kaltk te rerecho yak´obotike, in te beluk la yich´ alel leyto ja´ yaloj te Muk´ul Chap K´opetik."
     }
-  ]
+  ],
+  "lang": "tzh",
+  "language": "Tzeltal, Oxchuc"
 }

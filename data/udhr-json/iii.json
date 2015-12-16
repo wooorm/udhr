@@ -1,6 +1,6 @@
 {
-  "lang": "iii",
-  "language": "Yi, Sichuan",
+  "iso639-3": "iii",
+  "key": "iii",
   "xmlns": "http://www.unhchr.ch/udhr",
   "title": "《ꋧꃅꊽꌅꅍꄜꋊꄯꒉ》",
   "preamble": {
@@ -296,5 +296,7 @@
       "para": "ꄜꋊꄯꒉꇬꑞꏢꉬꂿ，ꇩꏤ，ꉻꏑ ꀋꉬꀐꇬꊿꑞꂷꉬꂿ，ꄚꈐꏭꌅꅍ ꌋꆀꄿꐨ ꇬꀜꐆꃅꈧꑠꉌꃹꉗꃅꈌꁧꇬꁳꀋꉆꌠꉬ。（ꃅꆜꌭꉐꁏꌠ）"
     }
   ],
+  "lang": "ii",
+  "language": "Nuosu",
   "note": []
 }

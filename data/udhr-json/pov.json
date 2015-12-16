@@ -1,6 +1,6 @@
 {
-  "lang": "pov",
-  "language": "Crioulo, Upper Guinea",
+  "iso639-3": "pov",
+  "key": "pov",
   "xmlns": "http://www.unhchr.ch/udhr",
   "title": "Diklarason Mundial di Diritus di Pekadur",
   "note": [
@@ -268,5 +268,7 @@
       "title": "Artigu 30",
       "para": "Nin un proposta de Diklarason ka pudi ntindidu na un manera ku kalker Stadu, grupu o pekadur pudi sinti kuma i ten diritu di miti na un atividadi o fasi kalker kusa ku pudi dana diritus ku liberdadis ku comadu li."
     }
-  ]
+  ],
+  "lang": "pov",
+  "language": "Crioulo, Upper Guinea"
 }

@@ -1,6 +1,6 @@
 {
-  "lang": "qvc",
-  "language": "Quechua, Cajamarca",
+  "iso639-3": "qvc",
+  "key": "qvc",
   "xmlns": "http://www.unhchr.ch/udhr",
   "title": "Universal Declaration of Human Rights",
   "note": [
@@ -268,5 +268,7 @@
       "title": "30. Kimsa ch'unga (treynta):",
       "para": "Kay dirichukunata liyishpa, ama ni suq gubyirnu, ni pipis yach'achikunqachu paylla munashqandaqa, qoch'inambaq llaqta masingunapa dirichungunata."
     }
-  ]
+  ],
+  "lang": "qvc",
+  "language": "Quechua, Cajamarca"
 }

@@ -1,6 +1,6 @@
 {
-  "lang": "ppl",
-  "language": "Pipil",
+  "iso639-3": "ppl",
+  "key": "ppl",
   "xmlns": "http://www.unhchr.ch/udhr",
   "title": "Munextia muchi ipal ne tehtechan tay tupal",
   "note": [
@@ -268,5 +268,7 @@
       "title": "Pewa ina se pual mahtati (30)",
       "para": "Tesu datka tay ginechtiwit welit inat tesu welit gimatit gen gimaga ta ipal pal se gan musempuzuat u pal ne techan, pal pewat gichiwat u gichiwat tay pal gitahtani tay tesu ginegi gikchiwat pal ne tay inatiwit tigini tay ginechtiwit."
     }
-  ]
+  ],
+  "lang": "ppl",
+  "language": "Pipil"
 }

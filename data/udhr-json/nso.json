@@ -1,6 +1,6 @@
 {
-  "lang": "nso",
-  "language": "Sotho, Northern",
+  "iso639-3": "nso",
+  "key": "nso",
   "xmlns": "http://www.unhchr.ch/udhr",
   "title": "BOIKANOKAKARETŠO BJA DITOKELO TŠA BOTHO",
   "preamble": {
@@ -264,5 +264,7 @@
       "para": "Ga go selo mo Boikanong bjo se se ka kwešišwago bjalo ka seo se lebanego le mmušo ofe kapa ofe, sehlopha goba motho go dira mošomo ofe goba ofe wo o lebišitšwego pšhatlaganyong ya ditokelo le ditokologo tše di beilwego mokhwi."
     }
   ],
+  "lang": "nso",
+  "language": "Sotho, Northern",
   "note": []
 }

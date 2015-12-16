@@ -1,6 +1,6 @@
 {
-  "lang": "agr",
-  "language": "Aguaruna",
+  "iso639-3": "agr",
+  "key": "agr",
   "xmlns": "http://www.unhchr.ch/udhr",
   "note": [
     {
@@ -268,5 +268,7 @@
       "title": "Artículo 30.",
       "para": "Yamai juju chicham umiktin aidau iwainagbauwa juna nii yaja antuk yapajia takak aents agkan pujus anenjas takamainai tamau aina juna emegkaumaitsui yapaj itnakesh yapaj imaitsui chichaman."
     }
-  ]
+  ],
+  "lang": "agr",
+  "language": "Aguaruna"
 }

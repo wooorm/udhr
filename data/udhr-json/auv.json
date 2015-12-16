@@ -1,6 +1,6 @@
 {
-  "lang": "auv",
-  "language": "Auvergnat",
+  "iso639-3": "oci",
+  "key": "auv",
   "xmlns": "http://www.unhchr.ch/udhr",
   "title": "NONSIAMEN DEÚ DRET DEÚ Z-OMEI PÀ LÀ TARÀ TENTEIRÀ",
   "preamble": {
@@ -264,5 +264,7 @@
       "para": "Pavunà endïcà deu Nonsiamen soubre sai puod l-esse entendüda mo si balhessà bei n'eito, én vïjan, én partïtüleir cauque dreit que sio d'arjî v-ou de coumpï de la fazenta menada pà dïtreure leù dret mai lïbiartâ soubre-sai deilarjad."
     }
   ],
+  "lang": "oc",
+  "language": "Occitan (Auvergnat)",
   "note": []
 }

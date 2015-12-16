@@ -1,6 +1,6 @@
 {
-  "lang": "dag",
-  "language": "Dagbani",
+  "iso639-3": "dag",
+  "key": "dag",
   "xmlns": "http://www.unhchr.ch/udhr",
   "title": "ZAL'SHƐŊA ŊAN KPAŊSIR' ZƆSIMDI NI NAŊGBAŊ YINI ANDUNIA TIŊGBANA SUNSUUNI",
   "preamble": {
@@ -264,5 +264,7 @@
       "para": "Ni di ti sokam lahabali ka dama bɛ bi zali zal' shɛŋa ŋan be kpe ŋɔ la nin yino kɔ suɣu, sokam zuɣu ka bɛ zali ŋa. Dinzuɣu, zal' shɛŋa ŋan be kpe maa ka bibiɛlim soya zuɣu, bee tiŋŋmɔŋ soli zuɣu. Dinzuɣu sokam luɣim tibili venyɛliŋga n wum ka di chib' o."
     }
   ],
+  "lang": "dag",
+  "language": "Dagbani",
   "note": []
 }

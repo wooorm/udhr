@@ -110,7 +110,7 @@ describe('udhr.information.n', function () {
         function (declaration) {
             var ISO = declaration.ISO;
 
-            assert(typeof ISO === 'string' || ISO === null);
+            assert(typeof ISO === 'string');
         }
     );
 
@@ -126,7 +126,7 @@ describe('udhr.information.n', function () {
         function (declaration) {
             var BCP47 = declaration.BCP47;
 
-            assert(typeof BCP47 === 'string' || BCP47 === null);
+            assert(typeof BCP47 === 'string');
         }
     );
 

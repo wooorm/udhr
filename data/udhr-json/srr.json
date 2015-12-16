@@ -1,6 +1,6 @@
 {
-  "lang": "srr",
-  "language": "Serer-Sine",
+  "iso639-3": "srr",
+  "key": "srr",
   "xmlns": "http://www.unhchr.ch/udhr",
   "title": "JEEGNIT NE ADNA FEE NDEERNA NI KE WARNA O KIIN",
   "preamble": {
@@ -264,5 +264,7 @@
       "para": "Ke yeegnit neeke a ɓisiidna, waraand o ɓakand ni saax leng mbaat i mbokatoor, leng mbaat o kiino leng boo te tax ta fesooraa naa te warteerna ni ke warna jeg."
     }
   ],
+  "lang": "srr",
+  "language": "Serer-Sine",
   "note": []
 }

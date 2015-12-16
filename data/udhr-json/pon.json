@@ -1,6 +1,6 @@
 {
-  "lang": "pon",
-  "language": "Pohnpeian",
+  "iso639-3": "pon",
+  "key": "pon",
   "xmlns": "http://www.unhchr.ch/udhr",
   "title": "POASON PWUNG EN KAWEID TOHN WEIN SAMPA KAROS",
   "preamble": {
@@ -264,5 +264,7 @@
       "para": "Ire karos me sansalehr nan poason wet sohte pahn wehwehki me re kosondi pwe ehu wehi, de ehu pwihn en aramas en mie arail manaman en wia de kosonehdi mehkot me pahn kak kasohwe de kawehla songen pwung de saledek me sansalehr nan poason wet."
     }
   ],
+  "lang": "pon",
+  "language": "Pohnpeian",
   "note": []
 }

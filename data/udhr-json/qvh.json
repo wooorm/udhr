@@ -1,6 +1,6 @@
 {
-  "lang": "qvh",
-  "language": "Quechua, Huamalíes-Dos de Mayo Huánuco",
+  "iso639-3": "qvh",
+  "key": "qvh",
   "xmlns": "http://www.unhchr.ch/udhr",
   "title": "LAPAN RUNAKUNA IMANAWPA RISPITASH KAYÄNANPAQ KASHQANKUNA KAYNAW NIRMI QALAYKUN",
   "preamble": {
@@ -264,5 +264,7 @@
       "para": "Kay wilakuyashqäkunachaw manami juknawpaqa tantiyayänansu; manami mayqan nasyunpa mandaqninta, shuntakash askaq runakunata ni juk runalata imanawpapis rurayänanpaq o wakinta elaqäsir qalaykuyänansu ni mayqan kaqlatapis, runakuna rispitash y libri kakuyänanpaq kay qelqaraykaqchaw wilakuyashqäta."
     }
   ],
+  "lang": "qvh",
+  "language": "Quechua, Huamalíes-Dos de Mayo Huánuco",
   "note": []
 }

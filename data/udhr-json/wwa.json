@@ -1,6 +1,6 @@
 {
-  "lang": "wwa",
-  "language": "Waama",
+  "iso639-3": "wwa",
+  "key": "wwa",
   "xmlns": "http://www.unhchr.ch/udhr",
   "title": "Yirisaro fɔɔku consiroma ãduriya mii",
   "preamble": {
@@ -129,5 +129,7 @@
       "para": "Da paa sa yoŋo ya tin tinkpaanyonde nɔɔ yaama ǹ ciisi ya de pɛti sabare-de den yaama; ma den tori da ta i ãduriya kaatookpɛɛnde nɔɔ Fonne."
     }
   ],
+  "lang": "wwa",
+  "language": "Waama",
   "note": []
 }

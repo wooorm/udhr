@@ -1,6 +1,6 @@
 {
-  "lang": "nav",
-  "language": "Navajo",
+  "iso639-3": "nav",
+  "key": "nav",
   "xmlns": "http://www.unhchr.ch/udhr",
   "title": "Beehazą́ą Ił Chʼétʼaah",
   "preamble": {
@@ -296,5 +296,7 @@
       "para": "Díí kweʼé haʼ oodziʼígíí éí heitʼáo dah nááná łaʼ kéyah da siʼą́níígíí doodaííʼ dahjookahígíí doodaiiʼ łaʼjizį́ éí doo heitʼáo dah haʼoodzígíí jidoołchǫǫłda."
     }
   ],
+  "lang": "nv",
+  "language": "Navajo",
   "note": []
 }

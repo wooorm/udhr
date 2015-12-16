@@ -1,6 +1,6 @@
 {
-  "lang": "ilo",
-  "language": "Ilocano",
+  "iso639-3": "ilo",
+  "key": "ilo",
   "xmlns": "http://www.unhchr.ch/udhr",
   "title": "NAILUBONGAN A PANAKAIPAKDAAR DAGITI KALINTEGAN TI TAO",
   "preamble": {
@@ -264,5 +264,7 @@
       "para": "Awan iti deytoy nga Pakdaar ti mabalin a naipatarus a kas ti pangilaw-lawag ti siasinoman nga Estado, grupo, tao, aniaman a kalintegan iti aniaman nga aramiden wenno panangiwayat iti aniaman nga pangpanggepen a mangdadael ti aniaman kadagiti kalintegan ken wayawaya a naituyang iti deytoy."
     }
   ],
+  "lang": "ilo",
+  "language": "Ilocano",
   "note": []
 }

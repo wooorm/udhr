@@ -1,6 +1,6 @@
 {
-  "lang": "vep",
-  "language": "Veps",
+  "iso639-3": "vep",
+  "key": "vep",
   "xmlns": "http://www.unhchr.ch/udhr",
   "title": "Mehen oiktuziden ühthine deklaracii",
   "preamble": {
@@ -264,5 +264,7 @@
       "para": "Nimidä neciš deklaracijas ei sa el’geta muga, miše mitte-ni valdkund, mehiden grupp vai üks’ mez’ voib oiktuziden pohjal tehta mugomid tegoid, kudambad om oigetud heitmaha ezitadud neciš deklaracijas oiktuzid i valdoid."
     }
   ],
+  "lang": "vep",
+  "language": "Veps",
   "note": []
 }

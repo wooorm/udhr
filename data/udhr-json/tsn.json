@@ -1,6 +1,6 @@
 {
-  "lang": "tsn",
-  "language": "Tswana",
+  "iso639-3": "tsn",
+  "key": "tsn",
   "xmlns": "http://www.unhchr.ch/udhr",
   "title": "KGOELETSO YA MAIPOLELO A ODIT·HABAT·ABA A DITSHWANELO TSA BOTHO",
   "preamble": {
@@ -264,5 +264,7 @@
       "para": "Ga go sepe mo Maipolelong a, se se tshwanetseng go ranolwa jaaka se se kaeleng Naga nngwe le nngwe, setlhopa kgotsa motho tshwanelo nngwe go nna mo tiragatsong ya tiro nngwe kgotsa go dira tiro nngwe e maikaelelo a yona e leng go senya nngwe ya ditshwanelo le dikgololosego tse di tlhagisitsweng mo."
     }
   ],
+  "lang": "tn",
+  "language": "Tswana",
   "note": []
 }

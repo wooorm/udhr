@@ -1,6 +1,6 @@
 {
-  "lang": "quc",
-  "language": "K'iche', Central",
+  "iso639-3": "quc",
+  "key": "quc",
   "xmlns": "http://www.unhchr.ch/udhr",
   "title": "UQ'ALAJISAXIK PA RONOJEL UWACHULEW RI YA'TALIK KAB'AN PA RI K'ASLEMAL",
   "preamble": {
@@ -264,5 +264,7 @@
       "para": "Ma ta b'a k'o jupaj kapaj tzij q'alajsam waral, che ri chuq'ab'aj ta rib' ri q'atb'altzij chrij, xuq jumulaj winaq ta ne', xuq jun winaq ta ne' putukelam, che ub'anik jun jasach chkiwach nik'aj winaq chik, xa ne are kab'anik, kachakuxik jasa je ri q'alajsam ya'om uch'ob'ik pa we loq'olaj taqanik are chi qonojel kaqariq jun utzalaj k'aslemal pa ronojel we uwachulew."
     }
   ],
+  "lang": "quc",
+  "language": "K'iche', Central",
   "note": []
 }

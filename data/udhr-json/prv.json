@@ -1,6 +1,6 @@
 {
-  "lang": "prv",
-  "language": "Provençal",
+  "iso639-3": "oci",
+  "key": "prv",
   "xmlns": "http://www.unhchr.ch/udhr",
   "title": "Declaracioun universalo di dre de l'ome",
   "article": [
@@ -260,6 +260,8 @@
       "para": "Res, ni Estat ni groupamen nimai unopersouno, poudra assaja de tira d'aquesto declaracioun lou dre de fairequaucarèn pèr escracha li dre e li liberta que ié soun esplica."
     }
   ],
+  "lang": "oc",
+  "language": "Occitan",
   "note": [],
   "preamble": {
     "title": "",

@@ -1,6 +1,6 @@
 {
-  "lang": "nyn",
-  "language": "Nyankore",
+  "iso639-3": "nyn",
+  "key": "nyn",
   "xmlns": "http://www.unhchr.ch/udhr",
   "title": "ENTUURA Y'OBUNTU AHA BANTU OMUNSI YOONA",
   "preamble": {
@@ -264,5 +264,7 @@
       "para": "Tihariho nshonga yoona erikutuma omuntu kuhindura ebihandikirwe omu kitabo eki, obwo orikugyenderera kushisha obugabe nobushoborozi bw'omuntu."
     }
   ],
+  "lang": "nyn",
+  "language": "Nyankore",
   "note": []
 }

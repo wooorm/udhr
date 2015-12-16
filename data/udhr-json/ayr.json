@@ -1,6 +1,6 @@
 {
-  "lang": "ayr",
-  "language": "Aymara, Central",
+  "iso639-3": "ayr",
+  "key": "ayr",
   "xmlns": "http://www.unhchr.ch/udhr",
   "title": "AKAPACH JAQE WALINKAÑAPATAKI INOQAT ARU",
   "preamble": {
@@ -264,5 +264,7 @@
       "para": "Janiw kaukir markasa, khiti jaqesa sapapakis masinakapampis arusthapisinsa, j aqen walinkañapatak inoqat arunaka q'eujtayasna kuna lurañanakamp, amtañanakamp tumpampi, jaqeru arknaqasina, munañanakapa, yatinoqtatapa, irnaqasiñanakapa, amuyasiñanakapa apaqapkaspati."
     }
   ],
+  "lang": "ay",
+  "language": "Aymara, Central",
   "note": []
 }

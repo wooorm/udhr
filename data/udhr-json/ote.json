@@ -1,6 +1,6 @@
 {
-  "lang": "ote",
-  "language": "Otomí, Mezquital",
+  "iso639-3": "ote",
+  "key": "ote",
   "xmlns": "http://www.unhchr.ch/udhr",
   "title": "XO MAA NU XIJMOJO̱I NU KUCHTI KJA'NI",
   "preamble": {
@@ -264,5 +264,7 @@
       "para": "Kotho nu maa nu je'mi da zoo da jiete nu kuchti nu jñini, nu müntsi o nu kja'ni, pa da zoo da jiete o da ka da ñingi jingi ka kuchti da jiete nu xo maa nu a nu je'mi."
     }
   ],
+  "lang": "ote",
+  "language": "Otomi, Mezquital",
   "note": []
 }

@@ -1,6 +1,6 @@
 {
-  "lang": "ada",
-  "language": "Dangme",
+  "iso639-3": "ada",
+  "key": "ada",
   "xmlns": "http://www.unhchr.ch/udhr",
   "title": "JE TSUO BLƆ NYA TOMI KƐ HA ADESA HE BLƆHI",
   "preamble": {
@@ -264,5 +264,7 @@
       "para": "Nɔ́ ko nɔ ko be womi nɛ ɔ mi nɛ a maa ngɔ kaa e haa ma pɔtɛɛ ko, loo kuu ko loo nɔ ko he blɔ jo, nɛ e pee nɔ́ ko nɛ e juɛmi ji kaa e ma kɛ puɛ he jɔmi kɛ he blɔhi nɛ a ngma kɛ wo womi nɛ ɔ mi ɔ a kpɛti eko."
     }
   ],
+  "lang": "ada",
+  "language": "Dangme",
   "note": []
 }

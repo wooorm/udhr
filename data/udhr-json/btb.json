@@ -1,6 +1,6 @@
 {
-  "lang": "btb",
-  "language": "Beti",
+  "iso639-3": "bum",
+  "key": "btb",
   "xmlns": "http://www.unhchr.ch/udhr",
   "title": "AKŌK MEMVENDE ENYIŃ A MENGAN BOD",
   "preamble": {
@@ -264,5 +264,7 @@
       "para": "To mod mbog, to nkunda, to nnam ziñ obele ki na obó mam me fe m'atoban ki ai Akōk Memvende di."
     }
   ],
+  "lang": "bum",
+  "language": "Bulu",
   "note": []
 }

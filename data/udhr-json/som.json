@@ -1,6 +1,6 @@
 {
-  "lang": "som",
-  "language": "Somali",
+  "iso639-3": "som",
+  "key": "som",
   "xmlns": "http://www.unhchr.ch/udhr",
   "title": "BAAQA CAALAMIGA EE XUQ WQDA AADANAHA",
   "preamble": {
@@ -264,5 +264,7 @@
       "para": "Baaqan kuma jiraan wax loo fasiri karo in micnahoodu yahay in Dawlad, koox ama qof xaq u leeyahay inuu ku kaco fal ama falal loola jeedo in lagu burburiyo xuquuqda ama xorriyaadka lagu qoray Baaqan."
     }
   ],
+  "lang": "so",
+  "language": "Somali",
   "note": []
 }

@@ -1,6 +1,6 @@
 {
-  "lang": "cot",
-  "language": "Caquinte",
+  "iso639-3": "cot",
+  "key": "cot",
   "xmlns": "http://www.unhchr.ch/udhr",
   "note": [
     {
@@ -268,5 +268,7 @@
       "title": "Antsajiaqueca 30",
       "para": "Ocameetsataque amoncarajiaquero maasano ationcajiaqueca ocatica. Tee oncameetsateji intsaneapitsacajiro amajirotepae aisa agonoropae. Ocameetsataque aguishinejajiaqueri maasano caquinte inchoocajiaque cameetsa."
     }
-  ]
+  ],
+  "lang": "cot",
+  "language": "Caquinte"
 }

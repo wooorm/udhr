@@ -1,6 +1,6 @@
 {
-  "lang": "plt",
-  "language": "Malagasy, Plateau",
+  "iso639-3": "plt",
+  "key": "plt",
   "xmlns": "http://www.unhchr.ch/udhr",
   "note": [
     {
@@ -268,5 +268,7 @@
       "title": "ANDININY FAHA-30",
       "para": "Ny zava-boalaza rehetra ato anatin'ity Fanambarana ity dia tsy azon'ny Fanjakana na vondron'olona na olon-tsotra hadika ho manome azy ireo fahefana hanao asa mikendry handrava ny zo sy ny fahafahana voatanisa etsy ambony."
     }
-  ]
+  ],
+  "lang": "mg",
+  "language": "Malagasy, Plateau"
 }

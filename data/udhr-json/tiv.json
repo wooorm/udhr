@@ -1,6 +1,6 @@
 {
-  "lang": "tiv",
-  "language": "Tiv",
+  "iso639-3": "tiv",
+  "key": "tiv",
   "xmlns": "http://www.unhchr.ch/udhr",
   "title": "MYEE U GBAR-GBAR U AKAA A I DOO SHA CI U A ER A HANMAOR UMACE KENG KENG MAN A LU VOUGH Yô",
   "note": [
@@ -268,5 +268,7 @@
       "title": "Ishember kwagh i sha 30.",
       "para": "Makwagh môm ken asemberakaa ne, na matar môm, shin kweior, shin or sha tseeneke u nan ian ii eren makwagh u vihin awaishima u Mzough u Ityar sha won cii a tese sha ci u mkpeiyol u umace ne ga."
     }
-  ]
+  ],
+  "lang": "tiv",
+  "language": "Tiv"
 }

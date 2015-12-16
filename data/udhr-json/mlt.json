@@ -1,6 +1,6 @@
 {
-  "lang": "mlt",
-  "language": "Maltese",
+  "iso639-3": "mlt",
+  "key": "mlt",
   "xmlns": "http://www.unhchr.ch/udhr",
   "title": "L-ISTQARRIJA UNIVERSALI DWAR IL-JEDDIJIET TAL-BNIEDEM",
   "note": [
@@ -268,5 +268,7 @@
       "title": "L-Artiklu 30.",
       "para": "Xejn f’din l-Istqarrija ma jista’ jkun mifhum li jagħti lil xi Stat, għaqda jew persuna l-jedd li tagħmel xi ħidma jew li twettaq xi għemil bil-għan li teqred xi jeddijiet jew libertajiet li huma mxandra hawnhekk."
     }
-  ]
+  ],
+  "lang": "mt",
+  "language": "Maltese"
 }

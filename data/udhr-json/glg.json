@@ -1,6 +1,6 @@
 {
-  "lang": "glg",
-  "language": "Galician",
+  "iso639-3": "glg",
+  "key": "glg",
   "xmlns": "http://www.unhchr.ch/udhr",
   "title": "Declaración Universal dos Dereitos das Persoas",
   "preamble": {
@@ -264,5 +264,7 @@
       "para": "Nada na presente Declaración poderá ser interpretado no sentido de que confire algún dereito ó estado, a un grupo ou a unha persoa, para emprender e desenvolver actividades ou realizar actos tendentes á supresión de calquera dos dereitos e liberdades proclamadas nesta Declaración."
     }
   ],
+  "lang": "gl",
+  "language": "Galician",
   "note": []
 }

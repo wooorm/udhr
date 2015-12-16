@@ -1,6 +1,6 @@
 {
-  "lang": "deu",
-  "language": "German (1996)",
+  "iso639-3": "deu",
+  "key": "deu_1996",
   "xmlns": "http://www.unhchr.ch/udhr",
   "title": "Die Allgemeine Erklärung der Menschenrechte",
   "note": [
@@ -268,5 +268,7 @@
       "title": "Artikel 30",
       "para": "Keine Bestimmung dieser Erklärung darf dahin ausgelegt werden, dass sie für einen Staat, eine Gruppe oder eine Person irgendein Recht begründet, eine Tätigkeit auszuüben oder eine Handlung zu begehen, welche die Beseitigung der in dieser Erklärung verkündeten Rechte und Freiheiten zum Ziel hat."
     }
-  ]
+  ],
+  "lang": "de-1996",
+  "language": "German, Standard (1996)"
 }

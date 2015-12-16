@@ -1,6 +1,6 @@
 {
-  "lang": "eus",
-  "language": "Basque",
+  "iso639-3": "eus",
+  "key": "eus",
   "xmlns": "http://www.unhchr.ch/udhr",
   "title": "GIZA ESKUBIDEEN ALDARRIKAPEN UNIBERTSALA",
   "preamble": {
@@ -264,5 +264,7 @@
       "para": "Aldarrikapen honetan jasotako ezertan ezingo da ulertu Estatuari edo talde edo norbanakoren bati Aldarrikapen honetan bertan adierazitako edozein eskubide eta askatasun deuseztatzeko ekintzak edo ihardunak burutzeko eskubidea ematen zaionik."
     }
   ],
+  "lang": "eu",
+  "language": "Basque",
   "note": []
 }

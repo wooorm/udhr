@@ -1,6 +1,6 @@
 {
-  "lang": "sme",
-  "language": "Saami, Northern",
+  "iso639-3": "sme",
+  "key": "sme",
   "xmlns": "http://www.unhchr.ch/udhr",
   "title": "OLMMOŠVUOIGATVUODAID OPPAMÁILMMÁLAS JULGAŠTUS",
   "preamble": {
@@ -264,5 +264,7 @@
       "para": "Ii mihkige dán julggaštusas sáhte nu dulkojuvvot ahte dat vuoigada ovttage stáhta, juhkosa dahje olmmošoktagasa oassádallat dakkár doaimmas, dahje dahkat dakkár dagu, mii duššindagašii ovttage dain vuoigatvuoðain dahje friddjavuoðain mat leat namahuvvon Julggaštusas."
     }
   ],
+  "lang": "se",
+  "language": "Saami, North",
   "note": []
 }

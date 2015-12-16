@@ -1,6 +1,6 @@
 {
-  "lang": "slk",
-  "language": "Slovak",
+  "iso639-3": "slk",
+  "key": "slk",
   "xmlns": "http://www.unhchr.ch/udhr",
   "title": "VŠOBECNÁ DEKLARÁCIA LUDSKÝCH PRÁV",
   "preamble": {
@@ -264,5 +264,7 @@
       "para": "V tejto deklarácii nič sa nesmie vykladať tak, aby oprávňovalo ktorýkoľvek štát, skupinu, alebo osobu vyvíjať činnosť alebo dopúšťať sa činov, ktoré by smerovaly k potlačeniu niektorého z práv alebo slobôd v tejto deklarácii vyhlásených."
     }
   ],
+  "lang": "sk",
+  "language": "Slovak",
   "note": []
 }

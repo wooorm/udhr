@@ -1,6 +1,6 @@
 {
-  "lang": "pam",
-  "language": "Pampangan",
+  "iso639-3": "pam",
+  "key": "pam",
   "xmlns": "http://www.unhchr.ch/udhr",
   "title": "Ding Pang Universung Karapatang Pantau A Miproklama Para Ipakilala",
   "preamble": {
@@ -264,5 +264,7 @@
       "para": "Alang nanu mang parti king Proklamasyung iti a tuturing mangabaldugan king sanu mang Estado, grupo o tau, ing karapatang makiabe kingnanu mang gagawan o kimut o bibie paralan para siran na ing sanu mang karapatan at kalayan mitakda keni."
     }
   ],
+  "lang": "pam",
+  "language": "Pampangan",
   "note": []
 }

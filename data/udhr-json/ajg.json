@@ -1,6 +1,6 @@
 {
-  "lang": "ajg",
-  "language": "Aja",
+  "iso639-3": "ajg",
+  "key": "ajg",
   "xmlns": "http://www.unhchr.ch/udhr",
   "title": "EJUKƆNWO GBEFANƉEƉE SƆSƆ ACƐ AGBETƆTƆWO ŊÚ",
   "preamble": {
@@ -264,5 +264,7 @@
       "para": "Ejuɖekpokpwi, ehabɔbɔɖekpokpwi, amɛɖekpokpwi de ɖo egbe a sɔ Egbe fanɖeɖe cɛ a sɔ wa enubaɖaɖe alo a sɔ wa kanlindɔɖe shigbe a sɔ gbe be agbetɔwo da zan acɛ ko vovokpɔkpɔ ciwo yi ze le wemacɛmɛ."
     }
   ],
+  "lang": "ajg",
+  "language": "Aja",
   "note": []
 }

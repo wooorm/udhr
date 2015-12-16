@@ -1,6 +1,6 @@
 {
-  "lang": "tpi",
-  "language": "Tok Pisin",
+  "iso639-3": "tpi",
+  "key": "tpi",
   "xmlns": "http://www.unhchr.ch/udhr",
   "title": "TOKSAVE LONG OL RAITS BILONG OL MANMERI LONG OLGETA HAP BILONG DISPELA GIRAUN",
   "preamble": {
@@ -264,5 +264,7 @@
       "para": "No at wanpela narapela man o meri o kantri inap long usim dispela human raits lo long kamapim birua long narapela o bagarapim ol raits na fridom bilong yu."
     }
   ],
+  "lang": "tpi",
+  "language": "Tok Pisin",
   "note": []
 }

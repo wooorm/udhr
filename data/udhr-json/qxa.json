@@ -1,6 +1,6 @@
 {
-  "lang": "qxa",
-  "language": "Quechua, Chiquián Ancash",
+  "iso639-3": "quh",
+  "key": "qxa",
   "xmlns": "http://www.unhchr.ch/udhr",
   "title": "LLAJTANCHEJNINTINPAJ QHELQESQA TUKUY RUNAJPA ATIYNINKUTA SUT'INCHASPA",
   "preamble": {
@@ -264,5 +264,7 @@
       "para": "Mana mayqen kay Declaracionpi rimasqa kasqan unanchakunanchu tian yuyaspa Estadowan, ima qotullamanpis, chayri pillamanpis atiyta qosqanta, mayqen rimasqa derechosnillanpis mana yupasqa kananpajqa."
     }
   ],
+  "lang": "quh",
+  "language": "Quechua, South Bolivian",
   "note": []
 }

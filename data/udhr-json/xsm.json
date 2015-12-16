@@ -1,6 +1,6 @@
 {
-  "lang": "xsm",
-  "language": "Kasem",
+  "iso639-3": "xsm",
+  "key": "xsm",
   "xmlns": "http://www.unhchr.ch/udhr",
   "title": "LOGO BAŊA TIGISIM NABIINA ŊWE-LAO WADƐ",
   "preamble": {
@@ -264,5 +264,7 @@
       "para": "Nɔɔno, naa nɔɔna, naa teo ye zaŋ ba boŋe we ba wo wane ba ke woŋo se ko leiri naa ko chɔge nia yanto ba na tiŋ tɔnɔ konto ne to."
     }
   ],
+  "lang": "xsm",
+  "language": "Kasem",
   "note": []
 }

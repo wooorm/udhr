@@ -1,6 +1,6 @@
 {
-  "lang": "ddn",
-  "language": "Dendi",
+  "iso639-3": "ddn",
+  "key": "ddn",
   "xmlns": "http://www.unhchr.ch/udhr",
   "title": "ÃDUNIYA KULU BƆRƆ DAAMA BEIYANIYOM",
   "preamble": {
@@ -264,5 +264,7 @@
       "para": "Beiyaniyom wɔ looyom ga siriya fɔ sii ka a ba nam kwaara fɔ su safu fɔ dee binɛ bɔrɔ ma tunu ka kɔɔnɛ ko ceeji gãnna zamaa ma daama duuri nna bɔŋɔ mɛiyom di ka n dam tila kuna saabu."
     }
   ],
+  "lang": "ddn",
+  "language": "Dendi",
   "note": []
 }

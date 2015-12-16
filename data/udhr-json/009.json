@@ -1,6 +1,6 @@
 {
-  "lang": "009",
-  "language": "(Kimbundo)",
+  "iso639-3": "und",
+  "key": "009",
   "xmlns": "http://www.unhchr.ch/udhr",
   "title": "",
   "note": [
@@ -268,5 +268,7 @@
       "title": "MAKUINHI ATATU",
       "para": "Kanaku utundilu ua kamukua uambote, ukexilu mba kidifua kibangesa o kikoue kiki a kitetulele mu ku kuandala kua nguvuhu ioso ioso, kibuka mba mutu umoxi. Kanaku uê mutu uala ni kutena kua kubanga kioso kioso ni muxima ua kukatula mbote ia kaiula ka ubinganu ni ufolo uala mu kikoeê kiki."
     }
-  ]
+  ],
+  "lang": "und",
+  "language": ""
 }

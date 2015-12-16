@@ -1,6 +1,6 @@
 {
-  "lang": "vmw",
-  "language": "Makhuwa",
+  "iso639-3": "vmw",
+  "key": "vmw",
   "xmlns": "http://www.unhchr.ch/udhr",
   "title": "Edeklarasau ya molumwenku ya Edireito sa Mutthu",
   "note": [
@@ -268,5 +268,7 @@
       "title": "ARTIKU 30",
       "para": "Khanivo nlamulo na edeklarasau ila ninrowa otthariheleliwa, n’estado, mathukumano a’tthu, walaa mutthu, epankaka etthu enrowa ovirikaniha idireito ni eliberdade silempwe mu."
     }
-  ]
+  ],
+  "lang": "vmw",
+  "language": "Makhuwa"
 }

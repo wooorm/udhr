@@ -1,6 +1,6 @@
 {
-  "lang": "dyo",
-  "language": "Jola-Fogny",
+  "iso639-3": "dyo",
+  "key": "dyo",
   "xmlns": "http://www.unhchr.ch/udhr",
   "title": "FAJUUMENUMI SIDRUWAAS SATI ANAU",
   "preamble": {
@@ -264,5 +264,7 @@
       "para": "Waaf úleero di kayitak uke wan umanje an mba bukan mba mof muŋooleŋoolen mújowum to mammukajen sidruwaas di siluwaas sándomi kayitak asambule seneraal yati óni éyinenyinenuko eban di épurenuko di burokab booliyo n° 217 (III) bati fuleeŋafu fati desambuur nan fubajumi kunak uñen di emitey 1948."
     }
   ],
+  "lang": "dyo",
+  "language": "Jola-Fonyi",
   "note": []
 }

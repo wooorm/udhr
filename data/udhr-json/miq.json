@@ -1,6 +1,6 @@
 {
-  "lang": "miq",
-  "language": "Mískito",
+  "iso639-3": "miq",
+  "key": "miq",
   "xmlns": "http://www.unhchr.ch/udhr",
   "title": "Upla sut Raitka nani ba Tasba aiska laka ba Bapuia",
   "note": [
@@ -268,5 +268,7 @@
       "title": "Kulkanka 30",
       "para": "Naha laka bapanna, gavament ra kabia, dakni kumra kabia, upla kumra kabia, bilka ya bansa lukan kaia apia sa, raitka nani, bara, prika laka nani naha lakara aisan na, alki taibi munaia upla wala nanira."
     }
-  ]
+  ],
+  "lang": "miq",
+  "language": "Mískito"
 }

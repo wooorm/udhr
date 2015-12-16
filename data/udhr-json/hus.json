@@ -1,6 +1,6 @@
 {
-  "lang": "hus",
-  "language": "Huastec, Veracruz",
+  "iso639-3": "hus",
+  "key": "hus",
   "xmlns": "http://www.unhchr.ch/udhr",
   "title": "JUNKUNAL BITSOWTSIK",
   "note": [
@@ -268,5 +268,7 @@
       "title": "Artículo 30",
       "para": "Ni juun xi jee uludh, ne'ech ka ulwat abal an awiltalaabtsik in ko'ol k'aal in chaap, juun inik ani juun i junkulom abal kin t'aja i t'ojlaab jaludh xi jee' uludh k'al an junkulom bitsow."
     }
-  ]
+  ],
+  "lang": "hus",
+  "language": "Huastec"
 }

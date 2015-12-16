@@ -1,6 +1,6 @@
 {
-  "lang": "ven",
-  "language": "Venda",
+  "iso639-3": "ven",
+  "key": "ven",
   "xmlns": "http://www.unhchr.ch/udhr",
   "title": "Mulevhoguṱe wa Pfanelo dza Vhuthu",
   "note": [
@@ -268,5 +268,7 @@
       "title": "Tshiteṅwa 30",
       "para": "A hu na na tshithihi tshi re kha Mulevho uyu tshine tsha nga dzhiwa tshi tshi amba pfanelo iṅwe na iṅwe ine i nga shumiswa kha zwiṅwe na zwiṅwe kana u ita iṅwe nyito yo livhiswaho kha u thutha iṅwe na iṅwe ya pfanelo na mbofholowo zwo bulwaho afha malugana na Muvhuso, tshigwada kana muthu."
     }
-  ]
+  ],
+  "lang": "ve",
+  "language": "Venda"
 }

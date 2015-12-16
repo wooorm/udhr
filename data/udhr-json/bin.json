@@ -1,6 +1,6 @@
 {
-  "lang": "bin",
-  "language": "Edo",
+  "iso639-3": "bin",
+  "key": "bin",
   "xmlns": "http://www.unhchr.ch/udhr",
   "title": "Iyen Emwen Etin ne O Kheke Omwan na ya wewe Vbe Uhunmwun oto-agbon hia",
   "note": [
@@ -268,5 +268,7 @@
       "title": "Emwen Nogie-ogban",
       "para": "Emwin okpa i rro vbe uwu Iyen Emwen emwi na rhaan na ne o rhie etin ne arriobaikarrioba otuikotu omwaikomwan ne o ya ru emwikemwin ne o gha si ofuan ne etin kevbe ayaan-egbe omwan na mwanmwan ye uwu ere."
     }
-  ]
+  ],
+  "lang": "bin",
+  "language": "Edo"
 }

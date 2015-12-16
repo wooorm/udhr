@@ -1,6 +1,6 @@
 {
-  "lang": "hat",
-  "language": "Haitian Creole French (popular)",
+  "iso639-3": "hat",
+  "key": "hat_popular",
   "xmlns": "http://www.unhchr.ch/udhr",
   "title": "Deklarasyon linivèsèl Dwa Moun",
   "note": [
@@ -268,5 +268,7 @@
       "title": "Atik 30",
       "para": "Pa gen youn nan dispozisyon ki nan Deklarasyon sa a, yo ka bay yon sans ki pou ta otorize yon nasyon, yon gwoup moun, oswa yon endividi mennen yon aktivite oswa komèt yon zak k ap chache detwi dwa ak libète ki nan Deklarasyon sila a."
     }
-  ]
+  ],
+  "lang": "ht",
+  "language": "Haitian Creole French (Popular)"
 }

@@ -1,6 +1,6 @@
 {
-  "lang": "hea",
-  "language": "Hmong, Northern Qiandong",
+  "iso639-3": "hea",
+  "key": "hea",
   "xmlns": "http://www.unhchr.ch/udhr",
   "title": "FANGB DAB NONGD DAIL NAIX BANGF QUAIF LIT",
   "preamble": {
@@ -264,5 +264,7 @@
       "para": "Benx dud nongd vud dol hveb hseid, ax gid gaix sif hot dliat laib gof jab deis hul, jif tuaif haib dail naix deis hul mongl ait dol hfud gid nongd: dad gid mongl ait pot huait bend dud vud dol quaif lit haib zit yef nongd maix."
     }
   ],
+  "lang": "hea",
+  "language": "Hmong, Northern Qiandong",
   "note": []
 }

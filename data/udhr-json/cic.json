@@ -1,6 +1,6 @@
 {
-  "lang": "cic",
-  "language": "Chickasaw",
+  "iso639-3": "cic",
+  "key": "cic",
   "xmlns": "http://www.unhchr.ch/udhr",
   "title": "Hattak Mó̱ma I̱holisso",
   "preamble": {
@@ -264,5 +264,7 @@
       "para": "Holisso tobattooko̱ kanahookya ikimalhkaniyyoka'ni."
     }
   ],
+  "lang": "cic",
+  "language": "Chickasaw",
   "note": []
 }

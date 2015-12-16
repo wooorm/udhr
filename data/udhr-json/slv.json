@@ -1,6 +1,6 @@
 {
-  "lang": "slv",
-  "language": "Slovenian",
+  "iso639-3": "slv",
+  "key": "slv",
   "xmlns": "http://www.unhchr.ch/udhr",
   "title": "Splošna deklaracija človekovih pravic",
   "preamble": {
@@ -264,5 +264,7 @@
       "para": "Nobene določbe te Deklaracije se ne sme razlagati tako, kot da iz nje izhaja za državo, skupino ali posameznika kakršnakoli pravica do kakršnegakoli delovanja ali dejanja, ki bi hotelo uničiti v njej določene pravice in svoboščine."
     }
   ],
+  "lang": "sl",
+  "language": "Slovenian",
   "note": []
 }

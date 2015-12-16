@@ -1,6 +1,6 @@
 {
-  "lang": "men",
-  "language": "Mende",
+  "iso639-3": "men",
+  "key": "men",
   "xmlns": "http://www.unhchr.ch/udhr",
   "title": "Dunya Lahi Nuvuu Lɔnyisia Va",
   "preamble": {
@@ -264,5 +264,7 @@
       "para": "Gbɛwogbɛ gbi na kɔlei ii hu na nu mu a nde yɛ kɛnga ti puilɔ na kɔɔ i ndɔlɔ ɔɔ ngoyila hugbatɛ lɛɛnga ti lɔnyei kee ti hugbɛmboi mahugbua."
     }
   ],
+  "lang": "men",
+  "language": "Mende",
   "note": []
 }

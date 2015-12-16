@@ -1,6 +1,6 @@
 {
-  "lang": "not",
-  "language": "Nomatsiguenga",
+  "iso639-3": "not",
+  "key": "not",
   "xmlns": "http://www.unhchr.ch/udhr",
   "title": "IRAEGUl BOTATAIGACHA ICOMANTAIGUIRO OCA NIBARINTSICA",
   "preamble": {
@@ -264,5 +264,7 @@
       "para": "Oca sanguenarica quero ipiri pairiraca matsiguenga querootisati pairoraca gobirino cara ingantaguebiritiri catsimaro ira matsiguenga."
     }
   ],
+  "lang": "not",
+  "language": "Nomatsiguenga",
   "note": []
 }

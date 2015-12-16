@@ -1,6 +1,6 @@
 {
-  "lang": "ssw",
-  "language": "Swati",
+  "iso639-3": "ssw",
+  "key": "ssw",
   "xmlns": "http://www.unhchr.ch/udhr",
   "note": [
     {
@@ -268,5 +268,7 @@
       "title": "INTFO YEMASHUMI LAMATSATFU (30)",
       "para": "Kute kuleSimemetelo lokungachazwa ngendlela yekutsi lemitsetfo yentelwe noma ishayelwe emave latsite, noma emacembu latsite, noma umuntfu lotsite, kodvwa‐ke bonkhe labantfu abanalo lilungelo lekutifaka emsebentini noma entfweni nome bente sento lesitsite basenta ngoba bacondze kubulala noma nganguliphi lemalungelo netinkhululeko lokubhalwe ngato kuleliphepha."
     }
-  ]
+  ],
+  "lang": "ss",
+  "language": "Swati"
 }

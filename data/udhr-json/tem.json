@@ -1,6 +1,6 @@
 {
-  "lang": "tem",
-  "language": "Themne",
+  "iso639-3": "tem",
+  "key": "tem",
   "xmlns": "http://www.unhchr.ch/udhr",
   "title": "Mʌshelɔ Ma Aŋfəm ŋa Rʌru Ta Ʌmari Ma Rʌwuni Kəpet",
   "preamble": {
@@ -264,5 +264,7 @@
       "para": "Ɔwa ʌte yi ka mʌsekranɛ ʌme bɛ, a yɛ təkə gbasi ti təkə sɔmpar ʌŋthɔf, wuni o wuni, thalɔm ʌnənki ŋa ʌŋfəm, thalɔm təkə kasara ʌmari yi rʌwankom yi ka mʌsekranɛ ʌme."
     }
   ],
+  "lang": "tem",
+  "language": "Themne",
   "note": []
 }

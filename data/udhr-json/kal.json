@@ -1,6 +1,6 @@
 {
-  "lang": "kal",
-  "language": "Inuktitut, Greenlandic",
+  "iso639-3": "kal",
+  "key": "kal",
   "xmlns": "http://www.unhchr.ch/udhr",
   "title": "INUTTUT PISINNAATITAAFFIIT PILLUGIT SILARSUARMIOQATIGIINNUT NALUNAARUT",
   "preamble": {
@@ -264,5 +264,7 @@
       "para": "Nalunaarummi matumani taaneqartut arlaannaalluunniit paasineqassanngilaq naalagaaffinnut, ataatsimoortukkuutaanut imaluunniit inunnut ataasiakkaanut tunngavissiisutut sumilluunniit ingerlassaqarniarnissamut imaluunniit iliuuseqarniarnissamut pisinnaatitaaffittut killilersugaanngitsumillu iliuuseqarsinnaatitaaffittut killilersugaanngitsumillu iliuuseqarsinnaatitaaffittut maani naatsorsuunneqartut arlaannaannilluunniit suujunnaarsitsiniutaasinnaasunik."
     }
   ],
+  "lang": "kl",
+  "language": "Inuktitut, Greenlandic",
   "note": []
 }

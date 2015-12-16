@@ -1,6 +1,6 @@
 {
-  "lang": "ces",
-  "language": "Czech",
+  "iso639-3": "ces",
+  "key": "ces",
   "xmlns": "http://www.unhchr.ch/udhr",
   "title": "VŠEOBECNÁ DEKLARACE LIDSKÝCH PRÁV",
   "preamble": {
@@ -264,5 +264,7 @@
       "para": "Nic v této deklaraci nemůže být vykládáno, jako by dávalo kterémukoli státu, kterékoli skupině nebo osobě jakékoli právo vyvíjet činnost nebo dopouštět se činů, které by směřovaly k potlačení některého z práv nebo některé ze svobod v této deklaraci uvedených."
     }
   ],
+  "lang": "cs",
+  "language": "Czech",
   "note": []
 }

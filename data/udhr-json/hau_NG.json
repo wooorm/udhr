@@ -1,6 +1,6 @@
 {
-  "lang": "hau",
-  "language": "Hausa (Nigeria)",
+  "iso639-3": "hau",
+  "key": "hau_NG",
   "xmlns": "http://www.unhchr.ch/udhr",
   "title": "Muhimmin Jawabin da Majalisar Ɗinkin Duniya ta bayyana game da Hakkokin Ƴan-adam a shekarar 1948",
   "preamble": {
@@ -264,5 +264,7 @@
       "para": "Ba wani mataki a cikin wannan jawabi, wanda wata ƙasa ko wata ƙungiya ko wani mutum zai yi amfani da shi, ya kwatanta cewa matakin ya ba shi ikon tafiyar da wata hidima, ko aikata wani abu da nufin rushe waɗannan hakkoki da abubuwan da ‘yanci ya ƙunsa, waɗanda aka bayyana a cikin wannan jawabi."
     }
   ],
+  "lang": "ha-NG",
+  "language": "Hausa (Nigeria)",
   "note": []
 }

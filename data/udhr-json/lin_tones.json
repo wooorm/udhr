@@ -1,6 +1,6 @@
 {
-  "lang": "lin",
-  "language": "Lingala (with tones)",
+  "iso639-3": "lin",
+  "key": "lin_tones",
   "xmlns": "http://www.unhchr.ch/udhr",
   "title": "LISAKOLI YA MOLƆ́NGƆ́ YA MAKOKÍ YA MOTO",
   "preamble": {
@@ -264,5 +264,7 @@
       "para": "Mobéko atá mɔ̌kɔ́ tɛ́ ya Lisangá óyo ekokí kozala mpɔ̂ na Lɛ́ta, na lisangá ya bato, tǒ na moto, likokí ya kosála likambo óyo ekonyata makokí mpé bonsɔ́mí áwa."
     }
   ],
+  "lang": "ln",
+  "language": "Lingala (tones)",
   "note": []
 }

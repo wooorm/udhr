@@ -1,6 +1,6 @@
 {
-  "lang": "run",
-  "language": "Rundi",
+  "iso639-3": "run",
+  "key": "run",
   "xmlns": "http://www.unhchr.ch/udhr",
   "title": "7IBIMENYESHEJWE N'AMAKUNGU KU NGINGO ZUBAHIRIZA ZINA MUNTU WESE",
   "preamble": {
@@ -264,5 +264,7 @@
       "para": "Nta ngingo n'imwe y'ibi bimenyeshejwe ishobora gufatwako icitwazo n'igihugu, umurwi w'abantu canke umuntu mugukora ibisambura izi ngingo zubahiriza zina muntu wese."
     }
   ],
+  "lang": "rn",
+  "language": "Rundi",
   "note": []
 }

@@ -1,6 +1,6 @@
 {
-  "lang": "nob",
-  "language": "Norwegian, Bokmaal",
+  "iso639-3": "nob",
+  "key": "nob",
   "xmlns": "http://www.unhchr.ch/udhr",
   "note": [
     {
@@ -268,5 +268,7 @@
       "title": "Artikkel 30.",
       "para": "Intet i denne erklæring skal tolkes slik at det gir noen stat, gruppe eller person rett til å ta del i noen virksomhet eller foreta noen handling som tar sikte på å ødelegge noen av de rettigheter og friheter som er nevnt i Erklæringen."
     }
-  ]
+  ],
+  "lang": "nb",
+  "language": "Norwegian, Bokmål"
 }

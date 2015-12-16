@@ -1,6 +1,6 @@
 {
-  "lang": "rmn",
-  "language": "Romani, Balkan",
+  "iso639-3": "rmn",
+  "key": "rmn",
   "xmlns": "http://www.unhchr.ch/udhr",
   "title": "SA THEMENQI DEKLARÀCIA E MANUSIKANE HAKAJENQIRI",
   "preamble": {
@@ -264,5 +264,7 @@
       "para": "Khanć akala Deklarŕcia naśti te interpretisavel sar dispozěcia savi mukhel. Them, grùpa ja zenes te stratisarel varesavo aktivipen ja te kerel vareso mangindor te uśtavel ja phagel e hakaja ta mestimata, save si dine avri akate."
     }
   ],
+  "lang": "rom",
+  "language": "Romani, Balkan",
   "note": []
 }

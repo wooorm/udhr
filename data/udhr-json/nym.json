@@ -1,6 +1,6 @@
 {
-  "lang": "nym",
-  "language": "Nyamwezi",
+  "iso639-3": "nym",
+  "key": "nym",
   "xmlns": "http://www.unhchr.ch/udhr",
   "title": "IHANO LYA MAHANGA LYA HAKI YA BANHU",
   "note": [
@@ -268,5 +268,7 @@
       "title": "IGELE LYA 30",
       "para": "Nduhu nsi, luganda nulu munhu alatumile il’Ihano linili kukenanga haki na wiyagalule ubo wabalwa ng’w’Ihano linili."
     }
-  ]
+  ],
+  "lang": "nym",
+  "language": "Nyamwezi"
 }

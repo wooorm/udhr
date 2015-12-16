@@ -1,6 +1,6 @@
 {
-  "lang": "nzi",
-  "language": "Nzema",
+  "iso639-3": "nzi",
+  "key": "nzi",
   "xmlns": "http://www.unhchr.ch/udhr",
   "title": "EWIADEAMRA NOLOBƆLƐ MƆƆ FALE SONLA NWO ADENLENYIANLƐ NE MƆ LA ANWO",
   "preamble": {
@@ -264,5 +264,7 @@
       "para": "Debie biala mɔɔ wɔ Sonla Nwo Adenlenyianlɛ Nwo Nolobɔlɛ ɛhye anu la ɛngyi ɛkɛ ne ɛmmaa maanle ko, anzɛɛ menli ekpunli ko anzɛɛ sonla ko angome mɔɔ ɔmaa ye adenle ɔyɛ debie ɔsɛkye adenlenyianlɛ nee atianwolilɛ ne mɔ mɔɔ bɛhyehyɛ bɛdo ɛkɛ ne la a."
     }
   ],
+  "lang": "nzi",
+  "language": "Nzema",
   "note": []
 }

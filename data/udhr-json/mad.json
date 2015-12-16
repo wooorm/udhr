@@ -1,6 +1,6 @@
 {
-  "lang": "mad",
-  "language": "Madura",
+  "iso639-3": "mad",
+  "key": "mad",
   "xmlns": "http://www.unhchr.ch/udhr",
   "title": "PARNYATAAN OMOM PARKARA HAK-HAK ASASI MANOSSA",
   "note": [
@@ -268,5 +268,7 @@
       "title": "PASAL 30",
       "para": "Tadha hal dhari dhalem Parnyataan paneka kengeng etafsiragi a beri' sala settong nagara, kelompok otaba sala settong oreng, hak kaangguy e dhalem kalakoan ponapa bisaos, otaba alakone settong kalakoan se gadhuan tojjuan marosak hak-hak ban kabebasan-kabebasan se ka'dimma bisaos kasebut dhalem Parnyataan paneka."
     }
-  ]
+  ],
+  "lang": "mad",
+  "language": "Madura"
 }

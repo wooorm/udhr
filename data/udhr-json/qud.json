@@ -1,6 +1,6 @@
 {
-  "lang": "qud",
-  "language": "Quichua, Calderón Highland",
+  "iso639-3": "que",
+  "key": "qud",
   "xmlns": "http://www.unhchr.ch/udhr",
   "title": "TUCUY RUNACUNAPAC HATUM RIMAY",
   "preamble": {
@@ -264,5 +264,7 @@
       "para": "Mana ima cay rimaycunamanta rimanallachu, shuctac llactacunaca mana cayta japingachu quiquinta rurangapac, runacunapes, ayllucunapes mana shinallatac paypac causaypi churunga chayshuc cunaman quichusha nishpa caya sumac rimayta."
     }
   ],
+  "lang": "qu",
+  "language": "Quechua (Unified Quichua, old Hispanic orthography)",
   "note": []
 }

@@ -1,6 +1,6 @@
 {
-  "lang": "hsb",
-  "language": "Sorbian, Upper",
+  "iso639-3": "hsb",
+  "key": "hsb",
   "xmlns": "http://www.unhchr.ch/udhr",
   "title": "Powšitkowne wozjewjenje čłowjećich prawow",
   "note": [
@@ -268,5 +268,7 @@
       "title": "Artikl 30",
       "para": "Ničo w tutym wozjewjenju njesmě so do toho směra wułozować, zo so za stat, za skupinu abo wosobu prawo stwori, tajke dźěło wukonjeć abo tajki skutk zwoprawdźić, kiž so na wotstronjenje w tutym wozjewjen ju wuprajenycn prawow a swobodow měritej."
     }
-  ]
+  ],
+  "lang": "hsb",
+  "language": "Sorbian, Upper"
 }

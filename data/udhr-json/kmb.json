@@ -1,6 +1,6 @@
 {
-  "lang": "kmb",
-  "language": "Mbundu",
+  "iso639-3": "kmb",
+  "key": "kmb",
   "xmlns": "http://www.unhchr.ch/udhr",
   "title": "KITANGELU KYA NGONGO YA ITOKELU YA MUTHU",
   "note": [
@@ -268,5 +268,7 @@
       "title": "KAKIBATU KA MAKWINYI A TATU",
       "para": "Kana kituminu kya kizwelu kiki kitena kukala kukitungununa kala kukita phala nguvulu imoxi, phunga imoxi mba ngamba imoxi kitokelu kyoso-kyoso kimoxi dya kubanga o kukalakala kumoxi mba dya kubanga kibangelu kimoxi kitena o kuzanga kwa itokelu ni ufolo ke yene bhaba twa tange."
     }
-  ]
+  ],
+  "lang": "kmb",
+  "language": "Mbundu"
 }

@@ -1,6 +1,6 @@
 {
-  "lang": "008",
-  "language": "(Crioulo da Guiné)",
+  "iso639-3": "und",
+  "key": "008",
   "xmlns": "http://www.unhchr.ch/udhr",
   "title": "DECLARAÇON UNIVERSAL DI DIRITU DI OMIS",
   "note": [
@@ -268,5 +268,7 @@
       "title": "ARTIGO 30º.",
       "para": "Ninguin ca pudi ncunha na nin un palabra di ê Decleçon pa pudi fassi cussas qui intidu ó pa fassi utrus manera di pensa, qui pudi tudji ó dana diritu cu liberdadi qui faladu."
     }
-  ]
+  ],
+  "lang": "und",
+  "language": ""
 }

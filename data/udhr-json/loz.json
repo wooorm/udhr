@@ -1,6 +1,6 @@
 {
-  "lang": "loz",
-  "language": "Lozi",
+  "iso639-3": "loz",
+  "key": "loz",
   "xmlns": "http://www.unhchr.ch/udhr",
   "title": "TUMELELANO YE TUNA YA SWANELO YA MUTU",
   "preamble": {
@@ -264,5 +264,7 @@
       "para": "Ha ku na ya tumelelano ye ku ingiwa ki naha kuli mwendi ki wa yona feela kapa sikwata sa batu kuli ba ikungele wona kapa mane mutu a nosi ni ku kala ku itusisa wona ka mulelo wa ku shandaula liswanelo ze ng'ozwi mo."
     }
   ],
+  "lang": "loz",
+  "language": "Lozi",
   "note": []
 }

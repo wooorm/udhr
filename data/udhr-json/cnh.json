@@ -1,6 +1,6 @@
 {
-  "lang": "cnh",
-  "language": "Chin, Haka",
+  "iso639-3": "cnh",
+  "key": "cnh",
   "xmlns": "http://www.unhchr.ch/udhr",
   "title": "Mikip nih ngeihmi thiltikhawhnak tinvo theihternak",
   "note": [
@@ -268,5 +268,7 @@
       "title": "DAL 30",
       "para": "Hi thawngtheihternak ca tlap chung ah aitelmi mi kip nih ngeihmi thilti khawhnak tinvo le zalonnak hna rawhralnak caah ram pakhat ca mi bu pakhat ca le mi pakhat caah tuahnak nawl ka ngei tiah siseh, pumpak in tuahnak nawl ka ngei tiah siseh a sullam lak ding a si lai lo."
     }
-  ]
+  ],
+  "lang": "cnh",
+  "language": "Chin, Haka"
 }

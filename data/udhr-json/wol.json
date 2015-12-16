@@ -1,6 +1,6 @@
 {
-  "lang": "wol",
-  "language": "Wolof",
+  "iso639-3": "wol",
+  "key": "wol",
   "xmlns": "http://www.unhchr.ch/udhr",
   "title": "BATAAXAL GU MAG GI ËMB SAÑ-SAÑI DOOMI AADAMA",
   "preamble": {
@@ -264,5 +264,7 @@
       "para": "Ci fànn gu mu mën ti doon ci bataaxal bii, bépp réew, mbootaay mbaa nit, warul doxal mbaa def luy yàq sañ-sañ yeek tawfeex."
     }
   ],
+  "lang": "wo",
+  "language": "Wolof",
   "note": []
 }

@@ -1,6 +1,6 @@
 {
-  "lang": "maz",
-  "language": "Mazahua Central",
+  "iso639-3": "maz",
+  "key": "maz",
   "xmlns": "http://www.unhchr.ch/udhr",
   "title": "JÑA 'A YO PJOSU̸ TEXE YE TE̱'E̱ NUYO KA̸NRA̸ A XESE NE XOÑIJOMU",
   "preamble": {
@@ -264,5 +264,7 @@
       "para": "Nu xiskuamana so'o k'u̸ ra ts'a texto yo jñiñi yo ja̸ra̸ a xese nu xoñijomu̸ o ye nte̱'e̱, ngek'ua ra soo ra ts'aji ye ts'ibepji nu ra mbosu̸ texe ye te̱'e̱ nza kja ga mamu̸ na xiskuamana."
     }
   ],
+  "lang": "maz",
+  "language": "Mazahua Central",
   "note": []
 }

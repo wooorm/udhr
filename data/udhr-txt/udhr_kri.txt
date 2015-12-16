@@ -11,8 +11,8 @@ project, http://www.unicode.org/udhr.
     Wi de tɛl plɛnti tɛnki to di posin we tɔn di inglish languej to krio, di wan we hɛp fɔ chɛk di wok ɛn di man we drɔ dɛm pikchɔ, Adams, Bangura, ɛn Miss Patience Bɔknɔr we tayp
   Di Stetmɛnt Bɔt Di Rayt Dɛn We ɔlman na Di Wɔl Fɔ Gɛt
     Wetin Kam Bifo (Introdɔkshɔn)
-    Soso we if wi sabi ɛn gri se if ɔlman gɛt insɛf yon rɛspɛkt, i ikwal ɛn gɛt di sem rayt lɛk ɛni ɔda pɔsin ɔloba di wɔl, dɛn di wanol wɔ1 sɛf go gɛt fridɔm, jɔstis ɛn pis; as tiɧ dɛn we wikɛd pasmak dɔn apin bikɔs pipul dɛm nɔ wan fɔ gri se ɔlman ikwal.
-    Di tiɧ we di kɔmɔn man want pas ɔltin na di wɔl tide na fɔ mek ɛvribɔdi ebul fɔ se wetin i fil, ɔ tink bay aw tiɧ de bi, fɔ biliv wetin i want fɔ biliv ɛn gɛt bɛnifit frɔm ɔl wetin i nid, wit kolat.
+    Soso we if wi sabi ɛn gri se if ɔlman gɛt insɛf yon rɛspɛkt, i ikwal ɛn gɛt di sem rayt lɛk ɛni ɔda pɔsin ɔloba di wɔl, dɛn di wanol wɔ1 sɛf go gɛt fridɔm, jɔstis ɛn pis; as tiŋ dɛn we wikɛd pasmak dɔn apin bikɔs pipul dɛm nɔ wan fɔ gri se ɔlman ikwal.
+    Di tiŋ we di kɔmɔn man want pas ɔltin na di wɔl tide na fɔ mek ɛvribɔdi ebul fɔ se wetin i fil, ɔ tink bay aw tiŋ de bi, fɔ biliv wetin i want fɔ biliv ɛn gɛt bɛnifit frɔm ɔl wetin i nid, wit kolat.
     If man fɔ liv wit kolat ɛn nɔ gɛt fɔ de fɛt fɔ in yon yon rayt, dɛn i impɔtant fɔ mek di lɔ protɛkt da rayt de;
     Na semweso i gud fɔ lɛ kolat ɛn frɛnship de bitwin neshɔn ɛn neshɔn dɛn.
     We di Yunaytɛd Neshɔn dɛn sɛf si dis nain mek dɛn put am tranga wan na dɛn chata se ɔl mɔtalman ɔlsay na di wɔl ikwal, dɛn gɛt dɛnsɛf sɛf yon rɛspɛkt we nɔbɔdi nɔ fɔ fɔmful wit.
@@ -25,7 +25,7 @@ project, http://www.unicode.org/udhr.
     Dis stetmɛnt bɔt di rayt we ɔlman ɔlsay na di wɔl fɔ gɛt, fɔ bi sem fɔɔl kanaba pipul dɛn na ɔl di kɔntri dɛn ɛn dat ɛvribɔdi ɛn patikla di wan dɛn we gɛt pawa, fɔ mek shɔ se dnsɛf ɛn dɛn dɛnlan am, dɛn sabi am ɛn de fala wetin i se so dat ɔLoba di wɔl pipul dɛn go gɛt fridɔm, jɔstis ɛn pis.
   
     Atikul Wan
-    ɛvribɔdi bɔn fri ɛn gɛt in yon rayt, nɔn wan nɔ pas in kɔmpin. Wi ɔl ebul fɔ tink ɛn fɛnɔt wetin rayt ɛn rɔɧ pantap dat wi fɔ sabi aw fɔ liv lɛk wan big famili.
+    ɛvribɔdi bɔn fri ɛn gɛt in yon rayt, nɔn wan nɔ pas in kɔmpin. Wi ɔl ebul fɔ tink ɛn fɛnɔt wetin rayt ɛn rɔŋ pantap dat wi fɔ sabi aw fɔ liv lɛk wan big famili.
   
     Atikul Tu
     ɛvribɔdi fɔ gɛt di sem rayt ɛn fridom we dis stetmɛnt tɔk bɔt, nɔ mata wɛda in na wetman ɔ blakman, man ɔ uman, bukman ɔ yu nɔ sabi rid ɛn rayt, poman ɔ mɔniman, kristiɛn ɔ muslim.
@@ -35,7 +35,7 @@ project, http://www.unicode.org/udhr.
     Evribɔdi fɔ ebul fɔ liv in layf, fɔ fil fri ɛn fɔ fil sɛf se nɔbɔdi ɔ natin nɔ go denja in layf.
   
     Atikul Fo
-    Nɔbɔdi nɔ fɔ mek in kɔmpin in slev – dis, ɔɛnitiɧ sɛf we fiba am fɔ tap.
+    Nɔbɔdi nɔ fɔ mek in kɔmpin in slev – dis, ɔɛnitiŋ sɛf we fiba am fɔ tap.
   
     Atikul Fayv
     Nɔbɔdi nɔ fɔ mek in kɔmpin sɔfa bita wikɛd pen na bɔdi ɔ shem sote i lɔs da in yon yon rɛspɛkt.
@@ -53,12 +53,12 @@ project, http://www.unicode.org/udhr.
     Nɔbɔdi nɔ fɔ arɛst, jel ɔ drɛb ɛni pɔsin kɔmɔt na in yon kɔntri jɛs bikɛs i fil fɔ du so.
   
     Atikul Tɛn
-    ɛnibɔdi we dɛn arɛst fɔ tiɧ we i du agens di lɔ, fɔ gɛt ful protɛkshɔn frɔm Lɔya dɛn we go tinap fɔ am na kotos.
+    ɛnibɔdi we dɛn arɛst fɔ tiŋ we i du agens di lɔ, fɔ gɛt ful protɛkshɔn frɔm Lɔya dɛn we go tinap fɔ am na kotos.
   
     Atikul Ilɛvin
     
       
-	ɛnibɔdi we dɛn kɛr go kot fɔ tiɧ we dɛn se i du agens di lɔ fɔ gɛt di rayt fɔ se in nɔ du da tiɧ de ɛn di kot fɔ biliv am. I go lɛf wit di kot naw fɔ pruv se i du am na pɔblik trayal usay insɛf go gɛt in yon Lɔya dɛn we go fɛt in kes fɔ am.
+	ɛnibɔdi we dɛn kɛr go kot fɔ tiŋ we dɛn se i du agens di lɔ fɔ gɛt di rayt fɔ se in nɔ du da tiŋ de ɛn di kot fɔ biliv am. I go lɛf wit di kot naw fɔ pruv se i du am na pɔblik trayal usay insɛf go gɛt in yon Lɔya dɛn we go fɛt in kes fɔ am.
       
       
 	Nɔbɔdi nɔ fɔ pas jɔjmɛnt se pɔsin gilti ɔ ipɔnish da pɔsin de fɔ lɛk big ɔfens we pas wetin i du ɛ sɛf, we nɔtɔɔfɛns insay in yon kɔntri ɔɔda kɔntri dɛn na di wɔl.
@@ -81,7 +81,7 @@ project, http://www.unicode.org/udhr.
     Atikul Fɔtin
     
       
-	ɛnibɔdi we tink se in layf de pan denja gɛt di rayt fɔ aks mek dɛn alaw am, ɛn in fɔ gɛt da pamishɔn de fɔ tap na ɛni ɔda kɔntri na di wɔl. Bɔt, if di rizin we mek da pɔsin de wan kɔmɔt na in kɔntri go tap ɔdasay nɔ gɛt natin fɔ du with pɔlitiks, ɔ na tiɧ we di Yunaytɛd Neshɔn stetmɛnt de agens, dɛn i nɔ go gɛt da rayt de.
+	ɛnibɔdi we tink se in layf de pan denja gɛt di rayt fɔ aks mek dɛn alaw am, ɛn in fɔ gɛt da pamishɔn de fɔ tap na ɛni ɔda kɔntri na di wɔl. Bɔt, if di rizin we mek da pɔsin de wan kɔmɔt na in kɔntri go tap ɔdasay nɔ gɛt natin fɔ du with pɔlitiks, ɔ na tiŋ we di Yunaytɛd Neshɔn stetmɛnt de agens, dɛn i nɔ go gɛt da rayt de.
       
       
 	[Missing?]
@@ -130,7 +130,7 @@ project, http://www.unicode.org/udhr.
     Atikul Twenti
     
       
-	ɛvribɔdi fri fɔ bi mɛmba ɔf ɛni grup we i chuz wans nɔmɔ den nɔ de du ɛnitiɧ de fɔ briɧ ambɔg ɔ trɔbul na di kɔntri.
+	ɛvribɔdi fri fɔ bi mɛmba ɔf ɛni grup we i chuz wans nɔmɔ den nɔ de du ɛnitiŋ de fɔ briŋ ambɔg ɔ trɔbul na di kɔntri.
       
       
 	Nɔbɔdi nɔ fɔ fos ɛni pɔsin fɔ jɔny ɛni grup we i nɔ want fɔ jɔyn.
@@ -175,7 +175,7 @@ project, http://www.unicode.org/udhr.
     Atikul Twenti Fayv
     
       
-	ɛvibɔdi gɛt rayt fɔ liv di kaynaba layf we go mek in ɛn in famili dɛn nɔ sik, i fɔ ebul gɛt tin fɔ it, klos, os, mɛrɛsin ɛn i fɔ ebul abop se if tiɧ bad fɔ am na layf, lɛkɛ i sik, in patna ɔ pikin sik, i lɛf wok, day mit am ɔ i kam ol tumɔs, i go gɛt ɛp frɔm di gɔvamɛnt.
+	ɛvibɔdi gɛt rayt fɔ liv di kaynaba layf we go mek in ɛn in famili dɛn nɔ sik, i fɔ ebul gɛt tin fɔ it, klos, os, mɛrɛsin ɛn i fɔ ebul abop se if tiŋ bad fɔ am na layf, lɛkɛ i sik, in patna ɔ pikin sik, i lɛf wok, day mit am ɔ i kam ol tumɔs, i go gɛt ɛp frɔm di gɔvamɛnt.
       
       
 	Lili pikin ɛn mami we gɛt pikin gɛt rayt fɔ gɛt spɛshal ɛp ɛn dis ɛp nɔ fɔ difrɛn ivin if nɔtɔ di maredwɛf bɛn di pikin. Maredwɛf pikin ɛn switat pikin fɔ gɛt di sem tritmɛnt ɛn bɛnifit ɔlsay.
@@ -198,10 +198,10 @@ project, http://www.unicode.org/udhr.
     Atikul Twenti Sevin
     
       
-	ɛvribɔdi gɛt rayt fɔ tek pat pan ɔl dɛn kaynaba aktiviti we blant in kɔntri lɛkɛ di siɧɛn dans, di dresin ɛn di pichɔ drɔin dɛn we de sho tiɧ dɛn bɔt in kɔntri. I gɛt di rayt igen sɛf fɔ tek pat ɛn bɛnifit frɔm di gud tiɧs dɛn we sayɛns dɔn briɧ kam na in kɔntri.
+	ɛvribɔdi gɛt rayt fɔ tek pat pan ɔl dɛn kaynaba aktiviti we blant in kɔntri lɛkɛ di siŋɛn dans, di dresin ɛn di pichɔ drɔin dɛn we de sho tiŋ dɛn bɔt in kɔntri. I gɛt di rayt igen sɛf fɔ tek pat ɛn bɛnifit frɔm di gud tiŋs dɛn we sayɛns dɔn briŋ kam na in kɔntri.
       
       
-	ɛvribɔdi gɛt rayt fɔ kip ɛn ɛnjɔy as in yon ɛnitin we insɛf fɛnɔt, du ɔ rayt insay sayɛens, raytin drama ple aktiɧ.
+	ɛvribɔdi gɛt rayt fɔ kip ɛn ɛnjɔy as in yon ɛnitin we insɛf fɛnɔt, du ɔ rayt insay sayɛens, raytin drama ple aktiŋ.
       
     
   
@@ -217,7 +217,7 @@ project, http://www.unicode.org/udhr.
 	We pɔsin de tray fɔɛnjɔy in rayt dɛn ɛn in fridɔm dɛn na sosayti, i fɔ mɛmba se di lɔ de fɔ mek shɔ se i mɛmba se ɔda pɔsin dɛnsɛf gɛt dɛn yon rayt ɛn fridɔm we i fɔ rɛspɛkt so dat ɔda ɛn kolat go de ɔlɔbɔt (ɔlsay).
       
       
-	Dɛn rayt ɛn fridɔm dɛn ya we de na dis stetmɛnt we kɔmɔt na Yunaytɛd Neshɔn na fɔ mek pipul dɛn gɛt pis ɛn kolat na dɛn kɔntri. Nɔbɔdi nɔ fɔ tray fɔ mek pipul dɛn fɔ gɛt ɔda tiɧ pas dat.
+	Dɛn rayt ɛn fridɔm dɛn ya we de na dis stetmɛnt we kɔmɔt na Yunaytɛd Neshɔn na fɔ mek pipul dɛn gɛt pis ɛn kolat na dɛn kɔntri. Nɔbɔdi nɔ fɔ tray fɔ mek pipul dɛn fɔ gɛt ɔda tiŋ pas dat.
       
     
   

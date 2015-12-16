@@ -1,6 +1,6 @@
 {
-  "lang": "lit",
-  "language": "Lithuanian",
+  "iso639-3": "lit",
+  "key": "lit",
   "xmlns": "http://www.unhchr.ch/udhr",
   "title": "VISUOTINĖ ŽMOGAUS TEISIŲ DEKLARACIJA",
   "preamble": {
@@ -264,5 +264,7 @@
       "para": "Jokia šios Deklaracijos nuostata negali būti aiškinama kaip suteikianti kuriai nors valstybei, grupei ar asmeniui teisę vykdyti kokią nors veiklą ar atlikti veiksmus, skirtus joje išdėstytoms teisėms ir laisvėms panaikinti."
     }
   ],
+  "lang": "lt",
+  "language": "Lithuanian",
   "note": []
 }

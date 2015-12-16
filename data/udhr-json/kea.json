@@ -1,6 +1,6 @@
 {
-  "lang": "kea",
-  "language": "Kabuverdianu",
+  "iso639-3": "kea",
+  "key": "kea",
   "xmlns": "http://www.unhchr.ch/udhr",
   "title": "Declaraçon di mundo intêro di Dréto di tudo homi co tudo mudjer",
   "note": [
@@ -268,5 +268,7 @@
       "title": "Artigo 30º",
       "para": "Ningum disposiçon di êss Declaraçon li, podê bem ta ser intendido di um manêra qui podê bem involvê pa calquer Estado, grupo di guente ô um sô péssoa, quel drêto di bem fazê calquer actividade ô di particâ algum cusa qui podê bem destroncâ drêto e liberdadi qui nu sa tâ cabâ di flâ."
     }
-  ]
+  ],
+  "lang": "kea",
+  "language": "Kabuverdianu"
 }

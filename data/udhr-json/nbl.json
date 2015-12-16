@@ -1,6 +1,6 @@
 {
-  "lang": "nbl",
-  "language": "Ndebele",
+  "iso639-3": "nbl",
+  "key": "nbl",
   "xmlns": "http://www.unhchr.ch/udhr",
   "title": "AMALUNGELO OMUNTU WONKE EMHLABENI WONKE JIKELELE",
   "preamble": {
@@ -264,5 +264,7 @@
       "para": "Akukho kuleziZivumelwano okungavumela umuntu loba abantu ukubhidliza amalungelo lenkululeko ezilotshwe lapha."
     }
   ],
+  "lang": "nr",
+  "language": "Ndebele",
   "note": []
 }

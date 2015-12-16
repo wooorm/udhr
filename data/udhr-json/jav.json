@@ -1,6 +1,6 @@
 {
-  "lang": "jav",
-  "language": "Javanese",
+  "iso639-3": "jav",
+  "key": "jav",
   "xmlns": "http://www.unhchr.ch/udhr",
   "note": [
     {
@@ -268,5 +268,7 @@
       "title": "BAB : 30",
       "para": "Ora ana siji wae isi sajroning Pranyatan iki kena katapsir menehi kalodhangan marang sawijining Nagara, paguyuban utawa pribadi, kang awujud hak supaya oleh utawa murihake antuk pakaryan apa wae, utawa nglakoni tumindak kanthi tujuwan ngrusak hak-hak lan kabebasan-kabebasan wujud apa wae kang kapacak ing sajroning Pranyatan iki."
     }
-  ]
+  ],
+  "lang": "jv",
+  "language": "Javanese"
 }

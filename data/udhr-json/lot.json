@@ -1,6 +1,6 @@
 {
-  "lang": "lot",
-  "language": "Otuho",
+  "iso639-3": "lot",
+  "key": "lot",
   "xmlns": "http://www.unhchr.ch/udhr",
   "title": "",
   "note": [
@@ -268,5 +268,7 @@
       "title": "ARTICLE 30",
       "para": "Obeng obo aring jyo ckiana ana on oremik iloyyit ihwo anara aring ono\nobo emiri, elulung waati kuyya bwo ve atulo iloicere kuyya itarohojiere\nobo ahode hode kuyya buabiangan itik ahuriyyat (freedoms) hun owoni to\nitwa agagar ana ."
     }
-  ]
+  ],
+  "lang": "lot",
+  "language": "Otuho"
 }

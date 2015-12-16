@@ -1,6 +1,6 @@
 {
-  "lang": "tgl_tglg",
-  "language": "Tagalog (Tagalog)",
+  "iso639-3": "tgl",
+  "key": "tgl_tglg",
   "xmlns": "http://www.unhchr.ch/udhr",
   "article": [
     {
@@ -9,6 +9,8 @@
     }
   ],
   "title": "",
+  "lang": "tl-Tglg",
+  "language": "Tagalog (Tagalog)",
   "note": [],
   "preamble": {
     "title": "",

@@ -1,6 +1,6 @@
 {
-  "lang": "cmn_hant",
-  "language": "Chinese, Mandarin (Traditional)",
+  "iso639-3": "cmn",
+  "key": "cmn_hant",
   "xmlns": "http://www.unhchr.ch/udhr",
   "title": "世界人權宣言",
   "note": [
@@ -300,5 +300,7 @@
       "title": "第三十條",
       "para": "本宣言的任何條文，不得解釋為默許任何國家、集團或個人有權進行任何旨在破壞本宣言所載的任何權利和自由的活動或行為。"
     }
-  ]
+  ],
+  "lang": "zh-Hant",
+  "language": "Chinese, Mandarin (Traditional)"
 }

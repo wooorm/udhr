@@ -1,6 +1,6 @@
 {
-  "lang": "ctd",
-  "language": "Chin, Tedim",
+  "iso639-3": "ctd",
+  "key": "ctd",
   "xmlns": "http://www.unhchr.ch/udhr",
   "title": "Leitung gambup vannuai Mihingte’ Thuneihnate Tangkokhiatna",
   "preamble": {
@@ -264,5 +264,7 @@
       "para": "Hih thutangkona sungah akihel thuneihna leh suahtakna a siat theih nading ngimna tawh gam khat ading in hitaleh, mi pawlkhat ading in hitaleh, milip ading in hitaleh, kihel in sem thei lel hi ci-in deihkaih in khia theilo ding hi."
     }
   ],
+  "lang": "ctd",
+  "language": "Chin, Tedim",
   "note": []
 }

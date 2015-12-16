@@ -1,6 +1,6 @@
 {
-  "lang": "kng",
-  "language": "Koongo (Angola)",
+  "iso639-3": "kng",
+  "key": "kng_AO",
   "xmlns": "http://www.unhchr.ch/udhr",
   "title": "NZA-NGYAMUKUSU WU MISWA MI MUTU",
   "note": [
@@ -268,5 +268,7 @@
       "title": "LUTUMU-MSWA LUMAKUMATATU",
       "para": "Kadi msiku wu NZA-NGYAMUKUSUeyiyi ulenda vumbulu mu phumbudulu innatisa tsi vo dingumba mu mavanga ma tholomono miswa ayi maluve bene."
     }
-  ]
+  ],
+  "lang": "kg",
+  "language": "Koongo (Angola)"
 }

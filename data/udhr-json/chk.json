@@ -1,6 +1,6 @@
 {
-  "lang": "chk",
-  "language": "Chuukese",
+  "iso639-3": "chk",
+  "key": "chk",
   "xmlns": "http://www.unhchr.ch/udhr",
   "title": "PORAUSENAPAN AN ARAMAS RAIT",
   "preamble": {
@@ -264,5 +264,7 @@
       "para": "Ese wor och sokkun kapas non ei Poraus mi mutngeni eu mu, eu mwichen aramas are emon aramas an epwe fori och sokkun foffor ren an epwe ataeno ekkei rait me pung mi mak non ei Poraus."
     }
   ],
+  "lang": "chk",
+  "language": "Chuukese",
   "note": []
 }

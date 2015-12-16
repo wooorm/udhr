@@ -1,6 +1,6 @@
 {
-  "lang": "gla",
-  "language": "Gaelic, Scots",
+  "iso639-3": "gla",
+  "key": "gla",
   "xmlns": "http://www.unhchr.ch/udhr",
   "note": [
     {
@@ -271,5 +271,7 @@
       "title": "Bonn 30.",
       "para": "Chan fhaod ni anns a' Ghairm seo a bhith air a thuigsinn mar gum biodh e a' toirt cothroim do Stàit, do chòmhlan neo do dhuine, còir air pàirt a ghabhail ann an gnìomh sam bith a chur an cèill, a tha a' cuimseachadh air a bhith a' cur à bith aon de na còirichean neo na saorsaidhean a tha sgrìobhte sìos anns a' Ghairm seo."
     }
-  ]
+  ],
+  "lang": "gd",
+  "language": "Gaelic, Scottish"
 }

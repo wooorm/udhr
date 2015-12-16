@@ -1,6 +1,6 @@
 {
-  "lang": "mri",
-  "language": "Maori",
+  "iso639-3": "mri",
+  "key": "mri",
   "xmlns": "http://www.unhchr.ch/udhr",
   "title": "WHAKAPUAKITANGA WHANUI O NGA MANA O TE TANGATA - 1948",
   "preamble": {
@@ -264,5 +264,7 @@
       "para": "Kahore rawa i roto i tenei Whakapuakitanga tetahi mea e ahei ana kia whakamoaritia tera kei tetahi Mana Kawanatanga, kei tetahi ropu, kei tetahi tangata ranei tetahi mana ki te whakahaere i tetahi ritenga, ki te mahi ranei i tetahi mahi e anga atu ana hei tikanga turaki i tetahi o nga mano me nga rangatiratanga e mau ake nei."
     }
   ],
+  "lang": "mi",
+  "language": "Maori",
   "note": []
 }

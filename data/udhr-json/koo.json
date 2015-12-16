@@ -1,6 +1,6 @@
 {
-  "lang": "koo",
-  "language": "Konjo",
+  "iso639-3": "koo",
+  "key": "koo",
   "xmlns": "http://www.unhchr.ch/udhr",
   "title": "EBIRI OMO KISAKANGO EKYEKIHUGHO KYOSI EKIKAHAMULHA OBUHOLHO NEKISUMBI KYO'BUNDUEKYAMABIRIKANIBWAKO AHEGHULHU",
   "preamble": {
@@ -264,5 +264,7 @@
       "para": "Sihali omo bihano bino ebikahamulha obuholho nekitsumbi ky'abandu, ekitholerene eribindulhwa indi mbwino kiwathire oko kihugho kirebe, bandu balebe, kithongole kirebe kutse mundu mulebe erikolesya obuthoki obw'ekisakango kino, eriyikolesya eby'esyonye, ebikatsandaya obuthoki nobuholho obwerihamulhwa erye'kisakango kino."
     }
   ],
+  "lang": "koo",
+  "language": "Konjo",
   "note": []
 }

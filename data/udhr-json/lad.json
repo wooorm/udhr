@@ -1,6 +1,6 @@
 {
-  "lang": "lad",
-  "language": "Ladino",
+  "iso639-3": "lad",
+  "key": "lad",
   "xmlns": "http://www.unhchr.ch/udhr",
   "title": "Deklarasion Universal de Derechos Umanos",
   "preamble": {
@@ -264,5 +264,7 @@
       "para": "Dingun artikolo en la prezente Deklarasion podra ser interpretado en el sentido ke da derecho a algun Estado, a un grupo o a una persona, de tomar parte en aktividades o de realizar aktos kon el buto de destruir kualkier de los derechos i libertades proklamados en esta Deklarasion."
     }
   ],
+  "lang": "lad",
+  "language": "Ladino",
   "note": []
 }

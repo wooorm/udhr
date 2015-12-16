@@ -1,6 +1,6 @@
 {
-  "lang": "mcd",
-  "language": "Sharanahua",
+  "iso639-3": "mcd",
+  "key": "mcd",
   "xmlns": "http://www.unhchr.ch/udhr",
   "title": "Non ahuuacaimain huatiroquin ishon. Niaifofoan ichanancashon mato cunushonifo.",
   "preamble": {
@@ -264,5 +264,7 @@
       "para": "Non tsain shara fusti cunupai. Tsoan noco tsain oinfainshoncai yora futsa huapaiaitoncai oin sharamafinquin."
     }
   ],
+  "lang": "mcd",
+  "language": "Sharanahua",
   "note": []
 }

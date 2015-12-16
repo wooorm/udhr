@@ -1,6 +1,6 @@
 {
-  "lang": "mos",
-  "language": "Mòoré",
+  "iso639-3": "mos",
+  "key": "mos",
   "xmlns": "http://www.unhchr.ch/udhr",
   "title": "Ninsaal yel-segdɩ noy gãnegr sebre (yʊʊmd 1948)",
   "preamble": {
@@ -264,5 +264,7 @@
       "para": "Seb-kãngã gomd ba a ye pa tõe n wa rɩk t’a yɩ wa tẽng a ye, goosneer a ye bɩ ned a ye yell ye, t’a soab tik rẽnda n dat n maan bũmb sẽn na yɩl n sãam yel-segdɩ la maan-m-yam nins sebrã sẽn gomd-b rãmb yellã ye."
     }
   ],
+  "lang": "mos",
+  "language": "Mòoré",
   "note": []
 }

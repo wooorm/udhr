@@ -1,6 +1,6 @@
 {
-  "lang": "pcd",
-  "language": "Picard",
+  "iso639-3": "pcd",
+  "key": "pcd",
   "xmlns": "http://www.unhchr.ch/udhr",
   "title": "Dèclaråcion dès dreûts d' l'ome po tos lès payîs dè monde",
   "preamble": {
@@ -264,5 +264,7 @@
       "para": "On-åreût twért di s' voleûr rabate so tot l' minme quel årtike dèl prézinte Dèclaracion, qui ç' seûye ine nåcion ou bin 'ne seûle djint, po djustumint sayî dè distrûre lès dreûts èt lès lîbertés qu' s'î trovèt prôclamés."
     }
   ],
+  "lang": "pcd",
+  "language": "Picard",
   "note": []
 }

@@ -1,6 +1,6 @@
 {
-  "lang": "bis",
-  "language": "Bislama",
+  "iso639-3": "bis",
+  "key": "bis",
   "xmlns": "http://www.unhchr.ch/udhr",
   "title": "Deklereisen Blong Raet Blong Evri Man Mo Woman Raon Wol",
   "preamble": {
@@ -264,5 +264,7 @@
       "para": "Wan man o woman i no save yusum wan pat blong Deklereisen ia blong mekem se Steit, o wan grup o man o woman i ting se hemi gat raet blong mekem eni aktiviti o blong mekem eni aksen we i go agensem ol raet mo fridom we i stap insaed long Deklereisen ia."
     }
   ],
+  "lang": "bi",
+  "language": "Bislama",
   "note": []
 }

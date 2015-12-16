@@ -1,6 +1,6 @@
 {
-  "lang": "snn",
-  "language": "Siona",
+  "iso639-3": "snn",
+  "key": "snn",
   "xmlns": "http://www.unhchr.ch/udhr",
   "title": "SIA'YËQUËMACA SIA'BAI GUËOJËÑACAYAYE GUI'NE JËÑA,\nBAI'YE CAHUESOSE'BI SIA'YE TUTUBAYE\nJAI TSUTSUBËA OMETËCAÑA",
   "note": [
@@ -268,5 +268,7 @@
       "title": "Artículo 30. Jëña-guëo caya jëña aco caco.",
       "para": "Jare iye cahuesosicore beoji yequë\nbai̱bi i̱huai'goachayebi dani nejë neño'o cajë nedojaye, bai̱je̱ te'i dani iye cato\nËjabai tsea'ë cajë goasia'ye nedojaye beoji, iye cato tsoe cahuesosicoa."
     }
-  ]
+  ],
+  "lang": "snn",
+  "language": "Siona"
 }

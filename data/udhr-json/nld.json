@@ -1,6 +1,6 @@
 {
-  "lang": "nld",
-  "language": "Dutch",
+  "iso639-3": "nld",
+  "key": "nld",
   "xmlns": "http://www.unhchr.ch/udhr",
   "title": "UNIVERSELE VERKLARING VAN DE RECHTEN VAN DE MENS",
   "preamble": {
@@ -264,5 +264,7 @@
       "para": "Geen bepaling in deze Verklaring zal zodanig mogen worden uitgelegd, dat welke Staat, groep of persoon dan ook, daaraan enig recht kan ontlenen om iets te ondernemen of handelingen van welke aard ook te verrichten, die vernietiging van een van de rechten en vrijheden, in deze Verkaring genoemd, ten doel hebben."
     }
   ],
+  "lang": "nl",
+  "language": "Dutch",
   "note": []
 }

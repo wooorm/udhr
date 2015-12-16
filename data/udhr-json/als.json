@@ -1,6 +1,6 @@
 {
-  "lang": "als",
-  "language": "Albanian",
+  "iso639-3": "als",
+  "key": "als",
   "xmlns": "http://www.unhchr.ch/udhr",
   "note": [
     {
@@ -268,5 +268,7 @@
       "title": "Neni 30.",
       "para": "Asgjë në këtë Deklaratë nuk mund të interpretohet si e drejtë e një shteti, grupi apo personi për të kryer çfarëdo veprimtarie ose për të bërë një akt drejtuar kundër çdo të drejte ose lirie të shpallur në këtë Deklaratë."
     }
-  ]
+  ],
+  "lang": "sq",
+  "language": "Albanian, Tosk"
 }

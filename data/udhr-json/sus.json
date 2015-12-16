@@ -1,6 +1,6 @@
 {
-  "lang": "sus",
-  "language": "Susu",
+  "iso639-3": "sus",
+  "key": "sus",
   "xmlns": "http://www.unhchr.ch/udhr",
   "title": "ADAMA XAFE RAFALƐ SARIYƐE DƐNTƐGƐ",
   "preamble": {
@@ -264,5 +264,7 @@
       "para": "Sariyɛ nun wayibiya yo muna yi masenyi xungbe kui naxan kiraya nde masenxi ɲamanɛ bɛ, malanyi xanamu mixi nde bɛ naxan aniɲɛma axa kɛwali nde raba naxan sabui nɔma mayibiya e nun sariyɛe naxee masen xi nee xunnakanade."
     }
   ],
+  "lang": "sus",
+  "language": "Susu",
   "note": []
 }

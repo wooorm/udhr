@@ -1,6 +1,6 @@
 {
-  "lang": "por",
-  "language": "Portuguese (Brazil)",
+  "iso639-3": "por",
+  "key": "por_BR",
   "xmlns": "http://www.unhchr.ch/udhr",
   "title": "Declaração dos Direitos Humanos",
   "note": [
@@ -268,5 +268,7 @@
       "title": "Artigo XXX.",
       "para": "Nenhuma disposição da presente Declaração pode ser interpretada como o reconhecimento a qualquer Estado, grupo ou pessoa, do direito de exercer qualquer atividade ou praticar qualquer ato destinado à destruição de quaisquer dos direitos e liberdades aqui estabelecidos. "
     }
-  ]
+  ],
+  "lang": "pt-BR",
+  "language": "Portuguese (Brazil)"
 }

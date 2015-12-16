@@ -1,6 +1,6 @@
 {
-  "lang": "fao",
-  "language": "Faroese",
+  "iso639-3": "fao",
+  "key": "fao",
   "xmlns": "http://www.unhchr.ch/udhr",
   "title": "HEIMSYVIRLÝSING UM MANNARÆTTINDI",
   "preamble": {
@@ -264,5 +264,7 @@
       "para": "Einki í hesi yvirlýsing eigur at verða tulkað tann veg, at nøkrum ríki, bælki ella einsaklingi verður loyvt at gera nakað, ið miðar ímæti at beina fyri nøkrum av teimun mannarættindum, sum her eru tald."
     }
   ],
+  "lang": "fo",
+  "language": "Faroese",
   "note": []
 }

@@ -1,6 +1,6 @@
 {
-  "lang": "gle",
-  "language": "Gaelic, Irish",
+  "iso639-3": "gle",
+  "key": "gle",
   "xmlns": "http://www.unhchr.ch/udhr",
   "title": "DEARBHÚ UILE-CHOITEANN CEARTA AN DUINE",
   "preamble": {
@@ -264,5 +264,7 @@
       "para": "Ní cead aon ní sa Dearbhú seo a leiriú mar ní a bheir dón Stát grúpa nó duine ceart ar bith chun páirt a ghlacadh in aon ghníomhacht ná aon ghníomh a dhéanamh d'fhonn aon cheart nó saoirse dá luaitear anseo a dhíthiú."
     }
   ],
+  "lang": "ga",
+  "language": "Gaelic, Irish",
   "note": []
 }

@@ -1,6 +1,6 @@
 {
-  "lang": "uig_latn",
-  "language": "Uyghur",
+  "iso639-3": "uig",
+  "key": "uig_latn",
   "xmlns": "http://www.unhchr.ch/udhr",
   "title": "dunya kishilik hoquqi xitabnamisi",
   "preamble": {
@@ -264,5 +264,7 @@
       "para": "bu xitabnamining herqandaq bir maddisini herqandaq dölet, guruh yaki shexs mushu xitabnamide qeyt qilinghan herqandaq hoquq we erkinlikni buzush meqsitidiki pa'aliyet yaki heriketlerni élip bérishqa hoquqluq dep sukut qilidighan menide chushendurushke bolmaydu."
     }
   ],
+  "lang": "ug-Latn",
+  "language": "Uyghur (Latin)",
   "note": []
 }

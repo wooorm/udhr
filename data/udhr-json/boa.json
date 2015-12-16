@@ -1,6 +1,6 @@
 {
-  "lang": "boa",
-  "language": "Bora",
+  "iso639-3": "boa",
+  "key": "boa",
   "xmlns": "http://www.unhchr.ch/udhr",
   "title": "Muhdú pámeere páné iiñújɨri ijcyáné mɨ́amúnaa meíjcyáiyóne",
   "preamble": {
@@ -264,5 +264,7 @@
       "para": "Páneere iñe íhyaarnɨ́ pañe ijcyáné túkevéjtsoju méénúmeíñé tsá múha tsíñejcúvúré illéébóne iímillédú tsaatéké dárɨ́ɨ́véityuróne. Tsáijyu múúne tsaápi, tsaáte, méiiñújɨ́ túkevéjtsojte ijcyarómé tsá tehdu méénúítyuróne."
     }
   ],
+  "lang": "boa",
+  "language": "Bora",
   "note": []
 }

@@ -1,6 +1,6 @@
 {
-  "lang": "ina",
-  "language": "Interlingua",
+  "iso639-3": "ina",
+  "key": "ina",
   "xmlns": "http://www.unhchr.ch/udhr",
   "title": "DECLARATION UNIVERSAL DEL DERECTOS HUMAN",
   "preamble": {
@@ -268,5 +268,7 @@
     {
       "para": "Texto in interlingua Texto approbate per le Union Mundial pro Interlingua (U.M.I.) Steenen Camer 4, 3721 NC Bilthoven, Nederland Adresse electronic: secretario.general@interlingua.com"
     }
-  ]
+  ],
+  "lang": "ia",
+  "language": "Interlingua"
 }

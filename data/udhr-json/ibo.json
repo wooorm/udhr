@@ -1,6 +1,6 @@
 {
-  "lang": "ibo",
-  "language": "Igbo",
+  "iso639-3": "ibo",
+  "key": "ibo",
   "xmlns": "http://www.unhchr.ch/udhr",
   "title": "NKUWUWAPỤTA ỤWA NILE BANYERE IKIKE MMADỤ NWEGASỊRỊ",
   "preamble": {
@@ -264,5 +264,7 @@
       "para": "Onweghi ihe nọ na Nkuwuwapụta nke a a ga‐akowa dị ka ihe nyere Steti, otu ma ọ bụ mmadụ ọ bụla ikike ọ bụla itinye aka na emereme ọ bụla ma ọ bụ ime omume ọ bụla iji mebi ikike na ohere ọ bụla ndi a kọwapụtara n'ebe a."
     }
   ],
+  "lang": "ig",
+  "language": "Igbo",
   "note": []
 }

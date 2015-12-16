@@ -1,6 +1,6 @@
 {
-  "lang": "kek",
-  "language": "Q'eqchi'",
+  "iso639-3": "kek",
+  "key": "kek",
   "xmlns": "http://www.unhchr.ch/udhr",
   "title": "LI XJULTIKANKIL XWANKILAL XLOQ'AL LI POYANAM SA' RUCHICH'OCH'",
   "note": [
@@ -268,5 +268,7 @@
       "title": "Lajeeb' xka'k'aalil raqal (30)",
       "para": "Maani taruuq taasik'oq sa' li Jultikahom a'in, k'a'ru xb'aanunkil re xjeb'al ru li loq'al wankilal, usilal chaab'ilal xaqab'anb'il sa' li Jultikahom a'in."
     }
-  ]
+  ],
+  "lang": "kek",
+  "language": "Q'eqchi'"
 }

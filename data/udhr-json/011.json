@@ -1,6 +1,6 @@
 {
-  "lang": "011",
-  "language": "(Umbundo)",
+  "iso639-3": "und",
+  "key": "011",
   "xmlns": "http://www.unhchr.ch/udhr",
   "title": "Ohuminyo Yoluali Yoku Tata Ovimuenyo Viomanu",
   "note": [
@@ -277,5 +277,7 @@
       "title": "ONDAKA YA 30",
       "para": "Lacimue ocihandeleko casonehiwa vu Vangi mulo cipengisiwa Lofeka kayitiamela ko Hongele pamue omunu oco anyole eyovo liomanu lia sonehiwa mulo."
     }
-  ]
+  ],
+  "lang": "und",
+  "language": ""
 }

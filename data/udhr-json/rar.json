@@ -1,6 +1,6 @@
 {
-  "lang": "rar",
-  "language": "Rarotongan",
+  "iso639-3": "rar",
+  "key": "rar",
   "xmlns": "http://www.unhchr.ch/udhr",
   "note": [
     {
@@ -271,5 +271,7 @@
       "title": "Atikara 30",
       "para": "Auraka rava tetai uriuri anga aiteanga no teia Akakiteanga kia aka anau mai no tetai uaatu Basileia, taokotaianga tangata me kore, tetai uaatu tangata, i tetai tikaanga kia rave i tetai ua atu angaanga me kore kia akatupu i tetai angaanga no te akakoroanga kia takore ia tetai uaatu o te au tikaanga tangata e te oraanga tamanamanata kore ia i akamou ia i roto i teia Akakiteanga  nei."
     }
-  ]
+  ],
+  "lang": "rar",
+  "language": "Rarotongan"
 }

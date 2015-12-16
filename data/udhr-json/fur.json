@@ -1,6 +1,6 @@
 {
-  "lang": "fur",
-  "language": "Friulian",
+  "iso639-3": "fur",
+  "key": "fur",
   "xmlns": "http://www.unhchr.ch/udhr",
   "title": "DECLARAZION UNIVERSÂL DAI DERITS DAL OM",
   "note": [
@@ -268,5 +268,7 @@
       "title": "Articul 30",
       "para": "Nissun Stât, grop o persone a puedin cjapâ alc di cheste Declarazion par campâ derits di meti sù trafics o combinâ vôris ch’a cirin di dineâ cualchi derit o libertât ch’e je stade metude in clâr culì."
     }
-  ]
+  ],
+  "lang": "fur",
+  "language": "Friulian"
 }

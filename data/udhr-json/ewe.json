@@ -1,6 +1,6 @@
 {
-  "lang": "ewe",
-  "language": "Éwé",
+  "iso639-3": "ewe",
+  "key": "ewe",
   "xmlns": "http://www.unhchr.ch/udhr",
   "title": "AMEGBETƆ ƑE ABLƆƉEVINYENYE ŊU KPEƉOƉZINYA",
   "preamble": {
@@ -264,5 +264,7 @@
       "para": "Mele be ame aɖeke naɖe naneke si le Kpeɖodzinya sia me la gɔme abe dukɔ ɖeka aɖe koŋ tɔ wònye ene o. Medze be ameha alo ame ɖeka aɖeke natsɔe abe mɔnukpɔkpɔ ene awɔ wɔna aɖe alo aɖe afɔ aɖe si agblẽ nu le gomekpɔkpɔ kple ablɔɖemɔnu siwo woxlẽ fia le Kpeɖodzinya sia me la ŋuti o."
     }
   ],
+  "lang": "ee",
+  "language": "Éwé",
   "note": []
 }

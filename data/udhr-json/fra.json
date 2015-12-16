@@ -1,6 +1,6 @@
 {
-  "lang": "fra",
-  "language": "French",
+  "iso639-3": "fra",
+  "key": "fra",
   "xmlns": "http://www.unhchr.ch/udhr",
   "title": "Déclaration universelle des droits de l’homme",
   "preamble": {
@@ -264,5 +264,7 @@
       "para": "Aucune disposition de la présente Déclaration ne peut être interprétée comme impliquant pour un État, un groupement ou un individu un droit quelconque de se livrer à une activité ou d’accomplir un acte visant à la destruction des droits et libertés qui y sont énoncés."
     }
   ],
+  "lang": "fr",
+  "language": "French",
   "note": []
 }

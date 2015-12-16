@@ -1,6 +1,6 @@
 {
-  "lang": "dan",
-  "language": "Danish",
+  "iso639-3": "dan",
+  "key": "dan",
   "xmlns": "http://www.unhchr.ch/udhr",
   "note": [
     {
@@ -268,5 +268,7 @@
       "title": "Artikel 30.",
       "para": "Intet i denne erklæring må fortolkes som givende nogen stat, gruppe eller enkeltperson hjemmel til at indlade sig på nogen virksomhed eller foretage nogen handling, der tilsigter at nedbryde nogen af de heri opregnede rettigheder og friheder."
     }
-  ]
+  ],
+  "lang": "da",
+  "language": "Danish"
 }

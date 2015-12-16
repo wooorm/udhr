@@ -1,6 +1,6 @@
 {
-  "lang": "gaa",
-  "language": "Ga",
+  "iso639-3": "gaa",
+  "key": "gaa",
   "xmlns": "http://www.unhchr.ch/udhr",
   "title": "JEŊJEŊ KPAŊMƆ NI KƆƆ GBƆMƆ ADESA HEGBƐI AHE",
   "preamble": {
@@ -264,5 +264,7 @@
       "para": "Esaaa akɛ atsɔɔ kpaŋmɔ nɛɛ shishi yɛ gbɛ ko nɔ akɛ maŋ ko, loo ku ko, loo mɔ ko yɛ hegbɛ ko akɛ efeɔ nɔ ko ni baanyɛ efite hewalɛ ni yɔɔ hegbɛi nɛɛ asɛɛ."
     }
   ],
+  "lang": "gaa",
+  "language": "Ga",
   "note": []
 }

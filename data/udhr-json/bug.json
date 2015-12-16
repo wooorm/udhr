@@ -1,6 +1,6 @@
 {
-  "lang": "bug",
-  "language": "Bugis",
+  "iso639-3": "bug",
+  "key": "bug",
   "xmlns": "http://www.unhchr.ch/udhr",
   "title": "ADA ASSIMATURUSENG NASENGNGE HAK-HAK SIMULAJAJINNA PADATTA RUPA TAU",
   "note": [
@@ -268,5 +268,7 @@
       "title": "Passaleng 30",
       "para": "Degaga mo seddi rilalenna ada assamaturusengnge napalalo ri tafsir nasenggnge dibukkang laleng seddi negara, kelompk, iya ga seddi rupa tau nappunai hak nateru terrusi nasengnge mappigau pangkaukang salae ye wedding na solangi riasengnge allebbirirenna hak-hakna kebebasang kebebasang ye tarukie ri lalenna ada assaturusengnge."
     }
-  ]
+  ],
+  "lang": "bug",
+  "language": "Bugis"
 }

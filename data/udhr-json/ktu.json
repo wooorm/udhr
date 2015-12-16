@@ -1,6 +1,6 @@
 {
-  "lang": "ktu",
-  "language": "Kituba",
+  "iso639-3": "ktu",
+  "key": "ktu",
   "xmlns": "http://www.unhchr.ch/udhr",
   "title": "Luzayisu Ya Yinza Muvimba Ya Baluve Ya Muntu",
   "preamble": {
@@ -264,5 +264,7 @@
       "para": "Ata musiku mosi ya luzayisu yayi lenda kubangulwa bonso luve ni luve ya kusala kisalu ti dyambu lenda kunata mbebosolo ya baluve mpe ya bimpwanza yina metangama na mukanda yayi, yayi metadila muvimba, kimvuka to muntu."
     }
   ],
+  "lang": "ktu",
+  "language": "Kituba",
   "note": []
 }

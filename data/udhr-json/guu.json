@@ -1,6 +1,6 @@
 {
-  "lang": "guu",
-  "language": "Yanomamö",
+  "iso639-3": "guu",
+  "key": "guu",
   "xmlns": "http://www.unhchr.ch/udhr",
   "title": "TOTIHITAWË THAMOTIMA THE Ã",
   "preamble": {
@@ -264,5 +264,7 @@
       "para": "Thë pë rë përihouwei thë pëni, yototarewë pëni , ai yãmi thëni wa katehano thëni totihitawë thamotima thë wãhã no wëyëi ha ai thëni thë wãhã nohi taeai taomi, thë wãhã kãi hemihiprai ayao taomi."
     }
   ],
+  "lang": "guu",
+  "language": "Yanomamö",
   "note": []
 }

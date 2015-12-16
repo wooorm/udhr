@@ -1,6 +1,6 @@
 {
-  "lang": "bam",
-  "language": "Bamanankan",
+  "iso639-3": "bam",
+  "key": "bam",
   "xmlns": "http://www.unhchr.ch/udhr",
   "title": "Hadamaden josiraw dantigɛkan, 1948",
   "preamble": {
@@ -264,5 +264,7 @@
       "para": "Jɔyɔrɔ fɛn o fɛn dantigɛlen ye nin Dantigɛkan in kɔnɔ, Fanga wali jɛkulu wali mɔgɔ kelen sijo tɛ k’o minɛ yamaruya ye ka sira taama, wali ka walekɛ, min kun ye hadamaden josira ni hɔrɔnɲasira jiralen ninnu tiɲɛni ye."
     }
   ],
+  "lang": "bm",
+  "language": "Bamanankan",
   "note": []
 }

@@ -1,6 +1,6 @@
 {
-  "lang": "pau",
-  "language": "Palauan",
+  "iso639-3": "pau",
+  "key": "pau",
   "xmlns": "http://www.unhchr.ch/udhr",
   "title": "KLOU EL SUBED RA LLEMALT RAR CHAD",
   "preamble": {
@@ -264,5 +264,7 @@
       "para": "Ngdiak a ngara chelsel tial declaration elmo medung lkmo a ngiidil beluu malechub eng cheldebechel malechub eng chad a sebechel el mengedmokl ra temellel a llemalt ma ilmokl el telutk ra chelsel tiang."
     }
   ],
+  "lang": "pau",
+  "language": "Palauan",
   "note": []
 }

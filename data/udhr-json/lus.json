@@ -1,6 +1,6 @@
 {
-  "lang": "lus",
-  "language": "Miso",
+  "iso639-3": "lus",
+  "key": "lus",
   "xmlns": "http://www.unhchr.ch/udhr",
   "title": "",
   "note": [
@@ -268,5 +268,7 @@
       "title": "Article 30",
       "para": "He Thupuanchhuah hian ram tinte chu an ram chhung theuha mimal dikna leh chanvote chawikan leh humhalh kawngah mawhphurhna a hlan vek a. Hnam hrang hrangte chu khawvel pumin mi zawng zawngte mihring dikna leh chanvote leh zalênna a humhim sak kawngah thawhpui vek turin a beisei."
     }
-  ]
+  ],
+  "lang": "lus",
+  "language": "Mizo"
 }

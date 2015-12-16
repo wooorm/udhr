@@ -1,6 +1,6 @@
 {
-  "lang": "ndo",
-  "language": "Ndonga",
+  "iso639-3": "ndo",
+  "key": "ndo",
   "xmlns": "http://www.unhchr.ch/udhr",
   "title": "OMUSHANGWA GWAAYEHE GUUTHEMBA WOMUNTU",
   "preamble": {
@@ -264,5 +264,7 @@
       "para": "Inaku tolokwa nando sha meuvathano ndika kutya otashi gandja uuthemba kOshilongo kehe, ogundu yaantu okugandja uuthemba washa okwiitula miinima yi na elalakano Iyokuteya po uuthemba washa nemanguluko ndyoka Iya popiwa muka."
     }
   ],
+  "lang": "ng",
+  "language": "Ndonga",
   "note": []
 }

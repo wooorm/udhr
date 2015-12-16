@@ -1,6 +1,6 @@
 {
-  "lang": "ron",
-  "language": "Romanian (2006)",
+  "iso639-3": "ron",
+  "key": "ron_2006",
   "xmlns": "http://www.unhchr.ch/udhr",
   "title": "DECLARAȚIA UNIVERSALĂ A DREPTURILOR OMULUI",
   "preamble": {
@@ -264,5 +264,7 @@
       "para": "Nicio dispoziție a prezentei Declarații nu poate fi interpretată ca implicând pentru vreun stat, grupare sau persoană dreptul de a se deda la vreo activitate sau de a săvârși vreun act îndreptat spre desființarea unor drepturi sau libertăți enunțate în prezenta Declarație."
     }
   ],
+  "lang": "ro",
+  "language": "Romanian (2006)",
   "note": []
 }

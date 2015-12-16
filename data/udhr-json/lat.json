@@ -1,6 +1,6 @@
 {
-  "lang": "lat",
-  "language": "Latin",
+  "iso639-3": "lat",
+  "key": "lat",
   "xmlns": "http://www.unhchr.ch/udhr",
   "title": "DECLARATIONEM HOMINIS IURIUM UNIVERSAM",
   "preamble": {
@@ -264,5 +264,7 @@
       "para": "Cuius DECLARATIONIS nulla res ita potest putari ut quoddam ius exercendae operae vel faciendi facinoris detur cuivis civitati, aliquot hominibus vel uni e multis, ut aliquot iurium et aliquot libertatum eiusdem labefactentur."
     }
   ],
+  "lang": "la",
+  "language": "Latin",
   "note": []
 }

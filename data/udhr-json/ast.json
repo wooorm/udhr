@@ -1,6 +1,6 @@
 {
-  "lang": "ast",
-  "language": "Asturian",
+  "iso639-3": "ast",
+  "key": "ast",
   "xmlns": "http://www.unhchr.ch/udhr",
   "title": "Declaración Universalde los Drechos Humanos",
   "note": [
@@ -268,5 +268,7 @@
       "title": "Artículu 30",
       "para": "Nada de la presente Declaración nun podrá interpretase nel sen d'atribuyi-y al Estáu, a un grupu o a una persona'l drechu d'entamar y desendolcar actividaes o realizar aiciones empobinaes a desaniciar cualesquier drechu o llibertá de les que nesta Declaración se proclamen."
     }
-  ]
+  ],
+  "lang": "ast",
+  "language": "Asturian"
 }

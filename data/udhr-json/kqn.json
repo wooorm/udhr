@@ -1,6 +1,6 @@
 {
-  "lang": "kqn",
-  "language": "Kaonde",
+  "iso639-3": "kqn",
+  "key": "kqn",
   "xmlns": "http://www.unhchr.ch/udhr",
   "title": "MUKAMBIZHO MUKATAMPE PA NSAMBU YAFWAINWA MUNTU",
   "preamble": {
@@ -264,5 +264,7 @@
       "para": "Kafwako nangwa kimo mu ino mikambizho kyalamata kukyalo nangwa muntu kyo bakonsha kwingijisha mukwingila byubilo byabula kufwainwa mwaila nsambu ne ngovu ya tongolwane."
     }
   ],
+  "lang": "kqn",
+  "language": "Kaonde",
   "note": []
 }

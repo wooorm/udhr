@@ -1,6 +1,6 @@
 {
-  "lang": "cpu",
-  "language": "Ashéninca Pichis",
+  "iso639-3": "cpu",
+  "key": "cpu",
   "xmlns": "http://www.unhchr.ch/udhr",
   "title": "TSICA INCANTYA IRAACAMEETHAYEETAIRI ATZIRIPAYEENI JACA QUIPATSIQUI",
   "preamble": {
@@ -264,5 +264,7 @@
       "para": "Aririca añaanatayetero ocaratzi osanquinayetainchari jaca, tzimatsirica añaaqueri pampithashiryaacaineri cameethatatsi antero, ompoña añaatyeero osanquinataca pashine ocante: \"Eero ocantzi antero\", ontzimatye aquemisantero, eero ocantzi antero. Ari icantayetyaari eejatzi aparoni atziri, ari icantayetyaari eejatzi tsicarica ipiyotari inampitaro atziripayeeni, o irjirica jevayetzirori nampitsipayeeni."
     }
   ],
+  "lang": "cpu",
+  "language": "Ashéninka, Pichis",
   "note": []
 }

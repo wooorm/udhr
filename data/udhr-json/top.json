@@ -1,6 +1,6 @@
 {
-  "lang": "top",
-  "language": "Totonaca, Papantla",
+  "iso639-3": "top",
+  "key": "top",
   "xmlns": "http://www.unhchr.ch/udhr",
   "note": [
     {
@@ -268,5 +268,7 @@
       "title": "Limap'akgsin 30",
       "para": "Lata' tu talhkanit nak je'e tapuwan nila lakgmakgankan ni pala map'akgsinanin ixakstu natak'atsi, niwanp'utun xlakata maxk'imama litliwekge lakatum pulatam, putum lakch'ixkuwin xlakata natatlawa lata' tu talakaskin nachunalitum nila kgaxmatmakgankan tu kaminini lakch'ixkuwin chu nanila ka'akgch'apawalikan, la wan je'e talakapastakni tu kaminini lakch'ixkuwin."
     }
-  ]
+  ],
+  "lang": "top",
+  "language": "Totonac, Papantla"
 }

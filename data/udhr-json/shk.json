@@ -1,6 +1,6 @@
 {
-  "lang": "shk",
-  "language": "Shilluk",
+  "iso639-3": "shk",
+  "key": "shk",
   "xmlns": "http://www.unhchr.ch/udhr",
   "title": "MØG-A ÁCÏMMI YI KÖMI LÄBØ KI RI GÏG-A DWADDI KIPER DHANHØ BËNE",
   "note": [
@@ -268,5 +268,7 @@
       "title": "Cigg 30",
       "para": "Ki yij nyudhø men, bong gïn cuggi løgø me nëngi pödhø wala ji wala dhanhø ki teegø me gööge kipe rënyi gïg-a ácïb møg ki bongi bäängø mø bään ki møg-a ácïb ki yij wänyø men; a 1øg Møg-a Acïb yi Buri Pödhhi Kömi Piny."
     }
-  ]
+  ],
+  "lang": "shk",
+  "language": "Shilluk"
 }

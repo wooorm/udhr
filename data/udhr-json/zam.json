@@ -1,6 +1,6 @@
 {
-  "lang": "zam",
-  "language": "Zapoteco, Miahuatlán Central",
+  "iso639-3": "zam",
+  "key": "zam",
   "xmlns": "http://www.unhchr.ch/udhr",
   "title": "Rieti yets",
   "note": [
@@ -268,5 +268,7 @@
       "title": "Gal btsiy rtik (30)",
       "para": "Crue na nak par men kap gus xa na juina ta mbes yes kiti yets ta nak par diba o cho par diti, na gak kap ta mbes yes nche."
     }
-  ]
+  ],
+  "lang": "zam",
+  "language": "Zapotec, Miahuatlán"
 }

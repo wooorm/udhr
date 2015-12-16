@@ -1,6 +1,6 @@
 {
-  "lang": "ykg",
-  "language": "Yukaghir, Northern",
+  "iso639-3": "ykg",
+  "key": "ykg",
   "xmlns": "http://www.unhchr.ch/udhr",
   "title": "",
   "preamble": {
@@ -264,5 +264,7 @@
       "para": ""
     }
   ],
+  "lang": "ykg",
+  "language": "Yukaghir, Northern",
   "note": []
 }

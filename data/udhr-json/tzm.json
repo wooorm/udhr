@@ -1,6 +1,6 @@
 {
-  "lang": "tzm",
-  "language": "Tamazight, Central Atlas",
+  "iso639-3": "tzm",
+  "key": "tzm",
   "xmlns": "http://www.unhchr.ch/udhr",
   "title": "TIṢERRIḤT TAGRAGHLANT IZERFAN N WEMDAN",
   "note": [
@@ -268,5 +268,7 @@
       "title": "Tamadda 30:",
       "para": "Ur telli tmadda di tṣerrḥit agi i gzemren ad-tettwafhem d-tikchi n lḥeqq i ddulla, nagh i wegdud nagh i wemdan i wakkn ad khedmen kra nagh ad marsen igi i gqeṣden aḥuddu izerfan akkw d-tlella idd yeddan deg-s."
     }
-  ]
+  ],
+  "lang": "tzm",
+  "language": "Tamazight, Central Atlas"
 }

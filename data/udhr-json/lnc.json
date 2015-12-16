@@ -1,6 +1,6 @@
 {
-  "lang": "lnc",
-  "language": "Languedocien",
+  "iso639-3": "lnc",
+  "key": "lnc",
   "xmlns": "http://www.unhchr.ch/udhr",
   "title": "DECLARACION UNIVERSALA DELS DRETS HUMANS",
   "preamble": {
@@ -264,5 +264,7 @@
       "para": "Res dins aicesta Declaracion se pòt pas interpretar coma que un Estat, un gropament ou un individú auriá quin drech que siá d'entreprene una activitat o de realisar una accion ambe la tòca d'avalir los dreches e las libertats que s'i enóncian."
     }
   ],
+  "lang": "oc",
+  "language": "Languedocien",
   "note": []
 }

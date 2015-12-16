@@ -1,6 +1,6 @@
 {
-  "lang": "cat",
-  "language": "Catalan-Valencian-Balear",
+  "iso639-3": "cat",
+  "key": "cat",
   "xmlns": "http://www.unhchr.ch/udhr",
   "note": [
     {
@@ -268,5 +268,7 @@
       "title": "Article 30",
       "para": "Res en aquesta Declaració no podrà interpretar-se en el sentit que doni cap dret a un Estat, a un grup o a una persona a emprendre activitats o a realitzar actes que tendeixin a la supressió de qualsevol dels drets i llibertats que s’hi enuncien."
     }
-  ]
+  ],
+  "lang": "ca",
+  "language": "Catalan-Valencian-Balear"
 }

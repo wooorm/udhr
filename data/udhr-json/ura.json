@@ -1,6 +1,6 @@
 {
-  "lang": "ura",
-  "language": "Urarina",
+  "iso639-3": "ura",
+  "key": "ura",
   "xmlns": "http://www.unhchr.ch/udhr",
   "note": [
     {
@@ -268,5 +268,7 @@
       "title": "Articulo 30.",
       "para": "Nainihei chu, chunei gobierno, atane curuanaa, naaojoaain niha natiin, caa rauhi ichara nichaanu ne aina nererojoecaain neeuruha ne jaan nu."
     }
-  ]
+  ],
+  "lang": "ura",
+  "language": "Urarina"
 }

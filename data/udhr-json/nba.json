@@ -1,6 +1,6 @@
 {
-  "lang": "nba",
-  "language": "Nyemba",
+  "iso639-3": "nba",
+  "key": "nba",
   "xmlns": "http://www.unhchr.ch/udhr",
   "title": "VWAMBULULO VWA CIFUTI VWA VILINGA VYA VANU",
   "note": [
@@ -265,5 +265,7 @@
       "title": "LIXIKO LYA MAKUMI ATATU",
       "para": "Nacimo cikala mwa muvwa ca vulolo ca vwambululo vwa cili citava cipwe ca vwambululo vwa cili citava cipwe ca kwambulula ngwe kulikolavyo kuli lifuti limo, civenga cimo indi umo munu vulemu vumo vwoxevwo vya kulyakalo ku vimo vipangi indi vya kulitavela kulinga vumo vulinge vimoniya na kuviisa vulemu co na vulimanene vuje ano vuli vwa kwambulula."
     }
-  ]
+  ],
+  "lang": "nba",
+  "language": "Nyemba"
 }

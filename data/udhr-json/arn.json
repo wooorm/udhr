@@ -1,6 +1,6 @@
 {
-  "lang": "arn",
-  "language": "Mapudungun",
+  "iso639-3": "arn",
+  "key": "arn",
   "xmlns": "http://www.unhchr.ch/udhr",
   "title": "Kom Mapu Fijke Az Tañi Az Mogeleam",
   "preamble": {
@@ -264,5 +264,7 @@
       "para": "Tvfaci \"Fvxa Cijka\", cew tañi kimelgen cumueci ñi mvleael mogen fij mapu, gelay cem xokiñ ce rume ñi nvafiel tañi goymalafiel ka tañi kvzawmayafiel tañi ñamvmnaqvmgeam cuci zugu rume pegelgeael tvfaci \"Fvxa Cijka\" mew."
     }
   ],
+  "lang": "arn",
+  "language": "Mapudungun",
   "note": []
 }

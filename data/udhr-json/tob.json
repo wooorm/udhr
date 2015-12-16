@@ -1,6 +1,6 @@
 {
-  "lang": "tob",
-  "language": "Toba",
+  "iso639-3": "tob",
+  "key": "tob",
   "xmlns": "http://www.unhchr.ch/udhr",
   "title": "NA NQATAXACPI NA ỸOTTA'A'T SHIỸAXAUAPI MAYI NETALEC ANA 'ALHUA",
   "preamble": {
@@ -264,5 +264,7 @@
       "para": "Qaica qome da huo'o ca 'oonlec ne'ena nanettai mayi qanasachigui da qoỹinac chigoqchigui da I'ot ca l'aqtac ca camachicague't na nta 'alpi, da huo'otaq huo'o ca ỹanem shiỹaxauapi huo'otaq ca 'oonolec namayipi da yaqto' huo' ca ishit da ỹacoolecda I'ot, huo'otaq da ỹaueca'a't ca laỹipi da yaqto' nlaxaji ca 'oonolec ne'ena nqataxacpi, huo'otaq da nlaxaji da nataxac mayi huesochiguii, mayi mashi nasachigui qataq lapaxai."
     }
   ],
+  "lang": "tob",
+  "language": "Toba",
   "note": []
 }

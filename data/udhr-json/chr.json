@@ -1,6 +1,6 @@
 {
-  "lang": "chr",
-  "language": "Cherokee",
+  "iso639-3": "chr",
+  "key": "chr",
   "xmlns": "http://www.unhchr.ch/udhr",
   "title": "",
   "article": [
@@ -9,6 +9,8 @@
       "para": "ᏂᎦᏓ ᎠᏂᏴᏫ ᏂᎨᎫᏓᎸᎾ ᎠᎴ ᎤᏂᏠᏱ ᎤᎾᏕᎿ ᏚᏳᎧᏛ ᎨᏒᎢ. ᎨᏥᏁᎳ ᎤᎾᏓᏅᏖᏗ ᎠᎴ ᎤᏃᏟᏍᏗ ᎠᎴ ᏌᏊ ᎨᎡ ᏧᏂᎸᏫᏍᏓᏁᏗ ᎠᎾᏟᏅᏢ ᎠᏓᏅᏙ ᎬᏗ."
     }
   ],
+  "lang": "chr",
+  "language": "Cherokee",
   "note": [],
   "preamble": {
     "title": "",

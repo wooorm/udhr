@@ -1,6 +1,6 @@
 {
-  "lang": "kwi",
-  "language": "Awa-Cuaiquer",
+  "iso639-3": "kwi",
+  "key": "kwi",
   "xmlns": "http://www.unhchr.ch/udhr",
   "title": "MINMURUS WANTAAWARUSPA",
   "note": [
@@ -271,5 +271,7 @@
       "title": "Artikulo kutfia chalkuil",
       "para": "Ankara sar+tne nitpuzpuztutne sashina kaizkuintakitpa sunkanawasha mintu\nmaztus' sùraz maza kual wanmakt+t maza awara suna putnainmizna\nwankammizna kalkittaizpa chine samizna wankal wan nitpuzna chiwashza\nnitpuzt+ttne watchan nitpuzt+kane puzt+m."
     }
-  ]
+  ],
+  "lang": "kwi",
+  "language": "Awa-Cuaiquer"
 }

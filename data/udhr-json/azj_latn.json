@@ -1,6 +1,6 @@
 {
-  "lang": "azj",
-  "language": "Azerbaijani, North (Latin)",
+  "iso639-3": "azj",
+  "key": "azj_latn",
   "xmlns": "http://www.unhchr.ch/udhr",
   "title": "İNSAN HÜQUQLARI HAQQINDA ÜMUMİ BƏYANNAMƏ",
   "preamble": {
@@ -264,5 +264,7 @@
       "para": "Bu Bəyannamədə heç nə hər hansı dövlətə, şəxslər qrupuna və ayrı-ayrı şəxslərə Bəyannaməndə elan olunmuş hüquq və azadlıqların məhvinə yönəlmiş hər hansı fəaliyyətlə məşğul olmaq və ya hər hansı hərəkəti törətmək hüququnun verilməsi kimi təfsir oluna bilməz."
     }
   ],
+  "lang": "az-Latn",
+  "language": "Azerbaijani, North (Latin)",
   "note": []
 }

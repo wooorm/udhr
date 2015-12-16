@@ -1,6 +1,6 @@
 {
-  "lang": "kng",
-  "language": "Koongo",
+  "iso639-3": "kng",
+  "key": "kng",
   "xmlns": "http://www.unhchr.ch/udhr",
   "title": "Luzayisu ya yinza muvimba ya baluve ya muntu",
   "preamble": {
@@ -264,5 +264,7 @@
       "para": "Ata musiku mosi ya luzayisu yayi lenda kubangulwa bonso luve ni luve ya kusala kisalu ti dyambu lenda kunata mbebosolo ya baluve mpe ya bimpwanza yina metangama na mukanda yayi, yayi metadila muvimba, kimvuka to muntu."
     }
   ],
+  "lang": "kg",
+  "language": "Koongo",
   "note": []
 }

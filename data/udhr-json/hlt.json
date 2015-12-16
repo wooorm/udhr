@@ -1,6 +1,6 @@
 {
-  "lang": "hlt",
-  "language": "Nga La",
+  "iso639-3": "hlt",
+  "key": "hlt",
   "xmlns": "http://www.unhchr.ch/udhr",
   "title": "DIKLAI PUM THLANGHING HAMHMOEL OL HOE NA CAYOL",
   "note": [
@@ -268,5 +268,7 @@
       "title": "Boel-30",
       "para": "He kah hoena cayol khui kah hamhmoel neh yalpona te poci na ham taeng tih ramtung khat ham mai a, thlang roiat ham mai a, thlangkhat bueng ham mai a bithai na hamhmoel om ti lam mai a, mah roeroe loh bi ham hamhmoel om ti lam mai a atloe la thloep hno na mah pawh."
     }
-  ]
+  ],
+  "lang": "hlt",
+  "language": "Chin, Matu"
 }

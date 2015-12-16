@@ -1,6 +1,6 @@
 {
-  "lang": "war",
-  "language": "Waray-Waray",
+  "iso639-3": "war",
+  "key": "war",
   "xmlns": "http://www.unhchr.ch/udhr",
   "title": "Sangkalibutan Nga Pag-Asoy Bahin Han Kanan Tawo Mga Katungod",
   "preamble": {
@@ -264,5 +264,7 @@
       "para": "Waray hini dinhi nga Deklarasyon in intyendihon nga naghahatag ngada hin bisan ano nga Gobyerno, hugpo o tawo hin katadungan pagbuhat hin bisan ano nga makakabungkag hin ano dida nga katadungan ug katalwasan nga nailagda dinhi"
     }
   ],
+  "lang": "war",
+  "language": "Waray-Waray",
   "note": []
 }

@@ -1,6 +1,6 @@
 {
-  "lang": "lun",
-  "language": "Lunda",
+  "iso639-3": "lun",
+  "key": "lun",
   "xmlns": "http://www.unhchr.ch/udhr",
   "title": "KUDITEJA CHA KAYI KEJIMA HA NSHIMBI JA WUNTU",
   "preamble": {
@@ -264,5 +264,7 @@
       "para": "Iji nshimbi hijatela kuluwang'eshaku mwitung'a hela muntu mukukeng'a kujikisa muijila yidi yejima."
     }
   ],
+  "lang": "lun",
+  "language": "Lunda",
   "note": []
 }

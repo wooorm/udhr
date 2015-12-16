@@ -1,6 +1,6 @@
 {
-  "lang": "isl",
-  "language": "Icelandic",
+  "iso639-3": "isl",
+  "key": "isl",
   "xmlns": "http://www.unhchr.ch/udhr",
   "title": "Mannréttindayfirlýsing Sameinuðo Þjóðanna.",
   "preamble": {
@@ -264,5 +264,7 @@
       "para": "Ekkert atriði þessarar yfirlýsingar má túlka á þann veg, að nokkru ríki, flokki manna eða einstaklingi sé heimilt að aðhafast nokkuð það, er stefni að því að gera að engu nokkur þeirra mannréttinda, sem hér hafa verið upp talin."
     }
   ],
+  "lang": "is",
+  "language": "Icelandic",
   "note": []
 }

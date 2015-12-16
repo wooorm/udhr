@@ -1,6 +1,6 @@
 {
-  "lang": "ltz",
-  "language": "Luxembourgeois",
+  "iso639-3": "ltz",
+  "key": "ltz",
   "xmlns": "http://www.unhchr.ch/udhr",
   "title": "UNIVERSAL - DEKLARATIOUN VUN DE MËNSCHERECHTER",
   "preamble": {
@@ -264,5 +264,7 @@
       "para": "Keng Bestëmmong vun dëser Deklaratioun duerf esou ausgeluegt gin, datt e Recht fir e Stat, eng Grupp odder en eenzele Mënsch dra wär fir sech un Aktivitéiten ze gin odder Akten duerchzeféieren, déi drop erauslafe fir d'Rechter an d'Fräiheten, déi dra genannt sin, ëmzestoussen."
     }
   ],
+  "lang": "lb",
+  "language": "Luxembourgeois",
   "note": []
 }

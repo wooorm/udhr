@@ -1,6 +1,6 @@
 {
-  "lang": "blu",
-  "language": "Hmong Njua",
+  "iso639-3": "hnj",
+  "key": "blu",
   "xmlns": "http://www.unhchr.ch/udhr",
   "note": [
     {
@@ -268,5 +268,7 @@
       "title": "Tiaox beb jouf",
       "para": "Rangx lol ntuad nad nit renf hox tiaox venx, zhit zhund caik uat uat dab yus deb njoux dout renf hox ib lob gox juab, renf hox nbaox buab beus las shik renf hox ib dol nenb muax ndos uat renf hox yat zhof uat bual rangx lol ntuad nad jif muax nit rent hox ndas dos tab zif youx nit hox dongf hox zhed deut del."
     }
-  ]
+  ],
+  "lang": "hnj",
+  "language": "Hmong Njua"
 }

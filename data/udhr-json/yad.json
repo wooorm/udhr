@@ -1,6 +1,6 @@
 {
-  "lang": "yad",
-  "language": "Yagua",
+  "iso639-3": "yad",
+  "key": "yad",
   "xmlns": "http://www.unhchr.ch/udhr",
   "title": "TUCHODA TITAJU NIJYANVAJYU VURYATIDYE VICHASARA SAMIRYA VARIY",
   "note": [
@@ -268,5 +268,7 @@
       "title": "TUCHUSARA 30.",
       "para": "Ne rirvadatyasara nijyanvarva jirva niquejada rirvatidye javatya ratara tavay nijyanvay vichada, darvantyamuy nrvatidye jubay tavay jisirva samirva vichada. Ranuma titajura."
     }
-  ]
+  ],
+  "lang": "yad",
+  "language": "Yagua"
 }

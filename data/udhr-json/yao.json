@@ -1,6 +1,6 @@
 {
-  "lang": "yao",
-  "language": "Yao",
+  "iso639-3": "yao",
+  "key": "yao",
   "xmlns": "http://www.unhchr.ch/udhr",
   "title": "Mkamulano Wa Ilambo Yoscope Pa Ufulu Wa Chipago Wa Wandu",
   "preamble": {
@@ -264,5 +264,7 @@
       "para": "Mkamulunano awu ngaukupeleka ufulu kwa chilambo chine chilichose, likuga, kapena mundu jwalijose wakutenda chindu chine chilichose chimpaka chayochesye wandu maufulu gawo gagali mumkamulanowu."
     }
   ],
+  "lang": "yao",
+  "language": "Yao",
   "note": []
 }

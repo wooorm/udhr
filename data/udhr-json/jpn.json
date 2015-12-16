@@ -1,6 +1,6 @@
 {
-  "lang": "jpn",
-  "language": "Japanese",
+  "iso639-3": "jpn",
+  "key": "jpn",
   "xmlns": "http://www.unhchr.ch/udhr",
   "title": "『世界人権宣言』",
   "note": [
@@ -268,5 +268,7 @@
       "title": "第30条",
       "para": "この宣言のいかなる規定も、いずれかの国、集団又は個人に対して、この宣言に掲げる権利及び自由の破壊を目的とする活動に従事し、又はそのような目的を有する行為を行う権利を認めるものと解釈してはならない。"
     }
-  ]
+  ],
+  "lang": "ja",
+  "language": "Japanese"
 }

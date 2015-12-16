@@ -1,6 +1,6 @@
 {
-  "lang": "bfa",
-  "language": "Bari",
+  "iso639-3": "bfa",
+  "key": "bfa",
   "xmlns": "http://www.unhchr.ch/udhr",
   "title": "LÖPUKÖ/LEUSA NA UNIVERSAL DECLARATION OF HUMAN RIGHTS I KUTUK NA BARI.",
   "preamble": {
@@ -133,5 +133,7 @@
     {
       "para": "Translated by (a lopukö ko)\nSebur Anthony Lodu & Gordon Lucy Kiden.\nDenet nagwon adi kugga ko to jojo na ďekesi ti ŋutu liŋ nagwon ‘bain tiki ŋutu ko lele ŋuto, töki tibulö joŋa kaŋo ko lele ŋuto."
     }
-  ]
+  ],
+  "lang": "bfa",
+  "language": "Bari"
 }

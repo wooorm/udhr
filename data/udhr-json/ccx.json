@@ -1,6 +1,6 @@
 {
-  "lang": "ccx",
-  "language": "Zhuang, Northern",
+  "iso639-3": "zyb",
+  "key": "ccx",
   "xmlns": "http://www.unhchr.ch/udhr",
   "title": "SEIQGYAIQ YINZGENZ SENHYENZ",
   "preamble": {
@@ -300,5 +300,7 @@
     {
       "para": "(Liuz Gencinh, Boux Chuengh)"
     }
-  ]
+  ],
+  "lang": "za",
+  "language": "Zhuang, Yongbei"
 }

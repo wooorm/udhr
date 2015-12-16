@@ -1,6 +1,6 @@
 {
-  "lang": "yor",
-  "language": "Yoruba",
+  "iso639-3": "yor",
+  "key": "yor",
   "xmlns": "http://www.unhchr.ch/udhr",
   "title": "ÌKÉDE KÁRÍAYÉ FÚN È̩TÓ̩ O̩MO̩NÌYÀN",
   "preamble": {
@@ -264,5 +264,7 @@
       "para": "A kò gbo̩dò̩ túmò̩ ohunkóhun nínú ìkéde yìí gé̩gé̩ bí ohun tí ó fún orílè̩‐èdè kan tàbí àkójo̩pò̩ àwo̩n ènìyàn kan tàbí e̩nìké̩ni ní è̩tó̩ láti s̩e ohunkóhun tí yóò mú ìparun bá èyíkéyìí nínú àwo̩n è̩tó̩ àti òmìnira tí a kéde yìí."
     }
   ],
+  "lang": "yo",
+  "language": "Yoruba",
   "note": []
 }

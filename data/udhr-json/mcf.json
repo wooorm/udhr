@@ -1,6 +1,6 @@
 {
-  "lang": "mcf",
-  "language": "Matsés",
+  "iso639-3": "mcf",
+  "key": "mcf",
   "xmlns": "http://www.unhchr.ch/udhr",
   "note": [
     {
@@ -268,5 +268,7 @@
       "title": "Chiaid 30.",
       "para": "Nëid dada uaid isash, Icsa uanquionona, cac icsambo ictsiash. Padnuen nëid dada uaid isun, Nidaid abichobi icquidën tabadquidobëdi bëdamboec isnanec bëdamboec tabadnuna, cac bëdambo ictsiash - quequin chuipanëdash nidaid abitedinoësh cho-choquidon."
     }
-  ]
+  ],
+  "lang": "mcf",
+  "language": "Matsés"
 }

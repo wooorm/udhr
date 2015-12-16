@@ -1,6 +1,6 @@
 {
-  "lang": "src",
-  "language": "Sardinian, Logudorese",
+  "iso639-3": "src",
+  "key": "src",
   "xmlns": "http://www.unhchr.ch/udhr",
   "title": "DECRARATZIONE UNIVERSALE E SOS DERETOSDE S'ÒMINE",
   "note": [
@@ -268,5 +268,7 @@
       "title": "Artìculu 30",
       "para": "Non b'at perunu disponimentu de custa Decraratzione chi podat esser interpretadu comente implicante pro un'Istadu, un'aggrupamentu o un'individuu unu deretu cale si siat a si dare a un'atividade o de fagher un'atzione chi punnet a sa distrutzione de sos deretos e libertades chi bi sunt proclamados."
     }
-  ]
+  ],
+  "lang": "sc",
+  "language": "Sardinian, Logudorese"
 }

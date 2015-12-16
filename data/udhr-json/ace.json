@@ -1,6 +1,6 @@
 {
-  "lang": "ace",
-  "language": "Aceh",
+  "iso639-3": "ace",
+  "key": "ace",
   "xmlns": "http://www.unhchr.ch/udhr",
   "note": [
     {
@@ -268,5 +268,7 @@
       "title": "Pasai 30",
       "para": "Han jeut na saboih dalam Peunyataan nyoe ta peusalah tafsee, hai bungong padee yakni meupeujok hak keu saboh neugara, keulompok atawa ureung si droe‐droe. Yakni hak teulibat lam tiep keugiatan nyang meukeusud meupeurusak hak‐hak ngon keubebasan nyang na dalam Peunyataan nyoe salah tafsee nyan hanjeut na beu ubee ujung padee."
     }
-  ]
+  ],
+  "lang": "ace",
+  "language": "Aceh"
 }

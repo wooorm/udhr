@@ -1,6 +1,6 @@
 {
-  "lang": "fij",
-  "language": "Fijian",
+  "iso639-3": "fij",
+  "key": "fij",
   "xmlns": "http://www.unhchr.ch/udhr",
   "title": "LAWA RARABA NI DODONU NI LEWENIVANUA",
   "note": [
@@ -268,5 +268,7 @@
       "title": "Tikina e 30.",
       "para": "Me kua ni vakadewa e dua na ka ena Lawa Raraba oqo me nanuma kina e dua na Matanitu, ilawalawa, se tamata ni solia na dodonu me vakaitavi se cakava e dua na ka me vakaleqa kina na dodonu kei na galala era virikotori e ke."
     }
-  ]
+  ],
+  "lang": "fj",
+  "language": "Fijian"
 }

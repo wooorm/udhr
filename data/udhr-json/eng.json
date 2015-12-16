@@ -1,6 +1,6 @@
 {
-  "lang": "eng",
-  "language": "English",
+  "iso639-3": "eng",
+  "key": "eng",
   "xmlns": "http://www.unhchr.ch/udhr",
   "title": "Universal Declaration of Human Rights",
   "preamble": {
@@ -264,5 +264,7 @@
       "para": "Nothing in this Declaration may be interpreted as implying for any State, group or person any right to engage in any activity or to perform any act aimed at the destruction of any of the rights and freedoms set forth herein."
     }
   ],
+  "lang": "en",
+  "language": "English",
   "note": []
 }

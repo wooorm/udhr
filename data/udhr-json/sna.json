@@ -1,6 +1,6 @@
 {
-  "lang": "sna",
-  "language": "Shona",
+  "iso639-3": "sna",
+  "key": "sna",
   "xmlns": "http://www.unhchr.ch/udhr",
   "title": "KURUDZIRO YEKUCHENGETEDZVA KWEKODZERO DZEVANHU PASI POSE",
   "preamble": {
@@ -268,5 +268,7 @@
     {
       "para": "KURUDZIRO YEKUCHENGETEDZVA KWEKODZERO DZEVANHU PASI POSE\nNezuva reGumi munaZvita mugore ra 1948 Gungano roMubatanidzwa weNyika dzepasi pose rakasarudza ndokuzivisa \"Nezvekurudziro yekuchengetedzva kwekodzero dzevanhu pasi pose\". Mashoko akakwana ari mumashizha anotevera muchinyorwa chino. Mushure meichi chiitiko chinokosha, Gungano roMubatanidzwa weNyika dzepasi pose rakakumbira nyika dzose dzinova nhengo kuti dzishambadzire zvinyorwa zve Kurudziro ino, kuitira kuti zvinyorwa zvekurudziro iyi zvive zvino ziviswa, zvoshambadzirwa nokuverengwa zvichitsanangurwa, kunyanya muzvikoro nedzimwe nzvimbo dzokudzidzira, zvisinei nemamiriro enyika kana matunhu munezvematongerwo enyika.\nHechinoyi chinyorwa Chakabvumiranwa\nHOFISI YESANGANO ROMBATANIDZVA WENYIKA DZEPASI POSE -YEKUTUMIRWA KWEMASHOKO KURUZHINJI."
     }
-  ]
+  ],
+  "lang": "sn",
+  "language": "Shona"
 }

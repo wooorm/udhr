@@ -1,6 +1,6 @@
 {
-  "lang": "sag",
-  "language": "Sango",
+  "iso639-3": "sag",
+  "key": "sag",
   "xmlns": "http://www.unhchr.ch/udhr",
   "title": "DÊPÄ TÎ PÖPÖKÖDÖRÖ TÎ NDIÄ TÏ BATA NENGÖ TERÊ TÏ ZO",
   "preamble": {
@@ -264,5 +264,7 @@
       "para": "Mbênî ködörösêse ôko pëpëe wala mbênî zo tî gïgî ôko alîngbi pëpëe tî buba lêgë tî ândiä sô afa ge na yâ tî mbëtï-dêpä sô."
     }
   ],
+  "lang": "sg",
+  "language": "Sango",
   "note": []
 }

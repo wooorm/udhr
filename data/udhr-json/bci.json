@@ -1,6 +1,6 @@
 {
-  "lang": "bci",
-  "language": "Baoulé",
+  "iso639-3": "bci",
+  "key": "bci",
   "xmlns": "http://www.unhchr.ch/udhr",
   "title": "Sran mmla mun be mɛn nun jɔ bolɛ",
   "preamble": {
@@ -264,5 +264,7 @@
       "para": "Awa kun, sran akpasua, sran kun, be kwla'a be jran-man dɛ nga i nun tre ba kun su be se'a kɛ be le atin mɔ be di juman wie, be yo ninge wie mɔ ɔ ti sran-mmla nin fɔndi nga be wo yɛ be sakiwa."
     }
   ],
+  "lang": "bci",
+  "language": "Baoulé",
   "note": []
 }

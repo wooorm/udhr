@@ -1,6 +1,6 @@
 {
-  "lang": "qwh",
-  "language": "Quechua, Huaylas Ancash",
+  "iso639-3": "qwh",
+  "key": "qwh",
   "xmlns": "http://www.unhchr.ch/udhr",
   "title": "KAQ KEYMI LLAPAN PATSACHOW IMANA KAQ NUNAKUNAPAPIS DERECHUNKUNA",
   "preamble": {
@@ -264,5 +264,7 @@
       "para": "Key deklarasyonchowqa manam ni imapis kantsu meyqan nasyonpis, meyqan läya nunakunapis ni meyqan nunapis, nuna rnayinkunapa derëchunkunata micharnin kayänanpaq."
     }
   ],
+  "lang": "qwh",
+  "language": "Quechua, Huaylas Ancash",
   "note": []
 }

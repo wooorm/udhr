@@ -1,6 +1,6 @@
 {
-  "lang": "fin",
-  "language": "Finnish",
+  "iso639-3": "fin",
+  "key": "fin",
   "xmlns": "http://www.unhchr.ch/udhr",
   "note": [
     {
@@ -268,5 +268,7 @@
       "title": "30. artikla.",
       "para": "Mitään tässä julistuksessa ei saa tulkita niin, että valtio, ryhmä tai yksityinen henkilö voi sen perusteella katsoa oikeudekseen tehdä sellaista, mikä voisi hävittää tässä määriteltyjä oikeuksia ja vapauksia."
     }
-  ]
+  ],
+  "lang": "fi",
+  "language": "Finnish"
 }

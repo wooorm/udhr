@@ -1,6 +1,6 @@
 {
-  "lang": "hna",
-  "language": "Mina",
+  "iso639-3": "hna",
+  "key": "hna",
   "xmlns": "http://www.unhchr.ch/udhr",
   "title": "XIXE BLIBOA BE GBEFANƉEƉE SO AMƐBUSEWO ALOGOƉOEJSEWO ŊTI",
   "preamble": {
@@ -264,5 +264,7 @@
       "para": "Nɔnɔmɛ alo wɔna ɖekpekpe mu ɖo la na ye gbefanɖeɖe kea la zé sigbe acɛkpadu ɖe ye sɔɛ ɖote nɛnɛ, alo na gbe amɛɖe, habɔbɔɖe be ba wɔ wɔnaɖe ke la hɛn nu gble le amɛbusewo ku vosinɔnɔ kewo ŋ wo po nupo so a o."
     }
   ],
+  "lang": "hna",
+  "language": "Mina",
   "note": []
 }

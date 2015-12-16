@@ -1,6 +1,6 @@
 {
-  "lang": "mam",
-  "language": "Mam, Northern",
+  "iso639-3": "mam",
+  "key": "mam",
   "xmlns": "http://www.unhchr.ch/udhr",
   "title": "AT TU'MALAAL KOPIB'IL TWI'YALAAL KAAWB'IL B'IX NIINB'IL",
   "preamble": {
@@ -264,5 +264,7 @@
       "para": "Kyaqiil yool b'anan tuj twi'yalaal kawb'il tu'n chimob'il kye nintnam, milaay kub' tq'uuchan jun k'oloj xjaal b'ixqa juunx nintnam. Tzi'yan maj tu'n chimob'il kye nintnam."
     }
   ],
+  "lang": "mam",
+  "language": "Mam, Northern",
   "note": []
 }

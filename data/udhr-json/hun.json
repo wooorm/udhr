@@ -1,6 +1,6 @@
 {
-  "lang": "hun",
-  "language": "Hungarian",
+  "iso639-3": "hun",
+  "key": "hun",
   "xmlns": "http://www.unhchr.ch/udhr",
   "title": "Az Emberi Jogok Egyetemes Nyilatkozata",
   "preamble": {
@@ -264,5 +264,7 @@
       "para": "A jelen Nyilatkozat egyetlen rendelkezése sem értelmezhető úgy, hogy az valamely állam, valamely csoport, vagy valamely egyén részére bármilyen jogot adna arra, hogy az itt kinyilvánított jogok és szabadságok megsemmisítésére irányuló tevékenységet fejtsen ki, vagy ilyen cselekményt elkövessen."
     }
   ],
+  "lang": "hu",
+  "language": "Hungarian",
   "note": []
 }

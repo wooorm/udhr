@@ -1,6 +1,6 @@
 {
-  "lang": "quy",
-  "language": "Quechua, Ayacucho",
+  "iso639-3": "quy",
+  "key": "quy",
   "xmlns": "http://www.unhchr.ch/udhr",
   "note": [
     {
@@ -268,5 +268,7 @@
       "title": "KIMSA CHUNKA (30)",
       "para": "Kay qelíqapa nisqankunaman hapipakuspaqa manam pipas otaq gobiernopas imatapas ruwanmanchu, derechonchikta hinaspa libre kayninchikta usurpanankupaqa."
     }
-  ]
+  ],
+  "lang": "quy",
+  "language": "Quechua, Ayacucho"
 }

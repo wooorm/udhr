@@ -1,6 +1,6 @@
 {
-  "lang": "xho",
-  "language": "Xhosa",
+  "iso639-3": "xho",
+  "key": "xho",
   "xmlns": "http://www.unhchr.ch/udhr",
   "title": "INKCAZO‐JIKELELE NGEEMFANELO ZOLUNTU",
   "preamble": {
@@ -264,5 +264,7 @@
       "para": "Le nkcazo‐jikelele mayingatolikwa ngenjongo yokuba imele ezobuRhulumente, iqela okanye umntu owenza isithembiso okanye osenzo sineenjongo ezingatshabalalisa nokuba ngowuphi na umqathango wamalungelo kunye neenkululeko zoluntu ekuthethwa ngazo apha."
     }
   ],
+  "lang": "xh",
+  "language": "Xhosa",
   "note": []
 }

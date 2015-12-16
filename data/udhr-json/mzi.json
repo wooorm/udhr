@@ -1,6 +1,6 @@
 {
-  "lang": "mzi",
-  "language": "Mazateco, Ixcatlán",
+  "iso639-3": "mzi",
+  "key": "mzi",
   "xmlns": "http://www.unhchr.ch/udhr",
   "title": "En Xi Tikon Ngasandie Xi Fijendajo Xuta",
   "preamble": {
@@ -264,5 +264,7 @@
       "para": "Kamajin tse batsen sian kjin tokon,tsetsara ngañóo ngo xuta, ngojotse ngonangi, tsiee nga taskitjee kui en tsekuin nt’a chjenxo nga kjotjason yije nixi kjit’a kui xujun."
     }
   ],
+  "lang": "mzi",
+  "language": "Mazatec, Ixcatlán",
   "note": []
 }

@@ -1,6 +1,6 @@
 {
-  "lang": "hms",
-  "language": "Hmong, Southern Qiandong",
+  "iso639-3": "hms",
+  "key": "hms",
   "xmlns": "http://www.unhchr.ch/udhr",
   "title": "<<ghad bob did doub nangd renl njanl xand yanl>>",
   "preamble": {
@@ -296,5 +296,7 @@
       "para": "Ad leb xand yanl nend nangd yad yad nangd qaox wenl, jex gangs jid pud nis gangs ad leb guel giad did, ad leb jil tanl did gaot ad leb nex did mex njanl lib jid chud ad boab hol dongb, lol jid bab ad leb xand yanl nend jid pud nangd njanl lib nhangs zib youl nangd."
     }
   ],
+  "lang": "hms",
+  "language": "Hmong, Southern Qiandong",
   "note": []
 }

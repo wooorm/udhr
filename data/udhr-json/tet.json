@@ -1,6 +1,6 @@
 {
-  "lang": "tet",
-  "language": "Tetun",
+  "iso639-3": "tet",
+  "key": "tet",
   "xmlns": "http://www.unhchr.ch/udhr",
   "title": "Deklarasaun Mundu Nia Ba Direitus Ema Nia",
   "preamble": {
@@ -264,5 +264,7 @@
       "para": "La iha buat ida iha Deklarasaun ida ne'e bele interpreta ka hatete ba rai Estadu, ida, grupu no ema ida iha direitu atu halu ativadade, ka halu buat ruma hasoru atu halu at direitus ho liberdades tau iha ne'e."
     }
   ],
+  "lang": "tet",
+  "language": "Tetun",
   "note": []
 }

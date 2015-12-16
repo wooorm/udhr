@@ -1,6 +1,6 @@
 {
-  "lang": "gyr",
-  "language": "Guarayu",
+  "iso639-3": "gyr",
+  "key": "gyr",
   "xmlns": "http://www.unhchr.ch/udhr",
   "title": "",
   "preamble": {
@@ -255,5 +255,7 @@
       "para": "Niyai ko ikwachiapri sui ösera pia ñemoñenta ñepëi tekwa peño rumoko ei vaëra, o evokoi ko oyemonua o oyamboati gwasu-gwasu vae pendaraño rumo ko year o ndiyaiavei evokoi ava repiägwa tëi ko oikwachia yureko yaera ko oikyachia vae yureko opakatu ava mborerekwar gwasukwe ke ambua ivi rese yogweru vae inungar tupri avei ko inungar vireko yureko sese ambua ava ñee aipoei ko upe."
     }
   ],
+  "lang": "gyr",
+  "language": "Guarayu",
   "note": []
 }

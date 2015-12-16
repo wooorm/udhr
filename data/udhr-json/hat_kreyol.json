@@ -1,6 +1,6 @@
 {
-  "lang": "hat",
-  "language": "Haitian Creole French (Kreyol)",
+  "iso639-3": "hat",
+  "key": "hat_kreyol",
   "xmlns": "http://www.unhchr.ch/udhr",
   "title": "DECLARASYON INIVESEL DWA DE LOM",
   "preamble": {
@@ -264,5 +264,7 @@
       "para": "Okenn nan disposisyon Deklarasyon sa-a pap ka entèpwete kom kwa yon leta, yon gwoupman o swa yon moun, ta ka gen yon dwa kelkonk poul ta tanmen yon aktivite obyen komèt yon zak ki ta vle abouti a destriksyon dwa ak libète ki pwoklame na Deklarasyon-an."
     }
   ],
+  "lang": "ht",
+  "language": "Haitian Creole French (Kreyol)",
   "note": []
 }

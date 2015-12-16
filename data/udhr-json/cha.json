@@ -1,6 +1,6 @@
 {
-  "lang": "cha",
-  "language": "Chamorro",
+  "iso639-3": "cha",
+  "key": "cha",
   "xmlns": "http://www.unhchr.ch/udhr",
   "title": "UNIVERSAL NA DECLARASION I DERECHO SIHA PARA I TAOTAO",
   "preamble": {
@@ -264,5 +264,7 @@
       "para": "Taya gi este na Declarasion usina mainterpete como haimplilika (hasasangan) para kuatkuet stado, gurupo pat persona kuatkuet derecho ni para usaonao gi kuatkuet actividad (chocho) pat para ufatinas kuatkuet acto madesigna para i destruksion i kuatkuet derecho yan libertad siha ni man mapolo guine na tinige."
     }
   ],
+  "lang": "ch",
+  "language": "Chamorro",
   "note": []
 }

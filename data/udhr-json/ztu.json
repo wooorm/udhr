@@ -1,6 +1,6 @@
 {
-  "lang": "ztu",
-  "language": "Zapotec, Güilá",
+  "iso639-3": "ztu",
+  "key": "ztu",
   "xmlns": "http://www.unhchr.ch/udhr",
   "title": "Declarasyoony x:te:e'n Deree'ch x:te:e' Ra'ta' Bu:unny",
   "preamble": {
@@ -264,5 +264,7 @@
       "para": "Nye:e'cy te'ihby nasyoony nye:e'cy te'ihby bu:unny quei'ty za:a'lle'eh ytse'illy ra deree'ch cëhnn ra libertaa nih canni:i:i' Declarasyoony re:e'. Declarasyoony re:e' quei'ty rni:i'izhdyëng deree'ch pahr guuny nasyoony o bu:unny ni:i."
     }
   ],
+  "lang": "ztu",
+  "language": "Zapotec, Güilá",
   "note": []
 }

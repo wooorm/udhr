@@ -1,6 +1,6 @@
 {
-  "lang": "yap",
-  "language": "Yapese",
+  "iso639-3": "yap",
+  "key": "yap",
   "xmlns": "http://www.unhchr.ch/udhr",
   "title": "MATTʼAWEN GUBIN E GIDII NI NGAN NANG",
   "preamble": {
@@ -264,5 +264,7 @@
       "para": "Dariy banen u lan ere ngi Garcheg ney ni ngan abuweg fan nge zil ara togopluw ko tirokʼe United Nations e motochiyel ar pingeg fan ere ngi Garcheg ney nga wuruuʼ e knowa."
     }
   ],
+  "lang": "yap",
+  "language": "Yapese",
   "note": []
 }

@@ -1,6 +1,6 @@
 {
-  "lang": "afr",
-  "language": "Afrikaans",
+  "iso639-3": "afr",
+  "key": "afr",
   "xmlns": "http://www.unhchr.ch/udhr",
   "title": "",
   "preamble": {
@@ -264,5 +264,7 @@
       "para": "Niks in hierdie Verklaring mag interpreteer word as impliserend dat enige Staat, groep of persoon die reg het om deel te neem aan enige aktiwiteit of enige daad wat gerig is op die beskadiging van enige regte en vryhede hierin beskryf nie."
     }
   ],
+  "lang": "af",
+  "language": "Afrikaans",
   "note": []
 }

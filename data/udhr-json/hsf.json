@@ -1,6 +1,6 @@
 {
-  "lang": "hsf",
-  "language": "Huastec, Southeastern",
+  "iso639-3": "hus",
+  "key": "hsf",
   "xmlns": "http://www.unhchr.ch/udhr",
   "title": "XALK-ANTALAP TIN PUTAT AN CHABAL XOH-NI NI KO-YAL AN INIKTSIK",
   "note": [
@@ -268,5 +268,7 @@
       "title": "Artículo 30",
       "para": "Ba ka awich tamaa kin jalk-uy jelat ti dhútsat ó jun anti kin chalpay, jelat antin úlal axeh dhútsalap antip bitsow o jun bolleh y yanel ó tin kwetemtal bal kin tujuw kin dhá-ja, ó kin lee-ná, kin teh-na, kin télabah, jalk-uy xoh-ní kwajat dhútsat aníh ulúts k-al axe i uw."
     }
-  ]
+  ],
+  "lang": "hus",
+  "language": "Huastec (Sierra de Otontepec)"
 }

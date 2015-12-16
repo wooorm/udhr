@@ -1,6 +1,6 @@
 {
-  "lang": "guc",
-  "language": "Wayuu",
+  "iso639-3": "guc",
+  "key": "guc",
   "xmlns": "http://www.unhchr.ch/udhr",
   "title": "AKÜJIA SÜKUA'IPA SÜCHIKI SÜJUTU WAYUU SA'U MMAKAT",
   "note": [
@@ -268,5 +268,7 @@
       "title": "SHI'IPAJANA APÜNÜIN SHIKII (30)",
       "para": "Sülu'ukot karalo'utakat tüü nnojotsü aapanüinjatüin süpulainmüin tüü sülaülakot mma nnojotsü aapanüinjatüin napülainmüin no'utku wayuu, nnojutsü aapanuinjatüin süpüla nüpülain wane wayuu. A'iruushi süpüla nnojolüinjatüin alatünüin a'upuna tüü pütchi süpülajatka süjutu wayuu sa'u tüü mmakat."
     }
-  ]
+  ],
+  "lang": "guc",
+  "language": "Wayuu"
 }

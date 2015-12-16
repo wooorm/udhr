@@ -1,6 +1,6 @@
 {
-  "lang": "cni",
-  "language": "Asháninca",
+  "iso639-3": "cni",
+  "key": "cni",
   "xmlns": "http://www.unhchr.ch/udhr",
   "title": "Timatsi Cameetsatatsiri Acoajeitaqueri: Te Oncameetsateji Intsaneemparo.",
   "note": [
@@ -268,5 +268,7 @@
       "title": "Ayojeitaqueri, 30.",
       "para": "Ocameetsati amoncarajeitero maaroni asanquenajeitaqueri aca. Te oncameetsateji intsaneapitsaj eiteero avincatsaritepee aisati ashanincapee. Ocameetsati ashinejeiteri maaroni atiri irisavicajeite cameetsa."
     }
-  ]
+  ],
+  "lang": "cni",
+  "language": "Asháninka"
 }

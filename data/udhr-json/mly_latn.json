@@ -1,6 +1,6 @@
 {
-  "lang": "mly",
-  "language": "Malay (Latin)",
+  "iso639-3": "mly",
+  "key": "mly_latn",
   "xmlns": "http://www.unhchr.ch/udhr",
   "title": "PERISYTIHARAN HAK ASASI MANUSIA SEJAGAT",
   "preamble": {
@@ -264,5 +264,7 @@
       "para": "Tiada apa-apa jua dalam Perisytiharan ini boleh ditafsirkan sebagi sedia tersirat memberikan kepada mana-mana negara, kumpulan atau perseorangen sebarang hak untuk melibatkan diri dalam apa-apa kegiatan atau melakukan apa-apa perbuatan dengan tujuan memusnahkan apa-apa hak dan kebebasan yang termaktub dalam Perisytiharan ini."
     }
   ],
+  "lang": "ms-Latn",
+  "language": "Malay (Latin)",
   "note": []
 }

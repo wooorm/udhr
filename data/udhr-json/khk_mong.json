@@ -1,6 +1,6 @@
 {
-  "lang": "khk",
-  "language": "Mongolian (Mongolian)",
+  "iso639-3": "khk",
+  "key": "khk_mong",
   "xmlns": "http://www.unhchr.ch/udhr",
   "article": [
     {
@@ -9,6 +9,8 @@
     }
   ],
   "title": "",
+  "lang": "mn-Mong",
+  "language": "Mongolian, Halh (Mongolian)",
   "note": [],
   "preamble": {
     "title": "",

@@ -1,6 +1,6 @@
 {
-  "lang": "epo",
-  "language": "Esperanto",
+  "iso639-3": "epo",
+  "key": "epo",
   "xmlns": "http://www.unhchr.ch/udhr",
   "title": "Universala Deklaracio de Homaj Rajtoj",
   "note": [
@@ -268,5 +268,7 @@
       "title": "Artikolo 30",
       "para": "Nenio en ĉi tiu Deklaracio estu interpretita kiel implico, ke iu ajn Ŝtato, grupo aŭ persono iel ajn rajtas entrepreni ian ajn agadon aŭ plenumi ian ajn agon, kiu celus detrui kiun ajn el la rajtoj kaj liberecoj ĉi-ene difinitaj."
     }
-  ]
+  ],
+  "lang": "eo",
+  "language": "Esperanto"
 }

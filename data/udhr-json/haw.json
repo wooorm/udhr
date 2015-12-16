@@ -1,6 +1,6 @@
 {
-  "lang": "haw",
-  "language": "Hawaiian",
+  "iso639-3": "haw",
+  "key": "haw",
   "xmlns": "http://www.unhchr.ch/udhr",
   "title": "Universal Declaration of Human Rights",
   "note": [
@@ -268,5 +268,7 @@
       "title": "Paukū 30",
       "para": "‘A’ole loa e kuhikuhi ‘ia nā mea o kēia Hō’ike he mau mea kōkua i ke Aupuni, ka hui, a i ‘ole ke kanaka, ma ke komo ‘ana a i ‘ole ma ka ho’okō ‘ana i ka hana nona ka mana’o e luku wale i nā pono kīvila i helu ‘ia mai ma luna a’e nei."
     }
-  ]
+  ],
+  "lang": "haw",
+  "language": "Hawaiian"
 }

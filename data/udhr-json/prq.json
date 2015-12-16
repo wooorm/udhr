@@ -1,6 +1,6 @@
 {
-  "lang": "prq",
-  "language": "Ashéninka Perené",
+  "iso639-3": "prq",
+  "key": "prq",
   "xmlns": "http://www.unhchr.ch/udhr",
   "note": [
     {
@@ -190,5 +190,7 @@
       "title": "Artículo 30",
       "para": "Na jancha ninkaxun -En ichaka vatiduki -ivanan jau xinanyamanunbunven."
     }
-  ]
+  ],
+  "lang": "prq",
+  "language": "Ashéninka Perené"
 }

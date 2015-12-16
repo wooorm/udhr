@@ -1,6 +1,6 @@
 {
-  "lang": "srp",
-  "language": "Serbian (Latin)",
+  "iso639-3": "srp",
+  "key": "srp_latn",
   "xmlns": "http://www.unhchr.ch/udhr",
   "title": "OPŠTA DEKLARACIJA O PRAVIMA ČOVEKA",
   "preamble": {
@@ -264,5 +264,7 @@
       "para": "Nijedna odredba ove Deklaracije ne može se tumačiti kao pravo za ma koju državu, grupu ili lice da preduzima bilo koju aktivnost ili da vrši bilo kakvu radnju usmerenu na poništenje prava i sloboda koji su u njoj sadržani."
     }
   ],
+  "lang": "sr-Latn",
+  "language": "Serbian (Latin)",
   "note": []
 }

@@ -1,6 +1,6 @@
 {
-  "lang": "cjk",
-  "language": "Chokwe (Angola)",
+  "iso639-3": "cjk",
+  "key": "cjk_AO",
   "xmlns": "http://www.unhchr.ch/udhr",
   "title": "NZUO LYA MAPAPILO NYI KUSAKULA TCHA KUTESA MUKANDA UA MUTCHIFUTCHI TCHESWE YA KUSAKULA TCHA ATHU ESWE",
   "note": [
@@ -268,5 +268,7 @@
       "title": "SHIMBI YA 30º",
       "para": "Nyimwe yuma ya muno mu kuambila ketchi ka ytesa nyi mu mayhunda yesuayo, muusoko hanjhi umuwikha kalhi nyi thajhi ja kuhana milhimo yesuayo hanjhi ha kulhinga yesuayo yuma ya kupupa tche kusakula tcha athu anambe akuno."
     }
-  ]
+  ],
+  "lang": "cjk",
+  "language": "Chokwe (Angola)"
 }

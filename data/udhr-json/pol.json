@@ -1,6 +1,6 @@
 {
-  "lang": "pol",
-  "language": "Polish",
+  "iso639-3": "pol",
+  "key": "pol",
   "xmlns": "http://www.unhchr.ch/udhr",
   "title": "POWSZECHNA DEKLARACJA PRAW CZŁOWIEKA",
   "note": [
@@ -268,5 +268,7 @@
       "title": "Artykuł 30",
       "para": "Żadnego z postanowień niniejszej Deklaracji nie można rozumieć jako udzielającego jakiemukolwiek Państwu, grupie lub osobie jakiegokolwiek prawa do podejmowania działalności lub wydawania aktów zmierzających do obalenia któregokolwiek z praw i wolności zawartych w niniejszej Deklaracji."
     }
-  ]
+  ],
+  "lang": "pl",
+  "language": "Polish"
 }

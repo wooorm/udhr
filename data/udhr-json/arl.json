@@ -1,6 +1,6 @@
 {
-  "lang": "arl",
-  "language": "Arabela",
+  "iso639-3": "arl",
+  "key": "arl",
   "xmlns": "http://www.unhchr.ch/udhr",
   "note": [
     {
@@ -268,5 +268,7 @@
       "title": "Sequesano 30.",
       "para": "Maja capa serojoshiya canaa sequesano nio naajiojuajinia. Cante jiyaniya na naata nocuaji patanu canaa sequesano, cuno sesa niishiya canaa sequesano. Naarate tamonu jiyaniijianucua, tamonu maapuejuhuaj, tamonu pueyanio, nojori cuaara cojuaara capa niishiniuucuaji canaa sequesano. Maja miishiya sesa. Puetunu canaa sequesanojuanaa naajiosaaquiaari maninia pa miitioonura, juhuajaniya pa quiniuria jiyocua."
     }
-  ]
+  ],
+  "lang": "arl",
+  "language": "Arabela"
 }

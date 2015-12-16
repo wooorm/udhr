@@ -1,6 +1,6 @@
 {
-  "lang": "kde",
-  "language": "Makonde",
+  "iso639-3": "kde",
+  "key": "kde",
   "xmlns": "http://www.unhchr.ch/udhr",
   "title": "LILOVE LYA VILAMBO LYA WASA WA VAN",
   "preamble": {
@@ -264,5 +264,7 @@
       "para": "Chinapawe chohechohe n’nilove alino chionekana na chilambo chohecho, vanu au munu wohewo upokonyola wasa uhauliwidye."
     }
   ],
+  "lang": "kde",
+  "language": "Makonde",
   "note": []
 }

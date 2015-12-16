@@ -1,6 +1,6 @@
 {
-  "lang": "cak",
-  "language": "Kaqchikel, Central",
+  "iso639-3": "cak",
+  "key": "cak",
   "xmlns": "http://www.unhchr.ch/udhr",
   "title": "RUQ'ALAJIRISAXIK CHI RUWÄCH RONOJEL RUWACH'ULEW RI RUCH'OJIB'AL RUK'ASLEN JUN WINÄQ",
   "preamble": {
@@ -264,5 +264,7 @@
       "para": "Man jun chi ke ronojel ri q'alajirisanïk e k'o chupan re jun Q'alajirisab'äl Wuj xtz'ib'äx, xa xtiq'ax ta pa kijolon chi xa nuya' ta q'ij chi re ruch'ojib'al jun ruwach'ulew, jun tzob'aj winaqi', jun winäq pa ruyonil, richin ta chi xa xtutikirb'a' xa b'a chike samaj chuqa' xtub'än xa b'a chike jun b'anob'äl ri nujäl ruq'ajarik ruch'ojib'al ruk'aslen jun winäq chuqa', ri nujäl ruq'ajarïk ri niqa chi ruwäch jun winäq nub'än, ya'on rutzijol chupan re Q'alajirisab'äl Wuj re'."
     }
   ],
+  "lang": "cak",
+  "language": "Kaqchikel, Central",
   "note": []
 }

@@ -1,6 +1,6 @@
 {
-  "lang": "cbt",
-  "language": "Chayahuita",
+  "iso639-3": "cbt",
+  "key": "cbt",
   "xmlns": "http://www.unhchr.ch/udhr",
   "note": [
     {
@@ -268,5 +268,7 @@
       "title": "30.",
       "para": "Nani ya 'ipi hua 'ano'sacoi, Copirno acorincoisopita pënënainquëma'. Ama nisha yonquicosohuë'. No'tëquën natëcoi, ya 'ipinpoa' noya nini 'tëhua', noya ya 'huëa'hua'."
     }
-  ]
+  ],
+  "lang": "cbt",
+  "language": "Chayahuita"
 }

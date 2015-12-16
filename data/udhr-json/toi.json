@@ -1,6 +1,6 @@
 {
-  "lang": "toi",
-  "language": "Tonga",
+  "iso639-3": "toi",
+  "key": "toi",
   "xmlns": "http://www.unhchr.ch/udhr",
   "title": "CAAMBILIZYO CA MULAWO WA MASI OONSE WA LWAANGULUKO LWA MUNTU MATALIKO",
   "preamble": {
@@ -264,5 +264,7 @@
       "para": "Kunyina cili mucizuminano eeci ceelede kwendelezyegwa amasi aambi, mbunga ya bantu antela muntu biyo, kuba anguzu zyakucita zyilengwa zyimbi zyikonzya kutyola milawo ya lwaanguluko lupedwe ku bantu lwapandulwa kale."
     }
   ],
+  "lang": "toi",
+  "language": "Tonga",
   "note": []
 }

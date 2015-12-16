@@ -1,6 +1,6 @@
 {
-  "lang": "tsz",
-  "language": "Purépecha",
+  "iso639-3": "tsz",
+  "key": "tsz",
   "xmlns": "http://www.unhchr.ch/udhr",
   "title": "UANDAKUA JURHIMBEKUECHERI K'UIRIPUECHERI PARHAKPENI ANAPU",
   "preamble": {
@@ -264,5 +264,7 @@
       "para": "No ambe ma i amboŋastajperakua uati kurhangukuarheni esoki intskusïnga jurhimbekua irechakuani, ma umbatsekuani o ma k'uiripuni, uenani ka píirakuni niatakuechani o niatani ambe ma imangisï texurhiuaka kenditani nakinderku ma jurhimbekuechani ka jandijku janguarhekauechani eiamarhijperakatecha i amboŋastajperakuarhu."
     }
   ],
+  "lang": "tsz",
+  "language": "Purepecha",
   "note": []
 }

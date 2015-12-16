@@ -1,6 +1,6 @@
 {
-  "lang": "lia",
-  "language": "Limba, West-Central",
+  "iso639-3": "lia",
+  "key": "lia",
   "xmlns": "http://www.unhchr.ch/udhr",
   "title": "Ku Koloŋ ko ka kuloho ko ka wɔɔ yo wɔ Kafaydo",
   "preamble": {
@@ -264,5 +264,7 @@
       "para": ""
     }
   ],
+  "lang": "lia",
+  "language": "Limba, West-Central",
   "note": []
 }

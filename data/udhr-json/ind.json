@@ -1,6 +1,6 @@
 {
-  "lang": "ind",
-  "language": "Indonesian",
+  "iso639-3": "ind",
+  "key": "ind",
   "xmlns": "http://www.unhchr.ch/udhr",
   "title": "Pernyataan Umum tentang Hak-Hak Asasi Manusia",
   "preamble": {
@@ -264,5 +264,7 @@
       "para": "Tidak satu pun di dalam Pernyataan ini boleh ditafsirkan memberikan sesuatu Negara, kelompok ataupun seseorang, hak untuk terlibat di dalam kegiatan apa pun atau melakukan perbuatan yang bertujuan untuk merusak hak-hak dan kebebasan-kebebasan yang mana pun yang termaktub di dalam Pernyataan ini."
     }
   ],
+  "lang": "id",
+  "language": "Indonesian",
   "note": []
 }

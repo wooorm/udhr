@@ -1,6 +1,6 @@
 {
-  "lang": "tso",
-  "language": "Tsonga (Mozambique)",
+  "iso639-3": "tso",
+  "key": "tso_MZ",
   "xmlns": "http://www.unhchr.ch/udhr",
   "title": "Xipfumelelanu xa nthlanganu wa matiku ya misava mayelanu ni timhaka ta tinfanelo ta xumunhu",
   "note": [
@@ -268,5 +268,7 @@
       "title": "ARTIGO 30",
       "para": "Svà yalisiwa ku tirhisa xileleto xihi na xihi xa xipfumelelanu lexi hi ndlela ya ku a munhu, nthlanganu wa vanhu kumbe nfumu wa tiku lihi na lihi, à yendla svi yendlo lè svi kongomaku ku hahlula ti nfanelo ni wu khululeki lèli li haxiwaku è ka xipfumelelanu lexi."
     }
-  ]
+  ],
+  "lang": "ts",
+  "language": "Tsonga (Mozambique)"
 }

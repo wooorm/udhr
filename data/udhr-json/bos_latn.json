@@ -1,6 +1,6 @@
 {
-  "lang": "bos",
-  "language": "Bosnian (Latin)",
+  "iso639-3": "bos",
+  "key": "bos_latn",
   "xmlns": "http://www.unhchr.ch/udhr",
   "title": "OPĆA DEKLARACIJA O PRAVIMA ČOVJEKA",
   "note": [
@@ -268,5 +268,7 @@
       "title": "Član 30.",
       "para": "Ništa se u ovoj Deklaraciji ne može tumačiti kao pravo ma koje države, skupine ili osobe da sudjeluje u bilo kojoj djelatnosti ili da vrši bilo kakvu djelatnost usmjerenu na uništavanje bilo kojih ovdje izloženih prava i sloboda."
     }
-  ]
+  ],
+  "lang": "bs-Latn",
+  "language": "Bosnian (Latin)"
 }

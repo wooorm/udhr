@@ -1,6 +1,6 @@
 {
-  "lang": "lua",
-  "language": "Luba-Kasai",
+  "iso639-3": "lua",
+  "key": "lua",
   "xmlns": "http://www.unhchr.ch/udhr",
   "note": [
     {
@@ -268,5 +268,7 @@
       "title": "Kanungu ka 30.",
       "para": "Mu Mapangadika aa, kakwena kanungu anyi bwalu budi buleja ne ditunga, cisumbu cya bantu anyi muntu udi ne bukenji bwa kwenza bwalu budi butupakana ne budikadile anyi makokeshi adi mafunda aa."
     }
-  ]
+  ],
+  "lang": "lua",
+  "language": "Luba-Kasai"
 }

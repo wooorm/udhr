@@ -1,6 +1,6 @@
 {
-  "lang": "ido",
-  "language": "Ido",
+  "iso639-3": "ido",
+  "key": "ido",
   "xmlns": "http://www.unhchr.ch/udhr",
   "title": "Universal Deklaro di Homal Yuri",
   "note": [
@@ -271,5 +271,7 @@
       "title": "Artiklo 30",
       "para": "Nulo en ca Deklaro darfas esar interpretata kom implikanta por irga Stato, grupo o persono, irga yuro partoprenar irga aktiveso o facar irga ago vizanta la destrukto di irga yuro o libereso hike enuncita."
     }
-  ]
+  ],
+  "lang": "io",
+  "language": "Ido"
 }

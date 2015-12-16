@@ -1,6 +1,6 @@
 {
-  "lang": "emk",
-  "language": "Maninkakan, Eastern",
+  "iso639-3": "emk",
+  "key": "emk",
   "xmlns": "http://www.unhchr.ch/udhr",
   "title": "DUNUƝA BƐNMAKAN KA A BƐN",
   "note": [
@@ -268,5 +268,7 @@
       "title": "Sariya 30 nan",
       "para": "Dalilu si tɛ mɔɔ bolo, a tɛ jamana bolo, ka bɔ sila di, sila mɛn di sariyaba ɲinnu tiɲɛn."
     }
-  ]
+  ],
+  "lang": "emk",
+  "language": "Maninkakan, Eastern"
 }

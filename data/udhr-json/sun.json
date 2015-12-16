@@ -1,6 +1,6 @@
 {
-  "lang": "sun",
-  "language": "Sunda",
+  "iso639-3": "sun",
+  "key": "sun",
   "xmlns": "http://www.unhchr.ch/udhr",
   "note": [
     {
@@ -268,5 +268,7 @@
       "title": "PASAL 30",
       "para": "Tina ieu Pernyataan, hiji oge ulah ditafsirkeun saolah-olah mere nanaon ka hiji nagara, kelompok atawa pribadi anu mangrupa hak, pikeun kalibet atawa nyieun polah anu tujuanana rek ngaruksak kana hak-hak jeung kabebasan anu kacatet dina Pernyataan."
     }
-  ]
+  ],
+  "lang": "su",
+  "language": "Sunda"
 }

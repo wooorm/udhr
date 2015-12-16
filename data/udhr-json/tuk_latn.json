@@ -1,6 +1,6 @@
 {
-  "lang": "tuk",
-  "language": "Turkmen (Latin)",
+  "iso639-3": "tuk",
+  "key": "tuk_latn",
   "xmlns": "http://www.unhchr.ch/udhr",
   "title": "ADAM HUKUKLARYNYŇ ÄHLUMUMY JARNAMASY",
   "note": [
@@ -268,5 +268,7 @@
       "title": "30‐njy madda:",
       "para": "Bu Deklarasiýanyň hiç bir bölümi belli bir döwlete, adamlar toparyna ýa‐da aýratyn adamlara Deklarasiýada beýan edilen hak‐hukuklaryň we azatlyklaryň ýoguna ýanmaga gönükdirilen haýsydyr bir işleri ýa‐da hereketleri etmäge hukuk berýär diýen manyda düşündirilip bilinmez."
     }
-  ]
+  ],
+  "lang": "tk-Latn",
+  "language": "Turkmen (Latin)"
 }

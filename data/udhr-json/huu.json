@@ -1,6 +1,6 @@
 {
-  "lang": "huu",
-  "language": "Huitoto, Murui",
+  "iso639-3": "huu",
+  "key": "huu",
   "xmlns": "http://www.unhchr.ch/udhr",
   "title": "Nana Comɨnɨ Uri Illafue",
   "note": [
@@ -268,5 +268,7 @@
       "title": "Rafue 30.",
       "para": "Bie rafuedo jaiacadɨnona buna rairuiñena. Bie rafue uiñuamona, bie rabemo lloga rafuena buna jamaiñena."
     }
-  ]
+  ],
+  "lang": "huu",
+  "language": "Huitoto, Murui"
 }

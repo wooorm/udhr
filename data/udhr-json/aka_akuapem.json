@@ -1,6 +1,6 @@
 {
-  "lang": "aka",
-  "language": "Akan (Akuapem)",
+  "iso639-3": "aka",
+  "key": "aka_akuapem",
   "xmlns": "http://www.unhchr.ch/udhr",
   "title": "AMANSAN MPAEMUKA A ƐFA ONIPA BIARA KYƐFA HO",
   "preamble": {
@@ -264,5 +264,7 @@
       "para": "Ɛnse sɛ onipa biara kyerɛ nsɛm a ɛwɔ Mpaemuka yi mu no ase sɛ ɛyɛ ade bi a ɛma Ɔman, fekuw anaa onipa bi kyɛfa anaa tumi, nam so sɛe kyɛfa ne ahofadi horow a wɔabobɔ din wɔ nhoma yi mu no."
     }
   ],
+  "lang": "ak",
+  "language": "Akan (Akuapem)",
   "note": []
 }

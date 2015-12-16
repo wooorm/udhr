@@ -1,6 +1,6 @@
 {
-  "lang": "rmy",
-  "language": "Romani, Vlax",
+  "iso639-3": "rup",
+  "key": "rmy",
   "xmlns": "http://www.unhchr.ch/udhr",
   "title": "DECLARATSIA UNIVERSALÃ TI-NDREPTURLI-A OMLUI",
   "preamble": {
@@ -264,5 +264,7 @@
       "para": "Nitsi unâ determinari dit aestâ Declaratsii nu poati s-hibâ tulmâcitâ ca-ndreptul ti cafi un stat, grupâ icâ insu ta s-u facâ cari tsi s-hibâ activitati icâ s-facâ catsi s-va s-hibâ lucru shutsâtâ la câlcarea-a-ndrepturlor shi-a libertâtslor cari suntu bâgati tu ea."
     }
   ],
+  "lang": "rup",
+  "language": "Aromanian",
   "note": []
 }

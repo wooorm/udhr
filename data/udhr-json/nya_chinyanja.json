@@ -1,6 +1,6 @@
 {
-  "lang": "nya",
-  "language": "Nyanja (Chinyanja)",
+  "iso639-3": "nya",
+  "key": "nya_chinyanja",
   "xmlns": "http://www.unhchr.ch/udhr",
   "title": "CHIBVOMEREZO CA LAMULO LOSAMALIRA KHALIDWE LA MUNTHU PA DZIKO LONSE LA PANSI",
   "preamble": {
@@ -264,5 +264,7 @@
       "para": "Zosindikizidwa zonse za chibvomerezo ca lamulo losamalira khalidwe la umoyo wa munthu, sizitanthauza kuti Boma, kagulu ka anthu kapena munthu wina aliyense ali ndi danga kapena ufulu ocita zinthu zina zonse zofuna kuononga cilingo ca chibvomerezoci ai."
     }
   ],
+  "lang": "ny",
+  "language": "Nyanja (Chinyanja)",
   "note": []
 }

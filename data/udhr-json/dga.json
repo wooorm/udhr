@@ -1,6 +1,6 @@
 {
-  "lang": "dga",
-  "language": "Dagaare, Southern",
+  "iso639-3": "dga",
+  "key": "dga",
   "xmlns": "http://www.unhchr.ch/udhr",
   "title": "TENDAA NENSAABA ZAA YƐLƐSOOBO SOBIE MOƆLOO",
   "preamble": {
@@ -264,5 +264,7 @@
       "para": "Tenga zaa bee langne zaa bee neng-yeni zaa ba taa sori a willi a yɛlɛ ama ba nang manne bing a kyɛ; ka a waa seng nga a yɛlɛ nga ko ba la sobiri ka ba tong tone zaa bee yeli zaa nang waana ne nensaala mengasoobo ane o yelisoore noɔ̃ wommo ba nang manne bing a kyɛ sããbaro."
     }
   ],
+  "lang": "dga",
+  "language": "Dagaare, Southern",
   "note": []
 }

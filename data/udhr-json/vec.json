@@ -1,6 +1,6 @@
 {
-  "lang": "vec",
-  "language": "Venetian",
+  "iso639-3": "vec",
+  "key": "vec",
   "xmlns": "http://www.unhchr.ch/udhr",
   "title": "Dikiarassión Universaƚe dei Diriti dell’Homo",
   "note": [
@@ -268,5 +268,7 @@
       "title": "Articoƚo 30",
       "para": ""
     }
-  ]
+  ],
+  "lang": "vec",
+  "language": "Venetian"
 }

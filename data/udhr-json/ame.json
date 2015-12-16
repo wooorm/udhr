@@ -1,6 +1,6 @@
 {
-  "lang": "ame",
-  "language": "Yanesha'",
+  "iso639-3": "ame",
+  "key": "ame",
   "xmlns": "http://www.unhchr.ch/udhr",
   "title": "Arrpa' anaret ̃allohuen allpon derechos ñeñt ̃e'ñe po'ñoc̈h yocop ñeñt̃cha' atet ̃ yep̃a'yena allohueney acheñeneshay ama't errap̃aren arr patsro",
   "note": [
@@ -268,5 +268,7 @@
       "title": "Cot̃ap̃ñats 30.",
       "para": "Ora allpon derechos ñeñt ̃ aquellcaret ̃arr, ama't patr̃ra derecho amach ahuapore 'tpahuoyaye ama't errot̃ena."
     }
-  ]
+  ],
+  "lang": "ame",
+  "language": "Yaneshaʼ"
 }

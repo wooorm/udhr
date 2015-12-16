@@ -1,6 +1,6 @@
 {
-  "lang": "ita",
-  "language": "Italian",
+  "iso639-3": "ita",
+  "key": "ita",
   "xmlns": "http://www.unhchr.ch/udhr",
   "note": [
     {
@@ -268,5 +268,7 @@
       "title": "Articolo 30",
       "para": "Nulla nella presente Dichiarazione può essere interpretato nel senso di implicare un diritto di un qualsiasi Stato, gruppo o persona di esercitare un'attività o di compiere un atto mirante alla distruzione di alcuno dei diritti e delle libertà in essa enunciati."
     }
-  ]
+  ],
+  "lang": "it",
+  "language": "Italian"
 }

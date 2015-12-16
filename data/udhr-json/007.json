@@ -1,6 +1,6 @@
 {
-  "lang": "007",
-  "language": "(Forro)",
+  "iso639-3": "und",
+  "key": "007",
   "xmlns": "http://www.unhchr.ch/udhr",
   "title": "Declaraçón Universal di Dirêtu di Hómé",
   "note": [
@@ -268,5 +268,7 @@
       "title": "Artigo 30º",
       "para": "Tudu cuá cu sá ni Declaraçón sé na ca pô plimiti qualqué Estado, glupu ô nguê di fé qualqué cuá cu ca pô plijudicá tudu dirêtu cu liberdade cu sá ni ducumento sé."
     }
-  ]
+  ],
+  "lang": "und",
+  "language": ""
 }

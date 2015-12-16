@@ -1,6 +1,6 @@
 {
-  "lang": "mxv",
-  "language": "Mixteco, Metlatonoc",
+  "iso639-3": "mxv",
+  "key": "mxv",
   "xmlns": "http://www.unhchr.ch/udhr",
   "note": [
     {
@@ -268,5 +268,7 @@
       "title": "Artículo 30",
       "para": "Ñi iín ñu, ni iín, ñayi ma ku, sikaka yataí taka tnu'u ka'an naxi kukoto tna ñayi."
     }
-  ]
+  ],
+  "lang": "mxv",
+  "language": "Mixtec, Metlatónoc"
 }

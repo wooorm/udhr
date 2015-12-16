@@ -1,6 +1,6 @@
 {
-  "lang": "fri",
-  "language": "Frisian, Western",
+  "iso639-3": "fri",
+  "key": "fri",
   "xmlns": "http://www.unhchr.ch/udhr",
   "title": "Universele ferklearring fan de rjochten fan de minske",
   "note": [
@@ -268,5 +268,7 @@
       "title": "Kêst 30",
       "para": "Gjin bepaling yn dizze ferklearring sil sa útlein wurde meie, dat hokker steat, groep of persoan dan ek dêr ek mar ien of oar rjocht oan ûntliene kin om eat te ûndernimmen of hanlingen fan hokker aard ek te ferrjochtsjen dy't it ferneatigjen fan ien fan 'e rjochten en frijheden neamd yn dizze ferklearring, ta doel hawwe."
     }
-  ]
+  ],
+  "lang": "fy",
+  "language": "Frisian, Western"
 }

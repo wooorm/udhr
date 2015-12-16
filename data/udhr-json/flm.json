@@ -1,6 +1,6 @@
 {
-  "lang": "flm",
-  "language": "Chin, Falam",
+  "iso639-3": "flm",
+  "key": "flm",
   "xmlns": "http://www.unhchr.ch/udhr",
   "title": "Ram Tin Tian iium Minung Pakhat ciar ii Covo Thuthan",
   "note": [
@@ -300,5 +300,7 @@
       "title": "Thu 30",
       "para": "Hi mi thu than darh par ii covo pawl in siseh zalen nak siat suah duh nak thawn, ram pa khat hrang ah siseh, mi hrek khat hrang ah siseh, mai pumpak hrang ah siseh, tel thei nak covo kan nei a si, mai pumpak ciar ih covo a si ti-ih thu laak nak a um thei lo pei."
     }
-  ]
+  ],
+  "lang": "cfm",
+  "language": "Chin, Falam"
 }

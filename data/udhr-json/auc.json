@@ -1,6 +1,6 @@
 {
-  "lang": "auc",
-  "language": "Waorani",
+  "iso639-3": "auc",
+  "key": "auc",
   "xmlns": "http://www.unhchr.ch/udhr",
   "note": [
     {
@@ -268,5 +268,7 @@
       "para": "Ekame inke anamay inkedanimpa manomay tomenani igampa ante ponente\nkedamay inginga wabeka nani kee wakabodani wii inte adokanki ingante nani\ngodominke watape keegoo yekede watape godominke kegókimpa ante\nananipa."
     }
   ],
-  "title": ""
+  "title": "",
+  "lang": "auc",
+  "language": "Waorani"
 }

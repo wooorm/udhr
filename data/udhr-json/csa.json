@@ -1,6 +1,6 @@
 {
-  "lang": "csa",
-  "language": "Chinanteco, Chiltepec",
+  "iso639-3": "csa",
+  "key": "csa",
   "xmlns": "http://www.unhchr.ch/udhr",
   "title": "E'E JNA JAU LA KIO LE KÖ MUKUU KIO NIA NE KIO TSA RÜJNIA",
   "preamble": {
@@ -264,5 +264,7 @@
       "para": "Tasia chitoo ni mixii tasia li jmos jna isia' ijoo jmo'jna la chitoo ilaa mojoo kuee jupií ne t†̎ le kö ni jmä kö cha̱ tsou, elijmos ta mojoo lijmos kö tsó̱ lej†̎ t†̎ ne makaloo le ichitoo ni mixii la."
     }
   ],
+  "lang": "csa",
+  "language": "Chinantec, Chiltepec",
   "note": []
 }

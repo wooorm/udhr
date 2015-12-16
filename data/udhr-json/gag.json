@@ -1,6 +1,6 @@
 {
-  "lang": "gag",
-  "language": "Gagauz",
+  "iso639-3": "gag",
+  "key": "gag",
   "xmlns": "http://www.unhchr.ch/udhr",
   "title": "Insan Hakların Cümlä Deklaratiyası",
   "note": [
@@ -268,5 +268,7 @@
       "title": "Yazı 30",
       "para": "Bu Deklaraţiyada bişey yok nasıl yorumnansın osoy, sansın bir devletä, kişi grupasına yada ayırı kişilerä veriler hak ölä bir çalışmada bulunmaa, angısı önnendiriler bu Deklaraţiyada sıralanan hakları hem serbestlikleri yok etmää."
     }
-  ]
+  ],
+  "lang": "gag",
+  "language": "Gagauz"
 }

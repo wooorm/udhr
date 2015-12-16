@@ -1,6 +1,6 @@
 {
-  "lang": "lav",
-  "language": "Latvian",
+  "iso639-3": "lav",
+  "key": "lav",
   "xmlns": "http://www.unhchr.ch/udhr",
   "title": "VISPĀRĒJĀ CILVĒKA TIESĪBU DEKLARĀCIJA",
   "note": [
@@ -269,5 +269,7 @@
       "title": "30. pants",
       "para": "Neko šajā Deklarācijā nedrīkst tulkot tādējādi, lai kādai valstij, personu grupai vai atsevišķām personām būtu tiesības iesaistīties jebkādā pasākumā vai veikt jebkuru darbību, kuru mērķis ir iznīcināt šajā Deklarācijā izklāstītās tiesības un brīvības."
     }
-  ]
+  ],
+  "lang": "lv",
+  "language": "Latvian"
 }

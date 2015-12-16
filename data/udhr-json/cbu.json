@@ -1,6 +1,6 @@
 {
-  "lang": "cbu",
-  "language": "Candoshi-Shapra",
+  "iso639-3": "cbu",
+  "key": "cbu",
   "xmlns": "http://www.unhchr.ch/udhr",
   "title": "IN KIRAK -TSAPORONASOSH TPOTS ICHIGORO VANASIR TAPANA; SAMPATA MANTSIR TARINTSPA-ATCHA.",
   "preamble": {
@@ -264,5 +264,7 @@
       "para": "Xarashish minam tariya. Iyá kukini yayaros, sarich sarich shirintspa. Sarich sarich shiaros ¿mayamshita yosor tpotsia kiyog yachich? Ashiri, tpotsia natsarintspa; chinagtsa atiniya. Vatamcha."
     }
   ],
+  "lang": "cbu",
+  "language": "Candoshi-Shapra",
   "note": []
 }

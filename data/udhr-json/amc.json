@@ -1,6 +1,6 @@
 {
-  "lang": "amc",
-  "language": "Amahuaca",
+  "iso639-3": "amc",
+  "key": "amc",
   "xmlns": "http://www.unhchr.ch/udhr",
   "title": "",
   "preamble": {
@@ -264,5 +264,7 @@
       "para": "Nan quiricanan jau cuzati yohiquin cunuunivo quiyoo jumayamaquin ja jahaquin jau cuzatimun nonhnucanpu. Joniztipax jumahonon naha jonin nan quiricanan cunuunivo jumaquin ja jahaquin jau cuzayamahaitonmun hiromaquin shinanhihcanquihnucanpu."
     }
   ],
+  "lang": "amc",
+  "language": "Amahuaca",
   "note": []
 }

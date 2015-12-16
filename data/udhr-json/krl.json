@@ -1,6 +1,6 @@
 {
-  "lang": "krl",
-  "language": "Karelian",
+  "iso639-3": "krl",
+  "key": "krl",
   "xmlns": "http://www.unhchr.ch/udhr",
   "title": "Ristikanzan oigevuksien\nyhtehine deklaratsii",
   "note": [
@@ -268,5 +268,7 @@
       "title": "30. stat’t’u",
       "para": "Ni mi täh Deklaratsieh kirjutettu ei voi olla sellitetty, kui kudualetahto\nvaldivole, rahvasjoukole libo erillizile rahvahile annettu oigevus\ntoimie mittumaltahto alal libo luadie midätahto täh\nDeklaratsieh kirjutettuloin oigevuksien da vällyzien hävittämizekse."
     }
-  ]
+  ],
+  "lang": "krl",
+  "language": "Karelian"
 }

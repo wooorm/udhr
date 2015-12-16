@@ -1,6 +1,6 @@
 {
-  "lang": "mxi",
-  "language": "Mozarabic",
+  "iso639-3": "mxi",
+  "key": "mxi",
   "xmlns": "http://www.unhchr.ch/udhr",
   "title": "Declaratione Universale de les Dretos Humanos",
   "preamble": {
@@ -264,5 +264,7 @@
       "para": "Nula in la presente Declaratione poterà interpretarse in el senso de que confere dreto alcuno al Stato, ad un grupo aut ad una persona, per prendere et sveloppare activitates au realissare actos tendentes a la supressione de qualsevuolle de les dretos."
     }
   ],
+  "lang": "mxi",
+  "language": "Mozarabic",
   "note": []
 }

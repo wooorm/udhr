@@ -1,6 +1,6 @@
 {
-  "lang": "dzo",
-  "language": "Dzongkha",
+  "iso639-3": "dzo",
+  "key": "dzo",
   "xmlns": "http://www.unhchr.ch/udhr",
   "article": [
     {
@@ -9,6 +9,8 @@
     }
   ],
   "title": "",
+  "lang": "dz",
+  "language": "Dzongkha",
   "note": [],
   "preamble": {
     "title": "",

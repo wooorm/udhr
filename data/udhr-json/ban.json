@@ -1,6 +1,6 @@
 {
-  "lang": "ban",
-  "language": "Bali",
+  "iso639-3": "ban",
+  "key": "ban",
   "xmlns": "http://www.unhchr.ch/udhr",
   "title": "Pangawedar indik Hak-Hak Azasi Manusia",
   "note": [
@@ -268,5 +268,7 @@
       "title": "Pasal 30",
       "para": "Ring sajeroning pangawedar puniki tan dados katarka tur nguwehin inggian negara, paguyuban, utawi silih tunggal janma, hak nyarengin saluir pekaryaan, utawi ngelaksanayang saparisolah sane matujon ngerusak hak-hak lan kebebasan-kebebasan sane mungguh ring sajeroning pangawedar puniki."
     }
-  ]
+  ],
+  "lang": "ban",
+  "language": "Bali"
 }

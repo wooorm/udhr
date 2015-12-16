@@ -1,6 +1,6 @@
 {
-  "lang": "kha",
-  "language": "Khasi",
+  "iso639-3": "kha",
+  "key": "kha",
   "xmlns": "http://www.unhchr.ch/udhr",
   "title": "KA JINGPYNBNA-ÏAR SATLAK ÏA KI HOK LONGBRIEW MANBRIEW",
   "note": [
@@ -268,5 +268,7 @@
       "title": "Jinis 30",
       "para": "Ym don kano kano ha kane ka Jingpynbna-ïar ba lah ban batai da kumwei pat kum ban ïalam bakla ïa kano kano ka Ri, ki kynhun  ki riewshimet halor kano kano hok ban ïateh ha kino kino ki  ban leh, ban pynjot ne pynduh pyndam ïa ki hok bad ki jinglaitluid kiba la buh ha Ka."
     }
-  ]
+  ],
+  "lang": "kha",
+  "language": "Khasi"
 }

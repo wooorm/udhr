@@ -1,6 +1,6 @@
 {
-  "lang": "ckb",
-  "language": "Kurdish, Central",
+  "iso639-3": "ckb",
+  "key": "ckb",
   "xmlns": "http://www.unhchr.ch/udhr",
   "title": "Danezana gerdûnî ya mafên mirov",
   "preamble": {
@@ -264,5 +264,7 @@
       "para": "Tu hukmekî vê Danezanê nikare bê tefsîr kirin wekî ku tu maf dide dewletekê, komekê û kesekî ji bo kirina karekî an pêkanîna kirinekî ku rakirina maf û azadiyên ku tê de hatine berpêş kirin amanc bigre."
     }
   ],
+  "lang": "ku",
+  "language": "Kurdish, Central",
   "note": []
 }

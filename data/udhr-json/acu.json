@@ -1,6 +1,6 @@
 {
-  "lang": "acu",
-  "language": "Achuar-Shiwiar",
+  "iso639-3": "acu",
+  "key": "acu",
   "xmlns": "http://www.unhchr.ch/udhr",
   "note": [
     {
@@ -268,5 +268,7 @@
       "title": "30.",
       "para": "Ju aarmausha wainkaru asar, tu tawai tusar, nekainau asar, aints angkan pengker pujusai tusar, apu kichkisha surimkachartinuitai. Tura chikich aints ainausha nunaka surimkachartinuitai."
     }
-  ]
+  ],
+  "lang": "acu",
+  "language": "Achuar-Shiwiar"
 }

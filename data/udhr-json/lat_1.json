@@ -1,6 +1,6 @@
 {
-  "lang": "lat",
-  "language": "Latin",
+  "iso639-3": "lat",
+  "key": "lat_1",
   "xmlns": "http://www.unhchr.ch/udhr",
   "title": "UNIVERSALIS DE JURE HOMINUM DECLARATIO",
   "note": [
@@ -268,5 +268,7 @@
       "title": "XXX",
       "para": "Nullum decretum hujus Declarationis interpretari potest quasi civitati, societati aut cuidam homini jus aliquid implicans se dedendi alicui facinori aut aliquid faciendi ad libertates et jura evertenda, quae hoc loco enuntiata sunt."
     }
-  ]
+  ],
+  "lang": "la",
+  "language": "Latin (1)"
 }

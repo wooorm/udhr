@@ -1,6 +1,6 @@
 {
-  "lang": "roh",
-  "language": "Romansch",
+  "iso639-3": "roh",
+  "key": "roh",
   "xmlns": "http://www.unhchr.ch/udhr",
   "title": "Decleranza universala dals drets da l'uman",
   "preamble": {
@@ -264,5 +264,7 @@
       "para": "Ingüna disposiziun da la Decleranza preschainta nu po gnir interpretada in quel sen chi resultess landroura per ün stadi, per üna gruppa o per üna persuna qualunque dret da pratichar una actività o dad accumplir ün fat chi vessan per mera da desdrüer ils drets e las libertats manzunadas in quista Decleranza."
     }
   ],
+  "lang": "rm",
+  "language": "Romansch",
   "note": []
 }

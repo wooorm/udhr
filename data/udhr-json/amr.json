@@ -1,6 +1,6 @@
 {
-  "lang": "amr",
-  "language": "Amarakaeri",
+  "iso639-3": "amr",
+  "key": "amr",
   "xmlns": "http://www.unhchr.ch/udhr",
   "title": "",
   "preamble": {
@@ -264,5 +264,7 @@
       "para": "In beroba'te aratbut nogda nogda huadak eka' ka'dik o̱'ne, o'manay. Be'api' ken ko̱nig o'ka'po nogda kentaj batika'dik o̱'e̱. Oro' jahue' o̱'e̱y kena'po in beroba'te ka'dik o̱'ne. O'manay."
     }
   ],
+  "lang": "amr",
+  "language": "Amarakaeri",
   "note": []
 }

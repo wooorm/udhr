@@ -1,6 +1,6 @@
 {
-  "lang": "suk",
-  "language": "Sukuma",
+  "iso639-3": "suk",
+  "key": "suk",
   "xmlns": "http://www.unhchr.ch/udhr",
   "title": "ILAKA LYA MAHANGA LYA SEKGE YA BAMUNHU",
   "preamble": {
@@ -264,5 +264,7 @@
       "para": "Nduhu nsi nulu Luganda lose ulo ludulile gugema gululunghyanya gubipya kayombele ga mhayo gwenuyo, wiyabi na Sekge ijihayiwe ngw’Ilaka lyenili lya Mahanga."
     }
   ],
+  "lang": "suk",
+  "language": "Sukuma",
   "note": []
 }

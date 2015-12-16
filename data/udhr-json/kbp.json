@@ -1,6 +1,6 @@
 {
-  "lang": "kbp",
-  "language": "Kabiyé",
+  "iso639-3": "kbp",
+  "key": "kbp",
   "xmlns": "http://www.unhchr.ch/udhr",
   "title": "KEDEŊGA KPEEKPE YƆƆ ƐYƱ WALA TƆM",
   "preamble": {
@@ -264,5 +264,7 @@
       "para": "Kedeŋga kpeekpe yɔɔ ɛyʊ wala tɔm tʊnɛ, tɩ-taa tʊ kpayɩ kpayɩ. Ɛyʊ nɔɔyʊ fɛyɩ ɛtɔŋ se hɔɔlʊʊ kʊnɛ, yaa ŋgʊ yɔ, kʊtɔŋna se padaaña wala naayɛ ɛjaɖɛ ɖɩnɛ,yaa nɖɩ yɔ ɖɩ-taa."
     }
   ],
+  "lang": "kbp",
+  "language": "Kabiyé",
   "note": []
 }

@@ -1,6 +1,6 @@
 {
-  "lang": "smo",
-  "language": "Samoan",
+  "iso639-3": "smo",
+  "key": "smo",
   "xmlns": "http://www.unhchr.ch/udhr",
   "title": "OFISA O LE KOMESINA SILI O MALO AUFAATASI MO AIA TATAU A TAGATA SOIFUA",
   "note": [
@@ -268,5 +268,7 @@
       "title": "Mataupu 30",
       "para": "E leai lava se mea i lenei Tautinoga e mafai ona faauigaina e faapea, e mafai e so o se Malo, faalapotopotoga po o so o se tagata ua i ai le aia tatau e faagaoi so o se faagaoioiga po o faataunuu so o se tulaga mo le faatamaia o so o se aia tatau ma saolotoga ua tuuina mai i lenei Tautinoga."
     }
-  ]
+  ],
+  "lang": "sm",
+  "language": "Samoan"
 }

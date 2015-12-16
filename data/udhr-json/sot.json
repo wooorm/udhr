@@ -1,6 +1,6 @@
 {
-  "lang": "sot",
-  "language": "Sotho, Southern",
+  "iso639-3": "sot",
+  "key": "sot",
   "xmlns": "http://www.unhchr.ch/udhr",
   "title": "TOTOBATSO E AKARETSANG YA DITOKELO TSA BOTHO",
   "preamble": {
@@ -264,5 +264,7 @@
       "para": "Ha ho letho Phatlalatsong ena le tshwanetseng ho hlalosa hore naha efeng kapa efeng, batho kapa motho, ba na le tokelo ya ho itshunya kapa ho etsa ketso efeng kapa efeng eo sepheo sa yona e leng ho heletsa ditokelo le bolokolohi bofeng kapa bofeng bo ngotsweng mona."
     }
   ],
+  "lang": "st",
+  "language": "Sotho, Southern",
   "note": []
 }

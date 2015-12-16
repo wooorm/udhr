@@ -1,6 +1,6 @@
 {
-  "lang": "csw",
-  "language": "Swampy Cree",
+  "iso639-3": "csw",
+  "key": "csw",
   "xmlns": "http://www.unhchr.ch/udhr",
   "title": "ᐁᐢᐱᑕᐢᑲᒥᑲᐠ ᐊᐢᑭᐠ ᑭᒋ ᐃᑗᐎᐣ ᐃᓂᓂᐎ ᒥᓂᑯᐎᓯᐎᓇ ᐅᒋ",
   "note": [
@@ -198,5 +198,7 @@
         ]
       }
     }
-  ]
+  ],
+  "lang": "csw",
+  "language": "Cree, Swampy"
 }

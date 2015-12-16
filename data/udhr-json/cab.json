@@ -1,6 +1,6 @@
 {
-  "lang": "cab",
-  "language": "Garífuna",
+  "iso639-3": "cab",
+  "key": "cab",
   "xmlns": "http://www.unhchr.ch/udhr",
   "title": "Adamuridagunt to Tagumairagüdaru Garada to Ayanuhabaun luagu le yubat haun gürigia ubauwagu",
   "preamble": {
@@ -264,5 +264,7 @@
       "para": "Uati ni aban saminaü tidan gárada to lun hamuga líchigun ubafu lun furumieguarügü (kai hamúga gürigia, adámuri, uruwai) lun gawarabai lan ladügün somu katai barúnati luagun tubáliti gáarada to."
     }
   ],
+  "lang": "cab",
+  "language": "Garifuna",
   "note": []
 }

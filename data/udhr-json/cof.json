@@ -1,6 +1,6 @@
 {
-  "lang": "cof",
-  "language": "Colorado",
+  "iso639-3": "cof",
+  "key": "cof",
   "xmlns": "http://www.unhchr.ch/udhr",
   "title": "JERA TOTE PIYANLE TSA'CHILACHI MANTA",
   "note": [
@@ -268,5 +268,7 @@
       "title": "30. Manta",
       "para": "In mantakari, monanti, ti payilati junshi bolonlati, tenka muna, se i'toe ti'to, piyarechike, tenfenola i'toe."
     }
-  ]
+  ],
+  "lang": "cof",
+  "language": "Colorado"
 }

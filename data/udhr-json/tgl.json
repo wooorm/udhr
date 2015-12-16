@@ -1,6 +1,6 @@
 {
-  "lang": "tgl",
-  "language": "Tagalog",
+  "iso639-3": "tgl",
+  "key": "tgl",
   "xmlns": "http://www.unhchr.ch/udhr",
   "note": [
     {
@@ -268,5 +268,7 @@
       "title": "Artikulo 30",
       "para": "Walang bagay sa Pahayag na ito na mapapakahulugan ang nagbibigay sa alin mang Estado, pangkat o tao ng ano mang karapatang gumawa ng ano mang kilusan o magsagawa ng ano mang hakbang na naglalayong sirain ang nakalahad dito."
     }
-  ]
+  ],
+  "lang": "tl",
+  "language": "Tagalog"
 }

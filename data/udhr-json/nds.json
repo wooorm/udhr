@@ -1,6 +1,6 @@
 {
-  "lang": "nds",
-  "language": "Saxon, Low",
+  "iso639-3": "nds",
+  "key": "nds",
   "xmlns": "http://www.unhchr.ch/udhr",
   "title": "Allgemeen Verklaren vun de Minschenrechten",
   "preamble": {
@@ -264,5 +264,7 @@
       "para": "Keeneen vun de Artikels, de in düsse Verklaren fastleggt worrn sünd, dröff so utleggt warrn, wat se för een Staat, een Koppel Lüüd orrer een Persoon jichtenseen Recht begrünnt, wat to doon orrer wat to maken, wat daarup ruut lööpt, de Rechten un Frieheiten ut düsse Verklaren bikant to smieten."
     }
   ],
+  "lang": "nds",
+  "language": "Saxon, Low",
   "note": []
 }

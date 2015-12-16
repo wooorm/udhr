@@ -1,6 +1,6 @@
 {
-  "lang": "pcm",
-  "language": "Pidgin, Nigerian",
+  "iso639-3": "pcm",
+  "key": "pcm",
   "xmlns": "http://www.unhchr.ch/udhr",
   "title": "Universal Declaration of Human Rights",
   "note": [
@@ -268,5 +268,7 @@
       "title": "Article 30",
       "para": "Nothing for dis small book wey we talk about human right so, talk say any kontri, person or people get any right to do something wey e go destroy all dis rights we dey talk about since."
     }
-  ]
+  ],
+  "lang": "pcm",
+  "language": "Pidgin, Nigerian"
 }

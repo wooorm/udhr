@@ -1,6 +1,6 @@
 {
-  "lang": "spa",
-  "language": "Spanish",
+  "iso639-3": "spa",
+  "key": "spa",
   "xmlns": "http://www.unhchr.ch/udhr",
   "title": "Declaración Universal de Derechos Humanos",
   "note": [
@@ -268,5 +268,7 @@
       "title": "Artículo 30",
       "para": "Nada en la presente Declaración podrá interpretarse en el sentido de que confiere derecho alguno al Estado, a un grupo o a una persona, para emprender y desarrollar actividades o realizar actos tendientes a la supresión de cualquiera de los derechos y libertades proclamados en esta Declaración."
     }
-  ]
+  ],
+  "lang": "es",
+  "language": "Spanish"
 }

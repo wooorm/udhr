@@ -1,6 +1,6 @@
 {
-  "lang": "pis",
-  "language": "Pijin",
+  "iso639-3": "pis",
+  "key": "pis",
   "xmlns": "http://www.unhchr.ch/udhr",
   "title": "Universol Declarason lo Hiuman Raits",
   "preamble": {
@@ -264,5 +264,7 @@
       "para": "No eni kantri, group or man savve usim eni toktok insaed disfala deklaration fo duim eniting wea bae hemi spoilem eni wan lo olketa raits en friidoms wea i lo dis fala Declarason."
     }
   ],
+  "lang": "pis",
+  "language": "Pijin",
   "note": []
 }
