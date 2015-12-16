@@ -1,4 +1,10 @@
 
+1.0.0 / 2015-12-16
+==================
+
+*   Add missing newline characters at end-of-file ([6a0959b](https://github.com/wooorm/udhr/commit/e67ce50))
+*   Rebuild distribution files ([6a0959b](https://github.com/wooorm/udhr/commit/3b4f381))
+
 0.1.3 / 2015-03-18
 ==================
 
