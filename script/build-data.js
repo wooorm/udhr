@@ -91,7 +91,7 @@ function writeTXTData(data) {
         return declaration.filename;
     });
 
-    writeFile('data/index-txt.json', JSON.stringify(keys, null, 2));
+    writeFile('data/index-txt.json', JSON.stringify(keys, null, 2) + '\n');
 }
 
 /**
@@ -239,7 +239,7 @@ function writeJSONData(data) {
         return declaration.filename;
     });
 
-    writeFile('data/index-json.json', JSON.stringify(keys, null, 2));
+    writeFile('data/index-json.json', JSON.stringify(keys, null, 2) + '\n');
 
     data.forEach(function (declaration) {
         var input = 'data/udhr-xml/udhr_' + declaration.filename + '.xml';
@@ -332,7 +332,7 @@ function writeJSONData(data) {
                 );
             });
 
-            writeFile(output, JSON.stringify(json, null, 2));
+            writeFile(output, JSON.stringify(json, null, 2) + '\n');
 
             console.log('');
         });
@@ -351,7 +351,7 @@ xmlToJSON({
 
     udhr = cleanData(data);
 
-    writeFile('data/information.json', JSON.stringify(udhr, null, 2));
+    writeFile('data/information.json', JSON.stringify(udhr, null, 2) + '\n');
     writeJSONData(udhr);
     writeTXTData(udhr);
 });
