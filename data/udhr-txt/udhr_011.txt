@@ -1,4 +1,4 @@
-Universal Declaration of Human Rights - (Umbundo)
+Universal Declaration of Human Rights - Umbundu (011)
 © 1996 – 2009 The Office of the High Commissioner for Human Rights
 This plain text version prepared by the “UDHR in Unicode”
 project, http://www.unicode.org/udhr.
@@ -7,7 +7,7 @@ project, http://www.unicode.org/udhr.
 Ohuminyo Yoluali Yoku Tata Ovimuenyo Viomanu
     OHONDO YOLOPAPELO VIU VANGI WOMANU
     KUENDA YOKU SOKISA OVIHANDELEKO
-    Yataviwa kuenda ya tumbikiwa Lonjango Yinene kesokiyo lio ( 217 A III )
+    Yataviwa kuenda ya tumbikiwa Lonjango Yinene kesokiyo lio (217 A III)
     vita vivali kekui lepanduvali, kete liekui (10) kosayî ya Dezembro kulima wa 1948 - ohulukayî kovita ecea kakui akualã lecelãlã.
   
     Ulandu
@@ -15,8 +15,8 @@ Ohuminyo Yoluali Yoku Tata Ovimuenyo Viomanu
     Ekambo liu kulihiso kuenda oku pembula ovihandeleko vitata omuenyo womanu ku tuala omanu ko kulinga uvî kuenje uvî waco wa nena onyeño vovitima viomanu vosi, yu va sanga ocisimilo calonga cokuti omunu lomunu okuete omoko lutoyi woku tava pamue okupatalã eci cosi ayongola pamue kayongola kuenda ka kuata usumba woku talisua ohali.
     Okutata omuenyo womanu oco cavelapo , kuenje ciwa nda ocihandeleko caco ci kolisua luvangi oco okuti lomue kaka yonjiwe oku fetuluinya ukuavo uvi olingile.
     Ca sesamela okuti pokati kolofeka viosi pa kala ocisola lukamba.
-    Ekolelõ liomanu vosi va tiamela ko Hongele Yolofeka ( Nações Unidas ) lia kapiwa kovihandeleko vikola vioku tata omuenyo womanu, yu vaci pitulula vali vukanda owu okuti, esumbilo kuenda unene womunu vi tunda koku kapa omanu vosi pomangu yimosi- okuti vosi vasoka kunene - nda ulume nda ukayî kuenda loku vahã cimosi civa kuatisa okuama kovaso loku kuata eyovo liocili.
-    Olofeka viosi vi tiamelã ko Hongele Yolofeka ( Nações Unidas ) kuenda ombonge yavo, vali kunda okuti esumbilo voluali kuenda esumbilo lomuenyo womanu te viamoleha kovilinga, oco eyovo liocili.
+    Ekolelõ liomanu vosi va tiamela ko Hongele Yolofeka (Nações Unidas) lia kapiwa kovihandeleko vikola vioku tata omuenyo womanu, yu vaci pitulula vali vukanda owu okuti, esumbilo kuenda unene womunu vi tunda koku kapa omanu vosi pomangu yimosi- okuti vosi vasoka kunene - nda ulume nda ukayî kuenda loku vahã cimosi civa kuatisa okuama kovaso loku kuata eyovo liocili.
+    Olofeka viosi vi tiamelã ko Hongele Yolofeka (Nações Unidas) kuenda ombonge yavo, vali kunda okuti esumbilo voluali kuenda esumbilo lomuenyo womanu te viamoleha kovilinga, oco eyovo liocili.
     Kovisila evi vioku tata omuenyo womanu oko ku tunda eyovo liocili kuenda esanju lia suapo liomanu.
     Onjango Yinene
     Ohuminyo eyi yoku tata omuenyo womanu, voluali luosi oko kocimaho oluali lua sesamela oku loña, apata osi , olofeka viosi, oco okuti omanu vosi kuenda olombonge viosi violohongele viomanu vavi kapa vovitima viavo kuenje ohuminyo yaco yendelela kuvosi okuti okulisumbila pokati oco eyovo lienda kovaso, nda pokati komanu vakuafeka yimosi nda pokati kolofeka vioposamua vatiamela vo Hongele yolofeka va tava ovihandeleko evi.
@@ -181,7 +181,7 @@ Ohuminyo Yoluali Yoku Tata Ovimuenyo Viomanu
         Omunu wosi okuete omoko yoku kuata omuenyo luhiti, eye lepata liahe va kuata ekuatiso kuhayele, kokulia, kuwalo, kocitumalo, koku feta ocimbanda, pamue ekuatiso likuavo lisukiliwa kuenda osesamela oku vikuvindikiyiwa nda ka kuete upange, pamue nda koku vela, nda walinga ocilema, nda wa siala umbumba, pamue wa kuka pamue vimue vikuavo viu tateka okusanga epondolo.
       
       
-        Uyali kuenda utila womala visesamela ekuatiso liocili. Omalã vosi, nda omalã vondombua nda voposamua, vosi vakuete omoko yimosi yoku tambula ekuatiso kombonge ( Segurança Social ).
+        Uyali kuenda utila womala visesamela ekuatiso liocili. Omalã vosi, nda omalã vondombua nda voposamua, vosi vakuete omoko yimosi yoku tambula ekuatiso kombonge (Segurança Social).
       
     
   
@@ -223,7 +223,7 @@ Ohuminyo Yoluali Yoku Tata Ovimuenyo Viomanu
         Ko kusuisapo ovihandeleko evi loku vitelisa oko kutunda eyovo liocili, kuenda lomue otakekiwa locihandeleko ciñi te lika evi vikuatisa okuamisa kovaso ovihandeleko vieyovo liavakuavo oco va suisepo uhiti lutate wofeka kuenda oco usoma utukuiwa "Democracia ".
       
       
-        Ovihandeleko evi vilingiwa lika oku kolisa ongusu yo Hongele Yolofeka ( Nações Unidas )
+        Ovihandeleko evi vilingiwa lika oku kolisa ongusu yo Hongele Yolofeka (Nações Unidas).
       
     
   

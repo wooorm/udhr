@@ -4,7 +4,7 @@ This plain text version prepared by the “UDHR in Unicode”
 project, http://www.unicode.org/udhr.
 ---
 
-RUNAKUI\IAPAK HAYÑITA WILLAY
+RUNAKUNAPAK HAYÑITA WILLAY
       KALLARI YUYAY
       Kawsaypi yuyashpa, kishpiriy, paktakay, allpapachapi kasikllakawsay tiksi
 kakpimi tukuy runakuna sumak kawsayta charichun nishpa riksin; shinallatak

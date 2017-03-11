@@ -203,7 +203,7 @@
       "para": "Ikvienam ir tiesības uz atpūtu un brīvo laiku, ieskaitot saprātīgu darbadienas ierobežojumu un apmaksātu periodisku atvaļinājumu."
     },
     {
-      "para": "25. pants",
+      "title": "25. pants",
       "orderedlist": {
         "listitem": [
           {
@@ -213,8 +213,7 @@
             "para": "Mātēm un bērniem ir tiesības uz īpašu aizsardzību un palīdzību. Visiem bērniem, laulībā un ārlaulībā dzimušajiem, ir jābauda vienāda sociālā aizsardzība."
           }
         ]
-      },
-      "title": ""
+      }
     },
     {
       "title": "26. pants",

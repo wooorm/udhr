@@ -1,6 +1,6 @@
 {
-  "iso639-3": "cjk",
-  "key": "cjk",
+  "iso639-3": "",
+  "key": "",
   "xmlns": "http://www.unhchr.ch/udhr",
   "title": "ULUMBUNWISO WAKUTELA WA MUTHU MWESWE",
   "note": [
@@ -19,76 +19,76 @@
     },
     {
       "title": "LIJI LYA MUHALI",
-      "para": "Mwese kanatela kupwa nyi ululi upema, kutama cipema, nyi kulita nyi ximbi ja ulitelo anakasa, kusakula hanji kutonda cicikupwaho, cipwe kulitonda mu nyaci, ca cikowa, ca kwamba ngo lunga nyi phwo, ca maliji, ca cisamba, hanji kwambango mukwa sango nyi mukwa uto, nyi hanji ngo au mukwa manyonga api, au mukwa cifuci hanji kulita, ca uphici, ca cisemwa cipwe hakutala ha cuma ceswaco. Cipicipi keci tutonda kutwala kuphande jaa upulukilo wa malinjekela, hanji mukwa haze lya cifuci hanji kwamba ngo wo ku mbonge ya nganji ximbu mwene mukwa cifuci, cinyonga ca muthu mweswe, kuxi nyumwe yoze mamba ngweni kuci nyi kuci hanji umwe mukwa kutumina munene masa cimwe citanga ca kwalumuna.\nLIJI LYA MUCITATU"
+      "para": "Mwese kanatela kupwa nyi ululi upema, kutama cipema, nyi kulita nyi ximbi ja ulitelo anakasa, kusakula hanji kutonda cicikupwaho, cipwe kulitonda mu nyaci, ca cikowa, ca kwamba ngo lunga nyi phwo, ca maliji, ca cisamba, hanji kwambango mukwa sango nyi mukwa uto, nyi hanji ngo au mukwa manyonga api, au mukwa cifuci hanji kulita, ca uphici, ca cisemwa cipwe hakutala ha cuma ceswaco.\nCipicipi keci tutonda kutwala kuphande jaa upulukilo wa malinjekela, hanji mukwa haze lya cifuci hanji kwamba ngo wo ku mbonge ya nganji ximbu mwene mukwa cifuci, cinyonga ca muthu mweswe, kuxi nyumwe yoze mamba ngweni kuci nyi kuci hanji umwe mukwa kutumina munene masa cimwe citanga ca kwalumuna."
     },
     {
-      "title": "Nyumwe mapwa kupita cipwe ungamba; upinji nyi kusumba kenya ca tupinji hi capwa kukanjisa cipwe myanda yeswe ize akulinga.",
-      "para": "LIJI LYA MUCIWANA"
+      "title": "LIJI LYA MUCITATU",
+      "para": "Nyumwe mapwa kupita cipwe ungamba; upinji nyi kusumba kenya ca tupinji hi capwa kukanjisa cipwe myanda yeswe ize akulinga."
     },
     {
-      "title": "Nyumwe nawa mapwa kumwesa lamba, cipwe hanji kumutalatala ca mandamba, cixi nyi kheke hanji itumbu ilelu.",
-      "para": "LIJI LYA MUCITANO"
+      "title": "LIJI LYA MUCIWANA",
+      "para": "Nyumwe nawa mapwa kumwesa lamba, cipwe hanji kumutalatala ca mandamba, cixi nyi kheke hanji itumbu ilelu."
     },
     {
-      "title": "Mweswawo kanatela muze maya kumwe kucihela ceswaco kumutambula nyi uthu nyi kulita nyi ximby ja cyulo.",
-      "para": "LIJI LYA MUCISAMBANO"
+      "title": "LIJI LYA MUCITANO",
+      "para": "Mweswawo kanatela muze maya kumwe kucihela ceswaco kumutambula nyi uthu nyi kulita nyi ximby ja cyulo."
     },
     {
-      "title": "Ku ximbi ja cyulo eswe kali cimwikha, nawa kukulita nuci kulisa mu cyulo ufunga umwikha. Eswe kanatela kwafunga cimwikha heci kupwa kulisakula ku cima kuvulumuna ulumbunwiso anakasa nawa kulimika nyi kwihya caa kwalumuna cyulo.",
-      "para": "LIJI LYA MUCIXIMBYALI"
+      "title": "LIJI LYA MUCISAMBANO",
+      "para": "Ku ximbi ja cyulo eswe kali cimwikha, nawa kukulita nuci kulisa mu cyulo ufunga umwikha. Eswe kanatela kwafunga cimwikha heci kupwa kulisakula ku cima kuvulumuna ulumbunwiso anakasa nawa kulimika nyi kwihya caa kwalumuna cyulo."
     },
     {
-      "title": "Mweswawo kanatela kupwa nyi umwe ukwasoo wa makulwana akutumina cifuci kumulamwina kuli yoze mazanga kulinga cipi wa kuciza ulite unamutela uli muximbi ja cyulo.",
-      "para": "LIJI LYA MUCINAKE"
+      "title": "LIJI LYA MUCIXIMBYALI",
+      "para": "Mweswawo kanatela kupwa nyi umwe ukwasoo wa makulwana akutumina cifuci kumulamwina kuli yoze mazanga kulinga cipi wa kuciza ulite unamutela uli muximbi ja cyulo."
     },
     {
-      "title": "Nyumwe mapwa kukwata tungumuku hikumusa mu zuwo lya ususu, cipwe kumutumbika ximbu hanji kumutuma kumwe nyi kumusweka.",
-      "para": "LIJI LYA MUCILIVA"
+      "title": "LIJI LYA MUCINAKE",
+      "para": "Nyumwe mapwa kukwata tungumuku hikumusa mu zuwo lya ususu, cipwe kumutumbika ximbu hanji kumutuma kumwe nyi kumusweka."
     },
     {
-      "title": "Mweswawo kanatela ululi, nyi kulita cimwikha, cilumbu ceswaco cipwe kusopha nyi kulita nyi kukunjika ku zumo lya kusophela hanga ipwe kwamba nyi kulita kecikuciza nyi cimwe, mamba, ngwe haulite nawa nyi uxinjilize, hakutala ha yeswe ize amusuma akulinga iye.",
-      "para": "LIJI LYA MUCIKUMI"
+      "title": "LIJI LYA MUCILIVA",
+      "para": "Mweswawo kanatela ululi, nyi kulita cimwikha, cilumbu ceswaco cipwe kusopha nyi kulita nyi kukunjika ku zumo lya kusophela hanga ipwe kwamba nyi kulita kecikuciza nyi cimwe, mamba, ngwe haulite nawa nyi uxinjilize, hakutala ha yeswe ize amusuma akulinga iye."
     },
     {
-      "title": "1.Muthu mweswe asuma mulonga wa kuthaci kali wa kulamikiza ndo mulonga weni mupwa kuhwisa kanawa hakaci kambunga haze haswila waze anamukwasa nyi anamukalila anamukwacila nithaci.",
-      "para": "2.Nyumwe mahasa kuhisa nyi mulonga ximbu, lizelyene au linga, nawa konda ucipwa kwamba nyi kulita nyi cyulo caa cifuci hanji ngwe nawa nyi yulo ya ifuci yeswe mumu cimwikha, ca telele kulinga mulonga ukolo kuhyana ngwe cize anakasa ha ximbu muze mulonga hi wapwa."
+      "title": "LIJI LYA MUCIKUMI",
+      "para": "Muthu mweswe asuma mulonga wa kuthaci kali wa kulamikiza ndo mulonga weni mupwa kuhwisa kanawa hakaci kambunga haze haswila waze anamukwasa nyi anamukalila anamukwacila nithaci."
     },
     {
       "title": "LIJI LYA MUCIKUMI NYI KAXI",
       "orderedlist": {
         "listitem": [
           {
-            "para": "Nyumwe mahasa kunjila kuphande jambala jinalipalikila, hanji ku zuwo, mu cisemuka hanji kuma kweswako kuze kakutambikileko cipwe kwambujola, hanji kuciza vumbi nyi ulemu wenyi."
+            "para": "Nyumwe mahasa kuhisa nyi mulonga ximbu, lizelyene au linga, nawa konda ucipwa kwamba nyi kulita nyi cyulo caa cifuci hanji ngwe nawa nyi yulo ya ifuci yeswe mumu cimwikha, ca telele kulinga mulonga ukolo kuhyana ngwe cize anakasa ha ximbu muze mulonga hi wapwa."
           },
           {
-            "para": "LIJI LYA MUCIKUMI NYI AALI"
+            "para": "Nyumwe mahasa kunjila kuphande jambala jinalipalikila, hanji ku zuwo, mu cisemuka hanji kuma kweswako kuze kakutambikileko cipwe kwambujola, hanji kuciza vumbi nyi ulemu wenyi."
           }
         ]
       }
     },
     {
-      "title": "Nyumwe mahasa kunjila kuphande jambala jinalipalikila, hanji ku zuwo, mu cisemuka hanji kuma kweswako kuze kakutambikileko cipwe kwambujola, hanji kuuciza vumbi nyi nlenu wenyi.",
-      "para": "LIJI LYA MUCIKUMI NYI AALI"
+      "title": "LIJI LYA MUCIKUMI NYI AALI",
+      "para": " Muthu mweswe kanatela kupwa nyi uhamwino wa ximbi ja cyulo kukinda waze akunjila kuphande jambala kuze kakutambikeleko."
     },
     {
-      "title": "Nyumwe mahasa kunjila kuphande jambala jinalipalikila, hanji ku zuwo, mu cisemuka hanji kuma kweswako kuze kakutambikileko, cipwe kwambujola. Muthu mweswe kanatela kupwa nyi uhamwino wa ximbi ja cyulo kukinda waze akunjila kuphande jambala kuze kakutambikeleko.",
+      "title": "LIJI LYA MUCIKUMI NYI ATATHU",
       "orderedlist": {
         "listitem": [
-          {
-            "para": "LIJI LYA MUCIKUMI NYI ATATHU"
-          },
           {
             "para": "Muthu mweswe kanatela kwenda kweswako kuze anazange nyi kutonda haze muthunga mucima muze muli nguvulu."
+          },
+          {
+            "para": ""
           }
         ]
       }
     },
     {
-      "title": "2.Muthu mweswano kanatela kukathuka mu cifuci cenyi nyi kuya mu ifuci yeswayo, mba mufuna nana mu cifuci cenyi.",
+      "title": "LIJI LYA MUCUKUMI NYI AWANA",
       "orderedlist": {
         "listitem": [
           {
-            "para": "LIJI LYA MUCUKUMI NYI AWANA"
+            "para": "Muthu mweswano kanatela kukathuka mu cifuci cenyi nyi kuya mu ifuci yeswayo, mba mufuna nana mu cifuci cenyi."
           },
           {
             "para": "Ha ximbu ya ungeji, muthu mweswawo mahasa nyi kanatela kufupha kuze mahasa kutama nawa mu kumukwasa nyi kutama mu ifuci ikwo."
@@ -256,7 +256,7 @@
             "para": "Muthu uli nyi ulite nyi kupwa ha kaci kakwo nawa waze analilulyeka nyi nawa ha kulivaco ce mu cihakupwa."
           },
           {
-            "para": "Ha kulinga milimo ya ulite we nyi kutama cipema, muthu mweswe alyoze ndo kanatela kuningika ximbi jaa utumino wa nguvulu ize inatela kufunga uningikiso nyi ulite wa vumbi nyi kulinga nawa ikwo yakukwasa haize anambe, hakutala ha kukwasa ca mbunga nyi kutama cipema ha ximbu ino ya kwalumuna itanga kusa nguvulu masa ize inatela hali mbunga nyi ufunga"
+            "para": "Ha kulinga milimo ya ulite we nyi kutama cipema, muthu mweswe alyoze ndo kanatela kuningika ximbi jaa utumino wa nguvulu ize inatela kufunga uningikiso nyi ulite wa vumbi nyi kulinga nawa ikwo yakukwasa haize anambe, hakutala ha kukwasa ca mbunga nyi kutama cipema ha ximbu ino ya kwalumuna itanga kusa nguvulu masa ize inatela hali mbunga nyi ufunga."
           },
           {
             "para": "Jino ximbi, ja ulitelo nyi kutama cipema jici kuhasa, ku ceswaco cize mu cipwaho, uputukilo uno wa mbunga aakwa ifuci ya linunga (Nacoes Unidas) jicikuhasa kupwa kuphyangula."
@@ -269,6 +269,6 @@
       "para": "Nyi umwe ha uno milimo mahasa kunyonga ngwe upinjiso hali Nguvulu, milimo cipwe ya athu anji hanji umwikha, cipwe yoze wakutuma hanga akalinge cimwe cuma ca kutala ha kupihisa ino analweza hana ya kutala ca kutama ci pema nyi ulite."
     }
   ],
-  "lang": "cjk",
-  "language": "Chokwe"
+  "lang": "",
+  "language": ""
 }
