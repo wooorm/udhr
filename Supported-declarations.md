@@ -7,7 +7,7 @@ Description
 -----------
 
 |          Name | Description                                     |
-| ------------: | ----------------------------------------------- |
+| ------------: | :---------------------------------------------- |
 |          name | Human readable name                             |
 | named version | Human readable version for a declaration        |
 |          code | Language identifier: UUDHL                      |
@@ -29,7 +29,7 @@ Stages
 ------
 
 | Stage | Count | Description                                |
-| :---: | ----: | ------------------------------------------ |
+| :---: | ----: | :----------------------------------------- |
 |   1   |     4 | No known complete translation              |
 |   2   |    45 | No conversion to Unicode started           |
 |   3   |     3 | partially converted to Unicode             |
