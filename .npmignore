@@ -1,9 +1,0 @@
-.*
-*.log
-*.zip
-coverage/
-data/udhr-xml/
-node_modules/
-script/
-test.js
-supported-declarations.md

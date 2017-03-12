@@ -13,11 +13,21 @@
     "plain",
     "text"
   ],
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/wooorm/udhr.git"
-  },
-  "author": "Titus Wormer <tituswormer@gmail.com>",
+  "repository": "https://github.com/wooorm/udhr",
+  "bugs": "https://github.com/unifiedjs/unified/issues",
+  "author": "Titus Wormer <tituswormer@gmail.com> (http://wooorm.com)",
+  "contributors": [
+    "Titus Wormer <tituswormer@gmail.com> (http://wooorm.com)"
+  ],
+  "files": [
+    "index.js",
+    "lib",
+    "data/index-json.json",
+    "data/index-txt.json",
+    "data/information.json",
+    "data/udhr-json",
+    "data/udhr-txt"
+  ],
   "devDependencies": {
     "bail": "^1.0.1",
     "eol": "^0.8.1",
