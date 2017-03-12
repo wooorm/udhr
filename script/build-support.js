@@ -4,7 +4,7 @@ var fs = require('fs');
 var table = require('markdown-table');
 var declarations = require('../lib/information')();
 
-fs.writeFileSync('Supported-declarations.md', [
+fs.writeFileSync('supported-declarations.md', [
   'Supported Declarations',
   '======================',
   '',

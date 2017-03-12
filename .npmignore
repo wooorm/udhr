@@ -6,5 +6,4 @@ data/udhr-xml/
 node_modules/
 script/
 test.js
-History.md
-Supported-declarations.md
+supported-declarations.md
