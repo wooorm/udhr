@@ -241,19 +241,15 @@ function cleanData(data) {
       var filename;
 
       cleanDeclaration.region = declaration.region || null;
-      cleanDeclaration.country = declaration.country || null;
       cleanDeclaration.ISO = declaration['iso639-3'] || null;
-      cleanDeclaration.ULI = declaration.uli || null;
       cleanDeclaration.BCP47 = declaration.bcp47 || null;
       cleanDeclaration.OHCHR = declaration.ohchr || null;
+      cleanDeclaration.direction = declaration.dir || null;
       cleanDeclaration.code = declaration.f;
       cleanDeclaration.name = declaration.n;
       cleanDeclaration.stage = parseFloat(declaration.stage);
-      cleanDeclaration.version = declaration.v || null;
-      cleanDeclaration.namedVersion = declaration.nv || null;
 
       cleanDeclaration.hasNotes = declaration.notes === 'y';
-      cleanDeclaration.hasPDF = declaration.pdf === 'y';
 
       location = declaration.loc.split(',').map(parseFloat);
 
@@ -261,10 +257,6 @@ function cleanData(data) {
       cleanDeclaration.longitude = location[1] || null;
 
       filename = cleanDeclaration.code;
-
-      if (cleanDeclaration.version) {
-        filename += '_' + cleanDeclaration.version;
-      }
 
       if (cleanDeclaration.code === 'nku') {
         cleanDeclaration.hasTXT =

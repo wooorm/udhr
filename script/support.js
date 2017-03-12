@@ -23,7 +23,7 @@ function replace(start, nodes, end) {
 }
 
 function table() {
-  var header = ['Name', 'BCP 47', 'OHCHR', 'ISO 639-3', 'Location', 'Region', 'Country'];
+  var header = ['Name', 'BCP 47', 'OHCHR', 'ISO 639-3', 'Direction', 'Location', 'Region'];
 
   return u('table', {align: []}, [
     u('tableRow', header.map(cell))
@@ -55,9 +55,9 @@ function table() {
       cell(value.BCP47 || ''),
       cell(ohchr || ''),
       cell(iso || ''),
+      cell(value.direction || ''),
       cell(loc),
-      cell(value.region || ''),
-      cell(value.country || '')
+      cell(value.region || '')
     ]);
   })));
 
@@ -66,51 +66,3 @@ function table() {
     return u('tableCell', [val]);
   }
 }
-
-//     if (declaration.latitude || declaration.longitude) {
-//       location = '[yes]' +
-//         '(http://www.openstreetmap.org/#map=5/' +
-//         declaration.latitude + '/' +
-//         declaration.longitude + ')';
-//     }
-//
-//     if (declaration.hasTXT) {
-//       text = '[Yes](data/udhr-txt/udhr_' +
-//         declaration.filename + '.txt)';
-//     }
-//
-//     if (declaration.hasJSON) {
-//       json = '[Yes](data/udhr-json/' + declaration.filename +
-//         '.json)';
-//     }
-//
-//     if (declaration.hasPDF) {
-//       pdf = '[Yes](http://www.unicode.org/udhr/d/udhr_' +
-//         declaration.filename + '.pdf)';
-//     }
-//
-//     if (declaration.hasNotes) {
-//       notes = '[Yes](http://www.unicode.org/udhr/n/notes_' +
-//         declaration.filename + '.html)';
-//     }
-//
-//     return [
-//       (declaration.name || ''),
-//       (declaration.namedVersion || ''),
-//       declaration.code,
-//       (declaration.version || ''),
-//       (declaration.ULI || ''),
-//       (declaration.BCP47 || ''),
-//       ohchr,
-//       iso,
-//       declaration.stage,
-//       location,
-//       (declaration.region || ''),
-//       (declaration.country || ''),
-//       text,
-//       json,
-//       pdf,
-//       notes
-//     ];
-//   })))
-// ].join('\n') + '\n');

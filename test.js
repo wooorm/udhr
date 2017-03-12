@@ -42,30 +42,10 @@ test('udhr.information.n', function (t) {
   t.doesNotThrow(
     function () {
       each(information, function (declaration) {
-        var val = declaration.country;
-        assert(typeof val === 'string' || val === null);
-      });
-    },
-    'should have a country'
-  );
-
-  t.doesNotThrow(
-    function () {
-      each(information, function (declaration) {
         assert(typeof declaration.ISO === 'string');
       });
     },
     'should have an iso'
-  );
-
-  t.doesNotThrow(
-    function () {
-      each(information, function (declaration) {
-        var val = declaration.ULI;
-        assert(typeof val === 'string' || val === null);
-      });
-    },
-    'should have an uli'
   );
 
   t.doesNotThrow(
@@ -123,16 +103,6 @@ test('udhr.information.n', function (t) {
     function () {
       each(information, function (declaration) {
         var val = declaration.version;
-        assert(typeof val === 'string' || val === null);
-      });
-    },
-    'should have a version'
-  );
-
-  t.doesNotThrow(
-    function () {
-      each(information, function (declaration) {
-        var val = declaration.namedVersion;
         assert(typeof val === 'string' || val === null);
       });
     },
