@@ -1,12 +1,14 @@
-# udhr [![Build Status](https://img.shields.io/travis/wooorm/udhr.svg?style=flat)](https://travis-ci.org/wooorm/udhr) [![Coverage Status](https://img.shields.io/coveralls/wooorm/udhr.svg?style=flat)](https://coveralls.io/r/wooorm/udhr?branch=master)
+# udhr [![Build Status][build-badge]][build-status] [![Coverage Status][coverage-badge]][coverage-status]
 
-The most translated document, the [Universal Declaration of Human Rights](http://www.ohchr.org/EN/UDHR/Pages/UDHRIndex.aspx), in [Unicode](http://www.unicode.org/udhr/), in JavaScript.
+The most translated document, the [Universal Declaration of Human
+Rights][index], in [Unicode][], in JavaScript.
 
 ## Installation
 
-[npm](https://docs.npmjs.com/cli/install):
-```bash
-$ npm install udhr
+[npm][]:
+
+```sh
+npm install udhr
 ```
 
 ## Usage
@@ -20,70 +22,70 @@ console.log(json.eng);
 
 ## API
 
-### udhr.information()
+### `udhr.information()`
 
-Returns an array of information objects. Gets information about the documents: their stage, if a plain text version is available, if an accessible JSON document is available, language regions and lat-long locations, &c.
+Returns an array of information objects.  Gets information about the
+documents: their stage, if a plain text version is available, if an
+accessible JSON document is available, language regions and lat-long
+locations, etcetera.
 
 ```javascript
-var information = udhr.information();
+var info = require('udhr').information();
 
-console.log(information.eng);
-/**
- * {
- *   region: 'Europe',
- *   country: 'UK',
- *   ISO: 'eng',
- *   ULI: 'en',
- *   BCP47: 'en',
- *   OHCHR: 'eng',
- *   code: 'eng',
- *   name: 'English',
- *   stage: 5,
- *   version: null,
- *   namedVersion: null,
- *   hasNotes: false,
- *   hasPDF: true,
- *   latitude: 52,
- *   longitude: null,
- *   hasTXT: true,
- *   hasJSON: true,
- *   filename: 'udhr_eng'
- * }
- */
+console.log(info.eng);
+```
+
+Yields:
+
+```javascript
+{ region: 'Europe',
+  country: null,
+  ISO: 'eng',
+  ULI: null,
+  BCP47: 'en',
+  OHCHR: 'eng',
+  code: 'eng',
+  name: 'English',
+  stage: 5,
+  version: null,
+  namedVersion: null,
+  hasNotes: false,
+  hasPDF: false,
+  latitude: 53,
+  longitude: -1,
+  hasTXT: true,
+  hasJSON: true,
+  hasXML: true,
+  filename: 'eng' }
 ```
 
 ### udhr.json()
 
-Returns an array of marked up declaration objects.
+Returns an array of marked-up declaration objects.
 
 ```javascript
-var declarations = udhr.json();
+var json = require('udhr').json();
 
-console.log(declarations.eng);
-/**
- * {
- *   lang: 'eng',
- *   language: 'English',
- *   xmlns: 'http://www.unhchr.ch/udhr',
- *   title: 'Universal Declaration of Human Rights',
- *   preamble: {
- *     title: 'Preamble',
- *     para: 'Whereas recognition of the inherent'...
- *   },
- *   article: [
- *     {
- *       title: 'Article 1',
- *       para: 'All human beings are'...
- *     },
- *     {
- *       title: 'Article 2',
- *       para: 'Everyone is entitled to'...
- *     },
- *     ...
- *   ],
- *   note: []
- * }
- */
+console.log(json.eng);
+```
+
+Yields:
+
+```javascript
+{ 'iso639-3': 'eng',
+  key: 'eng',
+  xmlns: 'http://www.unhchr.ch/udhr',
+  title: 'Universal Declaration of Human Rights',
+  preamble:
+   { title: 'Preamble',
+     para: 'Whereas recognition of the inherent dignity and of the equal and inalienable rights of all members of the human family is the foundation of freedom, justice and peace in the world,' ... },
+  article:
+   [ { title: 'Article 1',
+       para: 'All human beings are born free and equal in dignity and rights. They are endowed with reason and conscience and should act towards one another in a spirit of brotherhood.' },
+     ...
+  lang: 'en',
+  language: 'English',
+  note: [] }
 ```
 
 ### udhr.text()
@@ -91,28 +93,47 @@ console.log(declarations.eng);
 Returns an array of plain-text declaration objects.
 
 ```javascript
-var plainDeclarations = udhr.text();
+var text = require('udhr').text();
 
-console.log(plainDeclarations.eng);
-/**
- * 'Universal Declaration of Human Rights - English\n© 1996 –'...
- */
+console.log(text.eng);
 ```
 
-## Building
+Yields:
 
-`npm run build` will scrape the sources from [unicode.org](http://www.unicode.org/udhr/downloads.html), build and clean the information and JSON files, and create a new Supported-declarations file.
+```text
+Universal Declaration of Human Rights - English
+© 1996 – 2009 The Office of the High Commissioner for Human Rights
+This plain text version prepared by the “UDHR in Unicode”
+project, http://www.unicode.org/udhr.
+---
 
-Please push any (by this process created) changes back with a fork!
+Universal Declaration of Human Rights
+      Preamble
+      Whereas recognition of the inherent dignity and of the equal and ...
+```
 
 ## Supported declarations
 
-See [Supported-declarations.md](Supported-declarations.md).
-
-## Script information
-
-There’s also a file on which scripts (according to unicode scripts) are used in each declaration. See [Script-information.md](Script-information.md).
+See [Supported-declarations.md][declarations].
 
 ## License
 
 [MIT](LICENSE) © [Titus Wormer](http://wooorm.com)
+
+<!--Definitions-->
+
+[build-badge]: https://img.shields.io/travis/wooorm/udhr.svg
+
+[build-status]: https://travis-ci.org/wooorm/udhr
+
+[coverage-badge]: https://img.shields.io/codecov/c/github/wooorm/udhr.svg
+
+[coverage-status]: https://codecov.io/github/wooorm/udhr
+
+[npm]: https://docs.npmjs.com/cli/install
+
+[index]: http://www.ohchr.org/EN/UDHR/Pages/UDHRIndex.aspx
+
+[unicode]: http://www.unicode.org/udhr/
+
+[declarations]: supported-declarations.md

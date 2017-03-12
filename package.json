@@ -33,6 +33,8 @@
     "eol": "^0.8.1",
     "markdown-table": "^1.1.0",
     "nyc": "^10.1.2",
+    "remark-cli": "^3.0.0",
+    "remark-preset-wooorm": "^2.0.0",
     "tape": "^4.6.3",
     "xml-to-json": "^0.1.0",
     "xo": "^0.17.1"
@@ -44,6 +46,7 @@
     "unzip-data-txt": "unzip -o -d data/udhr-txt data/udhr-txt.zip || exit 0",
     "unzip-data-xml": "unzip -o -d data/udhr-xml data/udhr-xml.zip || exit 0",
     "unzip-data": "npm run unzip-data-txt && npm run unzip-data-xml",
+    "build-md": "remark . -qfo",
     "build-data": "node script/build-data",
     "build-support": "node script/build-support",
     "normalize-line-endings": "node script/normalize-line-endings",
@@ -64,5 +67,10 @@
     "rules": {
       "guard-for-in": "off"
     }
+  },
+  "remarkConfig": {
+    "plugins": [
+      "preset-wooorm"
+    ]
   }
 }
