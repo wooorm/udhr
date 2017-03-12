@@ -1,13 +1,14 @@
 language: node_js
-script: npm run-script test-travis
+sudo: false
 node_js:
-- '0.10'
-- '0.11'
-after_script: npm install coveralls@2.10.0 && cat ./coverage/lcov.info | coveralls
+- '4.0'
+- '7.0'
+after_script: bash <(curl -s https://codecov.io/bash)
 deploy:
-  provider: npm
-  email: tituswormer@gmail.com
-  api_key:
-    secure: cb37uKJsanqplHcZMTyAMCQbxkFih/pCWnOV/0vqBU5PffHhK4u/StNQ99GEG8nuJgvjNbLyl+WlPvt2XOsieiijicec/m30LF7qnyAO83oh2z+GCeXqY+jvezu0zjUh/9eGZCBGrT5Rtqy6VnG8ZiF6Yh5fiBuCj7NQ+Siw/5M=
-  on:
-    repo: wooorm/udhr
+  - provider: npm
+    email: tituswormer@gmail.com
+    api_key:
+      secure: HmCBkFxRhMNttuoXAXxsuQh+YXBuFI2FebWY9MJxstETr2He1EB4b7eY8lNulVevclALxEot+yBg2dZbZSIAIXp5YidAg5QuBIv4p/4a9UF6szR5v9gbVCcrK3KnwvMQ+nrw5Hqz53tkcZcV2bCB29lYM+DJp0JDTaOjF+apiyg=
+    on:
+      tags: true
+      node: '4.0'
