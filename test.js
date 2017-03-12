@@ -1,366 +1,386 @@
 'use strict';
 
-/*
- * Dependencies.
- */
-
-var udhr = require('./');
 var assert = require('assert');
-
-/*
- * Data.
- */
+var test = require('tape');
+var udhr = require('./');
 
 var json = udhr.json();
 var text = udhr.text();
 var information = udhr.information();
 
-/**
- * Get all keys, recursively, in an object.
- *
- * @param {Object} object
- * @param {string} key
- * @return {Array.<*>}
- */
-function all(object, key) {
-    var results = [];
-    var property;
-    var value;
-
-    for (property in object) {
-        value = object[property];
-
-        if (property === key) {
-            results.push(value);
-        } else if (typeof value === 'object') {
-            results = results.concat(all(value, key));
-        }
-    }
-
-    return results;
-}
-
-/**
- * Iterate over every value in an object.
- *
- * @param {Object} values
- * @param {function(*, string)} callback
- */
-function each(values, callback) {
-    Object.keys(values).forEach(function (key) {
-        callback(values[key], key);
-    });
-}
-
-/**
- * Assert every item in `values`.
- *
- * @param {Object} values
- * @param {string} should
- * @param {function(*, string)} callback
- */
-function every(values, should, callback) {
-    it(should, function () {
-        each(values, callback);
-    });
-}
-
-/*
- * Tests.
- */
-
-describe('udhr', function () {
-    it('should be an `Object`', function () {
-        assert(typeof udhr === 'object');
-    });
+test('udhr', function (t) {
+  t.equal(typeof udhr, 'object', 'should be an object');
+  t.end();
 });
 
-describe('udhr.information', function () {
-    it('should be a `Function`', function () {
-        assert(typeof udhr.information === 'function');
-    });
-
-    it('should return an Object', function () {
-        assert(typeof information === 'object');
-    });
+test('udhr.information', function (t) {
+  t.equal(typeof udhr.information, 'function', 'should be a function');
+  t.equal(typeof information, 'object', 'should return an object');
+  t.end();
 });
 
-describe('udhr.information.n', function () {
-    every(information, 'should be an Object', function (declaration) {
-        assert(typeof declaration === 'object');
-    });
+test('udhr.information.n', function (t) {
+  t.doesNotThrow(
+    function () {
+      each(information, function (declaration) {
+        assert.equal(typeof declaration, 'object');
+      });
+    },
+    'should be an object'
+  );
 
-    every(information, 'should contain a `region` property (string?)',
-        function (declaration) {
-            var region = declaration.region;
+  t.doesNotThrow(
+    function () {
+      each(information, function (declaration) {
+        var val = declaration.region;
+        assert(typeof val === 'string' || val === null);
+      });
+    },
+    'should have a region'
+  );
 
-            assert(typeof region === 'string' || region === null);
-        }
-    );
+  t.doesNotThrow(
+    function () {
+      each(information, function (declaration) {
+        var val = declaration.country;
+        assert(typeof val === 'string' || val === null);
+      });
+    },
+    'should have a country'
+  );
 
-    every(information, 'should contain a `country` property (string?)',
-        function (declaration) {
-            var country = declaration.country;
+  t.doesNotThrow(
+    function () {
+      each(information, function (declaration) {
+        assert(typeof declaration.ISO === 'string');
+      });
+    },
+    'should have an iso'
+  );
 
-            assert(typeof country === 'string' || country === null);
-        }
-    );
+  t.doesNotThrow(
+    function () {
+      each(information, function (declaration) {
+        var val = declaration.ULI;
+        assert(typeof val === 'string' || val === null);
+      });
+    },
+    'should have an uli'
+  );
 
-    every(information, 'should contain an `ISO` property (string?)',
-        function (declaration) {
-            var ISO = declaration.ISO;
+  t.doesNotThrow(
+    function () {
+      each(information, function (declaration) {
+        assert(typeof declaration.BCP47 === 'string');
+      });
+    },
+    'should have a bcp'
+  );
 
-            assert(typeof ISO === 'string');
-        }
-    );
+  t.doesNotThrow(
+    function () {
+      each(information, function (declaration) {
+        var val = declaration.OHCHR;
+        assert(typeof val === 'string' || val === null);
+      });
+    },
+    'should have an ohchr'
+  );
 
-    every(information, 'should contain an `ULI` property (string?)',
-        function (declaration) {
-            var ULI = declaration.ULI;
+  t.doesNotThrow(
+    function () {
+      each(information, function (declaration) {
+        assert(typeof declaration.code === 'string');
+      });
+    },
+    'should have a code'
+  );
 
-            assert(typeof ULI === 'string' || ULI === null);
-        }
-    );
+  t.doesNotThrow(
+    function () {
+      each(information, function (declaration) {
+        assert(typeof declaration.code === 'string');
+      });
+    },
+    'should have a name'
+  );
 
-    every(information, 'should contain a `BCP47` property (string?)',
-        function (declaration) {
-            var BCP47 = declaration.BCP47;
+  t.doesNotThrow(
+    function () {
+      each(information, function (declaration) {
+        var val = declaration.stage;
 
-            assert(typeof BCP47 === 'string');
-        }
-    );
+        assert(typeof val === 'number');
+        assert(Math.round(val) === val);
+        assert(val > 0);
+        assert(val < 6);
+      });
+    },
+    'should have a stage'
+  );
 
-    every(information, 'should contain an `OHCHR` property (string?)',
-        function (declaration) {
-            var OHCHR = declaration.OHCHR;
+  t.doesNotThrow(
+    function () {
+      each(information, function (declaration) {
+        var val = declaration.version;
+        assert(typeof val === 'string' || val === null);
+      });
+    },
+    'should have a version'
+  );
 
-            assert(typeof OHCHR === 'string' || OHCHR === null);
-        }
-    );
+  t.doesNotThrow(
+    function () {
+      each(information, function (declaration) {
+        var val = declaration.namedVersion;
+        assert(typeof val === 'string' || val === null);
+      });
+    },
+    'should have a version'
+  );
 
-    every(information, 'should contain a `code` property (string)',
-        function (declaration) {
-            var code = declaration.code;
+  t.doesNotThrow(
+    function () {
+      each(information, function (declaration) {
+        assert(typeof declaration.hasNotes === 'boolean');
+      });
+    },
+    'should have a `hasNotes`'
+  );
 
-            assert(typeof code === 'string');
-        }
-    );
+  t.doesNotThrow(
+    function () {
+      each(information, function (declaration) {
+        assert(typeof declaration.hasPDF === 'boolean');
+      });
+    },
+    'should have a `hasPDF`'
+  );
 
-    every(information, 'should contain a `name` property (string)',
-        function (declaration) {
-            var name = declaration.name;
+  t.doesNotThrow(
+    function () {
+      each(information, function (declaration) {
+        assert(typeof declaration.hasTXT === 'boolean');
+      });
+    },
+    'should have a `hasTXT`'
+  );
 
-            assert(typeof name === 'string');
-        }
-    );
+  t.doesNotThrow(
+    function () {
+      each(information, function (declaration) {
+        assert(typeof declaration.hasJSON === 'boolean');
+      });
+    },
+    'should have a `hasJSON`'
+  );
 
-    every(information, 'should contain a `stage` property (integer)',
-        function (declaration) {
-            var stage = declaration.stage;
+  t.doesNotThrow(
+    function () {
+      each(information, function (declaration) {
+        assert(typeof declaration.filename === 'string');
+      });
+    },
+    'should have a `filename`'
+  );
 
-            assert(Math.round(stage) === stage);
-        }
-    );
+  t.doesNotThrow(
+    function () {
+      each(information, function (declaration) {
+        var val = declaration.latitude;
+        assert(typeof val === 'number' || val === null);
+      });
+    },
+    'should have a `latitude`'
+  );
 
-    every(information, 'should contain a `stage` property between 1 and 5',
-        function (declaration) {
-            var stage = declaration.stage;
+  t.doesNotThrow(
+    function () {
+      each(information, function (declaration) {
+        var val = declaration.longitude;
+        assert(typeof val === 'number' || val === null);
+      });
+    },
+    'should have a `longitude`'
+  );
 
-            assert(stage > 0 && stage < 6);
-        }
-    );
-
-    every(information, 'should contain a `version` property (string?)',
-        function (declaration) {
-            var version = declaration.version;
-
-            assert(typeof version === 'string' || version === null);
-        }
-    );
-
-    every(information, 'should contain a `namedVersion` property (string?)',
-        function (declaration) {
-            var namedVersion = declaration.namedVersion;
-
-            assert(typeof namedVersion === 'string' || namedVersion === null);
-        }
-    );
-
-    every(information, 'should contain a `hasNotes` property (boolean)',
-        function (declaration) {
-            var hasNotes = declaration.hasNotes;
-
-            assert(Boolean(hasNotes) === hasNotes);
-        }
-    );
-
-    every(information, 'should contain a `hasPDF` property (boolean)',
-        function (declaration) {
-            var hasPDF = declaration.hasPDF;
-
-            assert(Boolean(hasPDF) === hasPDF);
-        }
-    );
-
-    every(information, 'should contain a `hasTXT` property (boolean)',
-        function (declaration) {
-            var hasTXT = declaration.hasTXT;
-
-            assert(Boolean(hasTXT) === hasTXT);
-        }
-    );
-
-    every(information, 'should contain a `hasJSON` property (boolean)',
-        function (declaration) {
-            var hasJSON = declaration.hasJSON;
-
-            assert(Boolean(hasJSON) === hasJSON);
-        }
-    );
-
-    every(information, 'should contain a `filename` property (string)',
-        function (declaration) {
-            var filename = declaration.filename;
-
-            assert(typeof filename === 'string');
-        }
-    );
-
-    every(information, 'should contain a `latitude` property (number?)',
-        function (declaration) {
-            var latitude = declaration.latitude;
-
-            assert(latitude === null || typeof latitude === 'number');
-        }
-    );
-
-    every(information, 'should contain a `longitude` property (number?)',
-        function (declaration) {
-            var longitude = declaration.longitude;
-
-            assert(longitude === null || typeof longitude === 'number');
-        }
-    );
+  t.end();
 });
 
-describe('udhr.json()', function () {
-    it('should be a `Function`', function () {
-        assert(typeof udhr.json === 'function');
-    });
-
-    it('should return an Object', function () {
-        assert(typeof json === 'object');
-    });
+test('udhr.json()', function (t) {
+  t.equal(typeof udhr.json, 'function', 'should be a function');
+  t.equal(typeof json, 'object', 'should return an object');
+  t.end();
 });
 
-describe('udhr.json().n', function () {
-    every(json, 'should be an Object', function (declaration) {
-        assert(typeof declaration === 'object');
-    });
+test('udhr.json().n', function (t) {
+  t.doesNotThrow(
+    function () {
+      each(json, function (declaration) {
+        assert.equal(typeof declaration, 'object');
+      });
+    },
+    'should be an object'
+  );
 
-    every(json, 'should contain a `lang` property (string)',
-        function (declaration) {
-            var lang = declaration.lang;
+  t.doesNotThrow(
+    function () {
+      each(json, function (declaration) {
+        assert.equal(typeof declaration.lang, 'string');
+      });
+    },
+    'should have a `lang`'
+  );
 
-            assert(typeof lang === 'string');
-        }
-    );
+  t.doesNotThrow(
+    function () {
+      each(json, function (declaration) {
+        assert.equal(typeof declaration.language, 'string');
+      });
+    },
+    'should have a `language`'
+  );
 
-    every(json, 'should contain a `language` property (string)',
-        function (declaration) {
-            var language = declaration.language;
+  t.doesNotThrow(
+    function () {
+      each(json, function (declaration) {
+        assert.equal(declaration.xmlns, 'http://www.unhchr.ch/udhr');
+      });
+    },
+    'should have an `xmlns`'
+  );
 
-            assert(typeof language === 'string');
-        }
-    );
+  t.doesNotThrow(
+    function () {
+      each(json, function (declaration) {
+        assert.equal(typeof declaration.title, 'string');
+      });
+    },
+    'should have a `title`'
+  );
 
-    every(json, 'should contain a `xmlns` property ' +
-        '("http://www.unhchr.ch/udhr")',
-        function (declaration) {
-            var xmlns = declaration.xmlns;
+  t.doesNotThrow(
+    function () {
+      each(json, function (declaration) {
+        assert.equal(typeof declaration.preamble, 'object');
+      });
+    },
+    'should have a `preamble`'
+  );
 
-            assert(xmlns === 'http://www.unhchr.ch/udhr');
-        }
-    );
+  t.doesNotThrow(
+    function () {
+      each(json, function (declaration) {
+        assert.equal(typeof declaration.preamble.title, 'string');
+      });
+    },
+    'should have a `preamble.title`'
+  );
 
-    every(json, 'should contain a `title` property (string)',
-        function (declaration) {
-            var title = declaration.title;
+  t.doesNotThrow(
+    function () {
+      each(json, function (declaration) {
+        assert.equal(typeof declaration.preamble.para, 'string');
+      });
+    },
+    'should have a `preamble.para`'
+  );
 
-            assert(typeof title === 'string');
-        }
-    );
+  t.doesNotThrow(
+    function () {
+      each(json, function (declaration) {
+        var val = declaration.article;
+        assert(Array.isArray(val));
+        assert(val.length > 0);
+      });
+    },
+    'should have an `article`'
+  );
 
-    every(json, 'should contain a `preamble` property (Object)',
-        function (declaration) {
-            var preamble = declaration.preamble;
+  t.doesNotThrow(
+    function () {
+      each(json, function (declaration) {
+        var val = declaration.article;
+        assert(Array.isArray(val));
+        assert(val.length > 0);
+      });
+    },
+    'should have an `article`'
+  );
 
-            assert(typeof preamble === 'object');
-        }
-    );
-
-    every(json, 'should contain a `preamble.title` property (string)',
-        function (declaration) {
-            var title = declaration.preamble.title;
-
-            assert(typeof title === 'string');
-        }
-    );
-
-    every(json, 'should contain a `preamble.para` property (string)',
-        function (declaration) {
-            var para = declaration.preamble.para;
-
-            assert(typeof para === 'string');
-        }
-    );
-
-    every(json, 'should contain a `article` property (Array, non-empty)',
-        function (declaration) {
-            var article = declaration.article;
-
-            assert(Array.isArray(article));
-            assert(article.length > 0);
-        }
-    );
-
-    every(json, '`article[n]`: should be an object', function (declaration) {
+  t.doesNotThrow(
+    function () {
+      each(json, function (declaration) {
         each(declaration.article, function (article) {
-            assert(typeof article === 'object');
+          assert(typeof article === 'object');
         });
-    });
+      });
+    },
+    'each article should be an object'
+  );
 
-    every(json, '`article[n].title`: should be a string',
-        function (declaration) {
-            each(declaration.article, function (article) {
-                var title = article.title;
+  t.doesNotThrow(
+    function () {
+      each(json, function (declaration) {
+        each(declaration.article, function (article) {
+          assert(typeof article.title === 'string');
+        });
+      });
+    },
+    'each article should have a `title`'
+  );
 
-                assert(typeof title === 'string');
-            });
-        }
-    );
+  t.doesNotThrow(
+    function () {
+      all(json, 'para').forEach(function (val) {
+        assert(typeof val === 'string');
+      });
+    },
+    'each value at a `para` key should be string'
+  );
+
+  t.end();
 });
 
-describe('udhr.json().n.[n]...para', function () {
-    every(all(json, 'para'), 'should be a string',
-        function (paragraph) {
-            assert(typeof paragraph === 'string');
-        }
-    );
+test('udhr.text()', function (t) {
+  t.equal(typeof udhr.text, 'function', 'should be a function');
+  t.equal(typeof text, 'object', 'should return an object');
+  t.end();
 });
 
-describe('udhr.text()', function () {
-    it('should be a `Function`', function () {
-        assert(typeof udhr.text === 'function');
-    });
+test('udhr.text().n', function (t) {
+  t.doesNotThrow(
+    function () {
+      each(text, function (declaration) {
+        assert.equal(typeof declaration, 'string');
+      });
+    },
+    'should be a string'
+  );
 
-    it('should return an Object', function () {
-        assert(typeof text === 'object');
-    });
+  t.end();
 });
 
-describe('udhr.text().n', function () {
-    every(text, 'should be a string', function (declaration) {
-        assert(typeof declaration === 'string');
-    });
-});
+function each(values, callback) {
+  Object.keys(values).forEach(function (key) {
+    callback(values[key], key);
+  });
+}
+
+function all(object, key) {
+  var results = [];
+  var property;
+  var value;
+
+  for (property in object) {
+    value = object[property];
+
+    if (property === key) {
+      results.push(value);
+    } else if (typeof value === 'object') {
+      results = results.concat(all(value, key));
+    }
+  }
+
+  return results;
+}

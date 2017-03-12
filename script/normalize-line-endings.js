@@ -1,18 +1,13 @@
 'use strict';
 
 var fs = require('fs');
+var join = require('path').join;
 var eol = require('eol');
+var bail = require('bail');
 
-fs.readFile('data/udhr-txt/index.xml', 'utf-8', function (err, contents) {
-    if (err) {
-        throw err;
-    }
+var fp = join('data', 'udhr-txt', 'index.xml');
 
-    contents = eol.lf(contents);
-
-    fs.writeFile('data/udhr-txt/index.xml', contents, function (exception) {
-        if (exception) {
-            throw exception;
-        }
-    });
+fs.readFile(fp, 'utf8', function (err, doc) {
+  bail(err);
+  fs.writeFile(fp, eol.lf(doc), bail);
 });

@@ -19,35 +19,40 @@
   },
   "author": "Titus Wormer <tituswormer@gmail.com>",
   "devDependencies": {
+    "bail": "^1.0.1",
     "eol": "^0.2.0",
-    "eslint": "^0.17.0",
-    "istanbul": "^0.3.0",
-    "jscs": "^1.0.0",
-    "jscs-jsdoc": "^0.4.0",
     "markdown-table": "^0.3.0",
-    "mocha": "^2.0.0",
-    "xml-to-json": "^0.1.0"
+    "nyc": "^10.1.2",
+    "tape": "^4.6.3",
+    "xml-to-json": "^0.1.0",
+    "xo": "^0.17.1"
   },
   "scripts": {
-    "test": "_mocha --reporter spec --check-leaks -u exports test.js",
-    "test-travis": "istanbul cover _mocha --report lcovonly -- --reporter spec --check-leaks -u exports test.js",
-    "coverage": "istanbul cover _mocha -- -- test.js",
-    "lint-api": "eslint index.js lib/index.js lib/information.js lib/json.js lib/text.js",
-    "lint-script": "eslint script/build-data.js script/normalize-line-endings.js script/build-support.js",
-    "lint-test": "eslint test.js --env mocha",
-    "lint-style": "jscs index.js lib/index.js lib/information.js lib/json.js lib/text.js script/build-data.js script/normalize-line-endings.js script/build-support.js test.js --reporter=inline",
-    "lint": "npm run lint-api && npm run lint-test && npm run lint-script && npm run lint-style",
     "scrape-data-txt": "curl --connect-timeout 5 --max-time 10 -L http://www.unicode.org/udhr/assemblies/udhr_txt.zip -o data/udhr-txt.zip || exit 0",
     "scrape-data-xml": "curl --connect-timeout 5 --max-time 10 -L http://www.unicode.org/udhr/assemblies/udhr_xml.zip -o data/udhr-xml.zip || exit 0",
     "scrape-data": "npm run scrape-data-txt && npm run scrape-data-xml",
     "unzip-data-txt": "unzip -o -d data/udhr-txt data/udhr-txt.zip || exit 0",
     "unzip-data-xml": "unzip -o -d data/udhr-xml data/udhr-xml.zip || exit 0",
     "unzip-data": "npm run unzip-data-txt && npm run unzip-data-xml",
-    "build-data": "istanbul cover script/build-data.js",
-    "build-support": "node script/build-support.js",
-    "normalize-line-endings": "node script/normalize-line-endings.js",
+    "build-data": "node script/build-data",
+    "build-support": "node script/build-support",
+    "normalize-line-endings": "node script/normalize-line-endings",
     "build": "npm run scrape-data && npm run unzip-data && npm run build-data && npm run build-support && npm run normalize-line-endings",
-    "prepublish": "npm run normalize-line-endings",
-    "make": "npm run lint && npm run coverage"
+    "lint": "xo",
+    "test-api": "node test",
+    "test-coverage": "nyc --reporter lcov tape test",
+    "test": "npm run build && npm run lint && npm run test-coverage"
+  },
+  "nyc": {
+    "check-coverage": true,
+    "lines": 100,
+    "functions": 100,
+    "branches": 100
+  },
+  "xo": {
+    "space": 2,
+    "rules": {
+      "guard-for-in": "off"
+    }
   }
 }
