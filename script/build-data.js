@@ -269,7 +269,8 @@ function cleanData(data) {
         cleanDeclaration.hasTXT = exists('data/udhr-txt/udhr_' + filename + '.txt');
       }
 
-      cleanDeclaration.hasXML = cleanDeclaration.hasJSON = exists('data/udhr-xml/udhr_' + filename + '.xml');
+      cleanDeclaration.hasJSON = exists('data/udhr-xml/udhr_' + filename + '.xml');
+      cleanDeclaration.hasXML = cleanDeclaration.hasJSON;
 
       cleanDeclaration.filename = filename;
 

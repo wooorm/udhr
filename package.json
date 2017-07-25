@@ -30,15 +30,15 @@
   ],
   "devDependencies": {
     "bail": "^1.0.1",
-    "eol": "^0.8.1",
+    "eol": "^0.9.0",
     "mdast-zone": "^3.0.0",
-    "nyc": "^10.1.2",
-    "remark-cli": "^3.0.0",
-    "remark-preset-wooorm": "^2.0.0",
+    "nyc": "^11.0.0",
+    "remark-cli": "^4.0.0",
+    "remark-preset-wooorm": "^3.0.0",
     "tape": "^4.6.3",
     "unist-builder": "^1.0.2",
     "xml-to-json": "^0.1.0",
-    "xo": "^0.17.1"
+    "xo": "^0.18.0"
   },
   "scripts": {
     "scrape-data-txt": "curl --connect-timeout 5 --max-time 10 -L http://www.unicode.org/udhr/assemblies/udhr_txt.zip -o data/udhr-txt.zip || exit 0",
@@ -63,7 +63,8 @@
     "branches": 100
   },
   "xo": {
-    "space": 2,
+    "space": true,
+    "esnext": false,
     "rules": {
       "guard-for-in": "off"
     }
