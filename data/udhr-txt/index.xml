@@ -15,7 +15,7 @@
   <udhr f='018'                iso639-3='und'    bcp47='und'            dir='ltr'  ohchr='ta1'    stage='2' notes='n' loc='-75,30'               region=''            demo='n' n='(Tajpuriya)'/>              <!--deva clean image -->
   <udhr f='019_deva'           iso639-3='und'    bcp47='und'            dir='ltr'  ohchr='tok'    stage='2' notes='n' loc='-75,30'               region=''            demo='n' n='(Tokpegola, Devanagari)'/>  <!-- deva clean image-->
   <udhr f='019_tibt'           iso639-3='und'    bcp47='und'            dir='ltr'  ohchr='tok'    stage='2' notes='n' loc='-75,30'               region=''            demo='n' n='(Tokpegola, Tibetan)'/>     <!-- tibt clean image-->
-  <udhr f='020'                iso639-3='und'    bcp47='und'            dir='ltr'  ohchr='ty1'    stage='4' notes='n' loc='-75,30'               region=''            demo='n' n='(Tyrung)'/>
+  <udhr f='020'                iso639-3='duu'    bcp47='duu'            dir='ltr'  ohchr='ty1'    stage='4' notes='n' loc='28,98'                region='Asia'        demo='n' n='Drung'/>
   <udhr f='abk'                iso639-3='abk'    bcp47='ab'             dir='ltr'  ohchr='abk'    stage='4' notes='y' loc='42.23,41.30'          region='Asia'        demo='n' n='Abkhaz'/>
   <udhr f='ace'                iso639-3='ace'    bcp47='ace'            dir='ltr'  ohchr='atj'    stage='4' notes='n' loc='3.91,96.60'           region='Asia'        demo='n' n='Aceh'/>
   <udhr f='acu'                iso639-3='acu'    bcp47='acu'            dir='ltr'  ohchr='acu'    stage='4' notes='y' loc='-2.83,-77.26'         region='Americas'    demo='n' n='Achuar-Shiwiar'/>
@@ -26,9 +26,9 @@
   <udhr f='agr'                iso639-3='agr'    bcp47='agr'            dir='ltr'  ohchr='agr'    stage='4' notes='y' loc='-5.30,-77.92'         region='Americas'    demo='n' n='Aguaruna'/>
   <udhr f='aii'                iso639-3='aii'    bcp47='aii'            dir='rtl'  ohchr='aii'    stage='4' notes='n' loc='36.75,43.00'          region='Asia'        demo='y' n='Assyrian Neo-Aramaic'/>
   <udhr f='ajg'                iso639-3='ajg'    bcp47='ajg'            dir='ltr'  ohchr='ajg'    stage='4' notes='n' loc='7.07,1.65'            region='Africa'      demo='n' n='Aja'/>
-  <udhr f='aka_akuapem'        iso639-3='aka'    bcp47='ak'             dir='ltr'  ohchr='tws1'   stage='4' notes='n' loc='6.35,-1.33'           region='Africa'      demo='n' n='Akan (Akuapem)'/>
-  <udhr f='aka_asante'         iso639-3='aka'    bcp47='ak'             dir='ltr'  ohchr='ass'    stage='4' notes='n' loc='6.35,-1.33'           region='Africa'      demo='n' n='Akan (Asante)'/>
-  <udhr f='aka_fante'          iso639-3='aka'    bcp47='ak'             dir='ltr'  ohchr='tws3'   stage='4' notes='n' loc='6.35,-1.33'           region='Africa'      demo='n' n='Akan (Fante)'/>
+  <udhr f='aka_akuapem'        iso639-3='twi'    bcp47='tw-akuapem'     dir='ltr'  ohchr='tws1'   stage='4' notes='n' loc='6.35,-1.33'           region='Africa'      demo='n' n='Twi (Akuapem)'/>
+  <udhr f='aka_asante'         iso639-3='twi'    bcp47='tw-asante'      dir='ltr'  ohchr='ass'    stage='4' notes='n' loc='6.35,-1.33'           region='Africa'      demo='n' n='Twi (Asante)'/>
+  <udhr f='aka_fante'          iso639-3='fat'    bcp47='fat'            dir='ltr'  ohchr='tws3'   stage='4' notes='n' loc='6.35,-1.33'           region='Africa'      demo='n' n='Fante'/>
   <udhr f='als'                iso639-3='als'    bcp47='sq'             dir='ltr'  ohchr='aln'    stage='4' notes='n' loc='41.00,20.00'          region='Europe'      demo='n' n='Albanian, Tosk'/>
   <udhr f='alt'                iso639-3='alt'    bcp47='alt'            dir='ltr'  ohchr='alt'    stage='4' notes='n' loc='50.13,86.87'          region='Asia'        demo='n' n='Altai, Southern'/>
   <udhr f='amc'                iso639-3='amc'    bcp47='amc'            dir='ltr'  ohchr='amc'    stage='4' notes='n' loc='-10.20,-72.32'        region='Americas'    demo='n' n='Amahuaca'/>
@@ -87,6 +87,7 @@
   <udhr f='cbs'                iso639-3='cbs'    bcp47='cbs'            dir='ltr'  ohchr='cbs'    stage='4' notes='n' loc='-9.72,-71.17'         region='Americas'    demo='n' n='Cashinahua'/>
   <udhr f='cbt'                iso639-3='cbt'    bcp47='cbt'            dir='ltr'  ohchr='cbt'    stage='4' notes='n' loc='-5.64,-76.83'         region='Americas'    demo='n' n='Chayahuita'/>
   <udhr f='cbu'                iso639-3='cbu'    bcp47='cbu'            dir='ltr'  ohchr='cbu'    stage='4' notes='n' loc='-4.24,-76.93'         region='Americas'    demo='n' n='Candoshi-Shapra'/>
+  <udhr f='ccp'                iso639-3='ccp'    bcp47='ccp'            dir='ltr'  ohchr=''       stage='4' notes='n' loc='23,92'                region='Asia'        demo='n' n='Chakma'/>
   <udhr f='ccx'                iso639-3='zyb'    bcp47='za'             dir='ltr'  ohchr='ccx'    stage='4' notes='n' loc='23.68,107.18'         region='Asia'        demo='n' n='Zhuang, Yongbei'/>
   <udhr f='cdm'                iso639-3='cdm'    bcp47='cdm'            dir='ltr'  ohchr='cdm'    stage='2' notes='n' loc='27.8,84.5'            region='Asia'        demo='n' n='Chepang'/>                     <!-- deva clean image-->
   <udhr f='ceb'                iso639-3='ceb'    bcp47='ceb'            dir='ltr'  ohchr='ceb'    stage='4' notes='n' loc='8.39,124.37'          region='Asia'        demo='n' n='Cebuano'/>
@@ -94,8 +95,8 @@
   <udhr f='cha'                iso639-3='cha'    bcp47='ch'             dir='ltr'  ohchr='cjd'    stage='4' notes='n' loc='14.33,145.28'         region='Pacific'     demo='n' n='Chamorro'/>
   <udhr f='chj'                iso639-3='chj'    bcp47='chj'            dir='ltr'  ohchr='chj'    stage='4' notes='n' loc='18.07,-96.34'         region='Americas'    demo='n' n='Chinantec, Ojitlán'/>
   <udhr f='chk'                iso639-3='chk'    bcp47='chk'            dir='ltr'  ohchr='tru1'   stage='4' notes='n' loc='7.34,151.60'          region='Pacific'     demo='n' n='Chuukese'/>
-  <udhr f='chr_uppercase'      iso639-3='chr'    bcp47='chr'            dir='ltr'  ohchr=''       stage='4' notes='n' loc='35.47,-83.16'         region='Americas'    demo='y' n='Cherokee (uppercase)'/>
   <udhr f='chr_cased'          iso639-3='chr'    bcp47='chr'            dir='ltr'  ohchr=''       stage='4' notes='n' loc='35.47,-83.16'         region='Americas'    demo='y' n='Cherokee (cased)'/>
+  <udhr f='chr_uppercase'      iso639-3='chr'    bcp47='chr'            dir='ltr'  ohchr=''       stage='4' notes='n' loc='35.47,-83.16'         region='Americas'    demo='y' n='Cherokee (uppercase)'/>
   <udhr f='chx'                iso639-3='chx'    bcp47='chx'            dir='ltr'  ohchr='chx'    stage='2' notes='n' loc='28.7,83.5'            region='Asia'        demo='n' n='Chantyal'/>                            <!-- deva medium image-->
   <udhr f='cic'                iso639-3='cic'    bcp47='cic'            dir='ltr'  ohchr='cic'    stage='4' notes='n' loc='33.95,-97.13'         region='Americas'    demo='n' n='Chickasaw'/>
   <udhr f='cjk'                iso639-3='cjk'    bcp47='cjk'            dir='ltr'  ohchr='cjk'    stage='4' notes='n' loc='-9.66,21.40'          region='Africa'      demo='n' n='Chokwe'/>
@@ -161,6 +162,7 @@
   <udhr f='gld'                iso639-3='gld'    bcp47='gld'            dir='ltr'  ohchr='gld'    stage='2' notes='n' loc='48.43,134.80'         region='Asia'        demo='n' n='Nanai'/>                         <!-- cyrl PDF text -->
   <udhr f='gle'                iso639-3='gle'    bcp47='ga'             dir='ltr'  ohchr='gli1'   stage='4' notes='n' loc='53.22,-7.62'          region='Europe'      demo='n' n='Gaelic, Irish'/>
   <udhr f='glg'                iso639-3='glg'    bcp47='gl'             dir='ltr'  ohchr='gln'    stage='4' notes='n' loc='42.24,-7.53'          region='Europe'      demo='n' n='Galician'/>
+  <udhr f='glv'                iso639-3='glv'    bcp47='gv'             dir='ltr'  ohchr=''       stage='4' notes='n' loc='54.23,-4.85'          region='Europe'      demo='n' n='Manx'/>
   <udhr f='gno'                iso639-3='gno'    bcp47='gno'            dir='ltr'  ohchr='gno'    stage='2' notes='n' loc='18.16,81.38'          region='Asia'        demo='n' n='Gondi, Northern'/>           <!-- deva PDF text -->
   <udhr f='guc'                iso639-3='guc'    bcp47='guc'            dir='ltr'  ohchr='guc'    stage='4' notes='n' loc='10.23,-71.81'         region='Americas'    demo='n' n='Wayuu'/>
   <udhr f='gug'                iso639-3='gug'    bcp47='gn'             dir='ltr'  ohchr='gun'    stage='4' notes='n' loc='-25.61,-57.09'        region='Americas'    demo='n' n='Guaraní, Paraguayan'/>
@@ -214,6 +216,7 @@
   <udhr f='kbd'                iso639-3='kbd'    bcp47='kbd'            dir='ltr'  ohchr='kbd'    stage='4' notes='n' loc='43.51,43.39'          region='Asia'        demo='n' n='Kabardian'/>
   <udhr f='kbp'                iso639-3='kbp'    bcp47='kbp'            dir='ltr'  ohchr='kbp'    stage='4' notes='n' loc='8.97,0.50'            region='Africa'      demo='n' n='Kabiyé'/>
   <udhr f='kde'                iso639-3='kde'    bcp47='kde'            dir='ltr'  ohchr='kde'    stage='4' notes='n' loc='-10.99,39.51'         region='Africa'      demo='n' n='Makonde'/>
+  <udhr f='kdh'                iso639-3='kdh'    bcp47='kdh'            dir='ltr'  ohchr='kdh'    stage='4' notes='n' loc='8.00,1.00'            region='Africa'      demo='n' n='Tem'/>
   <udhr f='kea'                iso639-3='kea'    bcp47='kea'            dir='ltr'  ohchr='kea'    stage='4' notes='n' loc='15.06,-23.61'         region='Africa'      demo='n' n='Kabuverdianu'/>
   <udhr f='kek'                iso639-3='kek'    bcp47='kek'            dir='ltr'  ohchr='1116'   stage='4' notes='n' loc='15.38,-89.25'         region='Americas'    demo='n' n='Q&apos;eqchi&apos;'/>
   <udhr f='kfa'                iso639-3='kfa'    bcp47='kfa'            dir='ltr'  ohchr='kfa'    stage='2' notes='n' loc='12.24,75.92'          region='Asia'        demo='n' n='Kodava'/>
@@ -290,6 +293,7 @@
   <udhr f='mlt'                iso639-3='mlt'    bcp47='mt'             dir='ltr'  ohchr='mls'    stage='4' notes='n' loc='35.89,14.45'          region='Europe'      demo='n' n='Maltese'/>
   <udhr f='mly_arab'           iso639-3='zlm'    bcp47='ms-Arab'        dir='rtl'  ohchr=''       stage='4' notes='n' loc='1.86,103.00'          region='Asia'        demo='n' n='Malay (Arabic)'/>
   <udhr f='mly_latn'           iso639-3='zlm'    bcp47='ms-Latn'        dir='ltr'  ohchr='mli'    stage='4' notes='n' loc='1.86,103.00'          region='Asia'        demo='n' n='Malay (Latin)'/>
+  <udhr f='mnw'                iso639-3='mnw'    bcp47='mnw'            dir='ltr'  ohchr=''       stage='4' notes='n' loc='10.0,100'             region='Asia'        demo='n' n='Mon'/>
   <udhr f='mos'                iso639-3='mos'    bcp47='mos'            dir='ltr'  ohchr='mhm'    stage='4' notes='n' loc='10.45,-1.17'          region='Africa'      demo='n' n='Mòoré'/>
   <udhr f='mri'                iso639-3='mri'    bcp47='mi'             dir='ltr'  ohchr='mbf'    stage='4' notes='n' loc='-38.29,176.54'        region='Pacific'     demo='n' n='Maori'/>
   <udhr f='mto'                iso639-3='mto'    bcp47='mto'            dir='ltr'  ohchr='mto'    stage='4' notes='n' loc='17.22,-96.02'         region='Americas'    demo='n' n='Mixe, Totontepec'/>

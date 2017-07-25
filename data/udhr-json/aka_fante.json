@@ -1,5 +1,5 @@
 {
-  "iso639-3": "aka",
+  "iso639-3": "fat",
   "key": "aka_fante",
   "xmlns": "http://www.unhchr.ch/udhr",
   "title": "ADASA NDZINOA HO DAWURBƆ",
@@ -264,7 +264,7 @@
       "para": "Onnyi dɛ nyimpa biara ma nkyerɛase wɔ Dawurbɔ yi mu nsɛm yi ho a ɔbɛma ɔman, nyimpakuw anaa ankorankor bi tum ma ɔaayɛ biribi a ɔbɛsɛɛ ndzinoa na fahodzi ahorow a wɔada no edzi wɔ nwoma yi mu no."
     }
   ],
-  "lang": "ak",
-  "language": "Akan (Fante)",
+  "lang": "fat",
+  "language": "Fante",
   "note": []
 }
