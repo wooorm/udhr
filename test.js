@@ -102,29 +102,10 @@ test('udhr.information.n', function (t) {
   t.doesNotThrow(
     function () {
       each(information, function (declaration) {
-        var val = declaration.version;
-        assert(typeof val === 'string' || val === null);
-      });
-    },
-    'should have a version'
-  );
-
-  t.doesNotThrow(
-    function () {
-      each(information, function (declaration) {
         assert(typeof declaration.hasNotes === 'boolean');
       });
     },
     'should have a `hasNotes`'
-  );
-
-  t.doesNotThrow(
-    function () {
-      each(information, function (declaration) {
-        assert(typeof declaration.hasPDF === 'boolean');
-      });
-    },
-    'should have a `hasPDF`'
   );
 
   t.doesNotThrow(
