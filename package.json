@@ -13,8 +13,8 @@
     "plain",
     "text"
   ],
-  "repository": "https://github.com/wooorm/udhr",
-  "bugs": "https://github.com/unifiedjs/unified/issues",
+  "repository": "wooorm/udhr",
+  "bugs": "https://github.com/wooorm/udhr/issues",
   "author": "Titus Wormer <tituswormer@gmail.com> (http://wooorm.com)",
   "contributors": [
     "Titus Wormer <tituswormer@gmail.com> (http://wooorm.com)"
