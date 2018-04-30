@@ -1,6 +1,8 @@
 {
   "iso639-3": "und",
   "key": "017",
+  "dir": "ltr",
+  "iso15924": "Latn",
   "xmlns": "http://www.unhchr.ch/udhr",
   "title": "Sigai Renquan Xuanyan",
   "preamble": {

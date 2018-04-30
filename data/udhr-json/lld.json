@@ -1,6 +1,8 @@
 {
   "iso639-3": "lld",
   "key": "lld",
+  "dir": "ltr",
+  "iso15924": "Latn",
   "xmlns": "http://www.unhchr.ch/udhr",
   "title": "Detlaraziun Universala di Dërć dles Porsones",
   "note": [

@@ -1,6 +1,8 @@
 {
-  "iso639-3": "gax",
+  "iso639-3": "gaz",
   "key": "gax",
+  "dir": "ltr",
+  "iso15924": "Latn",
   "xmlns": "http://www.unhchr.ch/udhr",
   "title": "Labsii Walii-gala Mirgoota Namummaa",
   "note": [

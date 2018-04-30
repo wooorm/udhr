@@ -1,6 +1,8 @@
 {
   "iso639-3": "cha",
   "key": "cha",
+  "dir": "ltr",
+  "iso15924": "Latn",
   "xmlns": "http://www.unhchr.ch/udhr",
   "title": "UNIVERSAL NA DECLARASION I DERECHO SIHA PARA I TAOTAO",
   "preamble": {

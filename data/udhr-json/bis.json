@@ -1,6 +1,8 @@
 {
   "iso639-3": "bis",
   "key": "bis",
+  "dir": "ltr",
+  "iso15924": "Latn",
   "xmlns": "http://www.unhchr.ch/udhr",
   "title": "Deklereisen Blong Raet Blong Evri Man Mo Woman Raon Wol",
   "preamble": {

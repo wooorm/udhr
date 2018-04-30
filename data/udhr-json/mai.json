@@ -1,6 +1,8 @@
 {
   "iso639-3": "mai",
   "key": "mai",
+  "dir": "ltr",
+  "iso15924": "Deva",
   "xmlns": "http://www.unhchr.ch/udhr",
   "title": "सार्वभौम मानवाधिकार घोषणा",
   "note": [

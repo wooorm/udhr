@@ -1,6 +1,8 @@
 {
   "iso639-3": "oci",
   "key": "oci_4",
+  "dir": "ltr",
+  "iso15924": "Latn",
   "xmlns": "http://www.unhchr.ch/udhr",
   "title": "Dèclarachion di drouê dè l’ómó por tui lè pa-i dou moundo.",
   "note": [

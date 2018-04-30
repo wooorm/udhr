@@ -1,6 +1,8 @@
 {
   "iso639-3": "blt",
   "key": "blt",
+  "dir": "ltr",
+  "iso15924": "Tavt",
   "xmlns": "http://www.unhchr.ch/udhr",
   "title": "ꪁꪫꪱꪣ ꪜꪱꪫ ꪹꪕꪸꪉ ꪵꪠꪙ ꪒꪲꪙ ꪘꪱ ꪫꪸꪀ ꪩꪾ ꫛ ꪶꪔꪙ ꪠꪴ ꪄꪮꪉ ꪨꪸꪙ ꪹꪭꪷꪚ ꪀꪺꪀ",
   "note": [

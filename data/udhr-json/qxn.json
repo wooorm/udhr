@@ -1,6 +1,8 @@
 {
   "iso639-3": "qxn",
   "key": "qxn",
+  "dir": "ltr",
+  "iso15924": "Latn",
   "xmlns": "http://www.unhchr.ch/udhr",
   "title": "KAYMI KAN LLAPAN MUNDUCHAW IMANAW KAQ RUNAKUNAPAPIS DIRICHUNKUNA",
   "preamble": {

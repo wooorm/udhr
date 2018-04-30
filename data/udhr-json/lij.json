@@ -1,6 +1,8 @@
 {
   "iso639-3": "lij",
   "key": "lij",
+  "dir": "ltr",
+  "iso15924": "Latn",
   "xmlns": "http://www.unhchr.ch/udhr",
   "title": "DICIARAÇION UNIVERSALE DI DRITI DE PERSONN-E",
   "preamble": {

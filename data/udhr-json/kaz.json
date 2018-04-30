@@ -1,6 +1,8 @@
 {
   "iso639-3": "kaz",
   "key": "kaz",
+  "dir": "ltr",
+  "iso15924": "Cyrl",
   "xmlns": "http://www.unhchr.ch/udhr",
   "title": "АДАМ ҚҰҚЫҚТАРЫНЫҢ ЖАЛПЫҒА БІРДЕЙ ДЕКЛАРАЦИЯСЫ",
   "preamble": {

@@ -1,6 +1,8 @@
 {
   "iso639-3": "ndo",
   "key": "ndo",
+  "dir": "ltr",
+  "iso15924": "Latn",
   "xmlns": "http://www.unhchr.ch/udhr",
   "title": "OMUSHANGWA GWAAYEHE GUUTHEMBA WOMUNTU",
   "preamble": {

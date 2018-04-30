@@ -1,6 +1,8 @@
 {
   "iso639-3": "kqn",
   "key": "kqn",
+  "dir": "ltr",
+  "iso15924": "Latn",
   "xmlns": "http://www.unhchr.ch/udhr",
   "title": "MUKAMBIZHO MUKATAMPE PA NSAMBU YAFWAINWA MUNTU",
   "preamble": {

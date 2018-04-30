@@ -1,6 +1,8 @@
 {
   "iso639-3": "mic",
   "key": "mic",
+  "dir": "ltr",
+  "iso15924": "Latn",
   "xmlns": "http://www.unhchr.ch/udhr",
   "title": "Mtul’katlku Wjit Koqwajo’taqann Mimajulnu’k Wejkuaqml’tlj",
   "preamble": {

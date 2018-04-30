@@ -1,6 +1,8 @@
 {
   "iso639-3": "vie",
   "key": "vie_han",
+  "dir": "ltr",
+  "iso15924": "Hani",
   "xmlns": "http://www.unhchr.ch/udhr",
   "title": "宣言全世界𧗱人權𧵑聯合國",
   "note": [

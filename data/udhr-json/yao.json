@@ -1,6 +1,8 @@
 {
   "iso639-3": "yao",
   "key": "yao",
+  "dir": "ltr",
+  "iso15924": "Latn",
   "xmlns": "http://www.unhchr.ch/udhr",
   "title": "Mkamulano Wa Ilambo Yoscope Pa Ufulu Wa Chipago Wa Wandu",
   "preamble": {

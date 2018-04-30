@@ -1,6 +1,8 @@
 {
   "iso639-3": "nhn",
   "key": "nhn",
+  "dir": "ltr",
+  "iso15924": "Latn",
   "xmlns": "http://www.unhchr.ch/udhr",
   "note": [
     {
@@ -269,6 +271,6 @@
       "para": "Nochi tlen moijtojtok ipan ni Ueyi Amatlanauatili tlen ni \"TLAJTOLNEMILISTLI TLEN MOIJTOJTOK PARA MA KUALI TIMOUIKAKAJ IPAN NI TLALTIPAKTLI\", amo akaj uelis kixoleuas, amo akaj uelis kitlaatis, amo akaj uelis kiixpolos. Moneki ma mochiua uan ma monemili ni Ueyi Tlanauatili, pampa tlaj melauak tijchiuasej uan tijnemilisej ika totlajtol, ika totekij uan ika toyolo ni Ueyi Tlanauatili, uaajka kena kuali uan yejyektsij tiitstosej, san tiyolpaktosej tiitstosej; pampa melauak timotlepanitasejya, timoiknelisejya uan timotlasojtlasejya ipan ni ikuitlapankotsij uan ikuaxankotsij ni toueyi nana tonantsij tlaltipaktli."
     }
   ],
-  "lang": "nah",
+  "lang": "nhn",
   "language": "Nahuatl, Central"
 }

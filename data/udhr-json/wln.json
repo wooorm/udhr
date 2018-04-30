@@ -1,6 +1,8 @@
 {
   "iso639-3": "wln",
   "key": "wln",
+  "dir": "ltr",
+  "iso15924": "Latn",
   "xmlns": "http://www.unhchr.ch/udhr",
   "title": "DÉCLARÅCION UNIVERSÈLE DÈS DREÛTS D'L'OME",
   "preamble": {

@@ -1,6 +1,8 @@
 {
   "iso639-3": "dag",
   "key": "dag",
+  "dir": "ltr",
+  "iso15924": "Latn",
   "xmlns": "http://www.unhchr.ch/udhr",
   "title": "ZAL'SHƐŊA ŊAN KPAŊSIR' ZƆSIMDI NI NAŊGBAŊ YINI ANDUNIA TIŊGBANA SUNSUUNI",
   "preamble": {

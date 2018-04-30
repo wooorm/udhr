@@ -1,6 +1,8 @@
 {
   "iso639-3": "abk",
   "key": "abk",
+  "dir": "ltr",
+  "iso15924": "Cyrl",
   "xmlns": "http://www.unhchr.ch/udhr",
   "title": "Ауаҩытәыҩса изинқәа Зегьеицырзеиҧшу Адекларациа",
   "preamble": {

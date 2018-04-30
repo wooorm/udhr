@@ -1,7 +1,7 @@
 Universal Declaration of Human Rights - Quechua, Huamalíes-Dos de Mayo Huánuco
 © 1996 – 2009 The Office of the High Commissioner for Human Rights
 This plain text version prepared by the “UDHR in Unicode”
-project, http://www.unicode.org/udhr.
+project, https://www.unicode.org/udhr.
 ---
 
 LAPAN RUNAKUNA IMANAWPA RISPITASH KAYÄNANPAQ KASHQANKUNA KAYNAW NIRMI QALAYKUN

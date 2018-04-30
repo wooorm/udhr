@@ -1,6 +1,8 @@
 {
-  "iso639-3": "nep",
+  "iso639-3": "npi",
   "key": "nep",
+  "dir": "ltr",
+  "iso15924": "Deva",
   "xmlns": "http://www.unhchr.ch/udhr",
   "title": "मानव अधिकारको विश्वव्यापी घोषणा",
   "preamble": {

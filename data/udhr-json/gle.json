@@ -1,6 +1,8 @@
 {
   "iso639-3": "gle",
   "key": "gle",
+  "dir": "ltr",
+  "iso15924": "Latn",
   "xmlns": "http://www.unhchr.ch/udhr",
   "title": "DEARBHÚ UILE-CHOITEANN CEARTA AN DUINE",
   "preamble": {

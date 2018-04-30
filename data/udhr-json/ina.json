@@ -1,6 +1,8 @@
 {
   "iso639-3": "ina",
   "key": "ina",
+  "dir": "ltr",
+  "iso15924": "Latn",
   "xmlns": "http://www.unhchr.ch/udhr",
   "title": "DECLARATION UNIVERSAL DEL DERECTOS HUMAN",
   "preamble": {

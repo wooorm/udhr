@@ -1,6 +1,8 @@
 {
   "iso639-3": "ojb",
   "key": "ojb",
+  "dir": "ltr",
+  "iso15924": "Cans",
   "xmlns": "http://www.unhchr.ch/udhr",
   "title": "ᐯᒪᑎᓯᑦ ᑌᐸᑫᑕᑯᓯᐎᓇᓐ ᒥᓯᐌᑲᒥᒃ ᐎᓐᑕᒪᑫᐎᓐ",
   "note": [
@@ -269,6 +271,6 @@
       "para": ""
     }
   ],
-  "lang": "oj",
+  "lang": "ojb",
   "language": "Ojibwa, Northwestern"
 }

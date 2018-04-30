@@ -1,6 +1,8 @@
 {
   "iso639-3": "sot",
   "key": "sot",
+  "dir": "ltr",
+  "iso15924": "Latn",
   "xmlns": "http://www.unhchr.ch/udhr",
   "title": "TOTOBATSO E AKARETSANG YA DITOKELO TSA BOTHO",
   "preamble": {

@@ -1,6 +1,8 @@
 {
   "iso639-3": "cbr",
   "key": "cbr",
+  "dir": "ltr",
+  "iso15924": "Latn",
   "xmlns": "http://www.unhchr.ch/udhr",
   "title": "A ÑUCAMA SINANXUN CA AXA ANU TIMËCË UNICAMAN ËSAQUIN CAXA:",
   "preamble": {

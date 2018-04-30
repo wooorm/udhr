@@ -1,6 +1,8 @@
 {
   "iso639-3": "koo",
   "key": "koo",
+  "dir": "ltr",
+  "iso15924": "Latn",
   "xmlns": "http://www.unhchr.ch/udhr",
   "title": "EBIRI OMO KISAKANGO EKYEKIHUGHO KYOSI EKIKAHAMULHA OBUHOLHO NEKISUMBI KYO'BUNDUEKYAMABIRIKANIBWAKO AHEGHULHU",
   "preamble": {

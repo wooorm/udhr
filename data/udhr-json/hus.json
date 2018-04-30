@@ -1,6 +1,8 @@
 {
   "iso639-3": "hus",
   "key": "hus",
+  "dir": "ltr",
+  "iso15924": "Latn",
   "xmlns": "http://www.unhchr.ch/udhr",
   "title": "JUNKUNAL BITSOWTSIK",
   "note": [
@@ -270,5 +272,5 @@
     }
   ],
   "lang": "hus",
-  "language": "Huastec"
+  "language": "Huastec (Veracruz)"
 }

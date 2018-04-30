@@ -1,6 +1,8 @@
 {
   "iso639-3": "lot",
   "key": "lot",
+  "dir": "ltr",
+  "iso15924": "Latn",
   "xmlns": "http://www.unhchr.ch/udhr",
   "title": "",
   "note": [

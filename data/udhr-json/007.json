@@ -1,6 +1,8 @@
 {
   "iso639-3": "cri",
   "key": "007",
+  "dir": "ltr",
+  "iso15924": "Latn",
   "xmlns": "http://www.unhchr.ch/udhr",
   "title": "Declaraçón Universal di Dirêtu di Hómé",
   "note": [

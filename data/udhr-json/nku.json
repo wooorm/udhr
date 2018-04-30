@@ -1,6 +1,8 @@
 {
   "iso639-3": "nku",
   "key": "nku",
+  "dir": "ltr",
+  "iso15924": "Latn",
   "xmlns": "http://www.unhchr.ch/udhr",
   "title": "Ɩgooyoo bɔ gbɛɛɩnɲɔ maraʋn",
   "preamble": {

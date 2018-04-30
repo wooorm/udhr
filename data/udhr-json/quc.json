@@ -1,6 +1,8 @@
 {
   "iso639-3": "quc",
   "key": "quc",
+  "dir": "ltr",
+  "iso15924": "Latn",
   "xmlns": "http://www.unhchr.ch/udhr",
   "title": "UQ'ALAJISAXIK PA RONOJEL UWACHULEW RI YA'TALIK KAB'AN PA RI K'ASLEMAL",
   "preamble": {

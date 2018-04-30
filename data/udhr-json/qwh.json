@@ -1,6 +1,8 @@
 {
   "iso639-3": "qwh",
   "key": "qwh",
+  "dir": "ltr",
+  "iso15924": "Latn",
   "xmlns": "http://www.unhchr.ch/udhr",
   "title": "KAQ KEYMI LLAPAN PATSACHOW IMANA KAQ NUNAKUNAPAPIS DERECHUNKUNA",
   "preamble": {

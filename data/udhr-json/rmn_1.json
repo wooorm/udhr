@@ -1,6 +1,8 @@
 {
   "iso639-3": "rmn",
   "key": "rmn_1",
+  "dir": "ltr",
+  "iso15924": "Latn",
   "xmlns": "http://www.unhchr.ch/udhr",
   "title": "UNIVERZALNO DEKLARACIJA BAŠO ČAČIPA E MANUŠESKERE",
   "note": [
@@ -269,6 +271,6 @@
       "para": "Ni jekh rezolucija kotar akaja Deklaracija našti te interpretirinenpe sar čačipe bilo save raštrake, grupake ja dženeske so kerola bilo savi buti ja te kerel bilo savi buti ki linija po pheravipe e čačipasko thaj e tromanipasko so ikerdžona ki akaja Deklaracija."
     }
   ],
-  "lang": "rom",
+  "lang": "rmn",
   "language": "Romani, Balkan (1)"
 }

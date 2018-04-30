@@ -1,6 +1,8 @@
 {
   "iso639-3": "ibb",
   "key": "ibb",
+  "dir": "ltr",
+  "iso15924": "Latn",
   "xmlns": "http://www.unhchr.ch/udhr",
   "title": "Edisuan Etop Mbana Mme Unen Owo Ke Ofuri Ekondo",
   "note": [

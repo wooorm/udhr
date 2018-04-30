@@ -1,6 +1,8 @@
 {
-  "lang": "tzm_tfng",
-  "language": "Tamazight, Central Atlas (Tifinagh)",
+  "iso639-3": "tzm",
+  "key": "tzm_tfng",
+  "dir": "ltr",
+  "iso15924": "Tfng",
   "xmlns": "http://www.unhchr.ch/udhr",
   "article": [
     {
@@ -9,6 +11,8 @@
     }
   ],
   "title": "",
+  "lang": "tzm-Tfng",
+  "language": "Tamazight, Central Atlas (Tifinagh)",
   "note": [],
   "preamble": {
     "title": "",

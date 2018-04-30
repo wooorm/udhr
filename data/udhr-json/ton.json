@@ -1,6 +1,8 @@
 {
   "iso639-3": "ton",
   "key": "ton",
+  "dir": "ltr",
+  "iso15924": "Latn",
   "xmlns": "http://www.unhchr.ch/udhr",
   "title": "KO E TOHI FAKAHAHA FAKA’UNIVEESI ‘O E NGAAHI TOTONU ‘A E TANGATA",
   "preamble": {

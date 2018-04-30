@@ -1,6 +1,8 @@
 {
   "iso639-3": "isl",
   "key": "isl",
+  "dir": "ltr",
+  "iso15924": "Latn",
   "xmlns": "http://www.unhchr.ch/udhr",
   "title": "Mannréttindayfirlýsing Sameinuðo Þjóðanna.",
   "preamble": {

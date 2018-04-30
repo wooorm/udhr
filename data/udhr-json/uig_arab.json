@@ -1,6 +1,8 @@
 {
   "iso639-3": "uig",
   "key": "uig_arab",
+  "dir": "rtl",
+  "iso15924": "Arab",
   "xmlns": "http://www.unhchr.ch/udhr",
   "title": "دۇنيا كىشىلىك ھوقۇقى خىتابنامىسى",
   "preamble": {

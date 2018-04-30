@@ -1,6 +1,8 @@
 {
   "iso639-3": "epo",
   "key": "epo",
+  "dir": "ltr",
+  "iso15924": "Latn",
   "xmlns": "http://www.unhchr.ch/udhr",
   "title": "Universala Deklaracio de Homaj Rajtoj",
   "note": [

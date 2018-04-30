@@ -1,6 +1,8 @@
 {
   "iso639-3": "chr",
-  "key": "chr",
+  "key": "chr_uppercase",
+  "dir": "ltr",
+  "iso15924": "Cher",
   "xmlns": "http://www.unhchr.ch/udhr",
   "title": "ᏂᎬᎾᏛ ᏗᎦᏃᏣᎳᏅᎢ ᎠᏂᏴᏫ ᎤᏂᎲ ᎢᏳᎾᏛᏗᎢ",
   "preamble": {
@@ -265,6 +267,6 @@
     }
   ],
   "lang": "chr",
-  "language": "Cherokee",
+  "language": "Cherokee (uppercase)",
   "note": []
 }

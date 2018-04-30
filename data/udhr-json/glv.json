@@ -1,4 +1,6 @@
 {
+  "dir": "ltr",
+  "iso15924": "Latn",
   "xmlns": "http://www.unhchr.ch/udhr",
   "iso639-3": "glv",
   "key": "glv",
@@ -265,6 +267,6 @@
     }
   ],
   "lang": "gv",
-  "language": "Manx Gaelic",
+  "language": "Manx",
   "note": []
 }

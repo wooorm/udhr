@@ -1,6 +1,8 @@
 {
   "iso639-3": "ddn",
   "key": "ddn",
+  "dir": "ltr",
+  "iso15924": "Latn",
   "xmlns": "http://www.unhchr.ch/udhr",
   "title": "ÃDUNIYA KULU BƆRƆ DAAMA BEIYANIYOM",
   "preamble": {

@@ -1,6 +1,8 @@
 {
   "iso639-3": "lao",
   "key": "lao",
+  "dir": "ltr",
+  "iso15924": "Laoo",
   "xmlns": "http://www.unhchr.ch/udhr",
   "title": "ປະກາດສາກົນ ກ່ຽວກັບສິດຂອງມະນຸດ",
   "note": [

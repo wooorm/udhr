@@ -1,6 +1,8 @@
 {
   "iso639-3": "swb",
   "key": "swb",
+  "dir": "ltr",
+  "iso15924": "Latn",
   "xmlns": "http://www.unhchr.ch/udhr",
   "title": "FASWIRI HA LUGHA YA SHIMAORE YA MUTEKELEZEO WA SHI ULEMENGU WA ZIHAKI ZA MWANADAMU (HAKI-L-ADAMI)",
   "note": [

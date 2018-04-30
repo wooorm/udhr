@@ -1,6 +1,8 @@
 {
   "iso639-3": "src",
   "key": "src",
+  "dir": "ltr",
+  "iso15924": "Latn",
   "xmlns": "http://www.unhchr.ch/udhr",
   "title": "DECRARATZIONE UNIVERSALE E SOS DERETOSDE S'ÒMINE",
   "note": [

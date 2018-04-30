@@ -1,6 +1,8 @@
 {
   "iso639-3": "qvc",
   "key": "qvc",
+  "dir": "ltr",
+  "iso15924": "Latn",
   "xmlns": "http://www.unhchr.ch/udhr",
   "title": "Universal Declaration of Human Rights",
   "note": [

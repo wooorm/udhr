@@ -1,6 +1,8 @@
 {
   "iso639-3": "bci",
   "key": "bci",
+  "dir": "ltr",
+  "iso15924": "Latn",
   "xmlns": "http://www.unhchr.ch/udhr",
   "title": "Sran mmla mun be mɛn nun jɔ bolɛ",
   "preamble": {

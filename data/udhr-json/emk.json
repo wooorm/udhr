@@ -1,6 +1,8 @@
 {
   "iso639-3": "emk",
   "key": "emk",
+  "dir": "ltr",
+  "iso15924": "Latn",
   "xmlns": "http://www.unhchr.ch/udhr",
   "title": "DUNUƝA BƐNMAKAN KA A BƐN",
   "note": [
@@ -269,6 +271,6 @@
       "para": "Dalilu si tɛ mɔɔ bolo, a tɛ jamana bolo, ka bɔ sila di, sila mɛn di sariyaba ɲinnu tiɲɛn."
     }
   ],
-  "lang": "emk",
+  "lang": "man",
   "language": "Maninkakan, Eastern"
 }

@@ -1,6 +1,8 @@
 {
   "iso639-3": "run",
   "key": "run",
+  "dir": "ltr",
+  "iso15924": "Latn",
   "xmlns": "http://www.unhchr.ch/udhr",
   "title": "7IBIMENYESHEJWE N'AMAKUNGU KU NGINGO ZUBAHIRIZA ZINA MUNTU WESE",
   "preamble": {

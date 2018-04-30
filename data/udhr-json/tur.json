@@ -1,6 +1,8 @@
 {
   "iso639-3": "tur",
   "key": "tur",
+  "dir": "ltr",
+  "iso15924": "Latn",
   "xmlns": "http://www.unhchr.ch/udhr",
   "title": "İnsan hakları evrensel beyannamesi",
   "preamble": {

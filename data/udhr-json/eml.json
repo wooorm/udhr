@@ -1,6 +1,8 @@
 {
   "iso639-3": "rgn",
   "key": "eml",
+  "dir": "ltr",
+  "iso15924": "Latn",
   "xmlns": "http://www.unhchr.ch/udhr",
   "title": "DICHIARAZIOUN UNIVERSELA DI DIRET UMEN",
   "preamble": {
@@ -264,7 +266,7 @@
       "para": "Nisuna pèrta dla presènta Dichiarazioun la pò èsa interpretèda tu sèns da arughés, da pèrta d'un qualsiasi Stèd o grop o persouna, un dirét da esercitè un'atività o da mèta in at un'azioun c'la épa u scop da prevariché di dirét o dli libertà proclamid tla Dichiarazioun stèsa."
     }
   ],
-  "lang": "eml",
-  "language": "Emiliano-Romagnolo",
+  "lang": "rgn",
+  "language": "Romagnolo",
   "note": []
 }

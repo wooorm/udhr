@@ -1,6 +1,8 @@
 {
   "iso639-3": "arn",
   "key": "arn",
+  "dir": "ltr",
+  "iso15924": "Latn",
   "xmlns": "http://www.unhchr.ch/udhr",
   "title": "Kom Mapu Fijke Az Tañi Az Mogeleam",
   "preamble": {

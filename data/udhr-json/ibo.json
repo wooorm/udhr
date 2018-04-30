@@ -1,6 +1,8 @@
 {
   "iso639-3": "ibo",
   "key": "ibo",
+  "dir": "ltr",
+  "iso15924": "Latn",
   "xmlns": "http://www.unhchr.ch/udhr",
   "title": "NKUWUWAPỤTA ỤWA NILE BANYERE IKIKE MMADỤ NWEGASỊRỊ",
   "preamble": {

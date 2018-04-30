@@ -1,6 +1,8 @@
 {
   "iso639-3": "ceb",
   "key": "ceb",
+  "dir": "ltr",
+  "iso15924": "Latn",
   "xmlns": "http://www.unhchr.ch/udhr",
   "title": "MALUKPANONG DEKLARASYON SA TAWHANONG MGA KATUNGOD",
   "preamble": {

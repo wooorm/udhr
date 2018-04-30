@@ -1,7 +1,7 @@
 Universal Declaration of Human Rights - Gonja
 © 1996 – 2009 The Office of the High Commissioner for Human Rights
 This plain text version prepared by the “UDHR in Unicode”
-project, http://www.unicode.org/udhr.
+project, https://www.unicode.org/udhr.
 ---
 
 DURNYAŊ KIKƐ BE KEYILI KPRA TA LAŊƐ DIMEDI KIKƐ BE KUMU SO BE ASHYEŊ NƐ MOBE KASHINTEŊ AKPA

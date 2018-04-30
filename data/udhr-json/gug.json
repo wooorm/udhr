@@ -1,6 +1,8 @@
 {
   "iso639-3": "gug",
   "key": "gug",
+  "dir": "ltr",
+  "iso15924": "Latn",
   "xmlns": "http://www.unhchr.ch/udhr",
   "title": "TEKOVE YVYPORA KUERA MAYMAYVA DERECHO KUAAUKAHA",
   "preamble": {

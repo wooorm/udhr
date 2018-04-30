@@ -1,6 +1,8 @@
 {
   "iso639-3": "lns",
   "key": "lns",
+  "dir": "ltr",
+  "iso15924": "Latn",
   "xmlns": "http://www.unhchr.ch/udhr",
   "title": "Sá' Yeé Kitu Ke Nsay Yee Kùm Ghay Wìr Msòŋ",
   "preamble": {

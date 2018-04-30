@@ -1,6 +1,8 @@
 {
   "iso639-3": "kdh",
   "key": "kdh",
+  "dir": "ltr",
+  "iso15924": "Latn",
   "xmlns": "http://www.unhchr.ch/udhr",
   "title": "Ɩrʊ́-dɛ́ɛ yíkowá-ɖɔ́ feríi-dɛ́ɛ fatɩma lɩzɩ́ɩ",
   "preamble": {

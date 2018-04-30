@@ -1,6 +1,8 @@
 {
   "iso639-3": "slk",
   "key": "slk",
+  "dir": "ltr",
+  "iso15924": "Latn",
   "xmlns": "http://www.unhchr.ch/udhr",
   "title": "VŠOBECNÁ DEKLARÁCIA LUDSKÝCH PRÁV",
   "preamble": {

@@ -1,6 +1,8 @@
 {
   "iso639-3": "xho",
   "key": "xho",
+  "dir": "ltr",
+  "iso15924": "Latn",
   "xmlns": "http://www.unhchr.ch/udhr",
   "title": "INKCAZO‐JIKELELE NGEEMFANELO ZOLUNTU",
   "preamble": {

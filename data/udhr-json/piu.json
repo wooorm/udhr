@@ -1,6 +1,8 @@
 {
   "iso639-3": "piu",
   "key": "piu",
+  "dir": "ltr",
+  "iso15924": "Latn",
   "xmlns": "http://www.unhchr.ch/udhr",
   "title": "Yara Tina Ngaatjanya Yananguku Tjukarurrulpayi Liipula Nyinanytjaku Mingarrtjuwiya",
   "preamble": {

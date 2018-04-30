@@ -1,6 +1,8 @@
 {
   "iso639-3": "tem",
   "key": "tem",
+  "dir": "ltr",
+  "iso15924": "Latn",
   "xmlns": "http://www.unhchr.ch/udhr",
   "title": "Mʌshelɔ Ma Aŋfəm ŋa Rʌru Ta Ʌmari Ma Rʌwuni Kəpet",
   "preamble": {

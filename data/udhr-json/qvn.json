@@ -1,6 +1,8 @@
 {
   "iso639-3": "qvn",
   "key": "qvn",
+  "dir": "ltr",
+  "iso15924": "Latn",
   "xmlns": "http://www.unhchr.ch/udhr",
   "title": "KAY PACHACHRU LAPAN RUNAKUNA WASHAKURKAANAPAQ ISKIRBISHAKUNA KAYKUNATA ISKIRBIPAAKURAA",
   "preamble": {

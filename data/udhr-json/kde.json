@@ -1,6 +1,8 @@
 {
   "iso639-3": "kde",
   "key": "kde",
+  "dir": "ltr",
+  "iso15924": "Latn",
   "xmlns": "http://www.unhchr.ch/udhr",
   "title": "LILOVE LYA VILAMBO LYA WASA WA VAN",
   "preamble": {

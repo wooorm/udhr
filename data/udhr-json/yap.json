@@ -1,6 +1,8 @@
 {
   "iso639-3": "yap",
   "key": "yap",
+  "dir": "ltr",
+  "iso15924": "Latn",
   "xmlns": "http://www.unhchr.ch/udhr",
   "title": "MATTʼAWEN GUBIN E GIDII NI NGAN NANG",
   "preamble": {

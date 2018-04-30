@@ -1,6 +1,8 @@
 {
   "iso639-3": "cos",
   "key": "cos",
+  "dir": "ltr",
+  "iso15924": "Latn",
   "xmlns": "http://www.unhchr.ch/udhr",
   "title": "DICHJARAZIONI UNIVIRSALI DI I DIRITTI DI L’OMU",
   "preamble": {

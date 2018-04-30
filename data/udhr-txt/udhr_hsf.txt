@@ -1,7 +1,7 @@
 Universal Declaration of Human Rights - Huastec (Sierra de Otontepec)
 © 1996 – 2009 The Office of the High Commissioner for Human Rights
 This plain text version prepared by the “UDHR in Unicode”
-project, http://www.unicode.org/udhr.
+project, https://www.unicode.org/udhr.
 ---
 
 XALK-ANTALAP TIN PUTAT AN CHABAL XOH-NI NI KO-YAL AN INIKTSIK

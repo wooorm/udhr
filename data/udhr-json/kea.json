@@ -1,6 +1,8 @@
 {
   "iso639-3": "kea",
   "key": "kea",
+  "dir": "ltr",
+  "iso15924": "Latn",
   "xmlns": "http://www.unhchr.ch/udhr",
   "title": "Declaraçon di mundo intêro di Dréto di tudo homi co tudo mudjer",
   "note": [

@@ -1,6 +1,8 @@
 {
   "iso639-3": "umb",
   "key": "011",
+  "dir": "ltr",
+  "iso15924": "Latn",
   "xmlns": "http://www.unhchr.ch/udhr",
   "title": "Ohuminyo Yoluali Yoku Tata Ovimuenyo Viomanu",
   "note": [

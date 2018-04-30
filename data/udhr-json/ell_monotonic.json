@@ -1,6 +1,8 @@
 {
   "iso639-3": "ell",
   "key": "ell_monotonic",
+  "dir": "ltr",
+  "iso15924": "Grek",
   "xmlns": "http://www.unhchr.ch/udhr",
   "title": "ΟΙΚΟΥΜΕΝΙΚΗ ΔΙΑΚΗΡΥΞΗ ΓΙΑ ΤΑ ΑΝΘΡΩΠΙΝΑ ΔΙΚΑΙΩΜΑΤΑ",
   "note": [

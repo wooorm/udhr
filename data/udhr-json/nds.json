@@ -1,6 +1,8 @@
 {
   "iso639-3": "nds",
   "key": "nds",
+  "dir": "ltr",
+  "iso15924": "Latn",
   "xmlns": "http://www.unhchr.ch/udhr",
   "title": "Allgemeen Verklaren vun de Minschenrechten",
   "preamble": {

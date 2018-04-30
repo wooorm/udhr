@@ -1,6 +1,8 @@
 {
   "iso639-3": "uig",
   "key": "uig_latn",
+  "dir": "ltr",
+  "iso15924": "Latn",
   "xmlns": "http://www.unhchr.ch/udhr",
   "title": "dunya kishilik hoquqi xitabnamisi",
   "preamble": {

@@ -1,6 +1,8 @@
 {
   "iso639-3": "twi",
   "key": "aka_asante",
+  "dir": "ltr",
+  "iso15924": "Latn",
   "xmlns": "http://www.unhchr.ch/udhr",
   "title": "ADASAMMA YIEDIE HO ANODISƐM",
   "preamble": {
@@ -264,7 +266,7 @@
       "para": "Wɔanhwɛ ɔman anaa nnipakuo bi ho na ɛyɛɛ saa Anodisɛm yi. Ne saa nti, ɛnni sɛ obi bɛgyina Anodisɛm yi so, ayɛ biribi ama atia adwempa a ɛfa onipa asɛdeɛ ne n'ahofadie a Amanaman Nkabom Kuo nya de yɛɛ saa anodisɛm no."
     }
   ],
-  "lang": "tw-asante",
+  "lang": "ak-asante",
   "language": "Twi (Asante)",
   "note": []
 }

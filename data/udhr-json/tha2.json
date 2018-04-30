@@ -1,6 +1,8 @@
 {
   "iso639-3": "tha",
   "key": "tha2",
+  "dir": "ltr",
+  "iso15924": "Thai",
   "xmlns": "http://www.unhchr.ch/udhr",
   "title": "ปฏิญญาสากลว่าด้วยสิทธิมนุษยชน",
   "note": [

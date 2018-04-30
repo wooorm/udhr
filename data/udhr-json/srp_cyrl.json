@@ -1,6 +1,8 @@
 {
   "iso639-3": "srp",
   "key": "srp_cyrl",
+  "dir": "ltr",
+  "iso15924": "Cyrl",
   "xmlns": "http://www.unhchr.ch/udhr",
   "title": "ОПШТА ДЕКЛАРАЦИЈА О ПРАВИМА ЧОВЕКА",
   "preamble": {

@@ -1,6 +1,8 @@
 {
   "iso639-3": "ast",
   "key": "ast",
+  "dir": "ltr",
+  "iso15924": "Latn",
   "xmlns": "http://www.unhchr.ch/udhr",
   "title": "Declaración Universalde los Drechos Humanos",
   "note": [

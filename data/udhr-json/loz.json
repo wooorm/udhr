@@ -1,6 +1,8 @@
 {
   "iso639-3": "loz",
   "key": "loz",
+  "dir": "ltr",
+  "iso15924": "Latn",
   "xmlns": "http://www.unhchr.ch/udhr",
   "title": "TUMELELANO YE TUNA YA SWANELO YA MUTU",
   "preamble": {

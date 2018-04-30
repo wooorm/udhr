@@ -1,6 +1,8 @@
 {
   "iso639-3": "lad",
   "key": "lad",
+  "dir": "ltr",
+  "iso15924": "Latn",
   "xmlns": "http://www.unhchr.ch/udhr",
   "title": "Deklarasion Universal de Derechos Umanos",
   "preamble": {

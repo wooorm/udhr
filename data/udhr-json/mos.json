@@ -1,6 +1,8 @@
 {
   "iso639-3": "mos",
   "key": "mos",
+  "dir": "ltr",
+  "iso15924": "Latn",
   "xmlns": "http://www.unhchr.ch/udhr",
   "title": "Ninsaal yel-segdɩ noy gãnegr sebre (yʊʊmd 1948)",
   "preamble": {

@@ -1,6 +1,8 @@
 {
   "iso639-3": "nya",
   "key": "nya_chechewa",
+  "dir": "ltr",
+  "iso15924": "Latn",
   "xmlns": "http://www.unhchr.ch/udhr",
   "title": "Chikalata Cha Mgwirizano Chofotokoza Za Ufulu Wa Chibadwidwe Wa Munthu Aliyense",
   "note": [

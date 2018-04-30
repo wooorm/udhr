@@ -1,6 +1,8 @@
 {
   "iso639-3": "fon",
   "key": "fon",
+  "dir": "ltr",
+  "iso15924": "Latn",
   "xmlns": "http://www.unhchr.ch/udhr",
   "title": "GBETA GBƐ Ɔ BI TƆN EE ƉƆ XÓ DÓ ACƐ E GBƐTƆ ƉÓ KPODO SISI E ƉO NA ƉÓ N'I LƐ KPO WU E",
   "preamble": {

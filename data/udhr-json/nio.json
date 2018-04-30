@@ -1,6 +1,8 @@
 {
   "iso639-3": "nio",
   "key": "nio",
+  "dir": "ltr",
+  "iso15924": "Cyrl",
   "xmlns": "http://www.unhchr.ch/udhr",
   "title": "",
   "note": [

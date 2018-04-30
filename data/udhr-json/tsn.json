@@ -1,6 +1,8 @@
 {
   "iso639-3": "tsn",
   "key": "tsn",
+  "dir": "ltr",
+  "iso15924": "Latn",
   "xmlns": "http://www.unhchr.ch/udhr",
   "title": "KGOELETSO YA MAIPOLELO A ODIT·HABAT·ABA A DITSHWANELO TSA BOTHO",
   "preamble": {

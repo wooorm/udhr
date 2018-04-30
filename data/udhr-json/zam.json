@@ -1,6 +1,8 @@
 {
   "iso639-3": "zam",
   "key": "zam",
+  "dir": "ltr",
+  "iso15924": "Latn",
   "xmlns": "http://www.unhchr.ch/udhr",
   "title": "Rieti yets",
   "note": [

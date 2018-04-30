@@ -1,6 +1,8 @@
 {
   "iso639-3": "mcd",
   "key": "mcd",
+  "dir": "ltr",
+  "iso15924": "Latn",
   "xmlns": "http://www.unhchr.ch/udhr",
   "title": "Non ahuuacaimain huatiroquin ishon. Niaifofoan ichanancashon mato cunushonifo.",
   "preamble": {

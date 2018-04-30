@@ -1,6 +1,8 @@
 {
   "iso639-3": "bum",
   "key": "btb",
+  "dir": "ltr",
+  "iso15924": "Latn",
   "xmlns": "http://www.unhchr.ch/udhr",
   "title": "AKŌK MEMVENDE ENYIŃ A MENGAN BOD",
   "preamble": {

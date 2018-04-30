@@ -1,7 +1,7 @@
 Universal Declaration of Human Rights - Shilluk
 © 1996 – 2009 The Office of the High Commissioner for Human Rights
 This plain text version prepared by the “UDHR in Unicode”
-project, http://www.unicode.org/udhr.
+project, https://www.unicode.org/udhr.
 ---
 
 MØG-A ÁCÏMMI YI KÖMI LÄBØ KI RI GÏG-A DWADDI KIPER DHANHØ BËNE

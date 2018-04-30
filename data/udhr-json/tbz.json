@@ -1,6 +1,8 @@
 {
   "iso639-3": "tbz",
   "key": "tbz",
+  "dir": "ltr",
+  "iso15924": "Latn",
   "xmlns": "http://www.unhchr.ch/udhr",
   "title": "Oniti ba we a kpenniti kutenku yanɖú",
   "preamble": {

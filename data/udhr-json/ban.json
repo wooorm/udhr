@@ -1,6 +1,8 @@
 {
   "iso639-3": "ban",
   "key": "ban",
+  "dir": "ltr",
+  "iso15924": "Latn",
   "xmlns": "http://www.unhchr.ch/udhr",
   "title": "Pangawedar indik Hak-Hak Azasi Manusia",
   "note": [

@@ -1,6 +1,8 @@
 {
   "iso639-3": "ido",
   "key": "ido",
+  "dir": "ltr",
+  "iso15924": "Latn",
   "xmlns": "http://www.unhchr.ch/udhr",
   "title": "Universal Deklaro di Homal Yuri",
   "note": [

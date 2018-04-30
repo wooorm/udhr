@@ -1,6 +1,8 @@
 {
   "iso639-3": "som",
   "key": "som",
+  "dir": "ltr",
+  "iso15924": "Latn",
   "xmlns": "http://www.unhchr.ch/udhr",
   "title": "BAAQA CAALAMIGA EE XUQ WQDA AADANAHA",
   "preamble": {

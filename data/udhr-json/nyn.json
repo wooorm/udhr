@@ -1,6 +1,8 @@
 {
   "iso639-3": "nyn",
   "key": "nyn",
+  "dir": "ltr",
+  "iso15924": "Latn",
   "xmlns": "http://www.unhchr.ch/udhr",
   "title": "ENTUURA Y'OBUNTU AHA BANTU OMUNSI YOONA",
   "preamble": {

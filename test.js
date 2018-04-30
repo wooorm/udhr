@@ -32,16 +32,6 @@ test('udhr.information.n', function (t) {
   t.doesNotThrow(
     function () {
       each(information, function (declaration) {
-        var val = declaration.region;
-        assert(typeof val === 'string' || val === null);
-      });
-    },
-    'should have a region'
-  );
-
-  t.doesNotThrow(
-    function () {
-      each(information, function (declaration) {
         assert(typeof declaration.ISO === 'string');
       });
     },

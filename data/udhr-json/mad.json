@@ -1,6 +1,8 @@
 {
   "iso639-3": "mad",
   "key": "mad",
+  "dir": "ltr",
+  "iso15924": "Latn",
   "xmlns": "http://www.unhchr.ch/udhr",
   "title": "PARNYATAAN OMOM PARKARA HAK-HAK ASASI MANOSSA",
   "note": [

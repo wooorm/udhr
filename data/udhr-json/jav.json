@@ -1,6 +1,8 @@
 {
   "iso639-3": "jav",
   "key": "jav",
+  "dir": "ltr",
+  "iso15924": "Latn",
   "xmlns": "http://www.unhchr.ch/udhr",
   "note": [
     {
@@ -270,5 +272,5 @@
     }
   ],
   "lang": "jv",
-  "language": "Javanese"
+  "language": "Javanese (Latin)"
 }

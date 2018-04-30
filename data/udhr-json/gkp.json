@@ -1,6 +1,8 @@
 {
   "iso639-3": "gkp",
   "key": "gkp",
+  "dir": "ltr",
+  "iso15924": "Latn",
   "xmlns": "http://www.unhchr.ch/udhr",
   "title": "NUKAN MAAMƐNI YƐNƐYII ƁO PƐLƐ HU",
   "preamble": {
@@ -264,7 +266,7 @@
       "para": "Kpalə ta kpɛli hwə laa yi a pɛli dɔn ŋaa ɲɛi maamɛni piliju, yɛ nu ŋɔɔ tɔɔ gaa ɲei yɛnɛyii hu da ŋɔɔ lɛgbɔɔɓa laa kuloi ɲei: yɛ ə kɛ a lɔi, a kpɔn, ə make gu tɛitɛi."
     }
   ],
-  "lang": "kpe",
+  "lang": "gkp",
   "language": "Kpelle, Guinea",
   "note": []
 }

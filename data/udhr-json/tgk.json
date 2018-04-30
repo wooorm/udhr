@@ -1,6 +1,8 @@
 {
   "iso639-3": "tgk",
   "key": "tgk",
+  "dir": "ltr",
+  "iso15924": "Cyrl",
   "xmlns": "http://www.unhchr.ch/udhr",
   "title": "Эъломияи Умимии Ҳуқуқи Башар",
   "preamble": {

@@ -1,6 +1,8 @@
 {
   "iso639-3": "mal",
   "key": "mal",
+  "dir": "ltr",
+  "iso15924": "Mlym",
   "xmlns": "http://www.unhchr.ch/udhr",
   "title": "മനുഷ്യാവകാശങ്ങളെക്കുറിക്കുന്ന പൊതുപ്രഖ്യാപനം",
   "preamble": {

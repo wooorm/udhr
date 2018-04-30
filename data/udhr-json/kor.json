@@ -1,6 +1,8 @@
 {
   "iso639-3": "kor",
   "key": "kor",
+  "dir": "ltr",
+  "iso15924": "Hang",
   "xmlns": "http://www.unhchr.ch/udhr",
   "title": "세 계 인 권 선 언",
   "preamble": {

@@ -1,6 +1,8 @@
 {
   "iso639-3": "spa",
   "key": "spa",
+  "dir": "ltr",
+  "iso15924": "Latn",
   "xmlns": "http://www.unhchr.ch/udhr",
   "title": "Declaración Universal de Derechos Humanos",
   "note": [

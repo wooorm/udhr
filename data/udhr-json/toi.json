@@ -1,6 +1,8 @@
 {
   "iso639-3": "toi",
   "key": "toi",
+  "dir": "ltr",
+  "iso15924": "Latn",
   "xmlns": "http://www.unhchr.ch/udhr",
   "title": "CAAMBILIZYO CA MULAWO WA MASI OONSE WA LWAANGULUKO LWA MUNTU MATALIKO",
   "preamble": {

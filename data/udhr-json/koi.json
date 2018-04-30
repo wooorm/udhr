@@ -1,6 +1,8 @@
 {
   "iso639-3": "koi",
   "key": "koi",
+  "dir": "ltr",
+  "iso15924": "Cyrl",
   "xmlns": "http://www.unhchr.ch/udhr",
   "title": "Морт правоэзлӧн быдӧс мирись ӧтласа декларация",
   "note": [

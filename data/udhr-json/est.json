@@ -1,6 +1,8 @@
 {
-  "iso639-3": "est",
+  "iso639-3": "ekk",
   "key": "est",
+  "dir": "ltr",
+  "iso15924": "Latn",
   "xmlns": "http://www.unhchr.ch/udhr",
   "title": "Inimõiguste ülddeklaratsioon",
   "preamble": {

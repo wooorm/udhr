@@ -1,6 +1,8 @@
 {
   "iso639-3": "cbi",
   "key": "cbi",
+  "dir": "ltr",
+  "iso15924": "Latn",
   "xmlns": "http://www.unhchr.ch/udhr",
   "title": "Entsa Tunu Naa Nuka Chulla Bain, Muba Mubain Tsatsangenuu Deechu Detave Ti' Tsandi Depañu Kuinda",
   "note": [

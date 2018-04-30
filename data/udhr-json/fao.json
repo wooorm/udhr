@@ -1,6 +1,8 @@
 {
   "iso639-3": "fao",
   "key": "fao",
+  "dir": "ltr",
+  "iso15924": "Latn",
   "xmlns": "http://www.unhchr.ch/udhr",
   "title": "HEIMSYVIRLÝSING UM MANNARÆTTINDI",
   "preamble": {

@@ -1,6 +1,8 @@
 {
   "iso639-3": "pcd",
   "key": "pcd",
+  "dir": "ltr",
+  "iso15924": "Latn",
   "xmlns": "http://www.unhchr.ch/udhr",
   "title": "Dèclaråcion dès dreûts d' l'ome po tos lès payîs dè monde",
   "preamble": {

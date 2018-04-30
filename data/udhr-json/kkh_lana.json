@@ -1,6 +1,8 @@
 {
   "iso639-3": "kkh",
   "key": "kkh_lana",
+  "dir": "ltr",
+  "iso15924": "Lana",
   "xmlns": "http://www.unhchr.ch/udhr",
   "title": "ᨠᨲᩥᨠᩣᩅᩤ᩵ᨯ᩠ᩅ᩠ᨿᩢᨾᨶᩩᩔᨩᩣ᩠ᨲ",
   "preamble": {

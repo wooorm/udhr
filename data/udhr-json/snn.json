@@ -1,6 +1,8 @@
 {
   "iso639-3": "snn",
   "key": "snn",
+  "dir": "ltr",
+  "iso15924": "Latn",
   "xmlns": "http://www.unhchr.ch/udhr",
   "title": "SIA'YËQUËMACA SIA'BAI GUËOJËÑACAYAYE GUI'NE JËÑA,\nBAI'YE CAHUESOSE'BI SIA'YE TUTUBAYE\nJAI TSUTSUBËA OMETËCAÑA",
   "note": [

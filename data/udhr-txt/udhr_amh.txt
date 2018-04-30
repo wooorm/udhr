@@ -1,10 +1,10 @@
 Universal Declaration of Human Rights - Amharic
 © 1996 – 2009 The Office of the High Commissioner for Human Rights
 This plain text version prepared by the “UDHR in Unicode”
-project, http://www.unicode.org/udhr.
+project, https://www.unicode.org/udhr.
 ---
 
-ስለሰብአዊ፡መብቶች፡ለማስተማር፡ የሚረዱ፡አንዳን፡ዘዴዎች።
+ስለሰብአዊ፡መብቶች፡ለማስተማር፡ የሚረዱ፡አንዳንድ፡ዘዴዎች።
 	በዩኔስኮ፡ተዘጋጅቶ፡በኢትዮጵያ፡ብሄራዊ፡ኮሚሽን፡ተተረጎመ
   
     አንቀጽ፡፩፤

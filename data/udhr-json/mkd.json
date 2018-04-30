@@ -1,6 +1,8 @@
 {
   "iso639-3": "mkd",
   "key": "mkd",
+  "dir": "ltr",
+  "iso15924": "Cyrl",
   "xmlns": "http://www.unhchr.ch/udhr",
   "title": "УНИВЕРЗАЛНА ДЕКЛАРАЦИЈА ЗА ЧОВЕКОВИТЕ ПРАВА",
   "note": [

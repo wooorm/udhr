@@ -1,7 +1,7 @@
 Universal Declaration of Human Rights - Chin, Falam
 © 1996 – 2009 The Office of the High Commissioner for Human Rights
 This plain text version prepared by the “UDHR in Unicode”
-project, http://www.unicode.org/udhr.
+project, https://www.unicode.org/udhr.
 ---
 
 Ram Tin Tian iium Minung Pakhat ciar ii Covo Thuthan

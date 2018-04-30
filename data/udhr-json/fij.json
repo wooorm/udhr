@@ -1,6 +1,8 @@
 {
   "iso639-3": "fij",
   "key": "fij",
+  "dir": "ltr",
+  "iso15924": "Latn",
   "xmlns": "http://www.unhchr.ch/udhr",
   "title": "LAWA RARABA NI DODONU NI LEWENIVANUA",
   "note": [

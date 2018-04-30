@@ -1,6 +1,8 @@
 {
-  "iso639-3": "",
-  "key": "",
+  "iso639-3": "cjk",
+  "key": "cjk",
+  "dir": "ltr",
+  "iso15924": "Latn",
   "xmlns": "http://www.unhchr.ch/udhr",
   "title": "ULUMBUNWISO WAKUTELA WA MUTHU MWESWE",
   "note": [
@@ -269,6 +271,6 @@
       "para": "Nyi umwe ha uno milimo mahasa kunyonga ngwe upinjiso hali Nguvulu, milimo cipwe ya athu anji hanji umwikha, cipwe yoze wakutuma hanga akalinge cimwe cuma ca kutala ha kupihisa ino analweza hana ya kutala ca kutama ci pema nyi ulite."
     }
   ],
-  "lang": "",
-  "language": ""
+  "lang": "cjk",
+  "language": "Chokwe"
 }

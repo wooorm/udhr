@@ -1,6 +1,8 @@
 {
   "iso639-3": "srp",
   "key": "srp_latn",
+  "dir": "ltr",
+  "iso15924": "Latn",
   "xmlns": "http://www.unhchr.ch/udhr",
   "title": "OPŠTA DEKLARACIJA O PRAVIMA ČOVEKA",
   "preamble": {

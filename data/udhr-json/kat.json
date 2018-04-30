@@ -1,6 +1,8 @@
 {
   "iso639-3": "kat",
   "key": "kat",
+  "dir": "ltr",
+  "iso15924": "Geor",
   "xmlns": "http://www.unhchr.ch/udhr",
   "title": "ადამიანის უფლებათა საყოველთაო დეკლარაცია",
   "preamble": {

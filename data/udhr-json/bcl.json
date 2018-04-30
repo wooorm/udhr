@@ -1,6 +1,8 @@
 {
   "iso639-3": "bcl",
   "key": "bcl",
+  "dir": "ltr",
+  "iso15924": "Latn",
   "xmlns": "http://www.unhchr.ch/udhr",
   "title": "Declaracion Universal nin mga derechos humanos",
   "preamble": {

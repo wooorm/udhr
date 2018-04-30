@@ -1,6 +1,8 @@
 {
   "iso639-3": "gag",
   "key": "gag",
+  "dir": "ltr",
+  "iso15924": "Latn",
   "xmlns": "http://www.unhchr.ch/udhr",
   "title": "Insan Hakların Cümlä Deklaratiyası",
   "note": [

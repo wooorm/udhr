@@ -1,6 +1,8 @@
 {
   "iso639-3": "qva",
   "key": "qva",
+  "dir": "ltr",
+  "iso15924": "Latn",
   "xmlns": "http://www.unhchr.ch/udhr",
   "title": "RUNAKUNA RESPETACHIKUNANPAQ LEY RURAPÄKONQAN KAYNUYMI QALAYKUNAN",
   "preamble": {

@@ -1,6 +1,8 @@
 {
   "iso639-3": "kbd",
   "key": "kbd",
+  "dir": "ltr",
+  "iso15924": "Cyrl",
   "xmlns": "http://www.unhchr.ch/udhr",
   "title": "Цӏыху Хуэфащэхэм Теухуа Дунейпсо Джэпсалъэ",
   "note": [

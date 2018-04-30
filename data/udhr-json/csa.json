@@ -1,6 +1,8 @@
 {
   "iso639-3": "csa",
   "key": "csa",
+  "dir": "ltr",
+  "iso15924": "Latn",
   "xmlns": "http://www.unhchr.ch/udhr",
   "title": "E'E JNA JAU LA KIO LE KÖ MUKUU KIO NIA NE KIO TSA RÜJNIA",
   "preamble": {

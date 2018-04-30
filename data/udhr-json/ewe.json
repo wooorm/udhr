@@ -1,6 +1,8 @@
 {
   "iso639-3": "ewe",
   "key": "ewe",
+  "dir": "ltr",
+  "iso15924": "Latn",
   "xmlns": "http://www.unhchr.ch/udhr",
   "title": "AMEGBETƆ ƑE ABLƆƉEVINYENYE ŊU KPEƉOƉZINYA",
   "preamble": {

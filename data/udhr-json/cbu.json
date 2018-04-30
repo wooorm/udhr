@@ -1,6 +1,8 @@
 {
   "iso639-3": "cbu",
   "key": "cbu",
+  "dir": "ltr",
+  "iso15924": "Latn",
   "xmlns": "http://www.unhchr.ch/udhr",
   "title": "IN KIRAK -TSAPORONASOSH TPOTS ICHIGORO VANASIR TAPANA; SAMPATA MANTSIR TARINTSPA-ATCHA.",
   "preamble": {

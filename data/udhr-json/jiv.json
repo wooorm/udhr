@@ -1,6 +1,8 @@
 {
   "iso639-3": "jiv",
   "key": "jiv",
+  "dir": "ltr",
+  "iso15924": "Latn",
   "xmlns": "http://www.unhchr.ch/udhr",
   "title": "AENTSU NINIURIN CHICHAME MASHINIU AMIKTIN",
   "note": [

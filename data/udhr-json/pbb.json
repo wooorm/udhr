@@ -1,6 +1,8 @@
 {
   "iso639-3": "pbb",
   "key": "pbb",
+  "dir": "ltr",
+  "iso15924": "Latn",
   "xmlns": "http://www.unhchr.ch/udhr",
   "title": "NASA YA'NWE'WEWA'TE NAA KIWETE UTA IPEHKSA YUWE'S NEWE'WEN'I WEH'A",
   "preamble": {

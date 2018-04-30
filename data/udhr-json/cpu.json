@@ -1,6 +1,8 @@
 {
   "iso639-3": "cpu",
   "key": "cpu",
+  "dir": "ltr",
+  "iso15924": "Latn",
   "xmlns": "http://www.unhchr.ch/udhr",
   "title": "TSICA INCANTYA IRAACAMEETHAYEETAIRI ATZIRIPAYEENI JACA QUIPATSIQUI",
   "preamble": {

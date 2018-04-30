@@ -1,6 +1,8 @@
 {
   "iso639-3": "und",
   "key": "012",
+  "dir": "ltr",
+  "iso15924": "Latn",
   "xmlns": "http://www.unhchr.ch/udhr",
   "title": "SIFGAIF RENRQIANR XIANXYANR",
   "preamble": {

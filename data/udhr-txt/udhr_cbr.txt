@@ -1,7 +1,7 @@
 Universal Declaration of Human Rights - Cashibo-Cacataibo
 © 1996 – 2009 The Office of the High Commissioner for Human Rights
 This plain text version prepared by the “UDHR in Unicode”
-project, http://www.unicode.org/udhr.
+project, https://www.unicode.org/udhr.
 ---
 
 A ÑUCAMA SINANXUN CA AXA ANU TIMËCË UNICAMAN ËSAQUIN CAXA:

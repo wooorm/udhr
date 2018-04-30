@@ -1,6 +1,8 @@
 {
   "iso639-3": "knc",
   "key": "knc",
+  "dir": "ltr",
+  "iso15924": "Latn",
   "xmlns": "http://www.unhchr.ch/udhr",
   "title": "Hakkiwa Adamganabe Dunya Ngaro Wowurtəgənama",
   "note": [
@@ -269,6 +271,6 @@
       "para": "Abima suro Wowur adəben fasaranzə lardəro, samnaro au kamro kartaaro tənyi, amari hakki abima kəndobe au nya laa nganzatəbe kəla hakkiwa-a nambe-a suro adəlan dəganadəben bannaro fasartənyi ye tənyi ye."
     }
   ],
-  "lang": "knc",
+  "lang": "kr",
   "language": "Kanuri, Central"
 }

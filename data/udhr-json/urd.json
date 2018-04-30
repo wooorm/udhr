@@ -1,6 +1,8 @@
 {
   "iso639-3": "urd",
   "key": "urd",
+  "dir": "rtl",
+  "iso15924": "Arab",
   "xmlns": "http://www.unhchr.ch/udhr",
   "title": "انسانی حقوق کا عالمی منشور",
   "note": [

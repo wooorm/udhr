@@ -1,6 +1,8 @@
 {
   "iso639-3": "buc",
   "key": "buc",
+  "dir": "ltr",
+  "iso15924": "Latn",
   "xmlns": "http://www.unhchr.ch/udhr",
   "title": "TAFASWIRI AN-KIƁUSHI NIM-MATEKELEZO KI DUNIA NIN-HAKI-L-ADAMÌ",
   "preamble": {

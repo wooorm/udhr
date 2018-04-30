@@ -1,6 +1,8 @@
 {
   "iso639-3": "pov",
   "key": "008",
+  "dir": "ltr",
+  "iso15924": "Latn",
   "xmlns": "http://www.unhchr.ch/udhr",
   "title": "DECLARAÇON UNIVERSAL DI DIRITU DI OMIS",
   "note": [

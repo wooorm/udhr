@@ -1,6 +1,8 @@
 {
   "iso639-3": "pis",
   "key": "pis",
+  "dir": "ltr",
+  "iso15924": "Latn",
   "xmlns": "http://www.unhchr.ch/udhr",
   "title": "Universol Declarason lo Hiuman Raits",
   "preamble": {

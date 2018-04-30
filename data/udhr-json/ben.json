@@ -1,6 +1,8 @@
 {
   "iso639-3": "ben",
   "key": "ben",
+  "dir": "ltr",
+  "iso15924": "Beng",
   "xmlns": "http://www.unhchr.ch/udhr",
   "title": "মানবাধিকারের সার্বজনীন ঘোষণাপত্র",
   "preamble": {

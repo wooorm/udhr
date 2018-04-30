@@ -1,6 +1,8 @@
 {
   "iso639-3": "qvm",
   "key": "qvm",
+  "dir": "ltr",
+  "iso15924": "Latn",
   "xmlns": "http://www.unhchr.ch/udhr",
   "title": "INTËRU MUNDUCHO LAPAN RUNAKUNAPA DERËCHUNKUNANTA WILAKUSHQAN",
   "preamble": {

@@ -1,6 +1,8 @@
 {
   "iso639-3": "roh",
   "key": "roh_puter",
+  "dir": "ltr",
+  "iso15924": "Latn",
   "xmlns": "http://www.unhchr.ch/udhr",
   "title": "Declaraziun universela dals drets umauns",
   "preamble": {

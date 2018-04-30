@@ -233,6 +233,7 @@ function writeTXTData(data) {
 function cleanData(data) {
   return data.udhrs.udhr
     .map(function (declaration) {
+      console.log('dec: ', declaration);
       return declaration.$;
     })
     .map(function (declaration) {
@@ -240,7 +241,6 @@ function cleanData(data) {
       var location;
       var filename;
 
-      cleanDeclaration.region = declaration.region || null;
       cleanDeclaration.ISO = declaration['iso639-3'] || null;
       cleanDeclaration.BCP47 = declaration.bcp47 || null;
       cleanDeclaration.OHCHR = declaration.ohchr || null;

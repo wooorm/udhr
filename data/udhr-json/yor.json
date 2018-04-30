@@ -1,6 +1,8 @@
 {
   "iso639-3": "yor",
   "key": "yor",
+  "dir": "ltr",
+  "iso15924": "Latn",
   "xmlns": "http://www.unhchr.ch/udhr",
   "title": "ÌKÉDE KÁRÍAYÉ FÚN È̩TÓ̩ O̩MO̩NÌYÀN",
   "preamble": {

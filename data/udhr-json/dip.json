@@ -1,6 +1,8 @@
 {
   "iso639-3": "dip",
   "key": "dip",
+  "dir": "ltr",
+  "iso15924": "Latn",
   "xmlns": "http://www.unhchr.ch/udhr",
   "title": "Yïith e raan ci caal e pinynhöm",
   "preamble": {

@@ -1,6 +1,8 @@
 {
   "iso639-3": "cni",
   "key": "cni",
+  "dir": "ltr",
+  "iso15924": "Latn",
   "xmlns": "http://www.unhchr.ch/udhr",
   "title": "Timatsi Cameetsatatsiri Acoajeitaqueri: Te Oncameetsateji Intsaneemparo.",
   "note": [

@@ -1,6 +1,8 @@
 {
-  "iso639-3": "flm",
+  "iso639-3": "cfm",
   "key": "flm",
+  "dir": "ltr",
+  "iso15924": "Latn",
   "xmlns": "http://www.unhchr.ch/udhr",
   "title": "Ram Tin Tian iium Minung Pakhat ciar ii Covo Thuthan",
   "note": [

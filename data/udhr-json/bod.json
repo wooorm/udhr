@@ -1,6 +1,8 @@
 {
   "iso639-3": "bod",
   "key": "bod",
+  "dir": "ltr",
+  "iso15924": "Tibt",
   "xmlns": "http://www.unhchr.ch/udhr",
   "title": "༄༅༎ ཡོངས་ཁྱབ་གསལ་བསྒྲགས་འགྲོ་བ་མིའི་ཐོབ་ཐང༌།",
   "note": [

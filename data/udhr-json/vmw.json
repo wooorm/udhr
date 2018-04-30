@@ -1,6 +1,8 @@
 {
   "iso639-3": "vmw",
   "key": "vmw",
+  "dir": "ltr",
+  "iso15924": "Latn",
   "xmlns": "http://www.unhchr.ch/udhr",
   "title": "Edeklarasau ya molumwenku ya Edireito sa Mutthu",
   "note": [

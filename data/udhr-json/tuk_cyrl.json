@@ -1,6 +1,8 @@
 {
   "iso639-3": "tuk",
   "key": "tuk_cyrl",
+  "dir": "ltr",
+  "iso15924": "Cyrl",
   "xmlns": "http://www.unhchr.ch/udhr",
   "title": "Адам хукукларының әхлиумумы Декларациясы",
   "preamble": {

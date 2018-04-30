@@ -1,6 +1,8 @@
 {
   "iso639-3": "chk",
   "key": "chk",
+  "dir": "ltr",
+  "iso15924": "Latn",
   "xmlns": "http://www.unhchr.ch/udhr",
   "title": "PORAUSENAPAN AN ARAMAS RAIT",
   "preamble": {

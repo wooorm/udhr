@@ -38,8 +38,7 @@ console.log(info.eng);
 Yields:
 
 ```javascript
-{ region: 'Europe',
-  ISO: 'eng',
+{ ISO: 'eng',
   BCP47: 'en',
   OHCHR: 'eng',
   direction: 'ltr',

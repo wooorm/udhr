@@ -1,6 +1,8 @@
 {
   "iso639-3": "crs",
   "key": "crs",
+  "dir": "ltr",
+  "iso15924": "Latn",
   "xmlns": "http://www.unhchr.ch/udhr",
   "title": "Deklarasyon Iniversel Bann Drwa Imen",
   "preamble": {

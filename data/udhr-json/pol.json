@@ -1,6 +1,8 @@
 {
   "iso639-3": "pol",
   "key": "pol",
+  "dir": "ltr",
+  "iso15924": "Latn",
   "xmlns": "http://www.unhchr.ch/udhr",
   "title": "POWSZECHNA DEKLARACJA PRAW CZŁOWIEKA",
   "note": [

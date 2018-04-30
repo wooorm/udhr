@@ -1,6 +1,8 @@
 {
   "iso639-3": "bin",
   "key": "bin",
+  "dir": "ltr",
+  "iso15924": "Latn",
   "xmlns": "http://www.unhchr.ch/udhr",
   "title": "Iyen Emwen Etin ne O Kheke Omwan na ya wewe Vbe Uhunmwun oto-agbon hia",
   "note": [

@@ -1,6 +1,5 @@
 [
   {
-    "region": "Africa",
     "ISO": "cri",
     "BCP47": "cri",
     "OHCHR": "1128",
@@ -17,7 +16,6 @@
     "filename": "007"
   },
   {
-    "region": "Africa",
     "ISO": "pov",
     "BCP47": "pov",
     "OHCHR": null,
@@ -34,7 +32,6 @@
     "filename": "008"
   },
   {
-    "region": "Africa",
     "ISO": "kmb",
     "BCP47": "kmb",
     "OHCHR": null,
@@ -51,7 +48,6 @@
     "filename": "009"
   },
   {
-    "region": "Asia",
     "ISO": "tdt",
     "BCP47": "tdt",
     "OHCHR": null,
@@ -68,7 +64,6 @@
     "filename": "010"
   },
   {
-    "region": "Africa",
     "ISO": "umb",
     "BCP47": "umb",
     "OHCHR": null,
@@ -85,7 +80,6 @@
     "filename": "011"
   },
   {
-    "region": null,
     "ISO": "und",
     "BCP47": "und",
     "OHCHR": "bz1",
@@ -102,7 +96,6 @@
     "filename": "012"
   },
   {
-    "region": null,
     "ISO": "und",
     "BCP47": "und",
     "OHCHR": "bz2",
@@ -119,7 +112,6 @@
     "filename": "013"
   },
   {
-    "region": null,
     "ISO": "und",
     "BCP47": "und",
     "OHCHR": "ma1",
@@ -136,7 +128,6 @@
     "filename": "014"
   },
   {
-    "region": null,
     "ISO": "und",
     "BCP47": "und",
     "OHCHR": "ma2",
@@ -153,7 +144,6 @@
     "filename": "015"
   },
   {
-    "region": null,
     "ISO": "und",
     "BCP47": "und",
     "OHCHR": "mi1_spok",
@@ -170,7 +160,6 @@
     "filename": "016"
   },
   {
-    "region": null,
     "ISO": "und",
     "BCP47": "und",
     "OHCHR": "mi1_written",
@@ -187,7 +176,6 @@
     "filename": "017"
   },
   {
-    "region": null,
     "ISO": "und",
     "BCP47": "und",
     "OHCHR": "ta1",
@@ -204,7 +192,6 @@
     "filename": "018"
   },
   {
-    "region": null,
     "ISO": "und",
     "BCP47": "und",
     "OHCHR": "tok",
@@ -221,7 +208,6 @@
     "filename": "019_deva"
   },
   {
-    "region": null,
     "ISO": "und",
     "BCP47": "und",
     "OHCHR": "tok",
@@ -238,7 +224,6 @@
     "filename": "019_tibt"
   },
   {
-    "region": "Asia",
     "ISO": "duu",
     "BCP47": "duu",
     "OHCHR": "ty1",
@@ -255,7 +240,86 @@
     "filename": "020"
   },
   {
-    "region": "Asia",
+    "ISO": "und",
+    "BCP47": "und",
+    "OHCHR": "mz1",
+    "direction": "ltr",
+    "code": "021",
+    "name": "(Muzzi)",
+    "stage": 2,
+    "hasNotes": false,
+    "latitude": -75,
+    "longitude": 30,
+    "hasTXT": false,
+    "hasJSON": false,
+    "hasXML": false,
+    "filename": "021"
+  },
+  {
+    "ISO": "und",
+    "BCP47": "und",
+    "OHCHR": "kl1",
+    "direction": "ltr",
+    "code": "022",
+    "name": "(Klau)",
+    "stage": 2,
+    "hasNotes": false,
+    "latitude": -75,
+    "longitude": 30,
+    "hasTXT": false,
+    "hasJSON": false,
+    "hasXML": false,
+    "filename": "022"
+  },
+  {
+    "ISO": "und",
+    "BCP47": "und",
+    "OHCHR": "ji1",
+    "direction": "ltr",
+    "code": "023",
+    "name": "(Jinan)",
+    "stage": 2,
+    "hasNotes": false,
+    "latitude": -75,
+    "longitude": 30,
+    "hasTXT": false,
+    "hasJSON": false,
+    "hasXML": false,
+    "filename": "023"
+  },
+  {
+    "ISO": "und",
+    "BCP47": "und",
+    "OHCHR": "Ta1",
+    "direction": "ltr",
+    "code": "024",
+    "name": "(Tajpuriya)",
+    "stage": 2,
+    "hasNotes": false,
+    "latitude": -75,
+    "longitude": 30,
+    "hasTXT": false,
+    "hasJSON": false,
+    "hasXML": false,
+    "filename": "024"
+  },
+  {
+    "ISO": "und",
+    "BCP47": "und",
+    "OHCHR": "Bz1",
+    "direction": "ltr",
+    "code": "025",
+    "name": "(Bizisa)",
+    "stage": 2,
+    "hasNotes": false,
+    "latitude": -75,
+    "longitude": 30,
+    "hasTXT": false,
+    "hasJSON": false,
+    "hasXML": false,
+    "filename": "025"
+  },
+  {
     "ISO": "abk",
     "BCP47": "ab",
     "OHCHR": "abk",
@@ -272,7 +336,6 @@
     "filename": "abk"
   },
   {
-    "region": "Asia",
     "ISO": "ace",
     "BCP47": "ace",
     "OHCHR": "atj",
@@ -289,7 +352,6 @@
     "filename": "ace"
   },
   {
-    "region": "Americas",
     "ISO": "acu",
     "BCP47": "acu",
     "OHCHR": "acu",
@@ -306,7 +368,6 @@
     "filename": "acu"
   },
   {
-    "region": "Americas",
     "ISO": "acu",
     "BCP47": "acu",
     "OHCHR": "jiv",
@@ -323,7 +384,6 @@
     "filename": "acu_1"
   },
   {
-    "region": "Africa",
     "ISO": "ada",
     "BCP47": "ada",
     "OHCHR": "gac1",
@@ -340,7 +400,6 @@
     "filename": "ada"
   },
   {
-    "region": "Asia",
     "ISO": "ady",
     "BCP47": "ady",
     "OHCHR": "ady",
@@ -357,7 +416,6 @@
     "filename": "ady"
   },
   {
-    "region": "Africa",
     "ISO": "afr",
     "BCP47": "af",
     "OHCHR": "afk",
@@ -374,7 +432,6 @@
     "filename": "afr"
   },
   {
-    "region": "Americas",
     "ISO": "agr",
     "BCP47": "agr",
     "OHCHR": "agr",
@@ -391,7 +448,6 @@
     "filename": "agr"
   },
   {
-    "region": "Asia",
     "ISO": "aii",
     "BCP47": "aii",
     "OHCHR": "aii",
@@ -408,7 +464,6 @@
     "filename": "aii"
   },
   {
-    "region": "Africa",
     "ISO": "ajg",
     "BCP47": "ajg",
     "OHCHR": "ajg",
@@ -425,9 +480,8 @@
     "filename": "ajg"
   },
   {
-    "region": "Africa",
     "ISO": "twi",
-    "BCP47": "tw-akuapem",
+    "BCP47": "ak-akuapem",
     "OHCHR": "tws1",
     "direction": "ltr",
     "code": "aka_akuapem",
@@ -442,9 +496,8 @@
     "filename": "aka_akuapem"
   },
   {
-    "region": "Africa",
     "ISO": "twi",
-    "BCP47": "tw-asante",
+    "BCP47": "ak-asante",
     "OHCHR": "ass",
     "direction": "ltr",
     "code": "aka_asante",
@@ -459,9 +512,8 @@
     "filename": "aka_asante"
   },
   {
-    "region": "Africa",
     "ISO": "fat",
-    "BCP47": "fat",
+    "BCP47": "ak",
     "OHCHR": "tws3",
     "direction": "ltr",
     "code": "aka_fante",
@@ -476,9 +528,8 @@
     "filename": "aka_fante"
   },
   {
-    "region": "Europe",
     "ISO": "als",
-    "BCP47": "sq",
+    "BCP47": "als",
     "OHCHR": "aln",
     "direction": "ltr",
     "code": "als",
@@ -493,7 +544,6 @@
     "filename": "als"
   },
   {
-    "region": "Asia",
     "ISO": "alt",
     "BCP47": "alt",
     "OHCHR": "alt",
@@ -510,7 +560,6 @@
     "filename": "alt"
   },
   {
-    "region": "Americas",
     "ISO": "amc",
     "BCP47": "amc",
     "OHCHR": "amc",
@@ -527,7 +576,6 @@
     "filename": "amc"
   },
   {
-    "region": "Americas",
     "ISO": "ame",
     "BCP47": "ame",
     "OHCHR": "ame",
@@ -544,7 +592,6 @@
     "filename": "ame"
   },
   {
-    "region": "Africa",
     "ISO": "amh",
     "BCP47": "am",
     "OHCHR": "amh",
@@ -561,7 +608,22 @@
     "filename": "amh"
   },
   {
-    "region": "Americas",
+    "ISO": "ami",
+    "BCP47": "ami",
+    "OHCHR": "ami",
+    "direction": "ltr",
+    "code": "ami",
+    "name": "Amis",
+    "stage": 4,
+    "hasNotes": false,
+    "latitude": 23.5,
+    "longitude": 121.5,
+    "hasTXT": true,
+    "hasJSON": true,
+    "hasXML": true,
+    "filename": "ami"
+  },
+  {
     "ISO": "amr",
     "BCP47": "amr",
     "OHCHR": "amr",
@@ -578,7 +640,6 @@
     "filename": "amr"
   },
   {
-    "region": "Asia",
     "ISO": "arb",
     "BCP47": "ar",
     "OHCHR": "arz",
@@ -595,7 +656,6 @@
     "filename": "arb"
   },
   {
-    "region": "Americas",
     "ISO": "arl",
     "BCP47": "arl",
     "OHCHR": "arl",
@@ -612,7 +672,6 @@
     "filename": "arl"
   },
   {
-    "region": "Americas",
     "ISO": "arn",
     "BCP47": "arn",
     "OHCHR": "aru",
@@ -629,7 +688,6 @@
     "filename": "arn"
   },
   {
-    "region": "Asia",
     "ISO": "asm",
     "BCP47": "as",
     "OHCHR": "asm",
@@ -646,7 +704,6 @@
     "filename": "asm"
   },
   {
-    "region": "Europe",
     "ISO": "ast",
     "BCP47": "ast",
     "OHCHR": "aub",
@@ -663,7 +720,6 @@
     "filename": "ast"
   },
   {
-    "region": "Americas",
     "ISO": "auc",
     "BCP47": "auc",
     "OHCHR": "1127",
@@ -680,7 +736,6 @@
     "filename": "auc"
   },
   {
-    "region": "Europe",
     "ISO": "oci",
     "BCP47": "oc",
     "OHCHR": "auv1",
@@ -697,7 +752,6 @@
     "filename": "auv"
   },
   {
-    "region": "Asia",
     "ISO": "awa",
     "BCP47": "awa",
     "OHCHR": "awa",
@@ -714,7 +768,22 @@
     "filename": "awa"
   },
   {
-    "region": "Americas",
+    "ISO": "ayo",
+    "BCP47": "ayo",
+    "OHCHR": "ayo",
+    "direction": "ltr",
+    "code": "ayo",
+    "name": "Ayoreo",
+    "stage": 2,
+    "hasNotes": false,
+    "latitude": -18,
+    "longitude": -62,
+    "hasTXT": false,
+    "hasJSON": false,
+    "hasXML": false,
+    "filename": "ayo"
+  },
+  {
     "ISO": "ayr",
     "BCP47": "ay",
     "OHCHR": "aym",
@@ -731,7 +800,6 @@
     "filename": "ayr"
   },
   {
-    "region": "Asia",
     "ISO": "azj",
     "BCP47": "az-Cyrl",
     "OHCHR": "azb1",
@@ -748,7 +816,6 @@
     "filename": "azj_cyrl"
   },
   {
-    "region": "Asia",
     "ISO": "azj",
     "BCP47": "az-Latn",
     "OHCHR": "azb",
@@ -765,7 +832,6 @@
     "filename": "azj_latn"
   },
   {
-    "region": "Africa",
     "ISO": "bam",
     "BCP47": "bm",
     "OHCHR": "bra",
@@ -782,7 +848,6 @@
     "filename": "bam"
   },
   {
-    "region": "Asia",
     "ISO": "ban",
     "BCP47": "ban",
     "OHCHR": "bzc",
@@ -799,7 +864,6 @@
     "filename": "ban"
   },
   {
-    "region": "Asia",
     "ISO": "bap",
     "BCP47": "bap",
     "OHCHR": "bap",
@@ -816,7 +880,22 @@
     "filename": "bap"
   },
   {
-    "region": "Africa",
+    "ISO": "bax",
+    "BCP47": "bax",
+    "OHCHR": "bax",
+    "direction": "ltr",
+    "code": "bax",
+    "name": "Bamun",
+    "stage": 4,
+    "hasNotes": false,
+    "latitude": 9.63,
+    "longitude": 3,
+    "hasTXT": true,
+    "hasJSON": true,
+    "hasXML": true,
+    "filename": "bax"
+  },
+  {
     "ISO": "bba",
     "BCP47": "bba",
     "OHCHR": "bba",
@@ -833,7 +912,6 @@
     "filename": "bba"
   },
   {
-    "region": "Africa",
     "ISO": "bci",
     "BCP47": "bci",
     "OHCHR": "bci",
@@ -850,7 +928,6 @@
     "filename": "bci"
   },
   {
-    "region": "Asia",
     "ISO": "bcl",
     "BCP47": "bik",
     "OHCHR": "bkl",
@@ -867,7 +944,6 @@
     "filename": "bcl"
   },
   {
-    "region": "Europe",
     "ISO": "bel",
     "BCP47": "be",
     "OHCHR": "ruw",
@@ -884,7 +960,6 @@
     "filename": "bel"
   },
   {
-    "region": "Africa",
     "ISO": "bem",
     "BCP47": "bem",
     "OHCHR": "bem",
@@ -901,7 +976,6 @@
     "filename": "bem"
   },
   {
-    "region": "Asia",
     "ISO": "ben",
     "BCP47": "bn",
     "OHCHR": "bng",
@@ -918,7 +992,6 @@
     "filename": "ben"
   },
   {
-    "region": "Africa",
     "ISO": "bfa",
     "BCP47": "bfa",
     "OHCHR": "bfa",
@@ -935,11 +1008,10 @@
     "filename": "bfa"
   },
   {
-    "region": "Asia",
     "ISO": "bgp",
     "BCP47": "bgp",
     "OHCHR": "bgp",
-    "direction": "ltr",
+    "direction": "rtl",
     "code": "bgp",
     "name": "Balochi, Eastern",
     "stage": 2,
@@ -952,7 +1024,6 @@
     "filename": "bgp"
   },
   {
-    "region": "Asia",
     "ISO": "bho",
     "BCP47": "bho",
     "OHCHR": "bhj",
@@ -969,7 +1040,6 @@
     "filename": "bho"
   },
   {
-    "region": "Africa",
     "ISO": "bin",
     "BCP47": "bin",
     "OHCHR": "edo",
@@ -986,7 +1056,6 @@
     "filename": "bin"
   },
   {
-    "region": "Pacific",
     "ISO": "bis",
     "BCP47": "bi",
     "OHCHR": "bcy",
@@ -1003,7 +1072,6 @@
     "filename": "bis"
   },
   {
-    "region": "Asia",
     "ISO": "bjj",
     "BCP47": "bjj",
     "OHCHR": "bjj",
@@ -1020,7 +1088,6 @@
     "filename": "bjj"
   },
   {
-    "region": "Asia",
     "ISO": "blt",
     "BCP47": "blt",
     "OHCHR": null,
@@ -1037,7 +1104,6 @@
     "filename": "blt"
   },
   {
-    "region": "Asia",
     "ISO": "hnj",
     "BCP47": "hnj",
     "OHCHR": "blu",
@@ -1054,7 +1120,6 @@
     "filename": "blu"
   },
   {
-    "region": "Asia",
     "ISO": "bmj",
     "BCP47": "bmj",
     "OHCHR": "bmj",
@@ -1071,7 +1136,6 @@
     "filename": "bmj"
   },
   {
-    "region": "Americas",
     "ISO": "boa",
     "BCP47": "boa",
     "OHCHR": "boa",
@@ -1088,7 +1152,6 @@
     "filename": "boa"
   },
   {
-    "region": "Asia",
     "ISO": "bod",
     "BCP47": "bo",
     "OHCHR": "tic",
@@ -1105,7 +1168,6 @@
     "filename": "bod"
   },
   {
-    "region": "Europe",
     "ISO": "bos",
     "BCP47": "bs-Cyrl",
     "OHCHR": "src4",
@@ -1122,7 +1184,6 @@
     "filename": "bos_cyrl"
   },
   {
-    "region": "Europe",
     "ISO": "bos",
     "BCP47": "bs-Latn",
     "OHCHR": "src1",
@@ -1139,7 +1200,6 @@
     "filename": "bos_latn"
   },
   {
-    "region": "Asia",
     "ISO": "bpy",
     "BCP47": "bpy",
     "OHCHR": "bpy",
@@ -1156,7 +1216,6 @@
     "filename": "bpy"
   },
   {
-    "region": "Asia",
     "ISO": "brd",
     "BCP47": "brd",
     "OHCHR": "brd",
@@ -1173,7 +1232,6 @@
     "filename": "brd"
   },
   {
-    "region": "Europe",
     "ISO": "bre",
     "BCP47": "br",
     "OHCHR": "brt",
@@ -1190,7 +1248,6 @@
     "filename": "bre"
   },
   {
-    "region": "Asia",
     "ISO": "brx",
     "BCP47": "brx",
     "OHCHR": "brx",
@@ -1207,7 +1264,6 @@
     "filename": "brx_deva"
   },
   {
-    "region": "Africa",
     "ISO": "bum",
     "BCP47": "bum",
     "OHCHR": "btb",
@@ -1224,7 +1280,6 @@
     "filename": "btb"
   },
   {
-    "region": "Africa",
     "ISO": "buc",
     "BCP47": "buc",
     "OHCHR": "buc",
@@ -1241,7 +1296,6 @@
     "filename": "buc"
   },
   {
-    "region": "Asia",
     "ISO": "bug",
     "BCP47": "bug",
     "OHCHR": "bpr",
@@ -1258,7 +1312,6 @@
     "filename": "bug"
   },
   {
-    "region": "Europe",
     "ISO": "bul",
     "BCP47": "bg",
     "OHCHR": "blg",
@@ -1275,7 +1328,6 @@
     "filename": "bul"
   },
   {
-    "region": "Africa",
     "ISO": "bvi",
     "BCP47": "bvi",
     "OHCHR": "bvi",
@@ -1292,7 +1344,6 @@
     "filename": "bvi"
   },
   {
-    "region": "Asia",
     "ISO": "byh",
     "BCP47": "byh",
     "OHCHR": "byh",
@@ -1309,7 +1360,6 @@
     "filename": "byh"
   },
   {
-    "region": "Americas",
     "ISO": "cab",
     "BCP47": "cab",
     "OHCHR": "cab",
@@ -1326,7 +1376,6 @@
     "filename": "cab"
   },
   {
-    "region": "Americas",
     "ISO": "cak",
     "BCP47": "cak",
     "OHCHR": "cak1",
@@ -1343,7 +1392,22 @@
     "filename": "cak"
   },
   {
-    "region": "Europe",
+    "ISO": "cas",
+    "BCP47": "cas",
+    "OHCHR": "cas",
+    "direction": "ltr",
+    "code": "cas",
+    "name": "Tsimané",
+    "stage": 2,
+    "hasNotes": false,
+    "latitude": -14,
+    "longitude": -68,
+    "hasTXT": false,
+    "hasJSON": false,
+    "hasXML": false,
+    "filename": "cas"
+  },
+  {
     "ISO": "cat",
     "BCP47": "ca",
     "OHCHR": "cln",
@@ -1360,7 +1424,6 @@
     "filename": "cat"
   },
   {
-    "region": "Americas",
     "ISO": "cax",
     "BCP47": "cax",
     "OHCHR": "cax",
@@ -1377,7 +1440,6 @@
     "filename": "cax"
   },
   {
-    "region": "Americas",
     "ISO": "cbi",
     "BCP47": "cbi",
     "OHCHR": "1122",
@@ -1394,7 +1456,6 @@
     "filename": "cbi"
   },
   {
-    "region": "Americas",
     "ISO": "cbr",
     "BCP47": "cbr",
     "OHCHR": "cbr",
@@ -1411,7 +1472,6 @@
     "filename": "cbr"
   },
   {
-    "region": "Americas",
     "ISO": "cbs",
     "BCP47": "cbs",
     "OHCHR": "cbs",
@@ -1428,7 +1488,6 @@
     "filename": "cbs"
   },
   {
-    "region": "Americas",
     "ISO": "cbt",
     "BCP47": "cbt",
     "OHCHR": "cbt",
@@ -1445,7 +1504,6 @@
     "filename": "cbt"
   },
   {
-    "region": "Americas",
     "ISO": "cbu",
     "BCP47": "cbu",
     "OHCHR": "cbu",
@@ -1462,7 +1520,6 @@
     "filename": "cbu"
   },
   {
-    "region": "Asia",
     "ISO": "ccp",
     "BCP47": "ccp",
     "OHCHR": null,
@@ -1479,7 +1536,6 @@
     "filename": "ccp"
   },
   {
-    "region": "Asia",
     "ISO": "zyb",
     "BCP47": "za",
     "OHCHR": "ccx",
@@ -1496,7 +1552,6 @@
     "filename": "ccx"
   },
   {
-    "region": "Asia",
     "ISO": "cdm",
     "BCP47": "cdm",
     "OHCHR": "cdm",
@@ -1513,7 +1568,6 @@
     "filename": "cdm"
   },
   {
-    "region": "Asia",
     "ISO": "ceb",
     "BCP47": "ceb",
     "OHCHR": "ceb",
@@ -1530,7 +1584,6 @@
     "filename": "ceb"
   },
   {
-    "region": "Europe",
     "ISO": "ces",
     "BCP47": "cs",
     "OHCHR": "czc",
@@ -1547,7 +1600,6 @@
     "filename": "ces"
   },
   {
-    "region": "Pacific",
     "ISO": "cha",
     "BCP47": "ch",
     "OHCHR": "cjd",
@@ -1564,7 +1616,6 @@
     "filename": "cha"
   },
   {
-    "region": "Americas",
     "ISO": "chj",
     "BCP47": "chj",
     "OHCHR": "chj",
@@ -1581,7 +1632,6 @@
     "filename": "chj"
   },
   {
-    "region": "Pacific",
     "ISO": "chk",
     "BCP47": "chk",
     "OHCHR": "tru1",
@@ -1598,7 +1648,6 @@
     "filename": "chk"
   },
   {
-    "region": "Americas",
     "ISO": "chr",
     "BCP47": "chr",
     "OHCHR": null,
@@ -1615,7 +1664,6 @@
     "filename": "chr_cased"
   },
   {
-    "region": "Americas",
     "ISO": "chr",
     "BCP47": "chr",
     "OHCHR": null,
@@ -1632,7 +1680,6 @@
     "filename": "chr_uppercase"
   },
   {
-    "region": "Asia",
     "ISO": "chx",
     "BCP47": "chx",
     "OHCHR": "chx",
@@ -1649,7 +1696,6 @@
     "filename": "chx"
   },
   {
-    "region": "Americas",
     "ISO": "cic",
     "BCP47": "cic",
     "OHCHR": "cic",
@@ -1666,7 +1712,6 @@
     "filename": "cic"
   },
   {
-    "region": "Africa",
     "ISO": "cjk",
     "BCP47": "cjk",
     "OHCHR": "cjk",
@@ -1683,7 +1728,6 @@
     "filename": "cjk"
   },
   {
-    "region": "Africa",
     "ISO": "cjk",
     "BCP47": "cjk",
     "OHCHR": "cjk",
@@ -1700,7 +1744,6 @@
     "filename": "cjk_AO"
   },
   {
-    "region": "Asia",
     "ISO": "cjs",
     "BCP47": "cjs",
     "OHCHR": "cjs",
@@ -1717,9 +1760,24 @@
     "filename": "cjs"
   },
   {
-    "region": "Asia",
+    "ISO": "cjy",
+    "BCP47": "cjy",
+    "OHCHR": "cjy",
+    "direction": "ltr",
+    "code": "cjy",
+    "name": "Chinese, Jinyu",
+    "stage": 4,
+    "hasNotes": false,
+    "latitude": 38,
+    "longitude": 111,
+    "hasTXT": true,
+    "hasJSON": true,
+    "hasXML": true,
+    "filename": "cjy"
+  },
+  {
     "ISO": "ckb",
-    "BCP47": "ku",
+    "BCP47": "ckb-Latn",
     "OHCHR": "kdb1",
     "direction": "ltr",
     "code": "ckb",
@@ -1734,7 +1792,6 @@
     "filename": "ckb"
   },
   {
-    "region": "Asia",
     "ISO": "cmn",
     "BCP47": "zh-Hans",
     "OHCHR": "chn",
@@ -1751,7 +1808,86 @@
     "filename": "cmn_hans"
   },
   {
-    "region": "Asia",
+    "ISO": "cmn",
+    "BCP47": "zh-Hans",
+    "OHCHR": "be1",
+    "direction": "ltr",
+    "code": "cmn_hans_beijing",
+    "name": "Chinese, Mandarin (Beijing)",
+    "stage": 2,
+    "hasNotes": false,
+    "latitude": 39.91,
+    "longitude": 116.38,
+    "hasTXT": false,
+    "hasJSON": false,
+    "hasXML": false,
+    "filename": "cmn_hans_beijing"
+  },
+  {
+    "ISO": "cmn",
+    "BCP47": "zh-Hans",
+    "OHCHR": "gu1",
+    "direction": "ltr",
+    "code": "cmn_hans_guiyang",
+    "name": "Chinese, Mandarin (Guiyang)",
+    "stage": 2,
+    "hasNotes": false,
+    "latitude": 26.65,
+    "longitude": 106.63,
+    "hasTXT": false,
+    "hasJSON": false,
+    "hasXML": false,
+    "filename": "cmn_hans_guiyang"
+  },
+  {
+    "ISO": "cmn",
+    "BCP47": "zh-Hans",
+    "OHCHR": "ha2",
+    "direction": "ltr",
+    "code": "cmn_hans_harbin",
+    "name": "Chinese, Mandarin (Harbin)",
+    "stage": 2,
+    "hasNotes": false,
+    "latitude": 45.75,
+    "longitude": 126.63,
+    "hasTXT": false,
+    "hasJSON": false,
+    "hasXML": false,
+    "filename": "cmn_hans_harbin"
+  },
+  {
+    "ISO": "cmn",
+    "BCP47": "zh-Hans",
+    "OHCHR": "na1",
+    "direction": "ltr",
+    "code": "cmn_hans_nanjing",
+    "name": "Chinese, Mandarin (Nanjing)",
+    "stage": 2,
+    "hasNotes": false,
+    "latitude": 32.05,
+    "longitude": 118.76,
+    "hasTXT": false,
+    "hasJSON": false,
+    "hasXML": false,
+    "filename": "cmn_hans_nanjing"
+  },
+  {
+    "ISO": "cmn",
+    "BCP47": "zh-Hans",
+    "OHCHR": "ti1",
+    "direction": "ltr",
+    "code": "cmn_hans_tianjin",
+    "name": "Chinese, Mandarin (Tianjin)",
+    "stage": 2,
+    "hasNotes": false,
+    "latitude": 39.13,
+    "longitude": 117.18,
+    "hasTXT": false,
+    "hasJSON": false,
+    "hasXML": false,
+    "filename": "cmn_hans_tianjin"
+  },
+  {
     "ISO": "cmn",
     "BCP47": "zh-Hant",
     "OHCHR": null,
@@ -1768,7 +1904,6 @@
     "filename": "cmn_hant"
   },
   {
-    "region": "Asia",
     "ISO": "cnh",
     "BCP47": "cnh",
     "OHCHR": "hak",
@@ -1785,7 +1920,6 @@
     "filename": "cnh"
   },
   {
-    "region": "Americas",
     "ISO": "cni",
     "BCP47": "cni",
     "OHCHR": "cni",
@@ -1802,7 +1936,6 @@
     "filename": "cni"
   },
   {
-    "region": "Americas",
     "ISO": "cof",
     "BCP47": "cof",
     "OHCHR": "cof",
@@ -1819,7 +1952,6 @@
     "filename": "cof"
   },
   {
-    "region": "Americas",
     "ISO": "con",
     "BCP47": "con",
     "OHCHR": "ccc",
@@ -1836,7 +1968,6 @@
     "filename": "con"
   },
   {
-    "region": "Europe",
     "ISO": "cos",
     "BCP47": "co",
     "OHCHR": "coi",
@@ -1853,7 +1984,6 @@
     "filename": "cos"
   },
   {
-    "region": "Americas",
     "ISO": "cot",
     "BCP47": "cot",
     "OHCHR": "cot",
@@ -1870,7 +2000,6 @@
     "filename": "cot"
   },
   {
-    "region": "Americas",
     "ISO": "cpu",
     "BCP47": "cpu",
     "OHCHR": "cpu",
@@ -1887,7 +2016,6 @@
     "filename": "cpu"
   },
   {
-    "region": "Africa",
     "ISO": "crs",
     "BCP47": "crs",
     "OHCHR": "crs",
@@ -1904,7 +2032,6 @@
     "filename": "crs"
   },
   {
-    "region": "Americas",
     "ISO": "csa",
     "BCP47": "csa",
     "OHCHR": "csa",
@@ -1921,7 +2048,6 @@
     "filename": "csa"
   },
   {
-    "region": "Americas",
     "ISO": "csw",
     "BCP47": "csw",
     "OHCHR": "crm",
@@ -1938,7 +2064,6 @@
     "filename": "csw"
   },
   {
-    "region": "Asia",
     "ISO": "ctd",
     "BCP47": "ctd",
     "OHCHR": "tid",
@@ -1955,7 +2080,6 @@
     "filename": "ctd"
   },
   {
-    "region": "Europe",
     "ISO": "cym",
     "BCP47": "cy",
     "OHCHR": "wls",
@@ -1972,7 +2096,6 @@
     "filename": "cym"
   },
   {
-    "region": "Africa",
     "ISO": "dag",
     "BCP47": "dag",
     "OHCHR": "dag",
@@ -1989,7 +2112,6 @@
     "filename": "dag"
   },
   {
-    "region": "Europe",
     "ISO": "dan",
     "BCP47": "da",
     "OHCHR": "dns",
@@ -2006,7 +2128,6 @@
     "filename": "dan"
   },
   {
-    "region": "Africa",
     "ISO": "ddn",
     "BCP47": "ddn",
     "OHCHR": "den",
@@ -2023,7 +2144,6 @@
     "filename": "ddn"
   },
   {
-    "region": "Europe",
     "ISO": "deu",
     "BCP47": "de-1901",
     "OHCHR": "ger",
@@ -2040,7 +2160,6 @@
     "filename": "deu_1901"
   },
   {
-    "region": "Europe",
     "ISO": "deu",
     "BCP47": "de-1996",
     "OHCHR": null,
@@ -2057,7 +2176,6 @@
     "filename": "deu_1996"
   },
   {
-    "region": "Africa",
     "ISO": "dga",
     "BCP47": "dga",
     "OHCHR": "dga",
@@ -2074,7 +2192,6 @@
     "filename": "dga"
   },
   {
-    "region": "Asia",
     "ISO": "dhi",
     "BCP47": "dhi",
     "OHCHR": "dhi",
@@ -2091,7 +2208,6 @@
     "filename": "dhi"
   },
   {
-    "region": "Asia",
     "ISO": "dhw",
     "BCP47": "dhw",
     "OHCHR": "dhw",
@@ -2108,7 +2224,6 @@
     "filename": "dhw"
   },
   {
-    "region": "Africa",
     "ISO": "dip",
     "BCP47": "dip",
     "OHCHR": "dinka",
@@ -2125,7 +2240,6 @@
     "filename": "dip"
   },
   {
-    "region": "Asia",
     "ISO": "div",
     "BCP47": "dv",
     "OHCHR": "div",
@@ -2142,7 +2256,6 @@
     "filename": "div"
   },
   {
-    "region": "Asia",
     "ISO": "dry",
     "BCP47": "dry",
     "OHCHR": "dry",
@@ -2159,7 +2272,6 @@
     "filename": "dry"
   },
   {
-    "region": "Africa",
     "ISO": "dyo",
     "BCP47": "dyo",
     "OHCHR": "dyo",
@@ -2176,7 +2288,6 @@
     "filename": "dyo"
   },
   {
-    "region": "Africa",
     "ISO": "dyu",
     "BCP47": "dyu",
     "OHCHR": "dyu",
@@ -2193,7 +2304,6 @@
     "filename": "dyu"
   },
   {
-    "region": "Asia",
     "ISO": "dzo",
     "BCP47": "dz",
     "OHCHR": "dzo",
@@ -2210,7 +2320,6 @@
     "filename": "dzo"
   },
   {
-    "region": "Europe",
     "ISO": "ell",
     "BCP47": "el-monoton",
     "OHCHR": "grk",
@@ -2227,7 +2336,6 @@
     "filename": "ell_monotonic"
   },
   {
-    "region": "Europe",
     "ISO": "ell",
     "BCP47": "el-polyton",
     "OHCHR": null,
@@ -2244,9 +2352,8 @@
     "filename": "ell_polytonic"
   },
   {
-    "region": "Africa",
     "ISO": "emk",
-    "BCP47": "emk",
+    "BCP47": "man",
     "OHCHR": "mni",
     "direction": "ltr",
     "code": "emk",
@@ -2261,13 +2368,12 @@
     "filename": "emk"
   },
   {
-    "region": "Europe",
     "ISO": "rgn",
-    "BCP47": "eml",
+    "BCP47": "rgn",
     "OHCHR": "eml",
     "direction": "ltr",
     "code": "eml",
-    "name": "Emiliano-Romagnolo",
+    "name": "Romagnolo",
     "stage": 4,
     "hasNotes": false,
     "latitude": 44.23,
@@ -2278,7 +2384,6 @@
     "filename": "eml"
   },
   {
-    "region": "Europe",
     "ISO": "eng",
     "BCP47": "en",
     "OHCHR": "eng",
@@ -2295,7 +2400,6 @@
     "filename": "eng"
   },
   {
-    "region": "Other",
     "ISO": "epo",
     "BCP47": "eo",
     "OHCHR": "1115",
@@ -2312,8 +2416,23 @@
     "filename": "epo"
   },
   {
-    "region": "Europe",
-    "ISO": "est",
+    "ISO": "ese",
+    "BCP47": "ese",
+    "OHCHR": "ese",
+    "direction": "ltr",
+    "code": "ese",
+    "name": "Ese Ejja",
+    "stage": 2,
+    "hasNotes": false,
+    "latitude": -11,
+    "longitude": -66,
+    "hasTXT": false,
+    "hasJSON": false,
+    "hasXML": false,
+    "filename": "ese"
+  },
+  {
+    "ISO": "ekk",
     "BCP47": "et",
     "OHCHR": "est",
     "direction": "ltr",
@@ -2329,7 +2448,6 @@
     "filename": "est"
   },
   {
-    "region": "Europe",
     "ISO": "eus",
     "BCP47": "eu",
     "OHCHR": "bsq",
@@ -2346,7 +2464,6 @@
     "filename": "eus"
   },
   {
-    "region": "Asia",
     "ISO": "eve",
     "BCP47": "eve",
     "OHCHR": "eve",
@@ -2363,7 +2480,6 @@
     "filename": "eve"
   },
   {
-    "region": "Asia",
     "ISO": "evn",
     "BCP47": "evn",
     "OHCHR": "evn",
@@ -2380,7 +2496,6 @@
     "filename": "evn"
   },
   {
-    "region": "Africa",
     "ISO": "ewe",
     "BCP47": "ee",
     "OHCHR": "ewe",
@@ -2397,7 +2512,6 @@
     "filename": "ewe"
   },
   {
-    "region": "Europe",
     "ISO": "fao",
     "BCP47": "fo",
     "OHCHR": "fae",
@@ -2414,7 +2528,6 @@
     "filename": "fao"
   },
   {
-    "region": "Pacific",
     "ISO": "fij",
     "BCP47": "fj",
     "OHCHR": "fji",
@@ -2431,7 +2544,6 @@
     "filename": "fij"
   },
   {
-    "region": "Europe",
     "ISO": "fin",
     "BCP47": "fi",
     "OHCHR": "fin",
@@ -2448,7 +2560,6 @@
     "filename": "fin"
   },
   {
-    "region": "Asia",
     "ISO": "cfm",
     "BCP47": "cfm",
     "OHCHR": "fal",
@@ -2465,7 +2576,6 @@
     "filename": "flm"
   },
   {
-    "region": "Africa",
     "ISO": "fon",
     "BCP47": "fon",
     "OHCHR": "foa",
@@ -2482,7 +2592,6 @@
     "filename": "fon"
   },
   {
-    "region": "Europe",
     "ISO": "fra",
     "BCP47": "fr",
     "OHCHR": "frn",
@@ -2499,13 +2608,12 @@
     "filename": "fra"
   },
   {
-    "region": "Europe",
     "ISO": "fry",
     "BCP47": "fy",
     "OHCHR": "fri",
     "direction": "ltr",
     "code": "fri",
-    "name": "Frisian",
+    "name": "Frisian, Western",
     "stage": 4,
     "hasNotes": false,
     "latitude": 53.14,
@@ -2516,24 +2624,38 @@
     "filename": "fri"
   },
   {
-    "region": "Africa",
     "ISO": "fuf",
     "BCP47": "fuf",
     "OHCHR": "fuf",
     "direction": "ltr",
     "code": "fuf",
     "name": "Pular",
-    "stage": 2,
+    "stage": 4,
     "hasNotes": false,
     "latitude": 12.18,
     "longitude": -12.73,
-    "hasTXT": false,
-    "hasJSON": false,
-    "hasXML": false,
+    "hasTXT": true,
+    "hasJSON": true,
+    "hasXML": true,
     "filename": "fuf"
   },
   {
-    "region": "Europe",
+    "ISO": "fuf",
+    "BCP47": "fuf-Adlm",
+    "OHCHR": null,
+    "direction": "rtl",
+    "code": "fuf_adlm",
+    "name": "Pular (Adlam)",
+    "stage": 4,
+    "hasNotes": false,
+    "latitude": 12.18,
+    "longitude": -12.73,
+    "hasTXT": true,
+    "hasJSON": true,
+    "hasXML": true,
+    "filename": "fuf_adlm"
+  },
+  {
     "ISO": "fur",
     "BCP47": "fur",
     "OHCHR": "frl",
@@ -2550,7 +2672,6 @@
     "filename": "fur"
   },
   {
-    "region": "Africa",
     "ISO": "fuv",
     "BCP47": "fuv",
     "OHCHR": "fum",
@@ -2567,7 +2688,6 @@
     "filename": "fuv"
   },
   {
-    "region": "Africa",
     "ISO": "gaa",
     "BCP47": "gaa",
     "OHCHR": "gac2",
@@ -2584,7 +2704,6 @@
     "filename": "gaa"
   },
   {
-    "region": "Europe",
     "ISO": "gag",
     "BCP47": "gag",
     "OHCHR": "gag",
@@ -2601,8 +2720,23 @@
     "filename": "gag"
   },
   {
-    "region": "Africa",
-    "ISO": "gax",
+    "ISO": "gan",
+    "BCP47": "gan",
+    "OHCHR": "gan",
+    "direction": "ltr",
+    "code": "gan",
+    "name": "Chinese, Gan",
+    "stage": 4,
+    "hasNotes": false,
+    "latitude": 28,
+    "longitude": 105,
+    "hasTXT": true,
+    "hasJSON": true,
+    "hasXML": true,
+    "filename": "gan"
+  },
+  {
+    "ISO": "gaz",
     "BCP47": "om",
     "OHCHR": "gax",
     "direction": "ltr",
@@ -2618,7 +2752,6 @@
     "filename": "gax"
   },
   {
-    "region": "Asia",
     "ISO": "gbm",
     "BCP47": "gbm",
     "OHCHR": "gbm",
@@ -2635,7 +2768,6 @@
     "filename": "gbm"
   },
   {
-    "region": "Africa",
     "ISO": "gjn",
     "BCP47": "gjn",
     "OHCHR": "dum",
@@ -2652,9 +2784,8 @@
     "filename": "gjn"
   },
   {
-    "region": "Africa",
     "ISO": "gkp",
-    "BCP47": "kpe",
+    "BCP47": "gkp",
     "OHCHR": "gkp1",
     "direction": "ltr",
     "code": "gkp",
@@ -2669,7 +2800,6 @@
     "filename": "gkp"
   },
   {
-    "region": "Europe",
     "ISO": "gla",
     "BCP47": "gd",
     "OHCHR": "gls",
@@ -2686,24 +2816,22 @@
     "filename": "gla"
   },
   {
-    "region": "Asia",
     "ISO": "gld",
     "BCP47": "gld",
     "OHCHR": "gld",
     "direction": "ltr",
     "code": "gld",
     "name": "Nanai",
-    "stage": 2,
+    "stage": 4,
     "hasNotes": false,
     "latitude": 48.43,
     "longitude": 134.8,
-    "hasTXT": false,
-    "hasJSON": false,
-    "hasXML": false,
+    "hasTXT": true,
+    "hasJSON": true,
+    "hasXML": true,
     "filename": "gld"
   },
   {
-    "region": "Europe",
     "ISO": "gle",
     "BCP47": "ga",
     "OHCHR": "gli1",
@@ -2720,7 +2848,6 @@
     "filename": "gle"
   },
   {
-    "region": "Europe",
     "ISO": "glg",
     "BCP47": "gl",
     "OHCHR": "gln",
@@ -2737,7 +2864,6 @@
     "filename": "glg"
   },
   {
-    "region": "Europe",
     "ISO": "glv",
     "BCP47": "gv",
     "OHCHR": null,
@@ -2754,7 +2880,6 @@
     "filename": "glv"
   },
   {
-    "region": "Asia",
     "ISO": "gno",
     "BCP47": "gno",
     "OHCHR": "gno",
@@ -2771,7 +2896,22 @@
     "filename": "gno"
   },
   {
-    "region": "Americas",
+    "ISO": "gnw",
+    "BCP47": "gnw",
+    "OHCHR": "gnw",
+    "direction": "ltr",
+    "code": "gnw",
+    "name": "Guarani, Western Bolivian",
+    "stage": 2,
+    "hasNotes": false,
+    "latitude": -18,
+    "longitude": -62,
+    "hasTXT": false,
+    "hasJSON": false,
+    "hasXML": false,
+    "filename": "gnw"
+  },
+  {
     "ISO": "guc",
     "BCP47": "guc",
     "OHCHR": "guc",
@@ -2788,7 +2928,6 @@
     "filename": "guc"
   },
   {
-    "region": "Americas",
     "ISO": "gug",
     "BCP47": "gn",
     "OHCHR": "gun",
@@ -2805,7 +2944,6 @@
     "filename": "gug"
   },
   {
-    "region": "Asia",
     "ISO": "guj",
     "BCP47": "gu",
     "OHCHR": "gjr",
@@ -2822,7 +2960,6 @@
     "filename": "guj"
   },
   {
-    "region": "Americas",
     "ISO": "guu",
     "BCP47": "guu",
     "OHCHR": "guu",
@@ -2839,7 +2976,6 @@
     "filename": "guu"
   },
   {
-    "region": "Asia",
     "ISO": "gvr",
     "BCP47": "gvr",
     "OHCHR": "gvr",
@@ -2856,7 +2992,6 @@
     "filename": "gvr"
   },
   {
-    "region": "Americas",
     "ISO": "gyr",
     "BCP47": "gyr",
     "OHCHR": "gua",
@@ -2873,7 +3008,22 @@
     "filename": "gyr"
   },
   {
-    "region": "Americas",
+    "ISO": "hak",
+    "BCP47": "hak",
+    "OHCHR": "ha1",
+    "direction": "ltr",
+    "code": "hak",
+    "name": "Chinese, Hakka",
+    "stage": 4,
+    "hasNotes": false,
+    "latitude": 25,
+    "longitude": 115,
+    "hasTXT": true,
+    "hasJSON": true,
+    "hasXML": true,
+    "filename": "hak"
+  },
+  {
     "ISO": "hat",
     "BCP47": "ht",
     "OHCHR": "hat",
@@ -2890,7 +3040,6 @@
     "filename": "hat_kreyol"
   },
   {
-    "region": "Americas",
     "ISO": "hat",
     "BCP47": "ht",
     "OHCHR": "hat1",
@@ -2907,7 +3056,6 @@
     "filename": "hat_popular"
   },
   {
-    "region": "Africa",
     "ISO": "hau",
     "BCP47": "ha-NE",
     "OHCHR": "gej",
@@ -2924,7 +3072,6 @@
     "filename": "hau_NE"
   },
   {
-    "region": "Africa",
     "ISO": "hau",
     "BCP47": "ha-NG",
     "OHCHR": "gej",
@@ -2941,7 +3088,6 @@
     "filename": "hau_NG"
   },
   {
-    "region": "Pacific",
     "ISO": "haw",
     "BCP47": "haw",
     "OHCHR": "hwi",
@@ -2958,9 +3104,8 @@
     "filename": "haw"
   },
   {
-    "region": "Asia",
     "ISO": "hea",
-    "BCP47": "hea",
+    "BCP47": "hmn",
     "OHCHR": "hea",
     "direction": "ltr",
     "code": "hea",
@@ -2975,7 +3120,6 @@
     "filename": "hea"
   },
   {
-    "region": "Asia",
     "ISO": "heb",
     "BCP47": "he",
     "OHCHR": "hbr",
@@ -2992,7 +3136,6 @@
     "filename": "heb"
   },
   {
-    "region": "Asia",
     "ISO": "hil",
     "BCP47": "hil",
     "OHCHR": "hil",
@@ -3009,7 +3152,6 @@
     "filename": "hil"
   },
   {
-    "region": "Asia",
     "ISO": "hin",
     "BCP47": "hi",
     "OHCHR": "hnd",
@@ -3026,7 +3168,6 @@
     "filename": "hin"
   },
   {
-    "region": "Asia",
     "ISO": "hlt",
     "BCP47": "hlt",
     "OHCHR": "hlt",
@@ -3043,7 +3184,6 @@
     "filename": "hlt"
   },
   {
-    "region": "Asia",
     "ISO": "hms",
     "BCP47": "hms",
     "OHCHR": "hms",
@@ -3060,7 +3200,6 @@
     "filename": "hms"
   },
   {
-    "region": "Africa",
     "ISO": "hna",
     "BCP47": "hna",
     "OHCHR": "hna",
@@ -3077,7 +3216,6 @@
     "filename": "hna"
   },
   {
-    "region": "Asia",
     "ISO": "hne",
     "BCP47": "hne",
     "OHCHR": "hne",
@@ -3094,7 +3232,6 @@
     "filename": "hne"
   },
   {
-    "region": "Asia",
     "ISO": "hni",
     "BCP47": "hni",
     "OHCHR": "hni",
@@ -3111,7 +3248,6 @@
     "filename": "hni"
   },
   {
-    "region": "Americas",
     "ISO": "hns",
     "BCP47": "hns",
     "OHCHR": "hns",
@@ -3128,7 +3264,6 @@
     "filename": "hns"
   },
   {
-    "region": "Asia",
     "ISO": "hoc",
     "BCP47": "hoc",
     "OHCHR": "Hoc",
@@ -3145,7 +3280,6 @@
     "filename": "hoc"
   },
   {
-    "region": "Europe",
     "ISO": "hrv",
     "BCP47": "hr",
     "OHCHR": "src2",
@@ -3162,7 +3296,6 @@
     "filename": "hrv"
   },
   {
-    "region": "Europe",
     "ISO": "hsb",
     "BCP47": "hsb",
     "OHCHR": "wee",
@@ -3179,7 +3312,6 @@
     "filename": "hsb"
   },
   {
-    "region": "Americas",
     "ISO": "hus",
     "BCP47": "hus",
     "OHCHR": "hus",
@@ -3196,7 +3328,6 @@
     "filename": "hsf"
   },
   {
-    "region": "Europe",
     "ISO": "hun",
     "BCP47": "hu",
     "OHCHR": "hng",
@@ -3213,13 +3344,12 @@
     "filename": "hun"
   },
   {
-    "region": "Americas",
     "ISO": "hus",
     "BCP47": "hus",
     "OHCHR": "1118",
     "direction": "ltr",
     "code": "hus",
-    "name": "Huastec, Veracruz",
+    "name": "Huastec (Veracruz)",
     "stage": 4,
     "hasNotes": false,
     "latitude": 21.62,
@@ -3230,7 +3360,6 @@
     "filename": "hus"
   },
   {
-    "region": "Americas",
     "ISO": "huu",
     "BCP47": "huu",
     "OHCHR": "huu",
@@ -3247,13 +3376,12 @@
     "filename": "huu"
   },
   {
-    "region": "Americas",
     "ISO": "hus",
     "BCP47": "hus",
     "OHCHR": "hva",
     "direction": "ltr",
     "code": "hva",
-    "name": "Huastec",
+    "name": "Huastec (San Luís Potosí)",
     "stage": 4,
     "hasNotes": false,
     "latitude": 21.62,
@@ -3264,7 +3392,6 @@
     "filename": "hva"
   },
   {
-    "region": "Asia",
     "ISO": "hye",
     "BCP47": "hy",
     "OHCHR": "arm",
@@ -3281,7 +3408,6 @@
     "filename": "hye"
   },
   {
-    "region": "Africa",
     "ISO": "ibb",
     "BCP47": "ibb",
     "OHCHR": "ibb",
@@ -3298,7 +3424,6 @@
     "filename": "ibb"
   },
   {
-    "region": "Africa",
     "ISO": "ibo",
     "BCP47": "ig",
     "OHCHR": "igr",
@@ -3315,7 +3440,6 @@
     "filename": "ibo"
   },
   {
-    "region": "Other",
     "ISO": "ido",
     "BCP47": "io",
     "OHCHR": "1120",
@@ -3332,7 +3456,6 @@
     "filename": "ido"
   },
   {
-    "region": "Asia",
     "ISO": "iii",
     "BCP47": "ii",
     "OHCHR": "iii",
@@ -3349,7 +3472,6 @@
     "filename": "iii"
   },
   {
-    "region": "Americas",
     "ISO": "ike",
     "BCP47": "iu",
     "OHCHR": "esb",
@@ -3366,7 +3488,6 @@
     "filename": "ike"
   },
   {
-    "region": "Asia",
     "ISO": "ilo",
     "BCP47": "ilo",
     "OHCHR": "ilo",
@@ -3383,7 +3504,6 @@
     "filename": "ilo"
   },
   {
-    "region": "Other",
     "ISO": "ina",
     "BCP47": "ia",
     "OHCHR": "1119",
@@ -3400,7 +3520,6 @@
     "filename": "ina"
   },
   {
-    "region": "Asia",
     "ISO": "ind",
     "BCP47": "id",
     "OHCHR": "inz",
@@ -3417,7 +3536,6 @@
     "filename": "ind"
   },
   {
-    "region": "Europe",
     "ISO": "isl",
     "BCP47": "is",
     "OHCHR": "ice",
@@ -3434,7 +3552,6 @@
     "filename": "isl"
   },
   {
-    "region": "Europe",
     "ISO": "ita",
     "BCP47": "it",
     "OHCHR": "itn",
@@ -3451,13 +3568,12 @@
     "filename": "ita"
   },
   {
-    "region": "Asia",
     "ISO": "jav",
     "BCP47": "jv",
     "OHCHR": "jan",
     "direction": "ltr",
     "code": "jav",
-    "name": "Javanese",
+    "name": "Javanese (Latin)",
     "stage": 4,
     "hasNotes": false,
     "latitude": -0.57,
@@ -3468,7 +3584,22 @@
     "filename": "jav"
   },
   {
-    "region": "Americas",
+    "ISO": "jav",
+    "BCP47": "jv-Java",
+    "OHCHR": null,
+    "direction": "ltr",
+    "code": "jav_java",
+    "name": "Javanese (Javanese)",
+    "stage": 4,
+    "hasNotes": false,
+    "latitude": -0.57,
+    "longitude": 110.89,
+    "hasTXT": true,
+    "hasJSON": true,
+    "hasXML": true,
+    "filename": "jav_java"
+  },
+  {
     "ISO": "jiv",
     "BCP47": "jiv",
     "OHCHR": "1125",
@@ -3485,7 +3616,6 @@
     "filename": "jiv"
   },
   {
-    "region": "Asia",
     "ISO": "jpn",
     "BCP47": "ja",
     "OHCHR": "jpn",
@@ -3502,7 +3632,38 @@
     "filename": "jpn"
   },
   {
-    "region": "Asia",
+    "ISO": "jpn",
+    "BCP47": "ja",
+    "OHCHR": "to1",
+    "direction": "ltr",
+    "code": "jpn_tokyo",
+    "name": "Japanese (Tokyo)",
+    "stage": 2,
+    "hasNotes": false,
+    "latitude": 35.68,
+    "longitude": 139.68,
+    "hasTXT": false,
+    "hasJSON": false,
+    "hasXML": false,
+    "filename": "jpn_tokyo"
+  },
+  {
+    "ISO": "jpn",
+    "BCP47": "ja",
+    "OHCHR": "obe",
+    "direction": "ltr",
+    "code": "jpn_osaka",
+    "name": "Japanese (Osaka)",
+    "stage": 2,
+    "hasNotes": false,
+    "latitude": 34.69,
+    "longitude": 135.5,
+    "hasTXT": false,
+    "hasJSON": false,
+    "hasXML": false,
+    "filename": "jpn_osaka"
+  },
+  {
     "ISO": "jul",
     "BCP47": "jul",
     "OHCHR": "jul",
@@ -3519,7 +3680,6 @@
     "filename": "jul"
   },
   {
-    "region": "Americas",
     "ISO": "kal",
     "BCP47": "kl",
     "OHCHR": "esg",
@@ -3536,7 +3696,6 @@
     "filename": "kal"
   },
   {
-    "region": "Asia",
     "ISO": "kan",
     "BCP47": "kn",
     "OHCHR": "kjv",
@@ -3553,11 +3712,10 @@
     "filename": "kan"
   },
   {
-    "region": "Asia",
     "ISO": "kas",
     "BCP47": "ks",
     "OHCHR": "ksh",
-    "direction": "ltr",
+    "direction": "rtl",
     "code": "kas",
     "name": "Kashmiri",
     "stage": 2,
@@ -3570,7 +3728,6 @@
     "filename": "kas"
   },
   {
-    "region": "Asia",
     "ISO": "kat",
     "BCP47": "ka",
     "OHCHR": "geo",
@@ -3587,7 +3744,6 @@
     "filename": "kat"
   },
   {
-    "region": "Asia",
     "ISO": "kaz",
     "BCP47": "kk",
     "OHCHR": "kaz",
@@ -3604,7 +3760,6 @@
     "filename": "kaz"
   },
   {
-    "region": "Asia",
     "ISO": "kbd",
     "BCP47": "kbd",
     "OHCHR": "kbd",
@@ -3621,7 +3776,6 @@
     "filename": "kbd"
   },
   {
-    "region": "Africa",
     "ISO": "kbp",
     "BCP47": "kbp",
     "OHCHR": "kbp",
@@ -3638,7 +3792,6 @@
     "filename": "kbp"
   },
   {
-    "region": "Africa",
     "ISO": "kde",
     "BCP47": "kde",
     "OHCHR": "kde",
@@ -3655,7 +3808,6 @@
     "filename": "kde"
   },
   {
-    "region": "Africa",
     "ISO": "kdh",
     "BCP47": "kdh",
     "OHCHR": "kdh",
@@ -3672,7 +3824,6 @@
     "filename": "kdh"
   },
   {
-    "region": "Africa",
     "ISO": "kea",
     "BCP47": "kea",
     "OHCHR": "kea",
@@ -3689,7 +3840,6 @@
     "filename": "kea"
   },
   {
-    "region": "Americas",
     "ISO": "kek",
     "BCP47": "kek",
     "OHCHR": "1116",
@@ -3706,7 +3856,6 @@
     "filename": "kek"
   },
   {
-    "region": "Asia",
     "ISO": "kfa",
     "BCP47": "kfa",
     "OHCHR": "kfa",
@@ -3723,7 +3872,6 @@
     "filename": "kfa"
   },
   {
-    "region": "Asia",
     "ISO": "kfx",
     "BCP47": "kfx",
     "OHCHR": "kfx",
@@ -3740,7 +3888,6 @@
     "filename": "kfx_deva"
   },
   {
-    "region": "Asia",
     "ISO": "kgg",
     "BCP47": "kgg",
     "OHCHR": "kgg",
@@ -3757,7 +3904,6 @@
     "filename": "kgg_deva"
   },
   {
-    "region": "Asia",
     "ISO": "kha",
     "BCP47": "kha",
     "OHCHR": "kha",
@@ -3774,7 +3920,6 @@
     "filename": "kha"
   },
   {
-    "region": "Asia",
     "ISO": "khk",
     "BCP47": "mn-Cyrl",
     "OHCHR": "khk",
@@ -3791,7 +3936,6 @@
     "filename": "khk"
   },
   {
-    "region": "Asia",
     "ISO": "khk",
     "BCP47": "mn-Mong",
     "OHCHR": null,
@@ -3808,7 +3952,6 @@
     "filename": "khk_mong"
   },
   {
-    "region": "Asia",
     "ISO": "khm",
     "BCP47": "km",
     "OHCHR": "khm",
@@ -3825,7 +3968,6 @@
     "filename": "khm"
   },
   {
-    "region": "Asia",
     "ISO": "khr",
     "BCP47": "khr",
     "OHCHR": "khr",
@@ -3842,7 +3984,6 @@
     "filename": "khr"
   },
   {
-    "region": "Africa",
     "ISO": "kin",
     "BCP47": "rw",
     "OHCHR": "rua1",
@@ -3859,7 +4000,6 @@
     "filename": "kin"
   },
   {
-    "region": "Asia",
     "ISO": "kir",
     "BCP47": "ky",
     "OHCHR": "kdo",
@@ -3876,7 +4016,6 @@
     "filename": "kir"
   },
   {
-    "region": "Asia",
     "ISO": "kjh",
     "BCP47": "kjh",
     "OHCHR": "kjh",
@@ -3893,7 +4032,6 @@
     "filename": "kjh"
   },
   {
-    "region": "Asia",
     "ISO": "kkh",
     "BCP47": "kkh-Lana",
     "OHCHR": null,
@@ -3910,7 +4048,6 @@
     "filename": "kkh_lana"
   },
   {
-    "region": "Africa",
     "ISO": "kmb",
     "BCP47": "kmb",
     "OHCHR": "mlo",
@@ -3927,13 +4064,28 @@
     "filename": "kmb"
   },
   {
-    "region": "Asia",
     "ISO": "kmr",
-    "BCP47": "kmr",
+    "BCP47": "ku",
     "OHCHR": "kur",
     "direction": "ltr",
     "code": "kmr",
     "name": "Kurdish, Northern",
+    "stage": 4,
+    "hasNotes": false,
+    "latitude": 37,
+    "longitude": 43,
+    "hasTXT": true,
+    "hasJSON": true,
+    "hasXML": true,
+    "filename": "kmr"
+  },
+  {
+    "ISO": "kmr",
+    "BCP47": "ku-Arab",
+    "OHCHR": "kur",
+    "direction": "rtl",
+    "code": "kmr_arab",
+    "name": "Kurdish, Northern (Arabic)",
     "stage": 2,
     "hasNotes": false,
     "latitude": 37,
@@ -3941,12 +4093,11 @@
     "hasTXT": false,
     "hasJSON": false,
     "hasXML": false,
-    "filename": "kmr"
+    "filename": "kmr_arab"
   },
   {
-    "region": "Africa",
     "ISO": "knc",
-    "BCP47": "knc",
+    "BCP47": "kr",
     "OHCHR": "kph",
     "direction": "ltr",
     "code": "knc",
@@ -3961,7 +4112,6 @@
     "filename": "knc"
   },
   {
-    "region": "Africa",
     "ISO": "kng",
     "BCP47": "kg",
     "OHCHR": "kon",
@@ -3978,9 +4128,8 @@
     "filename": "kng"
   },
   {
-    "region": "Africa",
     "ISO": "kng",
-    "BCP47": "kg",
+    "BCP47": "kg-AO",
     "OHCHR": "kng",
     "direction": "ltr",
     "code": "kng_AO",
@@ -3995,7 +4144,6 @@
     "filename": "kng_AO"
   },
   {
-    "region": "Europe",
     "ISO": "koi",
     "BCP47": "koi",
     "OHCHR": "koi",
@@ -4012,7 +4160,6 @@
     "filename": "koi"
   },
   {
-    "region": "Africa",
     "ISO": "koo",
     "BCP47": "koo",
     "OHCHR": "koo1",
@@ -4029,7 +4176,6 @@
     "filename": "koo"
   },
   {
-    "region": "Asia",
     "ISO": "kor",
     "BCP47": "ko",
     "OHCHR": "kkn",
@@ -4046,7 +4192,6 @@
     "filename": "kor"
   },
   {
-    "region": "Africa",
     "ISO": "kqn",
     "BCP47": "kqn",
     "OHCHR": "kqn",
@@ -4063,7 +4208,6 @@
     "filename": "kqn"
   },
   {
-    "region": "Asia",
     "ISO": "kra",
     "BCP47": "kra",
     "OHCHR": "kra",
@@ -4080,7 +4224,6 @@
     "filename": "kra"
   },
   {
-    "region": "Africa",
     "ISO": "kri",
     "BCP47": "kri",
     "OHCHR": "kri",
@@ -4097,7 +4240,6 @@
     "filename": "kri"
   },
   {
-    "region": "Asia",
     "ISO": "krl",
     "BCP47": "krl",
     "OHCHR": "krl",
@@ -4114,7 +4256,6 @@
     "filename": "krl"
   },
   {
-    "region": "Asia",
     "ISO": "ksw",
     "BCP47": "ksw",
     "OHCHR": "ksw",
@@ -4131,7 +4272,6 @@
     "filename": "ksw"
   },
   {
-    "region": "Africa",
     "ISO": "ktu",
     "BCP47": "ktu",
     "OHCHR": "ktu",
@@ -4148,7 +4288,6 @@
     "filename": "ktu"
   },
   {
-    "region": "Americas",
     "ISO": "kwi",
     "BCP47": "kwi",
     "OHCHR": "kwi",
@@ -4165,7 +4304,6 @@
     "filename": "kwi"
   },
   {
-    "region": "Asia",
     "ISO": "kxl",
     "BCP47": "kxl",
     "OHCHR": "kxl",
@@ -4182,7 +4320,6 @@
     "filename": "kxl"
   },
   {
-    "region": "Asia",
     "ISO": "lad",
     "BCP47": "lad",
     "OHCHR": "lad",
@@ -4199,7 +4336,6 @@
     "filename": "lad"
   },
   {
-    "region": "Asia",
     "ISO": "lao",
     "BCP47": "lo",
     "OHCHR": "nol",
@@ -4216,7 +4352,6 @@
     "filename": "lao"
   },
   {
-    "region": "Europe",
     "ISO": "lat",
     "BCP47": "la",
     "OHCHR": "ltn",
@@ -4233,7 +4368,6 @@
     "filename": "lat"
   },
   {
-    "region": "Europe",
     "ISO": "lat",
     "BCP47": "la",
     "OHCHR": "ltn1",
@@ -4250,8 +4384,7 @@
     "filename": "lat_1"
   },
   {
-    "region": "Europe",
-    "ISO": "lav",
+    "ISO": "lvs",
     "BCP47": "lv",
     "OHCHR": "lat",
     "direction": "ltr",
@@ -4267,7 +4400,6 @@
     "filename": "lav"
   },
   {
-    "region": "Asia",
     "ISO": "lep",
     "BCP47": "lep",
     "OHCHR": "lep",
@@ -4284,7 +4416,6 @@
     "filename": "lep_deva"
   },
   {
-    "region": "Asia",
     "ISO": "lhm",
     "BCP47": "lhm",
     "OHCHR": "lhm",
@@ -4301,7 +4432,6 @@
     "filename": "lhm"
   },
   {
-    "region": "Africa",
     "ISO": "lia",
     "BCP47": "lia",
     "OHCHR": "lia",
@@ -4318,7 +4448,6 @@
     "filename": "lia"
   },
   {
-    "region": "Asia",
     "ISO": "lif",
     "BCP47": "lif",
     "OHCHR": "lif",
@@ -4335,7 +4464,6 @@
     "filename": "lif"
   },
   {
-    "region": "Europe",
     "ISO": "lij",
     "BCP47": "lij",
     "OHCHR": "lij",
@@ -4352,7 +4480,6 @@
     "filename": "lij"
   },
   {
-    "region": "Africa",
     "ISO": "lin",
     "BCP47": "ln",
     "OHCHR": "lin",
@@ -4369,7 +4496,6 @@
     "filename": "lin"
   },
   {
-    "region": "Africa",
     "ISO": "lin",
     "BCP47": "ln",
     "OHCHR": null,
@@ -4386,7 +4512,6 @@
     "filename": "lin_tones"
   },
   {
-    "region": "Europe",
     "ISO": "lit",
     "BCP47": "lt",
     "OHCHR": "lit",
@@ -4403,7 +4528,6 @@
     "filename": "lit"
   },
   {
-    "region": "Europe",
     "ISO": "lld",
     "BCP47": "lld",
     "OHCHR": "lld",
@@ -4420,7 +4544,6 @@
     "filename": "lld"
   },
   {
-    "region": "Europe",
     "ISO": "oci",
     "BCP47": "oc",
     "OHCHR": "prv1",
@@ -4437,7 +4560,6 @@
     "filename": "lnc"
   },
   {
-    "region": "Africa",
     "ISO": "lns",
     "BCP47": "lns",
     "OHCHR": "nso",
@@ -4454,7 +4576,6 @@
     "filename": "lns"
   },
   {
-    "region": "Africa",
     "ISO": "lob",
     "BCP47": "lob",
     "OHCHR": "lob",
@@ -4471,7 +4592,6 @@
     "filename": "lob"
   },
   {
-    "region": "Africa",
     "ISO": "lot",
     "BCP47": "lot",
     "OHCHR": "lot",
@@ -4488,7 +4608,6 @@
     "filename": "lot"
   },
   {
-    "region": "Africa",
     "ISO": "loz",
     "BCP47": "loz",
     "OHCHR": "lbm1",
@@ -4505,7 +4624,6 @@
     "filename": "loz"
   },
   {
-    "region": "Europe",
     "ISO": "ltz",
     "BCP47": "lb",
     "OHCHR": "lux",
@@ -4522,7 +4640,6 @@
     "filename": "ltz"
   },
   {
-    "region": "Africa",
     "ISO": "lua",
     "BCP47": "lua",
     "OHCHR": "lub",
@@ -4539,7 +4656,6 @@
     "filename": "lua"
   },
   {
-    "region": "Africa",
     "ISO": "lue",
     "BCP47": "lue",
     "OHCHR": "lue",
@@ -4556,7 +4672,6 @@
     "filename": "lue"
   },
   {
-    "region": "Africa",
     "ISO": "lug",
     "BCP47": "lg",
     "OHCHR": "lap1",
@@ -4573,7 +4688,6 @@
     "filename": "lug"
   },
   {
-    "region": "Africa",
     "ISO": "lun",
     "BCP47": "lun",
     "OHCHR": "mlo1",
@@ -4590,7 +4704,6 @@
     "filename": "lun"
   },
   {
-    "region": "Asia",
     "ISO": "lus",
     "BCP47": "lus",
     "OHCHR": "lus",
@@ -4607,7 +4720,6 @@
     "filename": "lus"
   },
   {
-    "region": "Asia",
     "ISO": "mad",
     "BCP47": "mad",
     "OHCHR": "mhj",
@@ -4624,7 +4736,6 @@
     "filename": "mad"
   },
   {
-    "region": "Asia",
     "ISO": "mag",
     "BCP47": "mag",
     "OHCHR": "mqm",
@@ -4641,7 +4752,6 @@
     "filename": "mag"
   },
   {
-    "region": "Pacific",
     "ISO": "mah",
     "BCP47": "mh",
     "OHCHR": "mzm",
@@ -4658,7 +4768,6 @@
     "filename": "mah"
   },
   {
-    "region": "Asia",
     "ISO": "mai",
     "BCP47": "mai",
     "OHCHR": null,
@@ -4675,7 +4784,6 @@
     "filename": "mai"
   },
   {
-    "region": "Asia",
     "ISO": "mai",
     "BCP47": "mai",
     "OHCHR": "mai",
@@ -4692,7 +4800,6 @@
     "filename": "mai_2"
   },
   {
-    "region": "Asia",
     "ISO": "mal",
     "BCP47": "ml",
     "OHCHR": "mjs",
@@ -4709,7 +4816,6 @@
     "filename": "mal"
   },
   {
-    "region": "Americas",
     "ISO": "mam",
     "BCP47": "mam",
     "OHCHR": "mam",
@@ -4726,7 +4832,6 @@
     "filename": "mam"
   },
   {
-    "region": "Asia",
     "ISO": "mar",
     "BCP47": "mr",
     "OHCHR": "mrt",
@@ -4743,7 +4848,6 @@
     "filename": "mar"
   },
   {
-    "region": "Americas",
     "ISO": "maz",
     "BCP47": "maz",
     "OHCHR": "maz",
@@ -4760,7 +4864,6 @@
     "filename": "maz"
   },
   {
-    "region": "Americas",
     "ISO": "mcd",
     "BCP47": "mcd",
     "OHCHR": "mcd",
@@ -4777,7 +4880,6 @@
     "filename": "mcd"
   },
   {
-    "region": "Americas",
     "ISO": "mcf",
     "BCP47": "mcf",
     "OHCHR": "mcf",
@@ -4794,7 +4896,6 @@
     "filename": "mcf"
   },
   {
-    "region": "Africa",
     "ISO": "men",
     "BCP47": "men",
     "OHCHR": "mfy",
@@ -4811,7 +4912,6 @@
     "filename": "men"
   },
   {
-    "region": "Asia",
     "ISO": "mgp",
     "BCP47": "mgp",
     "OHCHR": "mag",
@@ -4828,7 +4928,6 @@
     "filename": "mgp"
   },
   {
-    "region": "Americas",
     "ISO": "mic",
     "BCP47": "mic",
     "OHCHR": "mic",
@@ -4845,7 +4944,6 @@
     "filename": "mic"
   },
   {
-    "region": "Asia",
     "ISO": "min",
     "BCP47": "min",
     "OHCHR": "mpu",
@@ -4862,7 +4960,6 @@
     "filename": "min"
   },
   {
-    "region": "Americas",
     "ISO": "miq",
     "BCP47": "miq",
     "OHCHR": "miq",
@@ -4879,7 +4976,6 @@
     "filename": "miq"
   },
   {
-    "region": "Asia",
     "ISO": "mjz",
     "BCP47": "mjz",
     "OHCHR": "mjz",
@@ -4896,7 +4992,6 @@
     "filename": "mjz"
   },
   {
-    "region": "Europe",
     "ISO": "mkd",
     "BCP47": "mk",
     "OHCHR": "mkj",
@@ -4913,7 +5008,6 @@
     "filename": "mkd"
   },
   {
-    "region": "Europe",
     "ISO": "mlt",
     "BCP47": "mt",
     "OHCHR": "mls",
@@ -4930,9 +5024,8 @@
     "filename": "mlt"
   },
   {
-    "region": "Asia",
     "ISO": "zlm",
-    "BCP47": "ms-Arab",
+    "BCP47": "zlm-Arab",
     "OHCHR": null,
     "direction": "rtl",
     "code": "mly_arab",
@@ -4947,9 +5040,8 @@
     "filename": "mly_arab"
   },
   {
-    "region": "Asia",
     "ISO": "zlm",
-    "BCP47": "ms-Latn",
+    "BCP47": "zlm-Latn",
     "OHCHR": "mli",
     "direction": "ltr",
     "code": "mly_latn",
@@ -4964,7 +5056,6 @@
     "filename": "mly_latn"
   },
   {
-    "region": "Asia",
     "ISO": "mnw",
     "BCP47": "mnw",
     "OHCHR": null,
@@ -4981,7 +5072,6 @@
     "filename": "mnw"
   },
   {
-    "region": "Africa",
     "ISO": "mos",
     "BCP47": "mos",
     "OHCHR": "mhm",
@@ -4998,7 +5088,6 @@
     "filename": "mos"
   },
   {
-    "region": "Pacific",
     "ISO": "mri",
     "BCP47": "mi",
     "OHCHR": "mbf",
@@ -5015,7 +5104,6 @@
     "filename": "mri"
   },
   {
-    "region": "Americas",
     "ISO": "mto",
     "BCP47": "mto",
     "OHCHR": "mto",
@@ -5032,9 +5120,24 @@
     "filename": "mto"
   },
   {
-    "region": "Asia",
-    "ISO": "mve",
-    "BCP47": "mwr",
+    "ISO": "mtp",
+    "BCP47": "mtp",
+    "OHCHR": "mtp",
+    "direction": "ltr",
+    "code": "mtp",
+    "name": "Wichí Lhamtés Nocten",
+    "stage": 2,
+    "hasNotes": false,
+    "latitude": -22,
+    "longitude": -64,
+    "hasTXT": false,
+    "hasJSON": false,
+    "hasXML": false,
+    "filename": "mtp"
+  },
+  {
+    "ISO": "rwr",
+    "BCP47": "rwr",
     "OHCHR": "mkd",
     "direction": "ltr",
     "code": "mve",
@@ -5049,7 +5152,6 @@
     "filename": "mve"
   },
   {
-    "region": "Asia",
     "ISO": "mvf",
     "BCP47": "mvf-Mong",
     "OHCHR": "mvf",
@@ -5066,7 +5168,6 @@
     "filename": "mvf_mong"
   },
   {
-    "region": "Europe",
     "ISO": "mxi",
     "BCP47": "mxi",
     "OHCHR": "moz",
@@ -5083,7 +5184,6 @@
     "filename": "mxi"
   },
   {
-    "region": "Americas",
     "ISO": "mxv",
     "BCP47": "mxv",
     "OHCHR": "mxv",
@@ -5100,7 +5200,6 @@
     "filename": "mxv"
   },
   {
-    "region": "Asia",
     "ISO": "mya",
     "BCP47": "my",
     "OHCHR": "bms",
@@ -5117,7 +5216,6 @@
     "filename": "mya"
   },
   {
-    "region": "Americas",
     "ISO": "mzi",
     "BCP47": "mzi",
     "OHCHR": "mao",
@@ -5134,7 +5232,22 @@
     "filename": "mzi"
   },
   {
-    "region": "Americas",
+    "ISO": "nan",
+    "BCP47": "nan",
+    "OHCHR": "nan",
+    "direction": "ltr",
+    "code": "nan",
+    "name": "Chinese, Min Nan",
+    "stage": 4,
+    "hasNotes": false,
+    "latitude": 25,
+    "longitude": 116,
+    "hasTXT": true,
+    "hasJSON": true,
+    "hasXML": true,
+    "filename": "nan"
+  },
+  {
     "ISO": "nav",
     "BCP47": "nv",
     "OHCHR": "nav",
@@ -5151,7 +5264,6 @@
     "filename": "nav"
   },
   {
-    "region": "Africa",
     "ISO": "nba",
     "BCP47": "nba",
     "OHCHR": "nba",
@@ -5168,7 +5280,6 @@
     "filename": "nba"
   },
   {
-    "region": "Africa",
     "ISO": "nbl",
     "BCP47": "nr",
     "OHCHR": "nel",
@@ -5185,7 +5296,6 @@
     "filename": "nbl"
   },
   {
-    "region": "Africa",
     "ISO": "ndo",
     "BCP47": "ng",
     "OHCHR": "1114",
@@ -5202,7 +5312,6 @@
     "filename": "ndo"
   },
   {
-    "region": "Europe",
     "ISO": "nds",
     "BCP47": "nds",
     "OHCHR": "ige",
@@ -5219,7 +5328,6 @@
     "filename": "nds"
   },
   {
-    "region": "Asia",
     "ISO": "npi",
     "BCP47": "ne",
     "OHCHR": "nep",
@@ -5236,7 +5344,6 @@
     "filename": "nep"
   },
   {
-    "region": "Asia",
     "ISO": "new",
     "BCP47": "new",
     "OHCHR": "new",
@@ -5253,9 +5360,8 @@
     "filename": "new"
   },
   {
-    "region": "Americas",
     "ISO": "nhn",
-    "BCP47": "nah",
+    "BCP47": "nhn",
     "OHCHR": "nhn",
     "direction": "ltr",
     "code": "nhn",
@@ -5270,7 +5376,6 @@
     "filename": "nhn"
   },
   {
-    "region": "Asia",
     "ISO": "nio",
     "BCP47": "nio",
     "OHCHR": "nio",
@@ -5287,7 +5392,6 @@
     "filename": "nio"
   },
   {
-    "region": "Asia",
     "ISO": "niv",
     "BCP47": "niv",
     "OHCHR": "Nivkh",
@@ -5304,7 +5408,6 @@
     "filename": "niv"
   },
   {
-    "region": "Asia",
     "ISO": "njo",
     "BCP47": "njo",
     "OHCHR": "njo",
@@ -5321,7 +5424,6 @@
     "filename": "njo"
   },
   {
-    "region": "Africa",
     "ISO": "nku",
     "BCP47": "nku",
     "OHCHR": "kou",
@@ -5338,7 +5440,6 @@
     "filename": "nku"
   },
   {
-    "region": "Europe",
     "ISO": "nld",
     "BCP47": "nl",
     "OHCHR": "dut",
@@ -5355,7 +5456,6 @@
     "filename": "nld"
   },
   {
-    "region": "Europe",
     "ISO": "nno",
     "BCP47": "nn",
     "OHCHR": "nrn",
@@ -5372,7 +5472,6 @@
     "filename": "nno"
   },
   {
-    "region": "Europe",
     "ISO": "nob",
     "BCP47": "nb",
     "OHCHR": "nrr",
@@ -5389,7 +5488,6 @@
     "filename": "nob"
   },
   {
-    "region": "Americas",
     "ISO": "not",
     "BCP47": "not",
     "OHCHR": "not",
@@ -5406,7 +5504,6 @@
     "filename": "not"
   },
   {
-    "region": "Africa",
     "ISO": "nso",
     "BCP47": "nso",
     "OHCHR": "srt",
@@ -5423,7 +5520,6 @@
     "filename": "nso"
   },
   {
-    "region": "Africa",
     "ISO": "nus",
     "BCP47": "nus",
     "OHCHR": "nus",
@@ -5440,7 +5536,6 @@
     "filename": "nus"
   },
   {
-    "region": "Africa",
     "ISO": "nya",
     "BCP47": "ny",
     "OHCHR": "nyj1",
@@ -5457,7 +5552,6 @@
     "filename": "nya_chechewa"
   },
   {
-    "region": "Africa",
     "ISO": "nya",
     "BCP47": "ny",
     "OHCHR": "nyj",
@@ -5474,7 +5568,6 @@
     "filename": "nya_chinyanja"
   },
   {
-    "region": "Africa",
     "ISO": "nym",
     "BCP47": "nym",
     "OHCHR": "nyz",
@@ -5491,7 +5584,6 @@
     "filename": "nym"
   },
   {
-    "region": "Africa",
     "ISO": "nyn",
     "BCP47": "nyn",
     "OHCHR": "nyn1",
@@ -5508,7 +5600,6 @@
     "filename": "nyn"
   },
   {
-    "region": "Africa",
     "ISO": "nzi",
     "BCP47": "nzi",
     "OHCHR": "nze",
@@ -5525,24 +5616,22 @@
     "filename": "nzi"
   },
   {
-    "region": "Asia",
     "ISO": "oaa",
     "BCP47": "oaa",
     "OHCHR": "oaa",
     "direction": "ltr",
     "code": "oaa",
     "name": "Orok",
-    "stage": 2,
+    "stage": 4,
     "hasNotes": false,
     "latitude": 49.36,
     "longitude": 143.13,
-    "hasTXT": false,
-    "hasJSON": false,
-    "hasXML": false,
+    "hasTXT": true,
+    "hasJSON": true,
+    "hasXML": true,
     "filename": "oaa"
   },
   {
-    "region": "Europe",
     "ISO": "oci",
     "BCP47": "oc",
     "OHCHR": "Fr3",
@@ -5559,7 +5648,6 @@
     "filename": "oci_1"
   },
   {
-    "region": "Europe",
     "ISO": "oci",
     "BCP47": "oc",
     "OHCHR": "fr2",
@@ -5576,7 +5664,6 @@
     "filename": "oci_2"
   },
   {
-    "region": "Europe",
     "ISO": "oci",
     "BCP47": "oc",
     "OHCHR": "fr4",
@@ -5593,7 +5680,6 @@
     "filename": "oci_3"
   },
   {
-    "region": "Europe",
     "ISO": "oci",
     "BCP47": "oc",
     "OHCHR": "frp",
@@ -5610,9 +5696,8 @@
     "filename": "oci_4"
   },
   {
-    "region": "Americas",
     "ISO": "ojb",
-    "BCP47": "oj",
+    "BCP47": "ojb",
     "OHCHR": "ojb",
     "direction": "ltr",
     "code": "ojb",
@@ -5627,7 +5712,6 @@
     "filename": "ojb"
   },
   {
-    "region": "Africa",
     "ISO": "oki",
     "BCP47": "oki",
     "OHCHR": "oki",
@@ -5644,30 +5728,28 @@
     "filename": "oki"
   },
   {
-    "region": "Asia",
     "ISO": "orh",
     "BCP47": "orh",
     "OHCHR": "orh",
     "direction": "ltr",
     "code": "orh",
     "name": "Oroqen",
-    "stage": 2,
+    "stage": 4,
     "hasNotes": false,
     "latitude": 50,
     "longitude": 125,
-    "hasTXT": false,
-    "hasJSON": false,
-    "hasXML": false,
+    "hasTXT": true,
+    "hasJSON": true,
+    "hasXML": true,
     "filename": "orh"
   },
   {
-    "region": "Asia",
-    "ISO": "ori",
+    "ISO": "ory",
     "BCP47": "or",
     "OHCHR": "ory",
     "direction": "ltr",
     "code": "ori",
-    "name": "Oriya",
+    "name": "Odia",
     "stage": 2,
     "hasNotes": false,
     "latitude": 21.66,
@@ -5678,7 +5760,6 @@
     "filename": "ori"
   },
   {
-    "region": "Asia",
     "ISO": "oss",
     "BCP47": "os",
     "OHCHR": "ose",
@@ -5695,7 +5776,6 @@
     "filename": "oss"
   },
   {
-    "region": "Americas",
     "ISO": "ote",
     "BCP47": "ote",
     "OHCHR": "1111",
@@ -5712,7 +5792,6 @@
     "filename": "ote"
   },
   {
-    "region": "Asia",
     "ISO": "pam",
     "BCP47": "pam",
     "OHCHR": "pmp",
@@ -5729,7 +5808,6 @@
     "filename": "pam"
   },
   {
-    "region": "Asia",
     "ISO": "pan",
     "BCP47": "pa",
     "OHCHR": "pnj1",
@@ -5746,7 +5824,6 @@
     "filename": "pan"
   },
   {
-    "region": "Americas",
     "ISO": "pap",
     "BCP47": "pap",
     "OHCHR": "pap",
@@ -5763,7 +5840,6 @@
     "filename": "pap"
   },
   {
-    "region": "Pacific",
     "ISO": "pau",
     "BCP47": "pau",
     "OHCHR": "plu",
@@ -5780,7 +5856,6 @@
     "filename": "pau"
   },
   {
-    "region": "Americas",
     "ISO": "pbb",
     "BCP47": "pbb",
     "OHCHR": "pbb",
@@ -5797,14 +5872,13 @@
     "filename": "pbb"
   },
   {
-    "region": "Asia",
     "ISO": "pbu",
     "BCP47": "ps",
     "OHCHR": "pbu",
     "direction": "rtl",
     "code": "pbu",
     "name": "Pashto, Northern",
-    "stage": 3,
+    "stage": 4,
     "hasNotes": false,
     "latitude": 35,
     "longitude": 71.33,
@@ -5814,7 +5888,6 @@
     "filename": "pbu"
   },
   {
-    "region": "Europe",
     "ISO": "pcd",
     "BCP47": "pcd",
     "OHCHR": "frn2",
@@ -5831,7 +5904,6 @@
     "filename": "pcd"
   },
   {
-    "region": "Africa",
     "ISO": "pcm",
     "BCP47": "pcm",
     "OHCHR": "pcm",
@@ -5848,7 +5920,6 @@
     "filename": "pcm"
   },
   {
-    "region": "Asia",
     "ISO": "pes",
     "BCP47": "fa",
     "OHCHR": "prs",
@@ -5865,7 +5936,6 @@
     "filename": "pes_1"
   },
   {
-    "region": "Asia",
     "ISO": "prs",
     "BCP47": "fa-AF",
     "OHCHR": "prs1",
@@ -5882,7 +5952,6 @@
     "filename": "pes_2"
   },
   {
-    "region": "Pacific",
     "ISO": "pis",
     "BCP47": "pis",
     "OHCHR": "pis",
@@ -5899,7 +5968,6 @@
     "filename": "pis"
   },
   {
-    "region": "Pacific",
     "ISO": "piu",
     "BCP47": "piu",
     "OHCHR": "piu",
@@ -5916,7 +5984,6 @@
     "filename": "piu"
   },
   {
-    "region": "Africa",
     "ISO": "plt",
     "BCP47": "mg",
     "OHCHR": "mex",
@@ -5933,9 +6000,8 @@
     "filename": "plt"
   },
   {
-    "region": "Asia",
     "ISO": "pnb",
-    "BCP47": "pnb",
+    "BCP47": "lah",
     "OHCHR": null,
     "direction": "rtl",
     "code": "pnb",
@@ -5950,7 +6016,6 @@
     "filename": "pnb"
   },
   {
-    "region": "Europe",
     "ISO": "pol",
     "BCP47": "pl",
     "OHCHR": "pql",
@@ -5967,7 +6032,6 @@
     "filename": "pol"
   },
   {
-    "region": "Pacific",
     "ISO": "pon",
     "BCP47": "pon",
     "OHCHR": "pnf",
@@ -5984,7 +6048,6 @@
     "filename": "pon"
   },
   {
-    "region": "Americas",
     "ISO": "por",
     "BCP47": "pt-BR",
     "OHCHR": null,
@@ -6001,7 +6064,6 @@
     "filename": "por_BR"
   },
   {
-    "region": "Europe",
     "ISO": "por",
     "BCP47": "pt-PT",
     "OHCHR": "por",
@@ -6018,7 +6080,6 @@
     "filename": "por_PT"
   },
   {
-    "region": "Africa",
     "ISO": "pov",
     "BCP47": "pov",
     "OHCHR": "gbc",
@@ -6035,7 +6096,6 @@
     "filename": "pov"
   },
   {
-    "region": "Americas",
     "ISO": "ppl",
     "BCP47": "ppl",
     "OHCHR": "ppl",
@@ -6052,7 +6112,6 @@
     "filename": "ppl"
   },
   {
-    "region": "Americas",
     "ISO": "prq",
     "BCP47": "prq",
     "OHCHR": "cpp",
@@ -6069,7 +6128,6 @@
     "filename": "prq"
   },
   {
-    "region": "Europe",
     "ISO": "oci",
     "BCP47": "oc",
     "OHCHR": "pro",
@@ -6086,7 +6144,6 @@
     "filename": "prv"
   },
   {
-    "region": "Asia",
     "ISO": "pwo",
     "BCP47": "pwo",
     "OHCHR": "pwo",
@@ -6103,7 +6160,6 @@
     "filename": "pwo"
   },
   {
-    "region": "Americas",
     "ISO": "quc",
     "BCP47": "quc",
     "OHCHR": "1117",
@@ -6120,7 +6176,6 @@
     "filename": "quc"
   },
   {
-    "region": "Americas",
     "ISO": "que",
     "BCP47": "qu",
     "OHCHR": "qud1",
@@ -6137,7 +6192,6 @@
     "filename": "qud"
   },
   {
-    "region": "Americas",
     "ISO": "qug",
     "BCP47": "qug",
     "OHCHR": "qug",
@@ -6154,7 +6208,22 @@
     "filename": "qug"
   },
   {
-    "region": "Americas",
+    "ISO": "qul",
+    "BCP47": "qul",
+    "OHCHR": "qul",
+    "direction": "ltr",
+    "code": "qul",
+    "name": "Quechua, North Bolivian",
+    "stage": 2,
+    "hasNotes": false,
+    "latitude": -14,
+    "longitude": -68,
+    "hasTXT": false,
+    "hasJSON": false,
+    "hasXML": false,
+    "filename": "qul"
+  },
+  {
     "ISO": "quy",
     "BCP47": "quy",
     "OHCHR": "quy",
@@ -6171,9 +6240,8 @@
     "filename": "quy"
   },
   {
-    "region": "Americas",
     "ISO": "quz",
-    "BCP47": "quz",
+    "BCP47": "qu",
     "OHCHR": "quz",
     "direction": "ltr",
     "code": "quz",
@@ -6188,7 +6256,6 @@
     "filename": "quz"
   },
   {
-    "region": "Americas",
     "ISO": "qva",
     "BCP47": "qva",
     "OHCHR": "qeg",
@@ -6205,7 +6272,6 @@
     "filename": "qva"
   },
   {
-    "region": "Americas",
     "ISO": "qvc",
     "BCP47": "qvc",
     "OHCHR": "qnt",
@@ -6222,7 +6288,6 @@
     "filename": "qvc"
   },
   {
-    "region": "Americas",
     "ISO": "qvh",
     "BCP47": "qvh",
     "OHCHR": "qej",
@@ -6239,7 +6304,6 @@
     "filename": "qvh"
   },
   {
-    "region": "Americas",
     "ISO": "qvm",
     "BCP47": "qvm",
     "OHCHR": "qei",
@@ -6256,7 +6320,6 @@
     "filename": "qvm"
   },
   {
-    "region": "Americas",
     "ISO": "qvn",
     "BCP47": "qvn",
     "OHCHR": "qju",
@@ -6273,7 +6336,6 @@
     "filename": "qvn"
   },
   {
-    "region": "Americas",
     "ISO": "qwh",
     "BCP47": "qwh",
     "OHCHR": "qan",
@@ -6290,7 +6352,6 @@
     "filename": "qwh"
   },
   {
-    "region": "Americas",
     "ISO": "quh",
     "BCP47": "quh",
     "OHCHR": "qec1",
@@ -6307,7 +6368,6 @@
     "filename": "qxa"
   },
   {
-    "region": "Americas",
     "ISO": "qxn",
     "BCP47": "qxn",
     "OHCHR": "qed",
@@ -6324,7 +6384,6 @@
     "filename": "qxn"
   },
   {
-    "region": "Americas",
     "ISO": "qxu",
     "BCP47": "qxu",
     "OHCHR": "qar",
@@ -6341,7 +6400,6 @@
     "filename": "qxu"
   },
   {
-    "region": "Asia",
     "ISO": "rab",
     "BCP47": "rab",
     "OHCHR": "rab",
@@ -6358,9 +6416,8 @@
     "filename": "rab"
   },
   {
-    "region": "Asia",
     "ISO": "mup",
-    "BCP47": "mup",
+    "BCP47": "raj",
     "OHCHR": "raj",
     "direction": "ltr",
     "code": "raj",
@@ -6375,7 +6432,6 @@
     "filename": "raj"
   },
   {
-    "region": "Pacific",
     "ISO": "rar",
     "BCP47": "rar",
     "OHCHR": "rrt",
@@ -6392,7 +6448,6 @@
     "filename": "rar"
   },
   {
-    "region": "Asia",
     "ISO": "rji",
     "BCP47": "rji",
     "OHCHR": "rji",
@@ -6409,7 +6464,6 @@
     "filename": "rji"
   },
   {
-    "region": "Asia",
     "ISO": "rjs",
     "BCP47": "rjs",
     "OHCHR": "rjs",
@@ -6426,9 +6480,8 @@
     "filename": "rjs"
   },
   {
-    "region": "Europe",
     "ISO": "rmn",
-    "BCP47": "rom",
+    "BCP47": "rmn",
     "OHCHR": "rmn",
     "direction": "ltr",
     "code": "rmn",
@@ -6443,9 +6496,8 @@
     "filename": "rmn"
   },
   {
-    "region": "Europe",
     "ISO": "rmn",
-    "BCP47": "rom",
+    "BCP47": "rmn",
     "OHCHR": "rmn1",
     "direction": "ltr",
     "code": "rmn_1",
@@ -6460,7 +6512,6 @@
     "filename": "rmn_1"
   },
   {
-    "region": "Europe",
     "ISO": "rup",
     "BCP47": "rup",
     "OHCHR": "rmy1",
@@ -6477,7 +6528,6 @@
     "filename": "rmy"
   },
   {
-    "region": "Europe",
     "ISO": "roh",
     "BCP47": "rm",
     "OHCHR": null,
@@ -6494,7 +6544,6 @@
     "filename": "roh"
   },
   {
-    "region": "Europe",
     "ISO": "roh",
     "BCP47": "rm-puter",
     "OHCHR": null,
@@ -6511,7 +6560,6 @@
     "filename": "roh_puter"
   },
   {
-    "region": "Europe",
     "ISO": "roh",
     "BCP47": "rm-rumgr",
     "OHCHR": "rhe",
@@ -6528,7 +6576,6 @@
     "filename": "roh_rumgr"
   },
   {
-    "region": "Europe",
     "ISO": "roh",
     "BCP47": "rm-surmiran",
     "OHCHR": null,
@@ -6545,9 +6592,8 @@
     "filename": "roh_surmiran"
   },
   {
-    "region": "Europe",
     "ISO": "roh",
-    "BCP47": "rm-survilv",
+    "BCP47": "rm-sursilv",
     "OHCHR": null,
     "direction": "ltr",
     "code": "roh_sursilv",
@@ -6562,7 +6608,6 @@
     "filename": "roh_sursilv"
   },
   {
-    "region": "Europe",
     "ISO": "roh",
     "BCP47": "rm-sutsilv",
     "OHCHR": null,
@@ -6579,7 +6624,6 @@
     "filename": "roh_sutsilv"
   },
   {
-    "region": "Europe",
     "ISO": "roh",
     "BCP47": "rm-vallader",
     "OHCHR": null,
@@ -6596,7 +6640,6 @@
     "filename": "roh_vallader"
   },
   {
-    "region": "Europe",
     "ISO": "ron",
     "BCP47": "ro",
     "OHCHR": "rum",
@@ -6613,7 +6656,6 @@
     "filename": "ron_1953"
   },
   {
-    "region": "Europe",
     "ISO": "ron",
     "BCP47": "ro",
     "OHCHR": null,
@@ -6630,7 +6672,6 @@
     "filename": "ron_1993"
   },
   {
-    "region": "Europe",
     "ISO": "ron",
     "BCP47": "ro",
     "OHCHR": null,
@@ -6647,7 +6688,6 @@
     "filename": "ron_2006"
   },
   {
-    "region": "Africa",
     "ISO": "run",
     "BCP47": "rn",
     "OHCHR": "rud1",
@@ -6664,7 +6704,6 @@
     "filename": "run"
   },
   {
-    "region": "Europe",
     "ISO": "rus",
     "BCP47": "ru",
     "OHCHR": "rus",
@@ -6681,7 +6720,6 @@
     "filename": "rus"
   },
   {
-    "region": "Africa",
     "ISO": "sag",
     "BCP47": "sg",
     "OHCHR": "saj",
@@ -6698,7 +6736,6 @@
     "filename": "sag"
   },
   {
-    "region": "Asia",
     "ISO": "sah",
     "BCP47": "sah",
     "OHCHR": "sah",
@@ -6715,7 +6752,6 @@
     "filename": "sah"
   },
   {
-    "region": "Asia",
     "ISO": "san",
     "BCP47": "sa",
     "OHCHR": "skt",
@@ -6732,7 +6768,22 @@
     "filename": "san"
   },
   {
-    "region": "Asia",
+    "ISO": "san",
+    "BCP47": "sa-Gran",
+    "OHCHR": null,
+    "direction": "ltr",
+    "code": "san_gran",
+    "name": "Sanskrit (Grantha)",
+    "stage": 4,
+    "hasNotes": false,
+    "latitude": 20,
+    "longitude": 77,
+    "hasTXT": true,
+    "hasJSON": true,
+    "hasXML": true,
+    "filename": "san_gran"
+  },
+  {
     "ISO": "sat",
     "BCP47": "sat",
     "OHCHR": "sat",
@@ -6749,7 +6800,6 @@
     "filename": "sat"
   },
   {
-    "region": "Asia",
     "ISO": "sck",
     "BCP47": "sck",
     "OHCHR": "kis",
@@ -6766,7 +6816,6 @@
     "filename": "sck"
   },
   {
-    "region": "Europe",
     "ISO": "sco",
     "BCP47": "sco",
     "OHCHR": "sco",
@@ -6783,7 +6832,6 @@
     "filename": "sco"
   },
   {
-    "region": "Asia",
     "ISO": "scp",
     "BCP47": "scp",
     "OHCHR": "scp",
@@ -6800,7 +6848,6 @@
     "filename": "scp"
   },
   {
-    "region": "Americas",
     "ISO": "sey",
     "BCP47": "sey",
     "OHCHR": "1123",
@@ -6817,7 +6864,6 @@
     "filename": "sey"
   },
   {
-    "region": "Africa",
     "ISO": "shk",
     "BCP47": "shk",
     "OHCHR": "shk",
@@ -6834,7 +6880,6 @@
     "filename": "shk"
   },
   {
-    "region": "Asia",
     "ISO": "shn",
     "BCP47": "shn",
     "OHCHR": "sjn",
@@ -6851,7 +6896,6 @@
     "filename": "shn"
   },
   {
-    "region": "Americas",
     "ISO": "shp",
     "BCP47": "shp",
     "OHCHR": "shp",
@@ -6868,7 +6912,6 @@
     "filename": "shp"
   },
   {
-    "region": "Asia",
     "ISO": "sin",
     "BCP47": "si",
     "OHCHR": "snh",
@@ -6877,7 +6920,7 @@
     "name": "Sinhala",
     "stage": 5,
     "hasNotes": false,
-    "latitude": 8,
+    "latitude": 7,
     "longitude": 81,
     "hasTXT": true,
     "hasJSON": true,
@@ -6885,7 +6928,6 @@
     "filename": "sin"
   },
   {
-    "region": "Americas",
     "ISO": "sja",
     "BCP47": "sja",
     "OHCHR": "1126",
@@ -6902,7 +6944,6 @@
     "filename": "sja"
   },
   {
-    "region": "Asia",
     "ISO": "skj",
     "BCP47": "skj",
     "OHCHR": "skj",
@@ -6919,7 +6960,6 @@
     "filename": "sjk_deva"
   },
   {
-    "region": "Asia",
     "ISO": "skr",
     "BCP47": "skr",
     "OHCHR": "skr",
@@ -6936,7 +6976,6 @@
     "filename": "skr"
   },
   {
-    "region": "Europe",
     "ISO": "slk",
     "BCP47": "sk",
     "OHCHR": "slo",
@@ -6953,7 +6992,22 @@
     "filename": "slk"
   },
   {
-    "region": "Europe",
+    "ISO": "slr",
+    "BCP47": "slr",
+    "OHCHR": "slr",
+    "direction": "ltr",
+    "code": "slr",
+    "name": "Salar",
+    "stage": 2,
+    "hasNotes": false,
+    "latitude": 35,
+    "longitude": 95,
+    "hasTXT": false,
+    "hasJSON": false,
+    "hasXML": false,
+    "filename": "slr"
+  },
+  {
     "ISO": "slv",
     "BCP47": "sl",
     "OHCHR": "slv",
@@ -6970,7 +7024,6 @@
     "filename": "slv"
   },
   {
-    "region": "Europe",
     "ISO": "sme",
     "BCP47": "se",
     "OHCHR": "lpi",
@@ -6987,7 +7040,6 @@
     "filename": "sme"
   },
   {
-    "region": "Pacific",
     "ISO": "smo",
     "BCP47": "sm",
     "OHCHR": "smy",
@@ -7004,7 +7056,6 @@
     "filename": "smo"
   },
   {
-    "region": "Africa",
     "ISO": "sna",
     "BCP47": "sn",
     "OHCHR": "shd",
@@ -7021,11 +7072,10 @@
     "filename": "sna"
   },
   {
-    "region": "Asia",
     "ISO": "snd",
     "BCP47": "sd",
     "OHCHR": "snd",
-    "direction": "ltr",
+    "direction": "rtl",
     "code": "snd",
     "name": "Sindhi",
     "stage": 2,
@@ -7038,7 +7088,6 @@
     "filename": "snd"
   },
   {
-    "region": "Africa",
     "ISO": "snk",
     "BCP47": "snk",
     "OHCHR": "snn",
@@ -7055,7 +7104,6 @@
     "filename": "snk"
   },
   {
-    "region": "Americas",
     "ISO": "snn",
     "BCP47": "snn",
     "OHCHR": "1121",
@@ -7072,7 +7120,6 @@
     "filename": "snn"
   },
   {
-    "region": "Africa",
     "ISO": "som",
     "BCP47": "so",
     "OHCHR": "som",
@@ -7089,7 +7136,6 @@
     "filename": "som"
   },
   {
-    "region": "Africa",
     "ISO": "sot",
     "BCP47": "st",
     "OHCHR": "sso",
@@ -7106,7 +7152,6 @@
     "filename": "sot"
   },
   {
-    "region": "Europe",
     "ISO": "spa",
     "BCP47": "es",
     "OHCHR": "spn",
@@ -7123,7 +7168,6 @@
     "filename": "spa"
   },
   {
-    "region": "Europe",
     "ISO": "src",
     "BCP47": "sc",
     "OHCHR": "srd",
@@ -7140,7 +7184,6 @@
     "filename": "src"
   },
   {
-    "region": "Europe",
     "ISO": "srp",
     "BCP47": "sr-Cyrl",
     "OHCHR": "src5",
@@ -7157,7 +7200,6 @@
     "filename": "srp_cyrl"
   },
   {
-    "region": "Europe",
     "ISO": "srp",
     "BCP47": "sr-Latn",
     "OHCHR": "src3",
@@ -7174,7 +7216,22 @@
     "filename": "srp_latn"
   },
   {
-    "region": "Africa",
+    "ISO": "srq",
+    "BCP47": "srq",
+    "OHCHR": "srq",
+    "direction": "ltr",
+    "code": "srq",
+    "name": "Sirionó",
+    "stage": 2,
+    "hasNotes": false,
+    "latitude": -15,
+    "longitude": -63,
+    "hasTXT": false,
+    "hasJSON": false,
+    "hasXML": false,
+    "filename": "srq"
+  },
+  {
     "ISO": "srr",
     "BCP47": "srr",
     "OHCHR": "ses",
@@ -7191,7 +7248,6 @@
     "filename": "srr"
   },
   {
-    "region": "Africa",
     "ISO": "ssw",
     "BCP47": "ss",
     "OHCHR": "swz1",
@@ -7208,7 +7264,6 @@
     "filename": "ssw"
   },
   {
-    "region": "Africa",
     "ISO": "suk",
     "BCP47": "suk",
     "OHCHR": "sua",
@@ -7225,7 +7280,6 @@
     "filename": "suk"
   },
   {
-    "region": "Asia",
     "ISO": "sun",
     "BCP47": "su",
     "OHCHR": "suo",
@@ -7242,7 +7296,6 @@
     "filename": "sun"
   },
   {
-    "region": "Africa",
     "ISO": "sus",
     "BCP47": "sus",
     "OHCHR": "sus",
@@ -7259,7 +7312,6 @@
     "filename": "sus"
   },
   {
-    "region": "Asia",
     "ISO": "suz",
     "BCP47": "suz",
     "OHCHR": "suz",
@@ -7276,10 +7328,9 @@
     "filename": "suz"
   },
   {
-    "region": "Asia",
     "ISO": "suz",
     "BCP47": "suz",
-    "OHCHR": "suz",
+    "OHCHR": "suz1",
     "direction": "ltr",
     "code": "suz_1",
     "name": "Sunwar (2)",
@@ -7293,7 +7344,6 @@
     "filename": "suz_1"
   },
   {
-    "region": "Africa",
     "ISO": "swb",
     "BCP47": "swb",
     "OHCHR": "swb",
@@ -7310,7 +7360,6 @@
     "filename": "swb"
   },
   {
-    "region": "Europe",
     "ISO": "swe",
     "BCP47": "sv",
     "OHCHR": "swd",
@@ -7327,7 +7376,6 @@
     "filename": "swe"
   },
   {
-    "region": "Africa",
     "ISO": "swh",
     "BCP47": "sw",
     "OHCHR": "swa",
@@ -7344,7 +7392,6 @@
     "filename": "swh"
   },
   {
-    "region": "Pacific",
     "ISO": "tah",
     "BCP47": "ty",
     "OHCHR": "tht",
@@ -7361,7 +7408,6 @@
     "filename": "tah"
   },
   {
-    "region": "Asia",
     "ISO": "taj",
     "BCP47": "taj",
     "OHCHR": "taj",
@@ -7378,7 +7424,6 @@
     "filename": "taj"
   },
   {
-    "region": "Asia",
     "ISO": "tam",
     "BCP47": "ta",
     "OHCHR": "tcv",
@@ -7395,7 +7440,22 @@
     "filename": "tam"
   },
   {
-    "region": "Africa",
+    "ISO": "tam",
+    "BCP47": "ta-LK",
+    "OHCHR": null,
+    "direction": "ltr",
+    "code": "tam_LK",
+    "name": "Tamil (Sri Lanka)",
+    "stage": 4,
+    "hasNotes": false,
+    "latitude": 9,
+    "longitude": 80,
+    "hasTXT": true,
+    "hasJSON": true,
+    "hasXML": true,
+    "filename": "tam_LK"
+  },
+  {
     "ISO": "taq",
     "BCP47": "taq",
     "OHCHR": "taq",
@@ -7412,7 +7472,6 @@
     "filename": "taq"
   },
   {
-    "region": "Africa",
     "ISO": "taq",
     "BCP47": "taq-Tfng",
     "OHCHR": "taq",
@@ -7429,7 +7488,6 @@
     "filename": "taq_tfng"
   },
   {
-    "region": "Europe",
     "ISO": "tat",
     "BCP47": "tt",
     "OHCHR": "ttr",
@@ -7446,7 +7504,6 @@
     "filename": "tat"
   },
   {
-    "region": "Africa",
     "ISO": "tbz",
     "BCP47": "tbz",
     "OHCHR": "tbz",
@@ -7463,7 +7520,6 @@
     "filename": "tbz"
   },
   {
-    "region": "Americas",
     "ISO": "tca",
     "BCP47": "tca",
     "OHCHR": "tca",
@@ -7480,7 +7536,6 @@
     "filename": "tca"
   },
   {
-    "region": "Asia",
     "ISO": "tel",
     "BCP47": "te",
     "OHCHR": "tcw",
@@ -7497,7 +7552,6 @@
     "filename": "tel"
   },
   {
-    "region": "Africa",
     "ISO": "tem",
     "BCP47": "tem",
     "OHCHR": "tej",
@@ -7514,7 +7568,6 @@
     "filename": "tem"
   },
   {
-    "region": "Asia",
     "ISO": "tet",
     "BCP47": "tet",
     "OHCHR": "ttm",
@@ -7531,7 +7584,6 @@
     "filename": "tet"
   },
   {
-    "region": "Asia",
     "ISO": "tgk",
     "BCP47": "tg",
     "OHCHR": "pet",
@@ -7548,7 +7600,6 @@
     "filename": "tgk"
   },
   {
-    "region": "Asia",
     "ISO": "tgl",
     "BCP47": "tl",
     "OHCHR": "tgl",
@@ -7565,7 +7616,6 @@
     "filename": "tgl"
   },
   {
-    "region": "Asia",
     "ISO": "tgl",
     "BCP47": "tl-Tglg",
     "OHCHR": null,
@@ -7582,7 +7632,6 @@
     "filename": "tgl_tglg"
   },
   {
-    "region": "Asia",
     "ISO": "tha",
     "BCP47": "th",
     "OHCHR": "thj",
@@ -7599,7 +7648,6 @@
     "filename": "tha"
   },
   {
-    "region": "Asia",
     "ISO": "tha",
     "BCP47": "th",
     "OHCHR": null,
@@ -7616,7 +7664,6 @@
     "filename": "tha2"
   },
   {
-    "region": "Asia",
     "ISO": "thf",
     "BCP47": "thf",
     "OHCHR": "thf",
@@ -7633,7 +7680,6 @@
     "filename": "thf"
   },
   {
-    "region": "Asia",
     "ISO": "thl",
     "BCP47": "thl",
     "OHCHR": "thl",
@@ -7650,7 +7696,6 @@
     "filename": "thl"
   },
   {
-    "region": "Asia",
     "ISO": "ths",
     "BCP47": "ths",
     "OHCHR": "ths",
@@ -7667,7 +7712,6 @@
     "filename": "ths"
   },
   {
-    "region": "Africa",
     "ISO": "tir",
     "BCP47": "ti",
     "OHCHR": "tgn",
@@ -7684,7 +7728,6 @@
     "filename": "tir"
   },
   {
-    "region": "Africa",
     "ISO": "tiv",
     "BCP47": "tiv",
     "OHCHR": "tiv",
@@ -7701,7 +7744,22 @@
     "filename": "tiv"
   },
   {
-    "region": "Asia",
+    "ISO": "tji",
+    "BCP47": "tji",
+    "OHCHR": "tji",
+    "direction": "ltr",
+    "code": "tji",
+    "name": "Tujia, Nothern",
+    "stage": 2,
+    "hasNotes": false,
+    "latitude": 32,
+    "longitude": 110,
+    "hasTXT": false,
+    "hasJSON": false,
+    "hasXML": false,
+    "filename": "tji"
+  },
+  {
     "ISO": "tly",
     "BCP47": "tly",
     "OHCHR": "tly",
@@ -7718,7 +7776,22 @@
     "filename": "tly"
   },
   {
-    "region": "Americas",
+    "ISO": "tna",
+    "BCP47": "tna",
+    "OHCHR": "tna",
+    "direction": "ltr",
+    "code": "tna",
+    "name": "Tacana",
+    "stage": 2,
+    "hasNotes": false,
+    "latitude": -13,
+    "longitude": -68,
+    "hasTXT": false,
+    "hasJSON": false,
+    "hasXML": false,
+    "filename": "tna"
+  },
+  {
     "ISO": "tob",
     "BCP47": "tob",
     "OHCHR": "tob",
@@ -7735,7 +7808,6 @@
     "filename": "tob"
   },
   {
-    "region": "Africa",
     "ISO": "toi",
     "BCP47": "toi",
     "OHCHR": "toi",
@@ -7752,7 +7824,6 @@
     "filename": "toi"
   },
   {
-    "region": "Americas",
     "ISO": "toj",
     "BCP47": "toj",
     "OHCHR": "toj",
@@ -7769,7 +7840,6 @@
     "filename": "toj"
   },
   {
-    "region": "Pacific",
     "ISO": "ton",
     "BCP47": "to",
     "OHCHR": "tov",
@@ -7786,7 +7856,6 @@
     "filename": "ton"
   },
   {
-    "region": "Americas",
     "ISO": "top",
     "BCP47": "top",
     "OHCHR": "top",
@@ -7803,7 +7872,6 @@
     "filename": "top"
   },
   {
-    "region": "Pacific",
     "ISO": "tpi",
     "BCP47": "tpi",
     "OHCHR": "pdg",
@@ -7820,7 +7888,22 @@
     "filename": "tpi"
   },
   {
-    "region": "Africa",
+    "ISO": "trn",
+    "BCP47": "trn",
+    "OHCHR": "trn",
+    "direction": "ltr",
+    "code": "trn",
+    "name": "Trinitario",
+    "stage": 2,
+    "hasNotes": false,
+    "latitude": -15,
+    "longitude": -65,
+    "hasTXT": false,
+    "hasJSON": false,
+    "hasXML": false,
+    "filename": "trn"
+  },
+  {
     "ISO": "tsn",
     "BCP47": "tn",
     "OHCHR": "tsw",
@@ -7837,7 +7920,6 @@
     "filename": "tsn"
   },
   {
-    "region": "Africa",
     "ISO": "tso",
     "BCP47": "ts",
     "OHCHR": "tso",
@@ -7854,7 +7936,22 @@
     "filename": "tso_MZ"
   },
   {
-    "region": "Americas",
+    "ISO": "tso",
+    "BCP47": "ts",
+    "OHCHR": "tso1",
+    "direction": "ltr",
+    "code": "tso_ZW",
+    "name": "Tsonga (Zimbabwe)",
+    "stage": 4,
+    "hasNotes": false,
+    "latitude": -23.58,
+    "longitude": 31.81,
+    "hasTXT": true,
+    "hasJSON": true,
+    "hasXML": true,
+    "filename": "tso_ZW"
+  },
+  {
     "ISO": "tsz",
     "BCP47": "tsz",
     "OHCHR": "1112",
@@ -7871,7 +7968,6 @@
     "filename": "tsz"
   },
   {
-    "region": "Asia",
     "ISO": "tuk",
     "BCP47": "tk-Cyrl",
     "OHCHR": "tck",
@@ -7888,7 +7984,6 @@
     "filename": "tuk_cyrl"
   },
   {
-    "region": "Asia",
     "ISO": "tuk",
     "BCP47": "tk-Latn",
     "OHCHR": null,
@@ -7905,7 +8000,6 @@
     "filename": "tuk_latn"
   },
   {
-    "region": "Asia",
     "ISO": "tur",
     "BCP47": "tr",
     "OHCHR": "trk",
@@ -7922,7 +8016,6 @@
     "filename": "tur"
   },
   {
-    "region": "Asia",
     "ISO": "tyv",
     "BCP47": "tyv",
     "OHCHR": "tyv",
@@ -7939,13 +8032,12 @@
     "filename": "tyv"
   },
   {
-    "region": "Americas",
     "ISO": "tzo",
     "BCP47": "tzo",
     "OHCHR": "tzc",
     "direction": "ltr",
     "code": "tzc",
-    "name": "Tzotzil",
+    "name": "Tzotzil (Chamula)",
     "stage": 4,
     "hasNotes": false,
     "latitude": 16.64,
@@ -7956,7 +8048,6 @@
     "filename": "tzc"
   },
   {
-    "region": "Americas",
     "ISO": "tzh",
     "BCP47": "tzh",
     "OHCHR": "tzc1",
@@ -7973,7 +8064,6 @@
     "filename": "tzh"
   },
   {
-    "region": "Africa",
     "ISO": "tzm",
     "BCP47": "tzm",
     "OHCHR": "tzm",
@@ -7990,7 +8080,22 @@
     "filename": "tzm"
   },
   {
-    "region": "Asia",
+    "ISO": "tzm",
+    "BCP47": "tzm-Tfng",
+    "OHCHR": null,
+    "direction": "ltr",
+    "code": "tzm_tfng",
+    "name": "Tamazight, Central Atlas (Tifinagh)",
+    "stage": 1,
+    "hasNotes": false,
+    "latitude": 32.74,
+    "longitude": -2.41,
+    "hasTXT": true,
+    "hasJSON": true,
+    "hasXML": true,
+    "filename": "tzm_tfng"
+  },
+  {
     "ISO": "uig",
     "BCP47": "ug-Arab",
     "OHCHR": "uig",
@@ -8007,7 +8112,6 @@
     "filename": "uig_arab"
   },
   {
-    "region": "Asia",
     "ISO": "uig",
     "BCP47": "ug-Latn",
     "OHCHR": null,
@@ -8024,7 +8128,6 @@
     "filename": "uig_latn"
   },
   {
-    "region": "Europe",
     "ISO": "ukr",
     "BCP47": "uk",
     "OHCHR": "ukr",
@@ -8041,7 +8144,6 @@
     "filename": "ukr"
   },
   {
-    "region": "Africa",
     "ISO": "umb",
     "BCP47": "umb",
     "OHCHR": "mnf",
@@ -8058,7 +8160,6 @@
     "filename": "umb"
   },
   {
-    "region": "Asia",
     "ISO": "unr",
     "BCP47": "unr",
     "OHCHR": "unr",
@@ -8075,7 +8176,6 @@
     "filename": "unr"
   },
   {
-    "region": "Americas",
     "ISO": "ura",
     "BCP47": "ura",
     "OHCHR": "ura",
@@ -8092,7 +8192,6 @@
     "filename": "ura"
   },
   {
-    "region": "Asia",
     "ISO": "urd",
     "BCP47": "ur",
     "OHCHR": "urd",
@@ -8109,7 +8208,6 @@
     "filename": "urd"
   },
   {
-    "region": "Asia",
     "ISO": "urd",
     "BCP47": "ur",
     "OHCHR": "urd",
@@ -8126,9 +8224,8 @@
     "filename": "urd_2"
   },
   {
-    "region": "Asia",
     "ISO": "uzn",
-    "BCP47": "uzn-Cyrl",
+    "BCP47": "uz-Cyrl",
     "OHCHR": "uzb1",
     "direction": "ltr",
     "code": "uzn_cyrl",
@@ -8143,9 +8240,8 @@
     "filename": "uzn_cyrl"
   },
   {
-    "region": "Asia",
     "ISO": "uzn",
-    "BCP47": "uzn-Latn",
+    "BCP47": "uz-Latn",
     "OHCHR": "uzb",
     "direction": "ltr",
     "code": "uzn_latn",
@@ -8160,7 +8256,6 @@
     "filename": "uzn_latn"
   },
   {
-    "region": "Africa",
     "ISO": "vai",
     "BCP47": "vai",
     "OHCHR": "vai",
@@ -8177,7 +8272,6 @@
     "filename": "vai"
   },
   {
-    "region": "Asia",
     "ISO": "vay",
     "BCP47": "vay",
     "OHCHR": "vay",
@@ -8194,7 +8288,6 @@
     "filename": "vay"
   },
   {
-    "region": "Europe",
     "ISO": "vec",
     "BCP47": "vec",
     "OHCHR": "vec",
@@ -8211,7 +8304,6 @@
     "filename": "vec"
   },
   {
-    "region": "Africa",
     "ISO": "ven",
     "BCP47": "ve",
     "OHCHR": "tsh",
@@ -8228,7 +8320,6 @@
     "filename": "ven"
   },
   {
-    "region": "Asia",
     "ISO": "vep",
     "BCP47": "vep",
     "OHCHR": "vep",
@@ -8245,7 +8336,6 @@
     "filename": "vep"
   },
   {
-    "region": "Asia",
     "ISO": "vie",
     "BCP47": "vi",
     "OHCHR": "vie",
@@ -8262,7 +8352,6 @@
     "filename": "vie"
   },
   {
-    "region": "Asia",
     "ISO": "vie",
     "BCP47": "vi-Hani",
     "OHCHR": null,
@@ -8279,7 +8368,6 @@
     "filename": "vie_han"
   },
   {
-    "region": "Africa",
     "ISO": "vmw",
     "BCP47": "vmw",
     "OHCHR": "vmw",
@@ -8296,7 +8384,6 @@
     "filename": "vmw"
   },
   {
-    "region": "Asia",
     "ISO": "war",
     "BCP47": "war",
     "OHCHR": "wry",
@@ -8313,7 +8400,6 @@
     "filename": "war"
   },
   {
-    "region": "Europe",
     "ISO": "wln",
     "BCP47": "wa",
     "OHCHR": "frn1",
@@ -8330,7 +8416,6 @@
     "filename": "wln"
   },
   {
-    "region": "Africa",
     "ISO": "wol",
     "BCP47": "wo",
     "OHCHR": "wol",
@@ -8347,7 +8432,22 @@
     "filename": "wol"
   },
   {
-    "region": "Africa",
+    "ISO": "wuu",
+    "BCP47": "wuu",
+    "OHCHR": "wuu",
+    "direction": "ltr",
+    "code": "wuu",
+    "name": "Chinese, Wu",
+    "stage": 4,
+    "hasNotes": false,
+    "latitude": 31.23,
+    "longitude": 121.47,
+    "hasTXT": true,
+    "hasJSON": true,
+    "hasXML": true,
+    "filename": "wuu"
+  },
+  {
     "ISO": "wwa",
     "BCP47": "wwa",
     "OHCHR": "ako",
@@ -8364,7 +8464,6 @@
     "filename": "wwa"
   },
   {
-    "region": "Africa",
     "ISO": "xho",
     "BCP47": "xh",
     "OHCHR": "xos",
@@ -8381,7 +8480,6 @@
     "filename": "xho"
   },
   {
-    "region": "Africa",
     "ISO": "xsm",
     "BCP47": "xsm",
     "OHCHR": "kas",
@@ -8398,7 +8496,6 @@
     "filename": "xsm"
   },
   {
-    "region": "Asia",
     "ISO": "xsr",
     "BCP47": "xsr",
     "OHCHR": "xsr",
@@ -8415,7 +8512,6 @@
     "filename": "xsr"
   },
   {
-    "region": "Americas",
     "ISO": "yad",
     "BCP47": "yad",
     "OHCHR": "yad",
@@ -8432,7 +8528,6 @@
     "filename": "yad"
   },
   {
-    "region": "Africa",
     "ISO": "yao",
     "BCP47": "yao",
     "OHCHR": "yao",
@@ -8449,7 +8544,6 @@
     "filename": "yao"
   },
   {
-    "region": "Pacific",
     "ISO": "yap",
     "BCP47": "yap",
     "OHCHR": "yps",
@@ -8466,7 +8560,6 @@
     "filename": "yap"
   },
   {
-    "region": "Asia",
     "ISO": "ybh",
     "BCP47": "ybh",
     "OHCHR": "ybh",
@@ -8483,7 +8576,6 @@
     "filename": "ybh"
   },
   {
-    "region": "Asia",
     "ISO": "ydd",
     "BCP47": "yi",
     "OHCHR": "ydd",
@@ -8500,7 +8592,6 @@
     "filename": "ydd"
   },
   {
-    "region": "Asia",
     "ISO": "ykg",
     "BCP47": "ykg",
     "OHCHR": "ykg",
@@ -8517,7 +8608,6 @@
     "filename": "ykg"
   },
   {
-    "region": "Africa",
     "ISO": "yor",
     "BCP47": "yo",
     "OHCHR": "yor",
@@ -8534,7 +8624,6 @@
     "filename": "yor"
   },
   {
-    "region": "Asia",
     "ISO": "yrk",
     "BCP47": "yrk",
     "OHCHR": "yrk",
@@ -8551,7 +8640,6 @@
     "filename": "yrk"
   },
   {
-    "region": "Americas",
     "ISO": "yua",
     "BCP47": "yua",
     "OHCHR": "yua",
@@ -8568,7 +8656,6 @@
     "filename": "yua"
   },
   {
-    "region": "Asia",
     "ISO": "yue",
     "BCP47": "yue",
     "OHCHR": "yue",
@@ -8585,7 +8672,22 @@
     "filename": "yue"
   },
   {
-    "region": "Americas",
+    "ISO": "yuz",
+    "BCP47": "yuz",
+    "OHCHR": "yuz",
+    "direction": "ltr",
+    "code": "yuz",
+    "name": "Yuracare",
+    "stage": 2,
+    "hasNotes": false,
+    "latitude": -17,
+    "longitude": -65,
+    "hasTXT": false,
+    "hasJSON": false,
+    "hasXML": false,
+    "filename": "yuz"
+  },
+  {
     "ISO": "zam",
     "BCP47": "zam",
     "OHCHR": "zam",
@@ -8602,7 +8704,6 @@
     "filename": "zam"
   },
   {
-    "region": "Africa",
     "ISO": "zdj",
     "BCP47": "zdj",
     "OHCHR": "zdj",
@@ -8619,7 +8720,6 @@
     "filename": "zdj"
   },
   {
-    "region": "Africa",
     "ISO": "zgh",
     "BCP47": "zgh",
     "OHCHR": "ama",
@@ -8636,7 +8736,6 @@
     "filename": "zgh"
   },
   {
-    "region": "Americas",
     "ISO": "zro",
     "BCP47": "zro",
     "OHCHR": "1124",
@@ -8653,7 +8752,6 @@
     "filename": "zro"
   },
   {
-    "region": "Americas",
     "ISO": "ztu",
     "BCP47": "ztu",
     "OHCHR": "ztu1",
@@ -8670,7 +8768,6 @@
     "filename": "ztu"
   },
   {
-    "region": "Africa",
     "ISO": "zul",
     "BCP47": "zu",
     "OHCHR": "zuu",

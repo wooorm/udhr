@@ -1,6 +1,8 @@
 {
   "iso639-3": "lun",
   "key": "lun",
+  "dir": "ltr",
+  "iso15924": "Latn",
   "xmlns": "http://www.unhchr.ch/udhr",
   "title": "KUDITEJA CHA KAYI KEJIMA HA NSHIMBI JA WUNTU",
   "preamble": {

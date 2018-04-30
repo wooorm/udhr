@@ -1,6 +1,8 @@
 {
   "iso639-3": "kng",
   "key": "kng",
+  "dir": "ltr",
+  "iso15924": "Latn",
   "xmlns": "http://www.unhchr.ch/udhr",
   "title": "Luzayisu ya yinza muvimba ya baluve ya muntu",
   "preamble": {

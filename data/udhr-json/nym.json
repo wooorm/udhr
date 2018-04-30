@@ -1,6 +1,8 @@
 {
   "iso639-3": "nym",
   "key": "nym",
+  "dir": "ltr",
+  "iso15924": "Latn",
   "xmlns": "http://www.unhchr.ch/udhr",
   "title": "IHANO LYA MAHANGA LYA HAKI YA BANHU",
   "note": [

@@ -1,6 +1,8 @@
 {
   "iso639-3": "miq",
   "key": "miq",
+  "dir": "ltr",
+  "iso15924": "Latn",
   "xmlns": "http://www.unhchr.ch/udhr",
   "title": "Upla sut Raitka nani ba Tasba aiska laka ba Bapuia",
   "note": [

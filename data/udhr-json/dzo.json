@@ -1,6 +1,8 @@
 {
   "iso639-3": "dzo",
   "key": "dzo",
+  "dir": "ltr",
+  "iso15924": "Tibt",
   "xmlns": "http://www.unhchr.ch/udhr",
   "title": "འགྲོ་བ་མིའི་དབང་ཆ་གི་འཛམ་གླིང་གསལ་བསྒྲགས།",
   "preamble": {

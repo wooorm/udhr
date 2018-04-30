@@ -1,6 +1,8 @@
 {
-  "iso639-3": "lav",
+  "iso639-3": "lvs",
   "key": "lav",
+  "dir": "ltr",
+  "iso15924": "Latn",
   "xmlns": "http://www.unhchr.ch/udhr",
   "title": "VISPĀRĒJĀ CILVĒKA TIESĪBU DEKLARĀCIJA",
   "note": [

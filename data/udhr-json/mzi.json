@@ -1,6 +1,8 @@
 {
   "iso639-3": "mzi",
   "key": "mzi",
+  "dir": "ltr",
+  "iso15924": "Latn",
   "xmlns": "http://www.unhchr.ch/udhr",
   "title": "En Xi Tikon Ngasandie Xi Fijendajo Xuta",
   "preamble": {

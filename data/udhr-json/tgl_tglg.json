@@ -1,6 +1,8 @@
 {
   "iso639-3": "tgl",
   "key": "tgl_tglg",
+  "dir": "ltr",
+  "iso15924": "Tglg",
   "xmlns": "http://www.unhchr.ch/udhr",
   "article": [
     {

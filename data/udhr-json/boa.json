@@ -1,6 +1,8 @@
 {
   "iso639-3": "boa",
   "key": "boa",
+  "dir": "ltr",
+  "iso15924": "Latn",
   "xmlns": "http://www.unhchr.ch/udhr",
   "title": "Muhdú pámeere páné iiñújɨri ijcyáné mɨ́amúnaa meíjcyáiyóne",
   "preamble": {

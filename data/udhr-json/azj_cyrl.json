@@ -1,6 +1,8 @@
 {
   "iso639-3": "azj",
   "key": "azj_cyrl",
+  "dir": "ltr",
+  "iso15924": "Cyrl",
   "xmlns": "http://www.unhchr.ch/udhr",
   "title": "ИНСАН ҺҮГУГЛАРЫ ҺАГГЫНДА ҮМУМИ БӘЈАННАМӘ",
   "preamble": {

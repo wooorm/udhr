@@ -1,6 +1,8 @@
 {
   "iso639-3": "tat",
   "key": "tat",
+  "dir": "ltr",
+  "iso15924": "Cyrl",
   "xmlns": "http://www.unhchr.ch/udhr",
   "title": "Кеше хокукларының гомуни декларациясе",
   "note": [

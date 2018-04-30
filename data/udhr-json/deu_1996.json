@@ -1,6 +1,8 @@
 {
   "iso639-3": "deu",
   "key": "deu_1996",
+  "dir": "ltr",
+  "iso15924": "Latn",
   "xmlns": "http://www.unhchr.ch/udhr",
   "title": "Die Allgemeine Erklärung der Menschenrechte",
   "note": [

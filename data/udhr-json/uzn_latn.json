@@ -1,6 +1,8 @@
 {
   "iso639-3": "uzn",
   "key": "uzn_latn",
+  "dir": "ltr",
+  "iso15924": "Latn",
   "xmlns": "http://www.unhchr.ch/udhr",
   "title": "INSON HUQUQLARI UMUMJAHON DEKLARATSIYASI",
   "note": [
@@ -269,6 +271,6 @@
       "para": "Ushbu Deklaratsiyasining butun ruhi biror bir davlatga, shaxslar guruhiga yoki alohida shaxslarga mazkur Deklaratsiyada bayon etilgan huquqlar va erkinliklarning yoʻq qilinishiga qaratilgan biror bir faoliyat bilan shugʻullanish yoki xatti‐harakatlar sodir etishga yoʻl qoʻyib beradi, deb talqin etilishi mumkin emas."
     }
   ],
-  "lang": "uzn-Latn",
+  "lang": "uz-Latn",
   "language": "Uzbek, Northern (Latin)"
 }

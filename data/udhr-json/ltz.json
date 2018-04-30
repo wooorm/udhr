@@ -1,6 +1,8 @@
 {
   "iso639-3": "ltz",
   "key": "ltz",
+  "dir": "ltr",
+  "iso15924": "Latn",
   "xmlns": "http://www.unhchr.ch/udhr",
   "title": "UNIVERSAL - DEKLARATIOUN VUN DE MËNSCHERECHTER",
   "preamble": {

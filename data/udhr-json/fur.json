@@ -1,6 +1,8 @@
 {
   "iso639-3": "fur",
   "key": "fur",
+  "dir": "ltr",
+  "iso15924": "Latn",
   "xmlns": "http://www.unhchr.ch/udhr",
   "title": "DECLARAZION UNIVERSÂL DAI DERITS DAL OM",
   "note": [

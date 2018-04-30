@@ -1,6 +1,8 @@
 {
   "iso639-3": "hnj",
   "key": "blu",
+  "dir": "ltr",
+  "iso15924": "Latn",
   "xmlns": "http://www.unhchr.ch/udhr",
   "note": [
     {

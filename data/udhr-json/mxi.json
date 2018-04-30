@@ -1,6 +1,8 @@
 {
   "iso639-3": "mxi",
   "key": "mxi",
+  "dir": "ltr",
+  "iso15924": "Latn",
   "xmlns": "http://www.unhchr.ch/udhr",
   "title": "Declaratione Universale de les Dretos Humanos",
   "preamble": {

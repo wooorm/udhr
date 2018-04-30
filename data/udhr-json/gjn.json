@@ -1,6 +1,8 @@
 {
   "iso639-3": "gjn",
   "key": "gjn",
+  "dir": "ltr",
+  "iso15924": "Latn",
   "xmlns": "http://www.unhchr.ch/udhr",
   "title": "DURNYAŊ KIKƐ BE KEYILI KPRA TA LAŊƐ DIMEDI KIKƐ BE KUMU SO BE ASHYEŊ NƐ MOBE KASHINTEŊ AKPA",
   "preamble": {

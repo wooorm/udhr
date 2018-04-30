@@ -1,6 +1,8 @@
 {
   "iso639-3": "pes",
   "key": "pes_1",
+  "dir": "rtl",
+  "iso15924": "Arab",
   "xmlns": "http://www.unhchr.ch/udhr",
   "title": "اعلامیه جهانی حقوق بشر",
   "preamble": {

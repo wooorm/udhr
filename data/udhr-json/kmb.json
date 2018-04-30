@@ -1,6 +1,8 @@
 {
   "iso639-3": "kmb",
   "key": "kmb",
+  "dir": "ltr",
+  "iso15924": "Latn",
   "xmlns": "http://www.unhchr.ch/udhr",
   "title": "KITANGELU KYA NGONGO YA ITOKELU YA MUTHU",
   "note": [

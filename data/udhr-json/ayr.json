@@ -1,6 +1,8 @@
 {
   "iso639-3": "ayr",
   "key": "ayr",
+  "dir": "ltr",
+  "iso15924": "Latn",
   "xmlns": "http://www.unhchr.ch/udhr",
   "title": "AKAPACH JAQE WALINKAÑAPATAKI INOQAT ARU",
   "preamble": {

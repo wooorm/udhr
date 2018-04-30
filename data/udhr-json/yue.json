@@ -1,6 +1,8 @@
 {
   "iso639-3": "yue",
   "key": "yue",
+  "dir": "ltr",
+  "iso15924": "Hani",
   "xmlns": "http://www.unhchr.ch/udhr",
   "title": "世界人权宣言",
   "preamble": {

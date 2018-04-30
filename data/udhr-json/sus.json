@@ -1,6 +1,8 @@
 {
   "iso639-3": "sus",
   "key": "sus",
+  "dir": "ltr",
+  "iso15924": "Latn",
   "xmlns": "http://www.unhchr.ch/udhr",
   "title": "ADAMA XAFE RAFALƐ SARIYƐE DƐNTƐGƐ",
   "preamble": {

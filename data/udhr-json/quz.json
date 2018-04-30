@@ -1,6 +1,8 @@
 {
   "iso639-3": "quz",
   "key": "quz",
+  "dir": "ltr",
+  "iso15924": "Latn",
   "xmlns": "http://www.unhchr.ch/udhr",
   "title": "PACHATIN LLAQTAKUNAPI RUNAQ ALLIN KANANPAQ JATUN KAMACHIKUY",
   "preamble": {
@@ -269,6 +271,6 @@
       "para": "ÑAUPAQ NISQA SIMIKUNA\nPerú \"paisninchisqa\" \"munduntinpi paiskunamanta\" ashwan ashkha rijchayniyoqmi, chay raykupischá llapa runaq sonqonman chayan, chaypistaqchá ch'ulla kausayllapi kan runaq llaqtan.\nKay \"nacionninchispin\" imaymana rijch 'aq runapas; imaymana simi rimaqpas; imaymana yachayniyoqpas juñuykunakun kushka, ancha unay watakunamantaña. Yunkayoq, qhiswayoq, punakunayoq ancha jatun jallp'api.\nChaymi kay \"patriapi\" tiyaq \"peruano\" runamasinchiskunaqa, kausayninku allin ñanman churay munaqkunaqa, sapa kuti, sapa p'unchay sumaq rimanakuypi kanan, sonqonkuq ashwan allinta tinkunanpaq, ñaupa pacha allin runakuna jina kausananpaq.\nKunan kamachiqninchis \"gobiernon\" musoq kausayman jaykunanchista munan; ashwan k'apaj chaninchasqa allin kausaypi kananchista munan. Jinataqmi juñunaykusqa \"nacionkunata\", \"Naciones Unidas\" nisqata, tawachunka watanpi, jaywarin kay runasimiman t'ijrasqa JATUN KAMACHIKUYTA, \"Declaración Universal de los Derechos Humanos\" nisqata.\nWakin pisi runakunallaq rimasqan simikunamanwanpas t'ijrakunmi kay nisqanchis Jatun Kamachikuyqa, mana piqpa kausaynin, mana piqpa yachaynin tanqasqa, wijch'urparisqa kananpaq; llapa jatun suyunchispi tantaykusqa llaqtakunaq jananchakunanpaq. Kayta ruwaspan \"gobiernonchispa\" allin yuyaykusqanta, tukuy sonqota churaspa, Perú kamachisqanta sut 'inchasun. Runasimipi rimaspan pachantin llaqtakunawan rimanakusun."
     }
   ],
-  "lang": "quz",
+  "lang": "qu",
   "language": "Quechua, Cusco"
 }

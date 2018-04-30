@@ -1,6 +1,8 @@
 {
   "iso639-3": "glg",
   "key": "glg",
+  "dir": "ltr",
+  "iso15924": "Latn",
   "xmlns": "http://www.unhchr.ch/udhr",
   "title": "Declaración Universal dos Dereitos das Persoas",
   "preamble": {

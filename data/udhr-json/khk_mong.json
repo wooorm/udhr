@@ -1,6 +1,8 @@
 {
   "iso639-3": "khk",
   "key": "khk_mong",
+  "dir": "ltr",
+  "iso15924": "Mong",
   "xmlns": "http://www.unhchr.ch/udhr",
   "article": [
     {

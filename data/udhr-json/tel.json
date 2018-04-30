@@ -1,6 +1,8 @@
 {
   "iso639-3": "tel",
   "key": "tel",
+  "dir": "ltr",
+  "iso15924": "Telu",
   "xmlns": "http://www.unhchr.ch/udhr",
   "title": "మానవస్వత్వముల సార్వలౌకిక ప్రకటన",
   "preamble": {

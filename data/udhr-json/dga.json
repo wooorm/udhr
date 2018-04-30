@@ -1,6 +1,8 @@
 {
   "iso639-3": "dga",
   "key": "dga",
+  "dir": "ltr",
+  "iso15924": "Latn",
   "xmlns": "http://www.unhchr.ch/udhr",
   "title": "TENDAA NENSAABA ZAA YƐLƐSOOBO SOBIE MOƆLOO",
   "preamble": {

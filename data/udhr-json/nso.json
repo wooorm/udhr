@@ -1,6 +1,8 @@
 {
   "iso639-3": "nso",
   "key": "nso",
+  "dir": "ltr",
+  "iso15924": "Latn",
   "xmlns": "http://www.unhchr.ch/udhr",
   "title": "BOIKANOKAKARETŠO BJA DITOKELO TŠA BOTHO",
   "preamble": {

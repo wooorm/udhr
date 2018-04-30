@@ -1,6 +1,8 @@
 {
   "iso639-3": "kir",
   "key": "kir",
+  "dir": "ltr",
+  "iso15924": "Cyrl",
   "xmlns": "http://www.unhchr.ch/udhr",
   "title": "Адам Укуктарынын Жалпы Декларациясы",
   "note": [

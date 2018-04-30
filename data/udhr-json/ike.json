@@ -1,6 +1,8 @@
 {
   "iso639-3": "ike",
   "key": "ike",
+  "dir": "ltr",
+  "iso15924": "Cans",
   "xmlns": "http://www.unhchr.ch/udhr",
   "title": "ᓯᓚᕐᔪᐊᕐᒥᐅᑦ ᓇᓗᓇᐃᖅᓯᐅᑎᖓ ᑭᓇᒃᑯᑐᐃᓐᓇᐃᑦ ᐱᔪᓐᓇᐅᑎᖏᑦ",
   "note": [

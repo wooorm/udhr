@@ -1,6 +1,8 @@
 {
   "iso639-3": "cic",
   "key": "cic",
+  "dir": "ltr",
+  "iso15924": "Latn",
   "xmlns": "http://www.unhchr.ch/udhr",
   "title": "Hattak Mó̱ma I̱holisso",
   "preamble": {

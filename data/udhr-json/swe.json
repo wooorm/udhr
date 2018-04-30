@@ -1,6 +1,8 @@
 {
   "iso639-3": "swe",
   "key": "swe",
+  "dir": "ltr",
+  "iso15924": "Latn",
   "xmlns": "http://www.unhchr.ch/udhr",
   "note": [
     {

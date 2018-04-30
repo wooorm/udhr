@@ -1,6 +1,8 @@
 {
   "iso639-3": "cmn",
   "key": "cmn_hant",
+  "dir": "ltr",
+  "iso15924": "Hant",
   "xmlns": "http://www.unhchr.ch/udhr",
   "title": "世界人權宣言",
   "note": [

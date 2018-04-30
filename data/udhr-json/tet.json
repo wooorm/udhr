@@ -1,6 +1,8 @@
 {
   "iso639-3": "tet",
   "key": "tet",
+  "dir": "ltr",
+  "iso15924": "Latn",
   "xmlns": "http://www.unhchr.ch/udhr",
   "title": "Deklarasaun Mundu Nia Ba Direitus Ema Nia",
   "preamble": {

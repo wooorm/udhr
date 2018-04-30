@@ -1,6 +1,8 @@
 {
   "iso639-3": "roh",
   "key": "roh_sursilv",
+  "dir": "ltr",
+  "iso15924": "Latn",
   "xmlns": "http://www.unhchr.ch/udhr",
   "title": "Declaraziun universala dils dretgs humans",
   "preamble": {
@@ -265,6 +267,6 @@
     }
   ],
   "lang": "rm-sursilv",
-  "language": "Romansch (Survilvan)",
+  "language": "Romansch (Sursilvan)",
   "note": []
 }

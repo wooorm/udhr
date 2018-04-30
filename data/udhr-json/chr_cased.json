@@ -1,6 +1,8 @@
 {
   "iso639-3": "chr",
   "key": "chr_cased",
+  "dir": "ltr",
+  "iso15924": "Cher",
   "xmlns": "http://www.unhchr.ch/udhr",
   "title": "Ꮒꭼꮎꮫ Ꮧꭶꮓꮳꮃꮕꭲ Ꭰꮒᏼꮻ Ꭴꮒꮂ Ꭲᏻꮎꮫꮧꭲ",
   "preamble": {

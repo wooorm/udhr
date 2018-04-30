@@ -1,6 +1,8 @@
 {
   "iso639-3": "vie",
   "key": "vie",
+  "dir": "ltr",
+  "iso15924": "Latn",
   "xmlns": "http://www.unhchr.ch/udhr",
   "title": "Tuyên ngôn toàn thế giới về nhân quyền của Liên Hợp Quốc",
   "note": [

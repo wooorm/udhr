@@ -1,6 +1,8 @@
 {
   "iso639-3": "war",
   "key": "war",
+  "dir": "ltr",
+  "iso15924": "Latn",
   "xmlns": "http://www.unhchr.ch/udhr",
   "title": "Sangkalibutan Nga Pag-Asoy Bahin Han Kanan Tawo Mga Katungod",
   "preamble": {

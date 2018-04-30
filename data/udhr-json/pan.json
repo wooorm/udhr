@@ -1,6 +1,8 @@
 {
   "iso639-3": "pan",
   "key": "pan",
+  "dir": "ltr",
+  "iso15924": "Guru",
   "xmlns": "http://www.unhchr.ch/udhr",
   "title": "ਮਨੁੱਖੀ ਅਧਿਕਾਰਾਂ ਬਾਰੇ ਵਿਸ਼ਵਵਿਆਪੀ ਐਲਾਨਨਾਮਾ",
   "note": [

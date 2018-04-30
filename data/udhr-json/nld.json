@@ -1,6 +1,8 @@
 {
   "iso639-3": "nld",
   "key": "nld",
+  "dir": "ltr",
+  "iso15924": "Latn",
   "xmlns": "http://www.unhchr.ch/udhr",
   "title": "UNIVERSELE VERKLARING VAN DE RECHTEN VAN DE MENS",
   "preamble": {

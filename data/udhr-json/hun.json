@@ -1,6 +1,8 @@
 {
   "iso639-3": "hun",
   "key": "hun",
+  "dir": "ltr",
+  "iso15924": "Latn",
   "xmlns": "http://www.unhchr.ch/udhr",
   "title": "Az Emberi Jogok Egyetemes Nyilatkozata",
   "preamble": {

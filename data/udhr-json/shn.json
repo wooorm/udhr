@@ -1,7 +1,9 @@
 {
-  "xmlns": "http://www.unhchr.ch/udhr",
   "iso639-3": "shn",
   "key": "shn",
+  "dir": "ltr",
+  "iso15924": "Mymr",
+  "xmlns": "http://www.unhchr.ch/udhr",
   "title": "လိၵ်ႈပိုၼ်ၽၢဝ်ႇ လွင်ႈသုၼ်ႇလႆႈၵူၼ်း ဢၼ်ၵဵဝ်ႇတင်းလုမ်ႈ",
   "note": [
     {

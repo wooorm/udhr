@@ -1,6 +1,8 @@
 {
   "iso639-3": "pov",
   "key": "pov",
+  "dir": "ltr",
+  "iso15924": "Latn",
   "xmlns": "http://www.unhchr.ch/udhr",
   "title": "Diklarason Mundial di Diritus di Pekadur",
   "note": [

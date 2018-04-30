@@ -1,6 +1,8 @@
 {
   "iso639-3": "aii",
   "key": "aii",
+  "dir": "rtl",
+  "iso15924": "Syrc",
   "xmlns": "http://www.unhchr.ch/udhr",
   "title": "ܒܘܕܩܐ ܬܝܒ݂ܠܝܐ ܠܦܘܬ ܙܕܩܐ ܐܢܫܝܐ",
   "preamble": {

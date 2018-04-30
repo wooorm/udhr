@@ -1,6 +1,8 @@
 {
   "iso639-3": "hau",
   "key": "hau_NG",
+  "dir": "ltr",
+  "iso15924": "Latn",
   "xmlns": "http://www.unhchr.ch/udhr",
   "title": "Muhimmin Jawabin da Majalisar Ɗinkin Duniya ta bayyana game da Hakkokin Ƴan-adam a shekarar 1948",
   "preamble": {

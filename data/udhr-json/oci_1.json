@@ -1,6 +1,8 @@
 {
   "iso639-3": "oci",
   "key": "oci_1",
+  "dir": "ltr",
+  "iso15924": "Latn",
   "xmlns": "http://www.unhchr.ch/udhr",
   "title": "Dèhyarahyon univèrthèle di drê dè l’Omo",
   "note": [

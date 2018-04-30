@@ -1,6 +1,8 @@
 {
   "iso639-3": "oci",
   "key": "oci_2",
+  "dir": "ltr",
+  "iso15924": "Latn",
   "xmlns": "http://www.unhchr.ch/udhr",
   "title": "Dèklaachon du drèye dè l’òmò",
   "note": [

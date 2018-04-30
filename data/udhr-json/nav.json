@@ -1,6 +1,8 @@
 {
   "iso639-3": "nav",
   "key": "nav",
+  "dir": "ltr",
+  "iso15924": "Latn",
   "xmlns": "http://www.unhchr.ch/udhr",
   "title": "Beehazą́ą Ił Chʼétʼaah",
   "preamble": {

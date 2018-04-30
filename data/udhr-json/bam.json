@@ -1,6 +1,8 @@
 {
   "iso639-3": "bam",
   "key": "bam",
+  "dir": "ltr",
+  "iso15924": "Latn",
   "xmlns": "http://www.unhchr.ch/udhr",
   "title": "Hadamaden josiraw dantigɛkan, 1948",
   "preamble": {

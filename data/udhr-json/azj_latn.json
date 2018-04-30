@@ -1,6 +1,8 @@
 {
   "iso639-3": "azj",
   "key": "azj_latn",
+  "dir": "ltr",
+  "iso15924": "Latn",
   "xmlns": "http://www.unhchr.ch/udhr",
   "title": "İNSAN HÜQUQLARI HAQQINDA ÜMUMİ BƏYANNAMƏ",
   "preamble": {

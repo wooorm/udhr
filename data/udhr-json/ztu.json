@@ -1,6 +1,8 @@
 {
   "iso639-3": "ztu",
   "key": "ztu",
+  "dir": "ltr",
+  "iso15924": "Latn",
   "xmlns": "http://www.unhchr.ch/udhr",
   "title": "Declarasyoony x:te:e'n Deree'ch x:te:e' Ra'ta' Bu:unny",
   "preamble": {

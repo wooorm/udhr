@@ -1,6 +1,8 @@
 {
   "iso639-3": "jpn",
   "key": "jpn",
+  "dir": "ltr",
+  "iso15924": "Jpan",
   "xmlns": "http://www.unhchr.ch/udhr",
   "title": "『世界人権宣言』",
   "note": [

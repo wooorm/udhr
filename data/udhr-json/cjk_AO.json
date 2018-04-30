@@ -1,6 +1,8 @@
 {
   "iso639-3": "cjk",
   "key": "cjk_AO",
+  "dir": "ltr",
+  "iso15924": "Latn",
   "xmlns": "http://www.unhchr.ch/udhr",
   "title": "NZUO LYA MAPAPILO NYI KUSAKULA TCHA KUTESA MUKANDA UA MUTCHIFUTCHI TCHESWE YA KUSAKULA TCHA ATHU ESWE",
   "note": [

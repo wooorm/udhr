@@ -1,6 +1,8 @@
 {
   "iso639-3": "tah",
   "key": "tah",
+  "dir": "ltr",
+  "iso15924": "Latn",
   "xmlns": "http://www.unhchr.ch/udhr",
   "title": "FA'IRA'A HA'ATI I TE MAU Tl'AMANARA'A O TE TA'ATA-TUPU",
   "preamble": {

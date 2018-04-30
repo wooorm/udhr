@@ -1,6 +1,8 @@
 {
   "iso639-3": "bel",
   "key": "bel",
+  "dir": "ltr",
+  "iso15924": "Cyrl",
   "xmlns": "http://www.unhchr.ch/udhr",
   "note": [
     {

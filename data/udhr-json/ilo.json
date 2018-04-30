@@ -1,6 +1,8 @@
 {
   "iso639-3": "ilo",
   "key": "ilo",
+  "dir": "ltr",
+  "iso15924": "Latn",
   "xmlns": "http://www.unhchr.ch/udhr",
   "title": "NAILUBONGAN A PANAKAIPAKDAAR DAGITI KALINTEGAN TI TAO",
   "preamble": {

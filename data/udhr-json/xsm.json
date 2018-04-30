@@ -1,6 +1,8 @@
 {
   "iso639-3": "xsm",
   "key": "xsm",
+  "dir": "ltr",
+  "iso15924": "Latn",
   "xmlns": "http://www.unhchr.ch/udhr",
   "title": "LOGO BAŊA TIGISIM NABIINA ŊWE-LAO WADƐ",
   "preamble": {

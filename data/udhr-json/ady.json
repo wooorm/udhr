@@ -1,6 +1,8 @@
 {
   "iso639-3": "ady",
   "key": "ady",
+  "dir": "ltr",
+  "iso15924": "Cyrl",
   "xmlns": "http://www.unhchr.ch/udhr",
   "title": "Цlыху Хуэфащэхэм Теухуа Дунейпсо Джэпсалъэ",
   "note": [

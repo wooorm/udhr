@@ -1,6 +1,8 @@
 {
   "iso639-3": "mri",
   "key": "mri",
+  "dir": "ltr",
+  "iso15924": "Latn",
   "xmlns": "http://www.unhchr.ch/udhr",
   "title": "WHAKAPUAKITANGA WHANUI O NGA MANA O TE TANGATA - 1948",
   "preamble": {

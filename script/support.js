@@ -23,7 +23,7 @@ function replace(start, nodes, end) {
 }
 
 function table() {
-  var header = ['Name', 'BCP 47', 'OHCHR', 'ISO 639-3', 'Direction', 'Location', 'Region'];
+  var header = ['Name', 'BCP 47', 'OHCHR', 'ISO 639-3', 'Direction', 'Location'];
 
   return u('table', {align: []}, [
     u('tableRow', header.map(cell))
@@ -56,8 +56,7 @@ function table() {
       cell(ohchr || ''),
       cell(iso || ''),
       cell(value.direction || ''),
-      cell(loc),
-      cell(value.region || '')
+      cell(loc)
     ]);
   })));
 

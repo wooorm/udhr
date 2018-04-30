@@ -1,6 +1,8 @@
 {
   "iso639-3": "skr",
   "key": "skr",
+  "dir": "rtl",
+  "iso15924": "Arab",
   "xmlns": "http://www.unhchr.ch/udhr",
   "title": "انسانی حقوق داعالمی منشور",
   "preamble": {

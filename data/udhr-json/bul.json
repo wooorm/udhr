@@ -1,6 +1,8 @@
 {
   "iso639-3": "bul",
   "key": "bul",
+  "dir": "ltr",
+  "iso15924": "Cyrl",
   "xmlns": "http://www.unhchr.ch/udhr",
   "title": "ВСЕОБЩА ДЕКЛАРАЦИЯ ЗА ПРАВАТА НА ЧОВЕКА",
   "preamble": {

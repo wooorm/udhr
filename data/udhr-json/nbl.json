@@ -1,6 +1,8 @@
 {
   "iso639-3": "nbl",
   "key": "nbl",
+  "dir": "ltr",
+  "iso15924": "Latn",
   "xmlns": "http://www.unhchr.ch/udhr",
   "title": "AMALUNGELO OMUNTU WONKE EMHLABENI WONKE JIKELELE",
   "preamble": {

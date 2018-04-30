@@ -1,6 +1,8 @@
 {
   "iso639-3": "lin",
   "key": "lin",
+  "dir": "ltr",
+  "iso15924": "Latn",
   "xmlns": "http://www.unhchr.ch/udhr",
   "title": "Lisakoli ya molongo ya makoki ya moto",
   "preamble": {

@@ -1,6 +1,8 @@
 {
   "iso639-3": "tzo",
   "key": "tzc",
+  "dir": "ltr",
+  "iso15924": "Latn",
   "xmlns": "http://www.unhchr.ch/udhr",
   "title": "A’K’EL TA JAMAL OXIL SKOTOL LEYETIK SKOLTAOBIL SKOTOL KUXLEJEL TA SPEJEL BALUMIL",
   "note": [
@@ -302,5 +304,5 @@
     }
   ],
   "lang": "tzo",
-  "language": "Tzotzil, Chamula"
+  "language": "Tzotzil (Chamula)"
 }

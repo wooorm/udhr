@@ -1,6 +1,8 @@
 {
   "iso639-3": "lia",
   "key": "lia",
+  "dir": "ltr",
+  "iso15924": "Latn",
   "xmlns": "http://www.unhchr.ch/udhr",
   "title": "Ku Koloŋ ko ka kuloho ko ka wɔɔ yo wɔ Kafaydo",
   "preamble": {

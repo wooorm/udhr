@@ -1,6 +1,8 @@
 {
-  "iso639-3": "lnc",
+  "iso639-3": "oci",
   "key": "lnc",
+  "dir": "ltr",
+  "iso15924": "Latn",
   "xmlns": "http://www.unhchr.ch/udhr",
   "title": "DECLARACION UNIVERSALA DELS DRETS HUMANS",
   "preamble": {
@@ -265,6 +267,6 @@
     }
   ],
   "lang": "oc",
-  "language": "Languedocien",
+  "language": "Occitan (Languedocien)",
   "note": []
 }

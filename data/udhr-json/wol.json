@@ -1,6 +1,8 @@
 {
   "iso639-3": "wol",
   "key": "wol",
+  "dir": "ltr",
+  "iso15924": "Latn",
   "xmlns": "http://www.unhchr.ch/udhr",
   "title": "BATAAXAL GU MAG GI ËMB SAÑ-SAÑI DOOMI AADAMA",
   "preamble": {
