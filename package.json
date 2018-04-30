@@ -33,6 +33,7 @@
     "eol": "^0.9.0",
     "mdast-zone": "^3.0.0",
     "nyc": "^11.0.0",
+    "prettier": "^1.12.1",
     "remark-cli": "^5.0.0",
     "remark-preset-wooorm": "^4.0.0",
     "tape": "^4.6.3",
@@ -41,20 +42,19 @@
     "xo": "^0.20.0"
   },
   "scripts": {
-    "scrape-data-txt": "curl --connect-timeout 5 --max-time 10 -L http://www.unicode.org/udhr/assemblies/udhr_txt.zip -o data/udhr-txt.zip || exit 0",
-    "scrape-data-xml": "curl --connect-timeout 5 --max-time 10 -L http://www.unicode.org/udhr/assemblies/udhr_xml.zip -o data/udhr-xml.zip || exit 0",
-    "scrape-data": "npm run scrape-data-txt && npm run scrape-data-xml",
-    "unzip-data-txt": "unzip -o -d data/udhr-txt data/udhr-txt.zip || exit 0",
-    "unzip-data-xml": "unzip -o -d data/udhr-xml data/udhr-xml.zip || exit 0",
-    "unzip-data": "npm run unzip-data-txt && npm run unzip-data-xml",
-    "build-md": "remark . -qfo",
-    "build-data": "node script/build-data",
-    "normalize-line-endings": "node script/normalize-line-endings",
-    "build": "npm run scrape-data && npm run unzip-data && npm run build-data && npm run normalize-line-endings",
-    "lint": "xo",
+    "generate:scrape:txt": "curl --connect-timeout 5 --max-time 10 -L http://www.unicode.org/udhr/assemblies/udhr_txt.zip -o data/udhr-txt.zip || exit 0",
+    "generate:scrape:xml": "curl --connect-timeout 5 --max-time 10 -L http://www.unicode.org/udhr/assemblies/udhr_xml.zip -o data/udhr-xml.zip || exit 0",
+    "generate:scrape": "npm run generate:scrape:txt && npm run generate:scrape:xml",
+    "generate:unzip:txt": "unzip -o -d data/udhr-txt data/udhr-txt.zip || exit 0",
+    "generate:unzip:xml": "unzip -o -d data/udhr-xml data/udhr-xml.zip || exit 0",
+    "generate:unzip": "npm run generate:unzip:txt && npm run generate:unzip:xml",
+    "generate:data": "node script/build-data",
+    "generate:clean": "node script/normalize-line-endings",
+    "generate": "npm run generate:scrape && npm run generate:unzip && npm run generate:data && npm run generate:clean",
+    "format": "remark . -qfo && prettier --write '**/*.js' && xo --fix",
     "test-api": "node test",
     "test-coverage": "nyc --reporter lcov tape test.js",
-    "test": "npm run build && npm run lint && npm run test-coverage"
+    "test": "npm run format && npm run test-coverage"
   },
   "nyc": {
     "check-coverage": true,
@@ -62,8 +62,16 @@
     "functions": 100,
     "branches": 100
   },
+  "prettier": {
+    "tabWidth": 2,
+    "useTabs": false,
+    "singleQuote": true,
+    "bracketSpacing": false,
+    "semi": false,
+    "trailingComma": "none"
+  },
   "xo": {
-    "space": true,
+    "prettier": true,
     "esnext": false,
     "rules": {
       "no-var": "off",
