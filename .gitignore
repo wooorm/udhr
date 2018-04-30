@@ -5,3 +5,4 @@
 coverage/
 data/udhr-xml/
 node_modules/
+yarn.lock
