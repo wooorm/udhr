@@ -202,7 +202,7 @@ function cleanString(value, key, allowDirty) {
   if (BLACKLIST.test(value)) {
     if (!allowDirty) {
       console.log(
-          'Removing blacklisted string: "' + value + '"'
+        'Removing blacklisted string: "' + value + '"'
       );
 
       return '';

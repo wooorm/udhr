@@ -2,7 +2,7 @@
 
 var assert = require('assert');
 var test = require('tape');
-var udhr = require('./');
+var udhr = require('.');
 
 var json = udhr.json();
 var text = udhr.text();
