@@ -680,7 +680,7 @@ Universal Declaration of Human Rights
 
 ## License
 
-[MIT](LICENSE) © [Titus Wormer](http://wooorm.com)
+[MIT](license) © [Titus Wormer](http://wooorm.com)
 
 <!--Definitions-->
 
