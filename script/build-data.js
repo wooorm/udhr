@@ -70,7 +70,7 @@ function cleanXMLJSON(object, key, allowDirty) {
 /**
  * Write JSON data.
  *
- * @param {Object} data
+ * @param {Array} data - List of declarations.
  */
 function writeJSONData(data) {
   var keys
@@ -237,7 +237,7 @@ function writeTXTData(data) {
 function cleanData(data) {
   return data.udhrs.udhr
     .map(function(declaration) {
-      console.log('dec: ', declaration)
+      console.log('dec:', declaration)
       return declaration.$
     })
     .map(function(declaration) {

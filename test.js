@@ -22,7 +22,7 @@ test('udhr.information', function(t) {
 test('udhr.information.n', function(t) {
   t.doesNotThrow(function() {
     each(information, function(declaration) {
-      assert.equal(typeof declaration, 'object')
+      assert.strictEqual(typeof declaration, 'object')
     })
   }, 'should be an object')
 
@@ -118,49 +118,49 @@ test('udhr.json()', function(t) {
 test('udhr.json().n', function(t) {
   t.doesNotThrow(function() {
     each(json, function(declaration) {
-      assert.equal(typeof declaration, 'object')
+      assert.strictEqual(typeof declaration, 'object')
     })
   }, 'should be an object')
 
   t.doesNotThrow(function() {
     each(json, function(declaration) {
-      assert.equal(typeof declaration.lang, 'string')
+      assert.strictEqual(typeof declaration.lang, 'string')
     })
   }, 'should have a `lang`')
 
   t.doesNotThrow(function() {
     each(json, function(declaration) {
-      assert.equal(typeof declaration.language, 'string')
+      assert.strictEqual(typeof declaration.language, 'string')
     })
   }, 'should have a `language`')
 
   t.doesNotThrow(function() {
     each(json, function(declaration) {
-      assert.equal(declaration.xmlns, 'http://www.unhchr.ch/udhr')
+      assert.strictEqual(declaration.xmlns, 'http://www.unhchr.ch/udhr')
     })
   }, 'should have an `xmlns`')
 
   t.doesNotThrow(function() {
     each(json, function(declaration) {
-      assert.equal(typeof declaration.title, 'string')
+      assert.strictEqual(typeof declaration.title, 'string')
     })
   }, 'should have a `title`')
 
   t.doesNotThrow(function() {
     each(json, function(declaration) {
-      assert.equal(typeof declaration.preamble, 'object')
+      assert.strictEqual(typeof declaration.preamble, 'object')
     })
   }, 'should have a `preamble`')
 
   t.doesNotThrow(function() {
     each(json, function(declaration) {
-      assert.equal(typeof declaration.preamble.title, 'string')
+      assert.strictEqual(typeof declaration.preamble.title, 'string')
     })
   }, 'should have a `preamble.title`')
 
   t.doesNotThrow(function() {
     each(json, function(declaration) {
-      assert.equal(typeof declaration.preamble.para, 'string')
+      assert.strictEqual(typeof declaration.preamble.para, 'string')
     })
   }, 'should have a `preamble.para`')
 
@@ -214,7 +214,7 @@ test('udhr.text()', function(t) {
 test('udhr.text().n', function(t) {
   t.doesNotThrow(function() {
     each(text, function(declaration) {
-      assert.equal(typeof declaration, 'string')
+      assert.strictEqual(typeof declaration, 'string')
     })
   }, 'should be a string')
 
