@@ -67,11 +67,6 @@ function cleanXMLJSON(object, key, allowDirty) {
   return clean
 }
 
-/**
- * Write JSON data.
- *
- * @param {Array} data - List of declarations.
- */
 function writeJSONData(data) {
   var keys
 
@@ -145,7 +140,7 @@ function writeJSONData(data) {
           return
         }
 
-        /* Very short; probably just no translation yet. */
+        // Very short; probably just no translation yet.
         if (article.title.length < 50) {
           return
         }
