@@ -51,7 +51,7 @@
     "generate:data": "node script/build-data",
     "generate:clean": "node script/normalize-line-endings",
     "generate": "npm run generate:scrape && npm run generate:unzip && npm run generate:data && npm run generate:clean",
-    "format": "remark . -qfo && prettier --write '**/*.js' && xo --fix",
+    "format": "remark . -qfo && prettier --write \"**/*.js\" && xo --fix",
     "test-api": "node test",
     "test-coverage": "nyc --reporter lcov tape test.js",
     "test": "npm run format && npm run test-coverage"
