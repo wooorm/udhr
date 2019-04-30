@@ -1680,6 +1680,22 @@
     "filename": "chr_uppercase"
   },
   {
+    "ISO": "chv",
+    "BCP47": "cv",
+    "OHCHR": "chv",
+    "direction": "ltr",
+    "code": "chv",
+    "name": "Chuvash",
+    "stage": 2,
+    "hasNotes": false,
+    "latitude": 55,
+    "longitude": 47,
+    "hasTXT": false,
+    "hasJSON": false,
+    "hasXML": false,
+    "filename": "chv"
+  },
+  {
     "ISO": "chx",
     "BCP47": "chx",
     "OHCHR": "chx",
@@ -1934,6 +1950,22 @@
     "hasJSON": true,
     "hasXML": true,
     "filename": "cni"
+  },
+  {
+    "ISO": "cnr",
+    "BCP47": "cnr",
+    "OHCHR": "cnr",
+    "direction": "ltr",
+    "code": "cnr",
+    "name": "Montenegrin",
+    "stage": 2,
+    "hasNotes": false,
+    "latitude": 42.78,
+    "longitude": 19.47,
+    "hasTXT": false,
+    "hasJSON": false,
+    "hasXML": false,
+    "filename": "cnr"
   },
   {
     "ISO": "cof",
@@ -2560,6 +2592,22 @@
     "filename": "fin"
   },
   {
+    "ISO": "fkv",
+    "BCP47": "fkv",
+    "OHCHR": "fkv",
+    "direction": "ltr",
+    "code": "fkv",
+    "name": "Finnish, Kven",
+    "stage": 4,
+    "hasNotes": false,
+    "latitude": 69.7,
+    "longitude": 21.21,
+    "hasTXT": true,
+    "hasJSON": true,
+    "hasXML": true,
+    "filename": "fkv"
+  },
+  {
     "ISO": "cfm",
     "BCP47": "cfm",
     "OHCHR": "fal",
@@ -3088,6 +3136,22 @@
     "filename": "hau_NG"
   },
   {
+    "ISO": "hau",
+    "BCP47": "ha",
+    "OHCHR": "hau",
+    "direction": "ltr",
+    "code": "hau_3",
+    "name": "Hausa",
+    "stage": 2,
+    "hasNotes": false,
+    "latitude": 11.15,
+    "longitude": 8.78,
+    "hasTXT": false,
+    "hasJSON": false,
+    "hasXML": false,
+    "filename": "hau_3"
+  },
+  {
     "ISO": "haw",
     "BCP47": "haw",
     "OHCHR": "hwi",
@@ -3328,6 +3392,22 @@
     "filename": "hsf"
   },
   {
+    "ISO": "hsn",
+    "BCP47": "hsn",
+    "OHCHR": "hsn",
+    "direction": "ltr",
+    "code": "hsn",
+    "name": "Chinese, Xiang",
+    "stage": 2,
+    "hasNotes": false,
+    "latitude": 28.11,
+    "longitude": 112.98,
+    "hasTXT": false,
+    "hasJSON": false,
+    "hasXML": false,
+    "filename": "hsn"
+  },
+  {
     "ISO": "hun",
     "BCP47": "hu",
     "OHCHR": "hng",
@@ -3456,6 +3536,22 @@
     "filename": "ido"
   },
   {
+    "ISO": "idu",
+    "BCP47": "idu",
+    "OHCHR": "idu",
+    "direction": "ltr",
+    "code": "idu",
+    "name": "Idoma",
+    "stage": 2,
+    "hasNotes": false,
+    "latitude": 7.19,
+    "longitude": 8.15,
+    "hasTXT": false,
+    "hasJSON": false,
+    "hasXML": false,
+    "filename": "idu"
+  },
+  {
     "ISO": "iii",
     "BCP47": "ii",
     "OHCHR": "iii",
@@ -3470,6 +3566,22 @@
     "hasJSON": true,
     "hasXML": true,
     "filename": "iii"
+  },
+  {
+    "ISO": "ijs",
+    "BCP47": "ijs",
+    "OHCHR": "ijs",
+    "direction": "ltr",
+    "code": "ijs",
+    "name": "Ijo, Southeast",
+    "stage": 2,
+    "hasNotes": false,
+    "latitude": 5.03,
+    "longitude": 6.33,
+    "hasTXT": false,
+    "hasJSON": false,
+    "hasXML": false,
+    "filename": "ijs"
   },
   {
     "ISO": "ike",
@@ -3678,6 +3790,22 @@
     "hasJSON": false,
     "hasXML": false,
     "filename": "jul"
+  },
+  {
+    "ISO": "kaa",
+    "BCP47": "kaa",
+    "OHCHR": "kaa",
+    "direction": "ltr",
+    "code": "kaa",
+    "name": "Karakalpak",
+    "stage": 2,
+    "hasNotes": false,
+    "latitude": 42.47,
+    "longitude": 59.6,
+    "hasTXT": false,
+    "hasJSON": false,
+    "hasXML": false,
+    "filename": "kaa"
   },
   {
     "ISO": "kal",
@@ -4912,6 +5040,22 @@
     "filename": "men"
   },
   {
+    "ISO": "mfq",
+    "BCP47": "mfq",
+    "OHCHR": "mfq",
+    "direction": "ltr",
+    "code": "mfq",
+    "name": "Moba",
+    "stage": 4,
+    "hasNotes": false,
+    "latitude": 8,
+    "longitude": 1,
+    "hasTXT": true,
+    "hasJSON": true,
+    "hasXML": true,
+    "filename": "mfq"
+  },
+  {
     "ISO": "mgp",
     "BCP47": "mgp",
     "OHCHR": "mag",
@@ -5390,6 +5534,22 @@
     "hasJSON": true,
     "hasXML": true,
     "filename": "nio"
+  },
+  {
+    "ISO": "niu",
+    "BCP47": "niu",
+    "OHCHR": "niu",
+    "direction": "ltr",
+    "code": "niu",
+    "name": "Niue",
+    "stage": 4,
+    "hasNotes": false,
+    "latitude": -19.05,
+    "longitude": -169.92,
+    "hasTXT": true,
+    "hasJSON": true,
+    "hasXML": true,
+    "filename": "niu"
   },
   {
     "ISO": "niv",
