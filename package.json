@@ -74,9 +74,6 @@
     "prettier": true,
     "esnext": false,
     "rules": {
-      "no-var": "off",
-      "prefer-arrow-callback": "off",
-      "object-shorthand": "off",
       "guard-for-in": "off"
     }
   },
