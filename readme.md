@@ -1,4 +1,8 @@
-# udhr [![Build Status][build-badge]][build-status] [![Coverage Status][coverage-badge]][coverage-status]
+# udhr
+
+[![Build][build-badge]][build]
+[![Coverage][coverage-badge]][coverage]
+[![Downloads][downloads-badge]][downloads]
 
 The most translated document, the [Universal Declaration of Human
 Rights][index], in [Unicode][], in JavaScript.
@@ -686,11 +690,15 @@ Universal Declaration of Human Rights
 
 [build-badge]: https://img.shields.io/travis/wooorm/udhr.svg
 
-[build-status]: https://travis-ci.org/wooorm/udhr
+[build]: https://travis-ci.org/wooorm/udhr
 
 [coverage-badge]: https://img.shields.io/codecov/c/github/wooorm/udhr.svg
 
-[coverage-status]: https://codecov.io/github/wooorm/udhr
+[coverage]: https://codecov.io/github/wooorm/udhr
+
+[downloads-badge]: https://img.shields.io/npm/dm/udhr.svg
+
+[downloads]: https://www.npmjs.com/package/udhr
 
 [npm]: https://docs.npmjs.com/cli/install
 
