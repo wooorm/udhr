@@ -15,9 +15,9 @@
   ],
   "repository": "wooorm/udhr",
   "bugs": "https://github.com/wooorm/udhr/issues",
-  "author": "Titus Wormer <tituswormer@gmail.com> (http://wooorm.com)",
+  "author": "Titus Wormer <tituswormer@gmail.com> (https://wooorm.com)",
   "contributors": [
-    "Titus Wormer <tituswormer@gmail.com> (http://wooorm.com)"
+    "Titus Wormer <tituswormer@gmail.com> (https://wooorm.com)"
   ],
   "files": [
     "index.js",
@@ -42,8 +42,8 @@
     "xo": "^0.24.0"
   },
   "scripts": {
-    "generate:scrape:txt": "curl --connect-timeout 5 --max-time 10 -L http://www.unicode.org/udhr/assemblies/udhr_txt.zip -o data/udhr-txt.zip || exit 0",
-    "generate:scrape:xml": "curl --connect-timeout 5 --max-time 10 -L http://www.unicode.org/udhr/assemblies/udhr_xml.zip -o data/udhr-xml.zip || exit 0",
+    "generate:scrape:txt": "curl --connect-timeout 5 --max-time 10 -L https://www.unicode.org/udhr/assemblies/udhr_txt.zip -o data/udhr-txt.zip || exit 0",
+    "generate:scrape:xml": "curl --connect-timeout 5 --max-time 10 -L https://www.unicode.org/udhr/assemblies/udhr_xml.zip -o data/udhr-xml.zip || exit 0",
     "generate:scrape": "npm run generate:scrape:txt && npm run generate:scrape:xml",
     "generate:unzip:txt": "unzip -o -d data/udhr-txt data/udhr-txt.zip || exit 0",
     "generate:unzip:xml": "unzip -o -d data/udhr-xml data/udhr-xml.zip || exit 0",

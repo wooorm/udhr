@@ -4,9 +4,9 @@ var zone = require('mdast-zone')
 var u = require('unist-builder')
 var info = require('../lib/information')()
 
-var ohchrBase = 'http://www.ohchr.org/EN/UDHR/Pages/Language.aspx?LangID='
-var isoBase = 'http://www-01.sil.org/iso639-3/documentation.asp?id='
-var locationBase = 'http://www.openstreetmap.org/#map=5/'
+var ohchrBase = 'https://www.ohchr.org/EN/UDHR/Pages/Language.aspx?LangID='
+var isoBase = 'https://iso639-3.sil.org/code/'
+var locationBase = 'https://www.openstreetmap.org/#map=5/'
 
 module.exports = support
 
