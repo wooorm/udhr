@@ -2454,13 +2454,13 @@
     "direction": "ltr",
     "code": "ese",
     "name": "Ese Ejja",
-    "stage": 2,
+    "stage": 4,
     "hasNotes": false,
     "latitude": -11,
     "longitude": -66,
-    "hasTXT": false,
-    "hasJSON": false,
-    "hasXML": false,
+    "hasTXT": true,
+    "hasJSON": true,
+    "hasXML": true,
     "filename": "ese"
   },
   {
@@ -4334,6 +4334,22 @@
     "hasJSON": true,
     "hasXML": true,
     "filename": "kqn"
+  },
+  {
+    "ISO": "kqs",
+    "BCP47": "kqs",
+    "OHCHR": "kqs",
+    "direction": "ltr",
+    "code": "kqs",
+    "name": "Kissi, Northern",
+    "stage": 4,
+    "hasNotes": false,
+    "latitude": 9.183333,
+    "longitude": -10.1,
+    "hasTXT": true,
+    "hasJSON": true,
+    "hasXML": true,
+    "filename": "kqs"
   },
   {
     "ISO": "kra",

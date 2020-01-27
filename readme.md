@@ -391,6 +391,7 @@ Universal Declaration of Human Rights
 | Konjo | koo | [koo1](https://www.ohchr.org/EN/UDHR/Pages/Language.aspx?LangID=koo1) | [koo](https://iso639-3.sil.org/code/koo) | ltr | [0.3, 29.9](https://www.openstreetmap.org/#map=5/0.32/29.87) |
 | Korean | ko | [kkn](https://www.ohchr.org/EN/UDHR/Pages/Language.aspx?LangID=kkn) | [kor](https://iso639-3.sil.org/code/kor) | ltr | [37.5, 128.0](https://www.openstreetmap.org/#map=5/37.5/128) |
 | Kaonde | kqn | [kqn](https://www.ohchr.org/EN/UDHR/Pages/Language.aspx?LangID=kqn) | [kqn](https://iso639-3.sil.org/code/kqn) | ltr | [-12.4, 25.8](https://www.openstreetmap.org/#map=5/-12.41/25.76) |
+| Kissi, Northern | kqs | [kqs](https://www.ohchr.org/EN/UDHR/Pages/Language.aspx?LangID=kqs) | [kqs](https://iso639-3.sil.org/code/kqs) | ltr | [9.2, -10.1](https://www.openstreetmap.org/#map=5/9.183333/-10.1) |
 | Kumhali | kra | [kra](https://www.ohchr.org/EN/UDHR/Pages/Language.aspx?LangID=kra) | [kra](https://iso639-3.sil.org/code/kra) | ltr | [27.8, 84.1](https://www.openstreetmap.org/#map=5/27.8/84.1) |
 | Krio | kri | [kri](https://www.ohchr.org/EN/UDHR/Pages/Language.aspx?LangID=kri) | [kri](https://iso639-3.sil.org/code/kri) | ltr | [10.9, -14.3](https://www.openstreetmap.org/#map=5/10.88/-14.32) |
 | Karelian | krl | [krl](https://www.ohchr.org/EN/UDHR/Pages/Language.aspx?LangID=krl) | [krl](https://iso639-3.sil.org/code/krl) | ltr | [65.2, 30.9](https://www.openstreetmap.org/#map=5/65.17/30.87) |
