@@ -4,10 +4,10 @@
 [![Coverage][coverage-badge]][coverage]
 [![Downloads][downloads-badge]][downloads]
 
-The most translated document, the [Universal Declaration of Human
-Rights][index], in [Unicode][], in JavaScript.
+The most translated document, the [universal declaration of human
+rights][index], in [unicode][], in JavaScript.
 
-## Installation
+## Install
 
 [npm][]:
 
@@ -15,9 +15,9 @@ Rights][index], in [Unicode][], in JavaScript.
 npm install udhr
 ```
 
-## Usage
+## Use
 
-```javascript
+```js
 var udhr = require('udhr')
 
 var json = udhr.json()
@@ -29,12 +29,12 @@ console.log(json.eng)
 
 ### `udhr.information()`
 
-Returns an array of information objects.  Gets information about the
-documents: their stage, if a plain text version is available, if an
-accessible JSON document is available, language regions and lat-long
-locations, etcetera.
+Returns an array of information objects.
+Gets information about the documents: their stage, if a plain text version is
+available, if an accessible JSON document is available, language regions and
+lat-long locations, etcetera.
 
-```javascript
+```js
 var info = require('udhr').information()
 
 console.log(info.eng)
@@ -42,7 +42,7 @@ console.log(info.eng)
 
 Yields:
 
-```javascript
+```js
 { ISO: 'eng',
   BCP47: 'en',
   OHCHR: 'eng',
@@ -63,7 +63,7 @@ Yields:
 
 Returns an array of marked-up declaration objects.
 
-```javascript
+```js
 var json = require('udhr').json()
 
 console.log(json.eng)
@@ -92,9 +92,9 @@ Yields:
 
 ### udhr.text()
 
-Returns an array of plain-text declaration objects.
+Returns an array of plain text declaration objects.
 
-```javascript
+```js
 var text = require('udhr').text()
 
 console.log(text.eng)
