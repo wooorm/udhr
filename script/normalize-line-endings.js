@@ -7,7 +7,7 @@ var bail = require('bail')
 
 var fp = join('data', 'udhr-txt', 'index.xml')
 
-fs.readFile(fp, 'utf8', function(err, doc) {
+fs.readFile(fp, 'utf8', function (err, doc) {
   bail(err)
   fs.writeFile(fp, eol.lf(doc), bail)
 })

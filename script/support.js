@@ -29,7 +29,7 @@ function table() {
     'table',
     {align: []},
     [u('tableRow', header.map(cell))].concat(
-      Object.keys(info).map(function(code) {
+      Object.keys(info).map(function (code) {
         var value = info[code]
         var ohchr = value.OHCHR
         var iso = value.ISO
@@ -71,7 +71,8 @@ function table() {
   )
 
   function cell(value) {
-    var val = typeof value === 'string' ? u('text', value) : value
-    return u('tableCell', [val])
+    return u('tableCell', [
+      typeof value === 'string' ? u('text', value) : value
+    ])
   }
 }

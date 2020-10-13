@@ -1,1 +1,4 @@
+.nyc_output/
 coverage/
+*.md
+*.json

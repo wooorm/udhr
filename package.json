@@ -35,15 +35,15 @@
   "devDependencies": {
     "bail": "^1.0.0",
     "eol": "^0.9.0",
-    "mdast-zone": "^3.0.0",
+    "mdast-zone": "^4.0.0",
     "nyc": "^15.0.0",
-    "prettier": "^1.0.0",
-    "remark-cli": "^7.0.0",
-    "remark-preset-wooorm": "^6.0.0",
-    "tape": "^4.0.0",
+    "prettier": "^2.0.0",
+    "remark-cli": "^9.0.0-alpha.1",
+    "remark-preset-wooorm": "^8.0.0",
+    "tape": "^5.0.0",
     "unist-builder": "^2.0.0",
     "xml-to-json": "^0.1.0",
-    "xo": "^0.25.0"
+    "xo": "^0.33.0"
   },
   "scripts": {
     "generate:scrape:txt": "curl --connect-timeout 5 --max-time 10 -L https://www.unicode.org/udhr/assemblies/udhr_txt.zip -o data/udhr-txt.zip || exit 0",
@@ -55,7 +55,7 @@
     "generate:data": "node script/build-data",
     "generate:clean": "node script/normalize-line-endings",
     "generate": "npm run generate:scrape && npm run generate:unzip && npm run generate:data && npm run generate:clean",
-    "format": "remark . -qfo && prettier --write \"**/*.js\" && xo --fix",
+    "format": "remark . -qfo && prettier . -w --loglevel warn && xo --fix",
     "test-api": "node test",
     "test-coverage": "nyc --reporter lcov tape test.js",
     "test": "npm run format && npm run test-coverage"
@@ -78,15 +78,20 @@
     "prettier": true,
     "esnext": false,
     "rules": {
-      "guard-for-in": "off"
+      "guard-for-in": "off",
+      "unicorn/no-fn-reference-in-iterator": "off",
+      "unicorn/prefer-number-properties": "off"
     }
   },
   "remarkConfig": {
-    "settings": {
-      "paddedTable": false
-    },
     "plugins": [
       "preset-wooorm",
+      [
+        "gfm",
+        {
+          "tablePipeAlign": false
+        }
+      ],
       "./script/support"
     ]
   }

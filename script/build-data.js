@@ -10,7 +10,7 @@ var exists = fs.existsSync
 
 var BLACKLIST = /by sprat|missing|^(\?\??)$/i
 
-xmlToJSON({input: 'data/udhr-txt/index.xml'}, function(err, data) {
+xmlToJSON({input: 'data/udhr-txt/index.xml'}, function (err, data) {
   var udhr
 
   bail(err)
@@ -70,21 +70,21 @@ function cleanXMLJSON(object, key, allowDirty) {
 function writeJSONData(data) {
   var keys
 
-  data = data.filter(function(declaration) {
+  data = data.filter(function (declaration) {
     return declaration.hasJSON
   })
 
-  keys = data.map(function(declaration) {
+  keys = data.map(function (declaration) {
     return declaration.filename
   })
 
   writeFile('data/index-json.json', JSON.stringify(keys, null, 2) + '\n')
 
-  data.forEach(function(declaration) {
+  data.forEach(function (declaration) {
     var input = 'data/udhr-xml/udhr_' + declaration.filename + '.xml'
     var output = 'data/udhr-json/' + declaration.filename + '.json'
 
-    xmlToJSON({input: input}, function(err, json) {
+    xmlToJSON({input: input}, function (err, json) {
       bail(err)
 
       console.log(json.udhr.$.n)
@@ -123,7 +123,7 @@ function writeJSONData(data) {
         json.article = [json.article]
       }
 
-      json.article.forEach(function(article) {
+      json.article.forEach(function (article) {
         if (!article.title) {
           article.title = ''
         }
@@ -133,7 +133,7 @@ function writeJSONData(data) {
         }
       })
 
-      json.article.forEach(function(article) {
+      json.article.forEach(function (article) {
         var firstDigit
 
         if (!('para' in article) || article.para || !article.title) {
@@ -219,10 +219,10 @@ function shouldIgnore(value, key) {
 
 function writeTXTData(data) {
   var keys = data
-    .filter(function(declaration) {
+    .filter(function (declaration) {
       return declaration.hasTXT
     })
-    .map(function(declaration) {
+    .map(function (declaration) {
       return declaration.filename
     })
 
@@ -231,11 +231,11 @@ function writeTXTData(data) {
 
 function cleanData(data) {
   return data.udhrs.udhr
-    .map(function(declaration) {
+    .map(function (declaration) {
       console.log('dec:', declaration)
       return declaration.$
     })
-    .map(function(declaration) {
+    .map(function (declaration) {
       var cleanDeclaration = {}
       var location
       var filename
