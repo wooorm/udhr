@@ -128,6 +128,10 @@ function writeJSONData(data) {
           article.title = ''
         }
 
+        if (typeof article.title !== 'string' && '_' in article.title) {
+          article.title = article.title._
+        }
+
         if (typeof article.title !== 'string' && article.title[0]) {
           article.title = article.title[0]
         }

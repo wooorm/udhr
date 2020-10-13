@@ -320,6 +320,38 @@
     "filename": "025"
   },
   {
+    "ISO": "und",
+    "BCP47": "und",
+    "OHCHR": "ye1",
+    "direction": "ltr",
+    "code": "026",
+    "name": "(Yeonbyeon)",
+    "stage": 4,
+    "hasNotes": false,
+    "latitude": -75,
+    "longitude": 30,
+    "hasTXT": true,
+    "hasJSON": true,
+    "hasXML": true,
+    "filename": "026"
+  },
+  {
+    "ISO": "aar",
+    "BCP47": "aa",
+    "OHCHR": "aar",
+    "direction": "ltr",
+    "code": "aar",
+    "name": "Afar",
+    "stage": 4,
+    "hasNotes": false,
+    "latitude": 12.23,
+    "longitude": 41.81,
+    "hasTXT": true,
+    "hasJSON": true,
+    "hasXML": true,
+    "filename": "aar"
+  },
+  {
     "ISO": "abk",
     "BCP47": "ab",
     "OHCHR": "abk",
@@ -2048,6 +2080,22 @@
     "filename": "cpu"
   },
   {
+    "ISO": "crh",
+    "BCP47": "crh",
+    "OHCHR": "crh",
+    "direction": "ltr",
+    "code": "crh",
+    "name": "Crimean Tatar",
+    "stage": 4,
+    "hasNotes": false,
+    "latitude": 45,
+    "longitude": 34.08,
+    "hasTXT": true,
+    "hasJSON": true,
+    "hasXML": true,
+    "filename": "crh"
+  },
+  {
     "ISO": "crs",
     "BCP47": "crs",
     "OHCHR": "crs",
@@ -2736,6 +2784,22 @@
     "filename": "fuv"
   },
   {
+    "ISO": "fuv",
+    "BCP47": "fuv",
+    "OHCHR": "fuv",
+    "direction": "ltr",
+    "code": "fuv2",
+    "name": "Fulfulde, Nigerian (2)",
+    "stage": 4,
+    "hasNotes": false,
+    "latitude": 11,
+    "longitude": 11.12,
+    "hasTXT": true,
+    "hasJSON": true,
+    "hasXML": true,
+    "filename": "fuv2"
+  },
+  {
     "ISO": "gaa",
     "BCP47": "gaa",
     "OHCHR": "gac2",
@@ -2834,7 +2898,7 @@
   {
     "ISO": "gkp",
     "BCP47": "gkp",
-    "OHCHR": "gkp1",
+    "OHCHR": "pke",
     "direction": "ltr",
     "code": "gkp",
     "name": "Kpelle, Guinea",
@@ -3862,7 +3926,7 @@
     "direction": "ltr",
     "code": "kat",
     "name": "Georgian",
-    "stage": 4,
+    "stage": 5,
     "hasNotes": false,
     "latitude": 39.37,
     "longitude": 45.81,
@@ -4958,6 +5022,22 @@
     "hasJSON": true,
     "hasXML": true,
     "filename": "mal"
+  },
+  {
+    "ISO": "mal",
+    "BCP47": "ml",
+    "OHCHR": "mjs",
+    "direction": "ltr",
+    "code": "mal_chillus",
+    "name": "Malayalam",
+    "stage": 4,
+    "hasNotes": false,
+    "latitude": 9.59,
+    "longitude": 76.77,
+    "hasTXT": true,
+    "hasJSON": true,
+    "hasXML": true,
+    "filename": "mal_chillus"
   },
   {
     "ISO": "mam",
@@ -6622,6 +6702,22 @@
     "hasJSON": true,
     "hasXML": true,
     "filename": "rar"
+  },
+  {
+    "ISO": "rhg",
+    "BCP47": "rhg",
+    "OHCHR": "rhg",
+    "direction": "rtl",
+    "code": "rhg",
+    "name": "Rohingya",
+    "stage": 2,
+    "hasNotes": false,
+    "latitude": 20.83,
+    "longitude": 92.39,
+    "hasTXT": false,
+    "hasJSON": false,
+    "hasXML": false,
+    "filename": "rhg"
   },
   {
     "ISO": "rji",
@@ -8494,6 +8590,22 @@
     "hasJSON": true,
     "hasXML": true,
     "filename": "ven"
+  },
+  {
+    "ISO": "ven",
+    "BCP47": "ve",
+    "OHCHR": "ven",
+    "direction": "ltr",
+    "code": "ven2",
+    "name": "Venda",
+    "stage": 4,
+    "hasNotes": false,
+    "latitude": -22.19,
+    "longitude": 29.95,
+    "hasTXT": true,
+    "hasJSON": true,
+    "hasXML": true,
+    "filename": "ven2"
   },
   {
     "ISO": "vep",

@@ -1,0 +1,272 @@
+{
+  "iso639-3": "fuv",
+  "key": "fuv2",
+  "dir": "ltr",
+  "iso15924": "Latn",
+  "xmlns": "http://www.unhchr.ch/udhr",
+  "title": "HAKKEEJI ƁII-ADAMA TABITINAAƊI NDER DUUNIYAARU",
+  "preamble": {
+    "title": "FUƊƊOODE",
+    "para": "Nde laati tabitinki manngu e fotuki hakke neɗɗaaku ngu wosintaako ngu ɓiɓɓiaadam fuu maɓɓe hanjum joɗɗinanaaɗum rimɗuki, adilaaku e joonde jam nder duuniyaaru, nde laati rellere faalaaki be yawaaki hake ɓii-aadama laatake sababu kaɓe ƴaggaare laatiiɗe sanadu jiiɓaaki hakkiilooji ɓiɓɓe-aadama, be nyaamki yeeso Duniyaaru waɗi nder maaru ɓii-aadama tammii nanki belɗum ndimaaku wolwa no yiɗi rewa diinamum no yiɗi hisa kulol be cooyndam ɗi’I fuu tabitinaama kanji ngoni ko ummaatoore duniyaaru fuu darni dow ɗum huunde nde talaka ɓuri tiinanki e haajeego, laatiinde haajaama masin, to ɗum yiɗaa ɓillanki neɗɗo haa laato doole o sela, o laato o walaa laawol sey tuurtuki e saldorki toskaare e ɓillaneeki, hakke neɗaaku maako ɗum ko haani reenire sari’a, nde laati doole nyaamki yeeso wallite\nNde laati memba’en lesɗe duuniyaaru kooƴii alkawal e hoore maɓɓe ɓe kuuɓina, bee ballal Majlis Kautal Hoore Duniyaaru, nyaaminki yeeso hokkuki mangu e reentaaki hakkeeji e ndimaaku ɓii-aadama, Nde llaati ko koomoye andi ɗi’i hakkeeji e ndimaaku ɗi mawɗi haro ɗii alkawalji, Jooni, ngam non, Majlisa Mawɗum wolwii dow ɗu’um nder duuniyaaru ngam yimɓe lesɗe duuniyaaru fuu, regere ni koomoye, koongale kawtal ɗon sigii ngo’ol ɗerewol koondeye nder ngaandi, ɓe ɗon wallita jannginki ngol ngam ɗe’i hakkeeji e ndimaaku e nyaamki yeeso seese-seese, nder lesdiiji e maa duniyaaru ndun fuu, ɗum anda ɗum tabitina hakunde ummaatooje wonɓe nder lesɗe dimɗinaaɗe e lesɗe gonɗe les goɗɗe lesɗe"
+  },
+  "article": [
+    {
+      "title": "Yeɓre Ire",
+      "para": "Ɓi-aadama fuu dimo danyete/jibinte o fotan be koomoye e neɗɗaaku be hakkeeji. ɓe ndokkaaɓe hakkiilo ngaandi nden bo ɓe kuutindiray hakkunde maɓɓe nder yiɗyiɗɗirki mbandiraagu."
+    },
+    {
+      "title": "Yeɓre 2re",
+      "para": "Ɓii-aadama fuu ewoodani hake e dow baawɗe fuu be ndimaaku tabitinaangu nder ɗerewol ngo’ol walaa ɓurɓurtiki ko iri kiye bano asli, tagdi, laataaki debbo maa bo debbo, wolde, dina, siyaasa, maa bo ko nandi e maajum, lesdi maako ko ummatore maako, mardi, danyeeki, mangu.\nƁesdaari dow ɗu’m, walaa feerootirki waɗetee ngam mangu siyaasa, keerol, mangu duniyaaru ɗum maako maa bo lesdi maako, lesdi ndin rimɗii na rimɗaayi, , lesdi ndin laami maa bo jogaaɗe ngondi lesdi, maa bo nder goɗɗi keeraaɗi laamu."
+    },
+    {
+      "title": "Yeɓre 3re",
+      "para": "Komoye woodi hake wuurugo, bawɗe be joonde jam."
+    },
+    {
+      "title": "Yeɓre 4re",
+      "para": "Walaa koomoye wuurinte nder maccungaaku maa bo kuuɗe torra, resuki macuɓe e coggu maccuɓe e horɓe koo iri nguye haɗaama"
+    },
+    {
+      "title": "Yeɓre 5re",
+      "para": "Walaa ɓii-aadana naadete torra, nyaametee jarfu, nyaametee hersa, yangitee."
+    },
+    {
+      "title": "Yeɓre 6re",
+      "para": "Koomoye hokkaama baawɗe e hake daraago kootoye yeeso sari’a e hoore maako."
+    },
+    {
+      "title": "Yeɓre 7re",
+      "para": "Ɓii-aadama fuu fotay yeeso sari’a, nden boo woodi baawɗe walaa yawaare, o woodi deenal potoowal ngal sari’a. Moye fuu woodi deenal potoowal ngam yawaare e nyaakeeki neɗɗaaku."
+    },
+    {
+      "title": "Yeɓre 8re",
+      "para": "Koomoye woodi baawɗe e hakke maagooje naftirooje hukuumaaje ɗe nder lesdi ngam sari’aaji torrooje hakke ɓii-aadama ɗi siri laamu tabitanimo ma abo sarii’a."
+    },
+    {
+      "title": "Yeɓre 9re",
+      "para": "Walaa ɓii-aadama gooto nanngetee, haɓɓee maa bo riiwee diga lesdi muuɗum dow giɗaaɗi ɓernde goɗɗo feere."
+    },
+    {
+      "title": "Yeɓre 10re",
+      "para": "Koomoye woodi baawɗe naneeki no wooɗi yeeso ummaatoore no haani yeeso alkaaliijo daraniiɗo goonga e darnuki hake maako e wosinki ko o takkana fuu."
+    },
+    {
+      "title": "Yeɓre 11re",
+      "orderedlist": {
+        "listitem": [
+          {
+            "para": "Kiitanaaɗo do sari’a woodi daama tammire goonga sey to ɗum tabitini rellere goonga maako be sari’a yeeso koowa saydi o hokkaama ko haani ngam reentaaki."
+          },
+          {
+            "para": "Walaa gooto nangirtee aybe kiita ngam nanki o woɗii goɗum maa bo rellere waɗugo goɗum nder lesdi maako maa bo duunjyaaru, wookati nde ɗum waɗaa. Non boo o yowantaake tedduɗum kiita ɓuruka ko o waɗi wookati o waɗi kiita kan."
+          }
+        ]
+      }
+    },
+    {
+      "title": "Yeɓre 12re",
+      "para": "Walaa neɗɗe gooto gaɗanteeɗo naatalmaaku nder lamaruuji maako, iyaalu maako,ɓaade maako be defte e ɗereeji maakonon nyaamki neɗaaku maako e mangu maako. Koomoye woodi baawɗe e neɗɗaaku deeneteeɗi be kiita dow naatalmaku ngun e torruki mo."
+    },
+    {
+      "title": "Yeɓre 13re",
+      "orderedlist": {
+        "listitem": [
+          {
+            "para": "woode hakke wancuki e joonde nder keerol koondiye lesdi."
+          },
+          {
+            "para": "Koomoye hokkaama baawɗ ɗaluki koondiye lesdi, haa e lesdi maako, o woodi baawɗe wuytuki lesdi maako."
+          }
+        ]
+      }
+    },
+    {
+      "title": "Yeɓre 14re",
+      "orderedlist": {
+        "listitem": [
+          {
+            "para": "Koomoye woodi baawɗe tefuki e weltinaaki weerde lesdi ngondi to o welnaayi e lesdi maako."
+          },
+          {
+            "para": "2.Ka’a daama ummintaake ngam torra laatiika naa ka kiita siyaasa koo bo sanadu kiita e hiitaaki kin luutanii ko Kawtal Hoore Lesɗe Dunyaary darni."
+          }
+        ]
+      }
+    },
+    {
+      "title": "Yeɓre 15re",
+      "orderedlist": {
+        "listitem": [
+          {
+            "para": "Koomoye woodi hakke laataaki ɓii lesdi."
+          },
+          {
+            "para": "Ɓii-aadama fuu teetantaake laataaki maako ɓii lesdi naa bee daliila cembiɗɗum."
+          }
+        ]
+      }
+    },
+    {
+      "title": "Yeɓre 16re",
+      "orderedlist": {
+        "listitem": [
+          {
+            "para": "Worɓe e rewɓe kewtuɓe walaa ko haɗata ɓe te’te’ndirki ngam asili, lesdinkaakkuko bo dina, hamɓe mari hakke te’ugo ɓe ngaɗa gorko e deekiraawo. Ɓe ngoodi hakkeeji potooji wookati teegal, ɓaawo teegal waɗaama e wookati saakaaki magal"
+          },
+          {
+            "para": "Teegal sey to te’ooɓe narri nden ngal haɓete."
+          },
+          {
+            "para": "Waɗugu iyaalu ɗum ko fina tawa kadibo ɗum tuggere e fuɗoode ummaatoore kadimaa ɗum haani reeneeki."
+          }
+        ]
+      }
+    },
+    {
+      "title": "Yeɓre 17re",
+      "orderedlist": {
+        "listitem": [
+          {
+            "para": "Koomoye woodi baawɗe mara njawdi feere maako maa bo be woɓɓe."
+          },
+          {
+            "para": "Walaa ɓii-aadama sendetee bee njawdi muuɗum bee sembe."
+          }
+        ]
+      }
+    },
+    {
+      "title": "Yeɓre 18re",
+      "para": "Koomoye woodi baawɗe yaaki endimaaku e miillo maako, llamiiri maako, diina maako; bauɗe ɗe’e hawtuub e ndimaaku waylutuki diina maako, goongɗinki maako bee ndimaaku, feere maako maa bo nder ummaatoore bee woɓɓe bee kuuɓnol maa bo coondol, nden holla diina maako maa bo goongɗinki maako e janginki, huutirki, ibaada, e reentaaki."
+    },
+    {
+      "title": "Yeɓre 19re",
+      "para": "Koomoye woodi baawɗe yaaki ndimaaku ra’yu bee wannginki ɗe baawɗe hawtii e maruki ra’ayu e wannginki ɗe’e baawɗe naa bee natalmaaku nden boo tefa, jaɓa nden naadina habaru e ra’ayuuji nder koongale ɗatal naa bee waanneeki e keerolji"
+    },
+    {
+      "title": "Yeɓre 20re",
+      "orderedlist": {
+        "listitem": [
+          {
+            "para": "Koomoye woodi baawɗe naatuki kawtal ngal hakkiilo waaltiingo."
+          },
+          {
+            "para": "Walaa ɓillanteeɗo maatuki kawtal"
+          }
+        ]
+      }
+    },
+    {
+      "title": "Yeɓre 21re",
+      "orderedlist": {
+        "listitem": [
+          {
+            "para": "Koomoye woodi hakke naatuki nder gomnati lesdi maako dow laawol naadeeki maa bo suɓeeki."
+          },
+          {
+            "para": "Koomoye woodi hakke huwuki nder gomnati lesdi muuɗum."
+          },
+          {
+            "para": "Giɗaaɗi yimɓe woni erseese laamu gomnati siyaasa, tiɗaaɗi ɗi’I boo eɗi mbanga wookati-wookati be cuɓol goonga laatotoongol weeɗaango potoowol e daama suɓuki bee siri waɗeeki e suuɗi maa boo wanginee"
+          }
+        ]
+      }
+    },
+    {
+      "title": "Yeɓre 22re",
+      "para": "Koomoye, laataaki maako gooto nder ummaatoore woodi hakke reenaneeke hersa bee andeeki, nder kuuɗe o huwani lesdi bee walluuki duuniyaaru no haandi bee siriiji bee baawɗe koongaye gomnati wuttudu mardi e jooɗodaaki yimɓe e baawɗe."
+    },
+    {
+      "title": "Yeɓre 23re",
+      "orderedlist": {
+        "listitem": [
+          {
+            "para": "Koomoye woodi baawɗe huuwa,to yiɗinee adilaaku no yiɗaa hakke maako boo reene taa o rella kuugal."
+          },
+          {
+            "para": "Koomoye, naa bee nyaameeki jarful, woodi hakke yoɓeeki cede ko foti kuugal maako."
+          },
+          {
+            "para": "Koomoye kuwoowo woodi hakke adilaaku e ko haani o yoɓee ngam yonkintaaku maako e iyaalu maako e reenuki neɗɗaaku maɓɓe, to haajaama boo wallite."
+          },
+          {
+            "para": "Koomoye woodi hakke waɗugo kawtal yimɓe koo boo nasta kawtal ngam reenugo neɗaaku maako."
+          }
+        ]
+      }
+    },
+    {
+      "title": "Yeɓre 24re",
+      "para": "Koomoye woodi daama foptiinde e siwtaare, haa e haaɗingo saa’aaji kuugal e poptiinde yoɓeteende."
+    },
+    {
+      "title": "Yeɓre 25re",
+      "orderedlist": {
+        "listitem": [
+          {
+            "para": "Koomoye woodi hakke yonkintaaku no haanidi ngam njamu maako e iyaalu maako, haa e nyaamdu, koltal, ɓaade bee maagani bee ko yonkintaaku buka fuka bee reeneeke to o rellii kuugal, nyawu, naunaaki, maayde gorko, nayeeku koo boo rellere nanki belɗum ngam ko ɓuri sembe maako."
+          },
+          {
+            "para": "Inniraagu e Mbaccaku woodi hakke faabeego no haani e walliteego. Bacci fuu, marɓe baaba e ɓe ngala haani faabe wallite bano koowa"
+          }
+        ]
+      }
+    },
+    {
+      "title": "Yeɓre 26re",
+      "orderedlist": {
+        "listitem": [
+          {
+            "para": "Koomoye woodi hakke jangineeki, jangineeki laatake doole haanaa yoɓanee ceede diga fraamari haa sakandari, laatiiɗum wookati doole neɗɗo janga, non boo andal luggungal haani wallitee."
+          },
+          {
+            "para": "Andal laatake huuccinaama kadimaa laataake doole ngam nyaamki yeeso ɓii-aadama e tabitinki ndimaaku maako. Andal wallitai ɓiɓɓe Aadama andootira, wallotira munyindira ɓe soobootira. Ɗu’um wallitay andindirk, munyal, soobaaku hakkunde leƴ, asluuji, diinaajinden boo ɗum wallita kuuɗe Majlisa Kawtal Hoore Duniyaaru."
+          },
+          {
+            "para": "Inniraaɓe hokkaama daama suɓuki naw’u andal ɓiɓɓe maɓɓe haani ɓe ndokke."
+          }
+        ]
+      }
+    },
+    {
+      "title": "Yeɓre 27re",
+      "orderedlist": {
+        "listitem": [
+          {
+            "para": "Koomoye woodi daama e hakke naatuki ko laati ɗum al’aada maako diidi o welnitorooɗum haa e Sanaa’aaji e nafuudaaji mum."
+          },
+          {
+            "para": "Koomoye woodi daama reenuki al’aada e ne’eeji ɗi o diidi."
+          }
+        ]
+      }
+    },
+    {
+      "title": "Yeɓre 28re",
+      "para": "Koomoye wooodi , nder jooɗideeki maa bo umrinkaaku duniyaaru, naftira be ko diida nder ɗerewol ngo’ol."
+    },
+    {
+      "title": "Yeɓre 29re",
+      "orderedlist": {
+        "listitem": [
+          {
+            "para": "Koomoye woodi laruura yowanaa ngam to woni ngam bo ɗon tan mari daama yonkintaaku maako no haani."
+          },
+          {
+            "para": "Nder yonkintaaku koomoye e dogginki hakke maako koomoye o laatoto les keeraaɗi ba ɗi keeriɗina bee sarii’a ngam tan dalila reentaaki tabitinki e reentuki tabitinki hakkeeji e rimɗuki e umrooje ngam woɓɓe e fottinki bee adilaaku e tabitinki ne’aare e joonde jam e feesaarender deemukuraaɗiyya ummaatoore."
+          },
+          {
+            "para": "Ɗi’i hakkeeji e rimɗuki laatataako naftirteeɗi to yaadaayi bee giɗaaɗi Majlisa Kawtal Hoore Duniyaaru."
+          }
+        ]
+      }
+    },
+    {
+      "title": "Yeɓre 30re",
+      "para": "Walaa ko woni nder ɗerewol ngo’ol fassirteeno hollirta ngam koondiye lesdi maa bo ummaatoore maa bo neɗɗo hiɓuki daama waɗugo sa’ani gaddoojum wonnere."
+    }
+  ],
+  "lang": "fuv",
+  "language": "Fulfulde, Nigerian (2)",
+  "note": []
+}
