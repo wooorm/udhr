@@ -38,12 +38,12 @@
     "mdast-zone": "^4.0.0",
     "nyc": "^15.0.0",
     "prettier": "^2.0.0",
-    "remark-cli": "^9.0.0-alpha.1",
+    "remark-cli": "^9.0.0",
     "remark-preset-wooorm": "^8.0.0",
     "tape": "^5.0.0",
     "unist-builder": "^2.0.0",
     "xml-to-json": "^0.1.0",
-    "xo": "^0.33.0"
+    "xo": "^0.38.0"
   },
   "scripts": {
     "generate:scrape:txt": "curl --connect-timeout 5 --max-time 10 -L https://www.unicode.org/udhr/assemblies/udhr_txt.zip -o data/udhr-txt.zip || exit 0",
@@ -79,6 +79,7 @@
     "esnext": false,
     "rules": {
       "guard-for-in": "off",
+      "unicorn/no-array-for-each": "off",
       "unicorn/no-fn-reference-in-iterator": "off",
       "unicorn/prefer-number-properties": "off"
     }

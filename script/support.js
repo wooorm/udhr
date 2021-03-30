@@ -28,7 +28,12 @@ function table() {
   return u(
     'table',
     {align: []},
-    [u('tableRow', header.map(cell))].concat(
+    [
+      u(
+        'tableRow',
+        header.map((d) => cell(d))
+      )
+    ].concat(
       Object.keys(info).map(function (code) {
         var value = info[code]
         var ohchr = value.OHCHR

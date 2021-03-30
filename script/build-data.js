@@ -10,10 +10,10 @@ var exists = fs.existsSync
 
 var BLACKLIST = /by sprat|missing|^(\?\??)$/i
 
-xmlToJSON({input: 'data/udhr-txt/index.xml'}, function (err, data) {
+xmlToJSON({input: 'data/udhr-txt/index.xml'}, function (error, data) {
   var udhr
 
-  bail(err)
+  bail(error)
 
   udhr = cleanData(data)
 
@@ -84,8 +84,8 @@ function writeJSONData(data) {
     var input = 'data/udhr-xml/udhr_' + declaration.filename + '.xml'
     var output = 'data/udhr-json/' + declaration.filename + '.json'
 
-    xmlToJSON({input: input}, function (err, json) {
-      bail(err)
+    xmlToJSON({input: input}, function (error, json) {
+      bail(error)
 
       console.log(json.udhr.$.n)
 
@@ -254,7 +254,7 @@ function cleanData(data) {
 
       cleanDeclaration.hasNotes = declaration.notes === 'y'
 
-      location = declaration.loc.split(',').map(parseFloat)
+      location = declaration.loc.split(',').map((d) => parseFloat(d))
 
       cleanDeclaration.latitude = location[0] || null
       cleanDeclaration.longitude = location[1] || null
