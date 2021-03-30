@@ -5,7 +5,6 @@ var test = require('tape')
 var udhr = require('.')
 
 var json = udhr.json()
-var text = udhr.text()
 var information = udhr.information()
 
 test('udhr', function (t) {
@@ -73,12 +72,6 @@ test('udhr.information.n', function (t) {
       assert(typeof declaration.hasNotes === 'boolean')
     })
   }, 'should have a `hasNotes`')
-
-  t.doesNotThrow(function () {
-    each(information, function (declaration) {
-      assert(typeof declaration.hasTXT === 'boolean')
-    })
-  }, 'should have a `hasTXT`')
 
   t.doesNotThrow(function () {
     each(information, function (declaration) {
@@ -201,22 +194,6 @@ test('udhr.json().n', function (t) {
       assert(typeof value === 'string')
     })
   }, 'each value at a `para` key should be string')
-
-  t.end()
-})
-
-test('udhr.text()', function (t) {
-  t.equal(typeof udhr.text, 'function', 'should be a function')
-  t.equal(typeof text, 'object', 'should return an object')
-  t.end()
-})
-
-test('udhr.text().n', function (t) {
-  t.doesNotThrow(function () {
-    each(text, function (declaration) {
-      assert.strictEqual(typeof declaration, 'string')
-    })
-  }, 'should be a string')
 
   t.end()
 })

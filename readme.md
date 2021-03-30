@@ -30,9 +30,8 @@ console.log(json.eng)
 ### `udhr.information()`
 
 Returns an array of information objects.
-Gets information about the documents: their stage, if a plain text version is
-available, if an accessible JSON document is available, language regions and
-lat-long locations, etcetera.
+Gets information about the documents: their stage, if an accessible JSON
+document is available, language regions and lat-long locations, etcetera.
 
 ```js
 var info = require('udhr').information()
@@ -53,7 +52,6 @@ Yields:
   hasNotes: false,
   latitude: 53,
   longitude: -1,
-  hasTXT: true,
   hasJSON: true,
   hasXML: true,
   filename: 'eng' }
@@ -88,30 +86,6 @@ Yields:
   lang: 'en',
   language: 'English',
   note: [] }
-```
-
-### udhr.text()
-
-Returns an array of plain text declaration objects.
-
-```js
-var text = require('udhr').text()
-
-console.log(text.eng)
-```
-
-Yields:
-
-```text
-Universal Declaration of Human Rights - English
-© 1996 – 2009 The Office of the High Commissioner for Human Rights
-This plain text version prepared by the “UDHR in Unicode”
-project, https://www.unicode.org/udhr.
----
-
-Universal Declaration of Human Rights
-      Preamble
-      Whereas recognition of the inherent dignity and of the equal and ...
 ```
 
 ## Supported declarations

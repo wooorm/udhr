@@ -1,7 +1,7 @@
 {
   "name": "udhr",
   "version": "4.2.0",
-  "description": "Universal Declaration of Human Rights (Unicode) in plain-text and JSON",
+  "description": "Universal Declaration of Human Rights (Unicode)",
   "license": "MIT",
   "keywords": [
     "universal",
@@ -9,9 +9,7 @@
     "human",
     "rights",
     "unicode",
-    "json",
-    "plain",
-    "text"
+    "json"
   ],
   "repository": "wooorm/udhr",
   "bugs": "https://github.com/wooorm/udhr/issues",
@@ -27,10 +25,8 @@
     "index.js",
     "lib",
     "data/index-json.json",
-    "data/index-txt.json",
     "data/information.json",
-    "data/udhr-json",
-    "data/udhr-txt"
+    "data/udhr-json"
   ],
   "devDependencies": {
     "bail": "^1.0.0",
@@ -46,15 +42,10 @@
     "xo": "^0.38.0"
   },
   "scripts": {
-    "generate:scrape:txt": "curl --connect-timeout 5 --max-time 10 -L https://www.unicode.org/udhr/assemblies/udhr_txt.zip -o data/udhr-txt.zip || exit 0",
-    "generate:scrape:xml": "curl --connect-timeout 5 --max-time 10 -L https://www.unicode.org/udhr/assemblies/udhr_xml.zip -o data/udhr-xml.zip || exit 0",
-    "generate:scrape": "npm run generate:scrape:txt && npm run generate:scrape:xml",
-    "generate:unzip:txt": "unzip -o -d data/udhr-txt data/udhr-txt.zip || exit 0",
-    "generate:unzip:xml": "unzip -o -d data/udhr-xml data/udhr-xml.zip || exit 0",
-    "generate:unzip": "npm run generate:unzip:txt && npm run generate:unzip:xml",
+    "generate:scrape": "curl --connect-timeout 5 --max-time 10 -L https://www.unicode.org/udhr/assemblies/udhr_xml.zip -o data/udhr-xml.zip || exit 0",
+    "generate:unzip": "unzip -o -d data/udhr-xml data/udhr-xml.zip || exit 0",
     "generate:data": "node script/build-data",
-    "generate:clean": "node script/normalize-line-endings",
-    "generate": "npm run generate:scrape && npm run generate:unzip && npm run generate:data && npm run generate:clean",
+    "generate": "npm run generate:scrape && npm run generate:unzip && npm run generate:data",
     "format": "remark . -qfo && prettier . -w --loglevel warn && xo --fix",
     "test-api": "node test",
     "test-coverage": "nyc --reporter lcov tape test.js",

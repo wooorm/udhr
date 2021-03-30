@@ -4,13 +4,12 @@ var fs = require('fs')
 var xmlToJSON = require('xml-to-json')
 var bail = require('bail')
 
-var readFile = fs.readFileSync
 var writeFile = fs.writeFileSync
 var exists = fs.existsSync
 
 var BLACKLIST = /by sprat|missing|^(\?\??)$/i
 
-xmlToJSON({input: 'data/udhr-txt/index.xml'}, function (error, data) {
+xmlToJSON({input: 'data/udhr-xml/index.xml'}, function (error, data) {
   var udhr
 
   bail(error)
@@ -19,7 +18,6 @@ xmlToJSON({input: 'data/udhr-txt/index.xml'}, function (error, data) {
 
   writeFile('data/information.json', JSON.stringify(udhr, null, 2) + '\n')
   writeJSONData(udhr)
-  writeTXTData(udhr)
 })
 
 function cleanXMLJSON(object, key, allowDirty) {
@@ -221,18 +219,6 @@ function shouldIgnore(value, key) {
   return key === 'number'
 }
 
-function writeTXTData(data) {
-  var keys = data
-    .filter(function (declaration) {
-      return declaration.hasTXT
-    })
-    .map(function (declaration) {
-      return declaration.filename
-    })
-
-  writeFile('data/index-txt.json', JSON.stringify(keys, null, 2) + '\n')
-}
-
 function cleanData(data) {
   return data.udhrs.udhr
     .map(function (declaration) {
@@ -260,22 +246,6 @@ function cleanData(data) {
       cleanDeclaration.longitude = location[1] || null
 
       filename = cleanDeclaration.code
-
-      if (cleanDeclaration.code === 'nku') {
-        cleanDeclaration.hasTXT = Boolean(
-          readFile('data/udhr-txt/udhr_' + filename + '.txt', 'utf-8')
-        )
-
-        if (cleanDeclaration.hasTXT) {
-          console.log(
-            'Warning: NKU error was fixed. The special code (see warning) should be removed.'
-          )
-        }
-      } else {
-        cleanDeclaration.hasTXT = exists(
-          'data/udhr-txt/udhr_' + filename + '.txt'
-        )
-      }
 
       cleanDeclaration.hasJSON = exists(
         'data/udhr-xml/udhr_' + filename + '.xml'
