@@ -36,8 +36,8 @@ function table() {
     ].concat(
       Object.keys(info).map(function (code) {
         var value = info[code]
-        var ohchr = value.OHCHR
-        var iso = value.ISO
+        var ohchr = value.ohchr
+        var iso = value.iso6393
         var loc = 'No'
 
         if (ohchr) {
@@ -65,7 +65,7 @@ function table() {
 
         return u('tableRow', [
           cell(value.name || ''),
-          cell(value.BCP47 || ''),
+          cell(value.bcp47 || ''),
           cell(ohchr || ''),
           cell(iso || ''),
           cell(value.direction || ''),

@@ -24,7 +24,7 @@
   "files": [
     "index.js",
     "lib",
-    "data/index-json.json",
+    "data/index.json",
     "data/information.json",
     "data/udhr-json"
   ],

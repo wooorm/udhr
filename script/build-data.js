@@ -1,43 +1,40 @@
 'use strict'
 
 var fs = require('fs')
-var xmlToJSON = require('xml-to-json')
+var xmlToJson = require('xml-to-json')
 var bail = require('bail')
 
-var writeFile = fs.writeFileSync
-var exists = fs.existsSync
+var disallow = /by sprat|missing|^(\?\??)$/i
 
-var BLACKLIST = /by sprat|missing|^(\?\??)$/i
-
-xmlToJSON({input: 'data/udhr-xml/index.xml'}, function (error, data) {
-  var udhr
-
+xmlToJson({input: 'data/udhr-xml/index.xml'}, function (error, data) {
   bail(error)
+  var udhr = cleanData(data)
 
-  udhr = cleanData(data)
+  fs.writeFileSync(
+    'data/information.json',
+    JSON.stringify(udhr, null, 2) + '\n'
+  )
 
-  writeFile('data/information.json', JSON.stringify(udhr, null, 2) + '\n')
-  writeJSONData(udhr)
+  writeJsonData(udhr)
 })
 
-function cleanXMLJSON(object, key, allowDirty) {
+function cleanXmlJson(object, key, allowDirty) {
+  var dirty = allowDirty === true || key === 'note'
   var clean
   var property
   var value
   var nestedProperty
 
-  allowDirty = allowDirty === true || key === 'note'
-
   if (typeof object !== 'object') {
     if (key !== 'para') {
-      return cleanString(object, key, allowDirty)
+      return cleanString(object, key, dirty)
     }
 
     object = [object]
   }
 
   if (key === 'para') {
-    return cleanString(object.join('\n'), key, allowDirty)
+    return cleanString(object.join('\n'), key, dirty)
   }
 
   clean = 'length' in object ? [] : {}
@@ -51,43 +48,36 @@ function cleanXMLJSON(object, key, allowDirty) {
           continue
         }
 
-        clean[nestedProperty] = cleanXMLJSON(
+        clean[nestedProperty] = cleanXmlJson(
           value[nestedProperty],
           nestedProperty,
-          allowDirty
+          dirty
         )
       }
     } else {
-      clean[property] = cleanXMLJSON(value, property, allowDirty)
+      clean[property] = cleanXmlJson(value, property, dirty)
     }
   }
 
   return clean
 }
 
-function writeJSONData(data) {
-  var keys
+function writeJsonData(data) {
+  var json = data.filter((d) => d.hasJson)
+  var keys = json.map((d) => d.code)
 
-  data = data.filter(function (declaration) {
-    return declaration.hasJSON
-  })
+  fs.writeFileSync('data/index.json', JSON.stringify(keys, null, 2) + '\n')
 
-  keys = data.map(function (declaration) {
-    return declaration.filename
-  })
+  json.forEach(function (declaration) {
+    var input = 'data/udhr-xml/udhr_' + declaration.code + '.xml'
+    var output = 'data/udhr-json/' + declaration.code + '.json'
 
-  writeFile('data/index-json.json', JSON.stringify(keys, null, 2) + '\n')
-
-  data.forEach(function (declaration) {
-    var input = 'data/udhr-xml/udhr_' + declaration.filename + '.xml'
-    var output = 'data/udhr-json/' + declaration.filename + '.json'
-
-    xmlToJSON({input: input}, function (error, json) {
+    xmlToJson({input: input}, function (error, json) {
       bail(error)
 
       console.log(json.udhr.$.n)
 
-      json = cleanXMLJSON(json.udhr)
+      json = cleanXmlJson(json.udhr)
 
       if (!json.title) {
         json.title = ''
@@ -167,14 +157,14 @@ function writeJSONData(data) {
         )
       })
 
-      writeFile(output, JSON.stringify(json, null, 2) + '\n')
+      fs.writeFileSync(output, JSON.stringify(json, null, 2) + '\n')
 
       console.log('')
     })
   })
 }
 
-function cleanString(value, key, allowDirty) {
+function cleanString(value, key, dirty) {
   var newValue
   var first
   var last
@@ -195,21 +185,21 @@ function cleanString(value, key, allowDirty) {
         'Unwrapping title:            "' + value + '" > "' + newValue + '"'
       )
       value = newValue
-    } else if (!allowDirty) {
+    } else if (!dirty) {
       console.log('Removing string:             "' + value + '"')
 
       value = ''
     }
   }
 
-  if (BLACKLIST.test(value)) {
-    if (!allowDirty) {
-      console.log('Removing blacklisted string: "' + value + '"')
+  if (disallow.test(value)) {
+    if (!dirty) {
+      console.log('Removing disallowed string: "' + value + '"')
 
       return ''
     }
 
-    console.log('Allowing blacklisted string: "' + value + '"')
+    console.log('Allowing disallowed string: "' + value + '"')
   }
 
   return value
@@ -225,37 +215,23 @@ function cleanData(data) {
       console.log('dec:', declaration)
       return declaration.$
     })
-    .map(function (declaration) {
-      var cleanDeclaration = {}
-      var location
-      var filename
-
-      cleanDeclaration.ISO = declaration['iso639-3'] || null
-      cleanDeclaration.BCP47 = declaration.bcp47 || null
-      cleanDeclaration.OHCHR = declaration.ohchr || null
-      cleanDeclaration.direction = declaration.dir || null
-      cleanDeclaration.code = declaration.f
-      cleanDeclaration.name = declaration.n
-      cleanDeclaration.stage = parseFloat(declaration.stage)
-
-      cleanDeclaration.hasNotes = declaration.notes === 'y'
-
-      location = declaration.loc.split(',').map((d) => parseFloat(d))
-
-      cleanDeclaration.latitude = location[0] || null
-      cleanDeclaration.longitude = location[1] || null
-
-      filename = cleanDeclaration.code
-
-      cleanDeclaration.hasJSON = exists(
-        'data/udhr-xml/udhr_' + filename + '.xml'
-      )
-      cleanDeclaration.hasXML = cleanDeclaration.hasJSON
-
-      cleanDeclaration.filename = filename
+    .map(function (d) {
+      var location = d.loc.split(',').map((d) => parseFloat(d))
 
       // Not sure what the `demo` property means.
 
-      return cleanDeclaration
+      return {
+        iso6393: d['iso639-3'] || null,
+        bcp47: d.bcp47 || null,
+        ohchr: d.ohchr || null,
+        direction: d.dir || null,
+        code: d.f,
+        name: d.n,
+        stage: parseFloat(d.stage),
+        notes: d.notes === 'y',
+        latitude: location[0] || null,
+        longitude: location[1] || null,
+        hasJson: fs.existsSync('data/udhr-xml/udhr_' + d.f + '.xml')
+      }
     })
 }

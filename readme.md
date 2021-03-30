@@ -42,19 +42,17 @@ console.log(info.eng)
 Yields:
 
 ```js
-{ ISO: 'eng',
-  BCP47: 'en',
-  OHCHR: 'eng',
+{ iso6393: 'eng',
+  bcp47: 'en',
+  ohchr: 'eng',
   direction: 'ltr',
   code: 'eng',
   name: 'English',
   stage: 5,
-  hasNotes: false,
+  notes: false,
   latitude: 53,
   longitude: -1,
-  hasJSON: true,
-  hasXML: true,
-  filename: 'eng' }
+  hasJson: true }
 ```
 
 ### udhr.json()

@@ -27,19 +27,19 @@ test('udhr.information.n', function (t) {
 
   t.doesNotThrow(function () {
     each(information, function (declaration) {
-      assert(typeof declaration.ISO === 'string')
+      assert(typeof declaration.iso6393 === 'string')
     })
   }, 'should have an iso')
 
   t.doesNotThrow(function () {
     each(information, function (declaration) {
-      assert(typeof declaration.BCP47 === 'string')
+      assert(typeof declaration.bcp47 === 'string')
     })
   }, 'should have a bcp')
 
   t.doesNotThrow(function () {
     each(information, function (declaration) {
-      var value = declaration.OHCHR
+      var value = declaration.ohchr
       assert(typeof value === 'string' || value === null)
     })
   }, 'should have an ohchr')
@@ -69,21 +69,15 @@ test('udhr.information.n', function (t) {
 
   t.doesNotThrow(function () {
     each(information, function (declaration) {
-      assert(typeof declaration.hasNotes === 'boolean')
+      assert(typeof declaration.notes === 'boolean')
     })
-  }, 'should have a `hasNotes`')
+  }, 'should have a `notes`')
 
   t.doesNotThrow(function () {
     each(information, function (declaration) {
-      assert(typeof declaration.hasJSON === 'boolean')
+      assert(typeof declaration.hasJson === 'boolean')
     })
-  }, 'should have a `hasJSON`')
-
-  t.doesNotThrow(function () {
-    each(information, function (declaration) {
-      assert(typeof declaration.filename === 'string')
-    })
-  }, 'should have a `filename`')
+  }, 'should have a `hasJson`')
 
   t.doesNotThrow(function () {
     each(information, function (declaration) {
