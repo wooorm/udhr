@@ -2,8 +2,6 @@ import assert from 'assert'
 import test from 'tape'
 import {udhr} from './index.js'
 
-var own = {}.hasOwnProperty
-
 test('udhr', function (t) {
   t.equal(typeof udhr, 'object', 'should be an object')
   t.end()
@@ -11,76 +9,82 @@ test('udhr', function (t) {
 
 test('udhr[]', function (t) {
   t.doesNotThrow(function () {
-    each(udhr, function (declaration) {
-      assert.strictEqual(typeof declaration, 'object')
-    })
+    var index = -1
+    while (++index < udhr.length) {
+      assert.strictEqual(typeof udhr[index], 'object')
+    }
   }, 'should be an object')
 
   t.doesNotThrow(function () {
-    each(udhr, function (declaration) {
-      assert(typeof declaration.iso6393 === 'string')
-    })
+    var index = -1
+    while (++index < udhr.length) {
+      assert.strictEqual(typeof udhr[index].iso6393, 'string')
+    }
   }, 'should have an iso')
 
   t.doesNotThrow(function () {
-    each(udhr, function (declaration) {
-      assert(typeof declaration.bcp47 === 'string')
-    })
+    var index = -1
+    while (++index < udhr.length) {
+      assert.strictEqual(typeof udhr[index].bcp47, 'string')
+    }
   }, 'should have a bcp')
 
   t.doesNotThrow(function () {
-    each(udhr, function (declaration) {
-      var value = declaration.ohchr
-      assert(typeof value === 'string' || value === null)
-    })
+    var index = -1
+    while (++index < udhr.length) {
+      assert(
+        typeof udhr[index].ohchr === 'string' || udhr[index].ohchr === null
+      )
+    }
   }, 'should have an ohchr')
 
   t.doesNotThrow(function () {
-    each(udhr, function (declaration) {
-      assert(typeof declaration.code === 'string')
-    })
+    var index = -1
+    while (++index < udhr.length) {
+      assert.strictEqual(typeof udhr[index].code, 'string')
+    }
   }, 'should have a code')
 
   t.doesNotThrow(function () {
-    each(udhr, function (declaration) {
-      assert(typeof declaration.name === 'string')
-    })
+    var index = -1
+    while (++index < udhr.length) {
+      assert.strictEqual(typeof udhr[index].name, 'string')
+    }
   }, 'should have a name')
 
   t.doesNotThrow(function () {
-    each(udhr, function (declaration) {
-      var value = declaration.stage
+    var index = -1
+    /** @type {number} */
+    var stage
 
-      assert(typeof value === 'number')
-      assert(Math.round(value) === value)
-      assert(value > 0)
-      assert(value < 6)
-    })
+    while (++index < udhr.length) {
+      stage = udhr[index].stage
+      assert(typeof stage === 'number')
+      assert(Math.round(stage) === stage)
+      assert(stage > 0)
+      assert(stage < 6)
+    }
   }, 'should have a stage')
 
   t.doesNotThrow(function () {
-    each(udhr, function (declaration) {
-      var value = declaration.latitude
-      assert(typeof value === 'number' || value === null)
-    })
+    var index = -1
+    while (++index < udhr.length) {
+      assert(
+        typeof udhr[index].latitude === 'number' ||
+          udhr[index].latitude === null
+      )
+    }
   }, 'should have a `latitude`')
 
   t.doesNotThrow(function () {
-    each(udhr, function (declaration) {
-      var value = declaration.longitude
-      assert(typeof value === 'number' || value === null)
-    })
+    var index = -1
+    while (++index < udhr.length) {
+      assert(
+        typeof udhr[index].longitude === 'number' ||
+          udhr[index].longitude === null
+      )
+    }
   }, 'should have a `longitude`')
 
   t.end()
 })
-
-function each(values, callback) {
-  var key
-
-  for (key in values) {
-    if (own.call(values, key)) {
-      callback(values[key], key)
-    }
-  }
-}

@@ -1,7 +1,9 @@
 import fs from 'fs'
 import path from 'path'
 import assert from 'assert'
+// @ts-ignore remove when typed
 import fromXml from 'xast-util-from-xml'
+// @ts-ignore remove when typed
 import toString from 'xast-util-to-string'
 import $ from 'unist-util-select'
 import h from 'hastscript'
@@ -9,13 +11,31 @@ import u from 'unist-builder'
 import {mapz} from 'mapz'
 import {zwitch} from 'zwitch'
 import unified from 'unified'
+// @ts-ignore remove when typed
 import rehypeFormat from 'rehype-format'
 import rehypeSerialize from 'rehype-stringify'
 
+/**
+ * @typedef {import('xast').Root} Root
+ * @typedef {import('xast').Text} XastText
+ * @typedef {import('xast').Element} XastElement
+ * @typedef {import('xast').Node} XastNode
+ * @typedef {import('hast').Text} HastText
+ * @typedef {import('hast').Element} HastElement
+ */
+
+/**
+ * @typedef {Object} Context
+ * @property {number} rank
+ * @property {(node: XastElement) => () => void} enter
+ */
+
+/** @type {Root} */
 var xml = fromXml(fs.readFileSync(path.join('xml', 'index.xml')))
 
 var udhr = $.selectAll('element[name=udhr]', xml)
-  .map(({attributes}) => {
+  .map((/** @type {XastElement} */ element) => {
+    var {attributes} = element
     var location = attributes.loc.split(',').map((d) => Number.parseFloat(d))
 
     return {
@@ -65,10 +85,13 @@ var all = mapz(one, {key: 'children', gapless: true})
 var processor = unified().use(rehypeFormat).use(rehypeSerialize)
 
 var index = -1
+/** @type {XastElement} */
 var main
+/** @type {string} */
 var doc
 
 while (++index < udhr.length) {
+  // @ts-ignore
   main = $.select(
     'element[name=udhr]',
     fromXml(
@@ -102,6 +125,10 @@ while (++index < udhr.length) {
   fs.writeFileSync(path.join('declaration', udhr[index].code + '.html'), doc)
 }
 
+/**
+ * @param {XastElement} node
+ * @this {Context}
+ */
 function enter(node) {
   var rank = this.rank
 
@@ -115,22 +142,41 @@ function enter(node) {
   return () => {}
 }
 
+/**
+ * @this {Context}
+ * @param {XastElement} d
+ * @returns {HastElement}
+ */
 function title(d) {
   var value = cleanString(toString(d))
   assert.deepStrictEqual(Object.keys(d.attributes), [])
   return h('h' + this.rank, value ? u('text', value) : [])
 }
 
+/**
+ * @this {Context}
+ * @param {XastElement} d
+ * @returns {HastElement}
+ */
 function para(d) {
   var value = cleanString(toString(d))
   assert.deepStrictEqual(Object.keys(d.attributes), [])
   return value ? h('p', [u('text', value)]) : undefined
 }
 
+/**
+ * @this {Context}
+ * @param {XastElement} d
+ */
 function note(d) {
   assert.deepStrictEqual(Object.keys(d.attributes), [])
 }
 
+/**
+ * @this {Context}
+ * @param {XastElement} d
+ * @returns {HastElement}
+ */
 function preamble(d) {
   assert.deepStrictEqual(Object.keys(d.attributes), [])
   var exit = this.enter(d)
@@ -139,6 +185,11 @@ function preamble(d) {
   return node
 }
 
+/**
+ * @this {Context}
+ * @param {XastElement} d
+ * @returns {HastElement}
+ */
 function orderedlist(d) {
   assert.deepStrictEqual(Object.keys(d.attributes), [])
   var exit = this.enter(d)
@@ -147,6 +198,11 @@ function orderedlist(d) {
   return node
 }
 
+/**
+ * @this {Context}
+ * @param {XastElement} d
+ * @returns {HastElement}
+ */
 function listitem(d) {
   var ignore = new Set(['tag', 'label'])
   // Some list items are marked with their index as a word, such as `first`,
@@ -161,6 +217,11 @@ function listitem(d) {
   return node
 }
 
+/**
+ * @this {Context}
+ * @param {XastElement} d
+ * @returns {HastElement}
+ */
 function article(d) {
   assert.deepStrictEqual(Object.keys(d.attributes), ['number'])
   var exit = this.enter(d)
@@ -169,6 +230,11 @@ function article(d) {
   return node
 }
 
+/**
+ * @this {Context}
+ * @param {XastElement} d
+ * @returns {HastElement}
+ */
 function root(d) {
   var exit = this.enter(d)
   var node = h('body', all.call(this, d))
@@ -176,28 +242,57 @@ function root(d) {
   return node
 }
 
+/**
+ * @this {Context}
+ * @param {XastText} d
+ * @returns {HastText}
+ */
 function text(d) {
   return u('text', d.value.replace(/\r\n?/g, '\n'))
 }
 
 function comment() {}
 
+/**
+ * @this {Context}
+ * @param {unknown} d
+ * @never
+ */
 function invalidElement(d) {
   throw new Error('Cannot handle invalid element `' + d + '`')
 }
 
+/**
+ * @this {Context}
+ * @param {XastElement} d
+ * @never
+ */
 function unknownElement(d) {
   throw new Error('Cannot handle unknown element w/ name `' + d.name + '`')
 }
 
+/**
+ * @this {Context}
+ * @param {unknown} d
+ * @never
+ */
 function invalid(d) {
   throw new Error('Cannot handle invalid node `' + d + '`')
 }
 
+/**
+ * @this {Context}
+ * @param {XastNode} d
+ * @never
+ */
 function unknown(d) {
   throw new Error('Cannot handle unknown node w/ type `' + d.type + '`')
 }
 
+/**
+ * @param {string} raw
+ * @returns {string}
+ */
 function cleanString(raw) {
   var value = raw.replace(/^\s*\[\s*(.*)\s*]\s*$/, '&1')
   return /by sprat|missing|^(\?\??)$/i.test(value) ? '' : value
