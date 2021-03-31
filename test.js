@@ -2,6 +2,8 @@ import assert from 'assert'
 import test from 'tape'
 import {udhr} from './index.js'
 
+var own = {}.hasOwnProperty
+
 test('udhr', function (t) {
   t.equal(typeof udhr, 'object', 'should be an object')
   t.end()
@@ -74,7 +76,11 @@ test('udhr[]', function (t) {
 })
 
 function each(values, callback) {
-  Object.keys(values).forEach(function (key) {
-    callback(values[key], key)
-  })
+  var key
+
+  for (key in values) {
+    if (own.call(values, key)) {
+      callback(values[key], key)
+    }
+  }
 }

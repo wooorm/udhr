@@ -12,11 +12,11 @@ import unified from 'unified'
 import rehypeFormat from 'rehype-format'
 import rehypeSerialize from 'rehype-stringify'
 
-var tree = fromXml(fs.readFileSync(path.join('xml', 'index.xml')))
+var xml = fromXml(fs.readFileSync(path.join('xml', 'index.xml')))
 
-var index = $.selectAll('element[name=udhr]', tree)
+var udhr = $.selectAll('element[name=udhr]', xml)
   .map(({attributes}) => {
-    var location = attributes.loc.split(',').map((d) => parseFloat(d))
+    var location = attributes.loc.split(',').map((d) => Number.parseFloat(d))
 
     return {
       code: attributes.f,
@@ -25,7 +25,7 @@ var index = $.selectAll('element[name=udhr]', tree)
       ohchr: attributes.ohchr || null,
       iso6393: attributes['iso639-3'] || null,
       direction: attributes.dir || null,
-      stage: parseInt(attributes.stage, 10),
+      stage: Number.parseInt(attributes.stage, 10),
       latitude: location[0] || null,
       longitude: location[1] || null,
       hasXml: fs.existsSync(path.join('xml', 'udhr_' + attributes.f + '.xml'))
@@ -36,153 +36,169 @@ var index = $.selectAll('element[name=udhr]', tree)
 
 fs.writeFileSync(
   path.join('index.js'),
-  'export var udhr = ' + JSON.stringify(index, null, 2) + '\n'
+  'export var udhr = ' + JSON.stringify(udhr, null, 2) + '\n'
 )
 
-index.forEach(function (declaration) {
-  var input = path.join('xml', 'udhr_' + declaration.code + '.xml')
-
-  var xast = fromXml(fs.readFileSync(input))
-  var main = $.select('element[name=udhr]', xast)
-
-  var element = zwitch('name', {
-    invalid: invalidElement,
-    unknown: unknownElement,
-    handlers: {title, para, orderedlist, listitem, note, article, preamble}
-  })
-
-  var one = zwitch('type', {
-    invalid,
-    unknown,
-    handlers: {element, text, comment}
-  })
-
-  var all = mapz(one, {key: 'children', gapless: true})
-
-  var context = {
-    rank: 1,
-    enter(node) {
-      var rank = this.rank
-
-      if (
-        node.children.some((d) => d.type === 'element' && d.name === 'title')
-      ) {
-        this.rank++
-        return () => {
-          this.rank = rank
-        }
-      }
-
-      return () => {}
-    }
+var element = zwitch('name', {
+  invalid: invalidElement,
+  unknown: unknownElement,
+  handlers: {
+    udhr: root,
+    title,
+    para,
+    orderedlist,
+    listitem,
+    note,
+    article,
+    preamble
   }
+})
+
+var one = zwitch('type', {
+  invalid,
+  unknown,
+  handlers: {element, text, comment}
+})
+
+var all = mapz(one, {key: 'children', gapless: true})
+
+var processor = unified().use(rehypeFormat).use(rehypeSerialize)
+
+var index = -1
+var main
+var doc
+
+while (++index < udhr.length) {
+  main = $.select(
+    'element[name=udhr]',
+    fromXml(
+      fs.readFileSync(path.join('xml', 'udhr_' + udhr[index].code + '.xml'))
+    )
+  )
 
   console.log('%s (%s)', main.attributes.n, main.attributes.key)
 
-  var tree = u('root', [
-    u('doctype', {name: 'html'}),
-    h(
-      'html',
-      {
-        lang: main.attributes['xml:lang'],
-        dir: main.attributes.dir,
-        dataCode: main.attributes.key,
-        dataIso6393: main.attributes['iso639-3']
-      },
-      [
-        h('head', [h('title', main.attributes.n)]),
-        h('body', all.call(context, $.selectAll(':scope > element', xast)))
-      ]
+  doc = processor.stringify(
+    processor.runSync(
+      u('root', [
+        u('doctype', {name: 'html'}),
+        h(
+          'html',
+          {
+            lang: main.attributes['xml:lang'],
+            dir: main.attributes.dir,
+            dataCode: main.attributes.key,
+            dataIso6393: main.attributes['iso639-3']
+          },
+          [
+            h('head', [h('title', main.attributes.n)]),
+            one.call({rank: 1, enter}, main)
+          ]
+        )
+      ])
     )
-  ])
+  )
 
-  var processor = unified().use(rehypeFormat).use(rehypeSerialize)
-  var doc = processor.stringify(processor.runSync(tree))
+  fs.writeFileSync(path.join('declaration', udhr[index].code + '.html'), doc)
+}
 
-  fs.writeFileSync(path.join('declaration', declaration.code + '.html'), doc)
+function enter(node) {
+  var rank = this.rank
 
-  function title(d) {
-    var value = cleanString(toString(d))
-    assert.deepStrictEqual(Object.keys(d.attributes), [])
-    return h('h' + this.rank, value ? u('text', value) : [])
+  if (node.children.some((d) => d.type === 'element' && d.name === 'title')) {
+    this.rank++
+    return () => {
+      this.rank = rank
+    }
   }
 
-  function para(d) {
-    var value = cleanString(toString(d))
-    assert.deepStrictEqual(Object.keys(d.attributes), [])
-    return value ? h('p', [u('text', value)]) : undefined
-  }
+  return () => {}
+}
 
-  function note(d) {
-    assert.deepStrictEqual(Object.keys(d.attributes), [])
-  }
+function title(d) {
+  var value = cleanString(toString(d))
+  assert.deepStrictEqual(Object.keys(d.attributes), [])
+  return h('h' + this.rank, value ? u('text', value) : [])
+}
 
-  function preamble(d) {
-    assert.deepStrictEqual(Object.keys(d.attributes), [])
-    var exit = this.enter(d)
-    var node = h('header', all.call(this, d))
-    exit()
-    return node
-  }
+function para(d) {
+  var value = cleanString(toString(d))
+  assert.deepStrictEqual(Object.keys(d.attributes), [])
+  return value ? h('p', [u('text', value)]) : undefined
+}
 
-  function orderedlist(d) {
-    assert.deepStrictEqual(Object.keys(d.attributes), [])
-    var exit = this.enter(d)
-    var node = h('ol', all.call(this, d))
-    exit()
-    return node
-  }
+function note(d) {
+  assert.deepStrictEqual(Object.keys(d.attributes), [])
+}
 
-  function listitem(d) {
-    var ignore = new Set(['tag', 'label'])
-    // Some list items are marked with their index as a word, such as `first`,
-    // `second`.
-    assert.deepStrictEqual(
-      Object.keys(d.attributes).filter((x) => !ignore.has(x)),
-      []
-    )
-    var exit = this.enter(d)
-    var node = h('li', all.call(this, d))
-    exit()
-    return node
-  }
+function preamble(d) {
+  assert.deepStrictEqual(Object.keys(d.attributes), [])
+  var exit = this.enter(d)
+  var node = h('header', all.call(this, d))
+  exit()
+  return node
+}
 
-  function article(d) {
-    assert.deepStrictEqual(Object.keys(d.attributes), ['number'])
-    var exit = this.enter(d)
-    var node = h(
-      'article',
-      {dataNumber: d.attributes.number},
-      all.call(this, d)
-    )
-    exit()
-    return node
-  }
+function orderedlist(d) {
+  assert.deepStrictEqual(Object.keys(d.attributes), [])
+  var exit = this.enter(d)
+  var node = h('ol', all.call(this, d))
+  exit()
+  return node
+}
 
-  function text(d) {
-    return u('text', d.value)
-  }
+function listitem(d) {
+  var ignore = new Set(['tag', 'label'])
+  // Some list items are marked with their index as a word, such as `first`,
+  // `second`.
+  assert.deepStrictEqual(
+    Object.keys(d.attributes).filter((x) => !ignore.has(x)),
+    []
+  )
+  var exit = this.enter(d)
+  var node = h('li', all.call(this, d))
+  exit()
+  return node
+}
 
-  function comment() {}
+function article(d) {
+  assert.deepStrictEqual(Object.keys(d.attributes), ['number'])
+  var exit = this.enter(d)
+  var node = h('article', {dataNumber: d.attributes.number}, all.call(this, d))
+  exit()
+  return node
+}
 
-  function invalidElement(d) {
-    throw new Error('Cannot handle invalid element `' + d + '`')
-  }
+function root(d) {
+  var exit = this.enter(d)
+  var node = h('body', all.call(this, d))
+  exit()
+  return node
+}
 
-  function unknownElement(d) {
-    throw new Error('Cannot handle unknown element w/ name `' + d.name + '`')
-  }
+function text(d) {
+  return u('text', d.value.replace(/\r\n?/g, '\n'))
+}
 
-  function invalid(d) {
-    throw new Error('Cannot handle invalid node `' + d + '`')
-  }
+function comment() {}
 
-  function unknown(d) {
-    throw new Error('Cannot handle unknown node w/ type `' + d.type + '`')
-  }
+function invalidElement(d) {
+  throw new Error('Cannot handle invalid element `' + d + '`')
+}
 
-  function cleanString(raw) {
-    var value = raw.replace(/^\s*\[\s*(.*)\s*]\s*$/, '&1')
-    return /by sprat|missing|^(\?\??)$/i.test(value) ? '' : value
-  }
-})
+function unknownElement(d) {
+  throw new Error('Cannot handle unknown element w/ name `' + d.name + '`')
+}
+
+function invalid(d) {
+  throw new Error('Cannot handle invalid node `' + d + '`')
+}
+
+function unknown(d) {
+  throw new Error('Cannot handle unknown node w/ type `' + d.type + '`')
+}
+
+function cleanString(raw) {
+  var value = raw.replace(/^\s*\[\s*(.*)\s*]\s*$/, '&1')
+  return /by sprat|missing|^(\?\??)$/i.test(value) ? '' : value
+}
