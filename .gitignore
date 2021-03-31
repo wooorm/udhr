@@ -3,6 +3,6 @@
 *.zip
 .nyc_output/
 coverage/
-data/udhr-xml/
+xml/
 node_modules/
 yarn.lock

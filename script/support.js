@@ -2,7 +2,7 @@
 
 var zone = require('mdast-zone')
 var u = require('unist-builder')
-var info = require('../lib/information')()
+var info = require('..')
 
 var ohchrBase = 'https://www.ohchr.org/EN/UDHR/Pages/Language.aspx?LangID='
 var isoBase = 'https://iso639-3.sil.org/code/'
@@ -18,7 +18,7 @@ function transformer(tree) {
   zone(tree, 'support', replace)
 }
 
-function replace(start, nodes, end) {
+function replace(start, _, end) {
   return [start, table(), end]
 }
 

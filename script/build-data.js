@@ -1,237 +1,187 @@
 'use strict'
 
 var fs = require('fs')
-var xmlToJson = require('xml-to-json')
-var bail = require('bail')
+var path = require('path')
+var assert = require('assert')
+var fromXml = require('xast-util-from-xml')
+var toString = require('xast-util-to-string')
+var $ = require('unist-util-select')
+var h = require('hastscript')
+var u = require('unist-builder')
+var mapz = require('mapz')
+var zwitch = require('zwitch')
+var unified = require('unified')
+var rehypeFormat = require('rehype-format')
+var rehypeSerialize = require('rehype-stringify')
 
-var disallow = /by sprat|missing|^(\?\??)$/i
+var tree = fromXml(fs.readFileSync(path.join('xml', 'index.xml')))
 
-xmlToJson({input: 'data/udhr-xml/index.xml'}, function (error, data) {
-  bail(error)
-  var udhr = cleanData(data)
+var index = $.selectAll('element[name=udhr]', tree)
+  .map(({attributes}) => {
+    var location = attributes.loc.split(',').map((d) => parseFloat(d))
 
-  fs.writeFileSync(
-    'data/information.json',
-    JSON.stringify(udhr, null, 2) + '\n'
-  )
-
-  writeJsonData(udhr)
-})
-
-function cleanXmlJson(object, key, allowDirty) {
-  var dirty = allowDirty === true || key === 'note'
-  var clean
-  var property
-  var value
-  var nestedProperty
-
-  if (typeof object !== 'object') {
-    if (key !== 'para') {
-      return cleanString(object, key, dirty)
+    return {
+      code: attributes.f,
+      name: attributes.n,
+      bcp47: attributes.bcp47 || null,
+      ohchr: attributes.ohchr || null,
+      iso6393: attributes['iso639-3'] || null,
+      direction: attributes.dir || null,
+      stage: parseInt(attributes.stage, 10),
+      latitude: location[0] || null,
+      longitude: location[1] || null,
+      hasXml: fs.existsSync(path.join('xml', 'udhr_' + attributes.f + '.xml'))
     }
-
-    object = [object]
-  }
-
-  if (key === 'para') {
-    return cleanString(object.join('\n'), key, dirty)
-  }
-
-  clean = 'length' in object ? [] : {}
-
-  for (property in object) {
-    value = object[property]
-
-    if (property === '$') {
-      for (nestedProperty in value) {
-        if (shouldIgnore(value[nestedProperty], nestedProperty)) {
-          continue
-        }
-
-        clean[nestedProperty] = cleanXmlJson(
-          value[nestedProperty],
-          nestedProperty,
-          dirty
-        )
-      }
-    } else {
-      clean[property] = cleanXmlJson(value, property, dirty)
-    }
-  }
-
-  return clean
-}
-
-function writeJsonData(data) {
-  var json = data.filter((d) => d.hasJson)
-  var keys = json.map((d) => d.code)
-
-  fs.writeFileSync('data/index.json', JSON.stringify(keys, null, 2) + '\n')
-
-  json.forEach(function (declaration) {
-    var input = 'data/udhr-xml/udhr_' + declaration.code + '.xml'
-    var output = 'data/udhr-json/' + declaration.code + '.json'
-
-    xmlToJson({input: input}, function (error, json) {
-      bail(error)
-
-      console.log(json.udhr.$.n)
-
-      json = cleanXmlJson(json.udhr)
-
-      if (!json.title) {
-        json.title = ''
-      }
-
-      json.lang = json['xml:lang']
-      json.language = json.n
-
-      delete json['xml:lang']
-      delete json.n
-
-      if (!json.note) {
-        json.note = []
-      } else if (!Array.isArray(json.note)) {
-        json.note = [json.note]
-      }
-
-      if (!json.preamble) {
-        json.preamble = {}
-      }
-
-      if (!json.preamble.title) {
-        json.preamble.title = ''
-      }
-
-      if (!json.preamble.para) {
-        json.preamble.para = ''
-      }
-
-      if (!Array.isArray(json.article)) {
-        json.article = [json.article]
-      }
-
-      json.article.forEach(function (article) {
-        if (!article.title) {
-          article.title = ''
-        }
-
-        if (typeof article.title !== 'string' && '_' in article.title) {
-          article.title = article.title._
-        }
-
-        if (typeof article.title !== 'string' && article.title[0]) {
-          article.title = article.title[0]
-        }
-      })
-
-      json.article.forEach(function (article) {
-        var firstDigit
-
-        if (!('para' in article) || article.para || !article.title) {
-          return
-        }
-
-        // Very short; probably just no translation yet.
-        if (article.title.length < 50) {
-          return
-        }
-
-        firstDigit = article.title.match(/\d/)
-
-        if (!firstDigit) {
-          return
-        }
-
-        firstDigit = firstDigit.index + 1
-
-        article.para = article.title.slice(firstDigit)
-        article.title = article.title.slice(0, firstDigit)
-
-        console.log(
-          '  splitting article title: "' +
-            article.title +
-            '" from article "' +
-            article.para +
-            '"'
-        )
-      })
-
-      fs.writeFileSync(output, JSON.stringify(json, null, 2) + '\n')
-
-      console.log('')
-    })
   })
-}
+  .filter((d) => d.hasXml)
+  .map(({hasXml, ...rest}) => rest)
 
-function cleanString(value, key, dirty) {
-  var newValue
-  var first
-  var last
+fs.writeFileSync(path.join('index.json'), JSON.stringify(index, null, 2) + '\n')
 
-  value = value.split(/(?:\r?\n|\r)+/).join('\n')
+index.forEach(function (declaration) {
+  var input = path.join('xml', 'udhr_' + declaration.code + '.xml')
 
-  if (key === 'language' || key === 'tag') {
-    return value
-  }
+  var xast = fromXml(fs.readFileSync(input))
+  var main = $.select('element[name=udhr]', xast)
 
-  first = value.charAt(0)
-  last = value.charAt(value.length - 1)
+  var element = zwitch('name', {
+    invalid: invalidElement,
+    unknown: unknownElement,
+    handlers: {title, para, orderedlist, listitem, note, article, preamble}
+  })
 
-  if ((first === '[' && last === ']') || (first === '(' && last === ')')) {
-    if (key === 'title' && !/preamble/i.test(value)) {
-      newValue = value.slice(1, -1)
-      console.log(
-        'Unwrapping title:            "' + value + '" > "' + newValue + '"'
-      )
-      value = newValue
-    } else if (!dirty) {
-      console.log('Removing string:             "' + value + '"')
+  var one = zwitch('type', {
+    invalid,
+    unknown,
+    handlers: {element, text, comment}
+  })
 
-      value = ''
-    }
-  }
+  var all = mapz(one, {key: 'children', gapless: true})
 
-  if (disallow.test(value)) {
-    if (!dirty) {
-      console.log('Removing disallowed string: "' + value + '"')
+  var context = {
+    rank: 1,
+    enter(node) {
+      var rank = this.rank
 
-      return ''
-    }
-
-    console.log('Allowing disallowed string: "' + value + '"')
-  }
-
-  return value
-}
-
-function shouldIgnore(value, key) {
-  return key === 'number'
-}
-
-function cleanData(data) {
-  return data.udhrs.udhr
-    .map(function (declaration) {
-      console.log('dec:', declaration)
-      return declaration.$
-    })
-    .map(function (d) {
-      var location = d.loc.split(',').map((d) => parseFloat(d))
-
-      // Not sure what the `demo` property means.
-
-      return {
-        iso6393: d['iso639-3'] || null,
-        bcp47: d.bcp47 || null,
-        ohchr: d.ohchr || null,
-        direction: d.dir || null,
-        code: d.f,
-        name: d.n,
-        stage: parseFloat(d.stage),
-        notes: d.notes === 'y',
-        latitude: location[0] || null,
-        longitude: location[1] || null,
-        hasJson: fs.existsSync('data/udhr-xml/udhr_' + d.f + '.xml')
+      if (
+        node.children.some((d) => d.type === 'element' && d.name === 'title')
+      ) {
+        this.rank++
+        return () => {
+          this.rank = rank
+        }
       }
-    })
-}
+
+      return () => {}
+    }
+  }
+
+  console.log('%s (%s)', main.attributes.n, main.attributes.key)
+
+  var tree = u('root', [
+    u('doctype', {name: 'html'}),
+    h(
+      'html',
+      {
+        lang: main.attributes['xml:lang'],
+        dir: main.attributes.dir,
+        dataCode: main.attributes.key,
+        dataIso6393: main.attributes['iso639-3']
+      },
+      [
+        h('head', [h('title', main.attributes.n)]),
+        h('body', all.call(context, $.selectAll(':scope > element', xast)))
+      ]
+    )
+  ])
+
+  var processor = unified().use(rehypeFormat).use(rehypeSerialize)
+  var doc = processor.stringify(processor.runSync(tree))
+
+  fs.writeFileSync(path.join('declaration', declaration.code + '.html'), doc)
+
+  function title(d) {
+    var value = cleanString(toString(d))
+    assert.deepStrictEqual(Object.keys(d.attributes), [])
+    return h('h' + this.rank, value ? u('text', value) : [])
+  }
+
+  function para(d) {
+    var value = cleanString(toString(d))
+    assert.deepStrictEqual(Object.keys(d.attributes), [])
+    return value ? h('p', [u('text', value)]) : undefined
+  }
+
+  function note(d) {
+    assert.deepStrictEqual(Object.keys(d.attributes), [])
+  }
+
+  function preamble(d) {
+    assert.deepStrictEqual(Object.keys(d.attributes), [])
+    var exit = this.enter(d)
+    var node = h('header', all.call(this, d))
+    exit()
+    return node
+  }
+
+  function orderedlist(d) {
+    assert.deepStrictEqual(Object.keys(d.attributes), [])
+    var exit = this.enter(d)
+    var node = h('ol', all.call(this, d))
+    exit()
+    return node
+  }
+
+  function listitem(d) {
+    var ignore = new Set(['tag', 'label'])
+    // Some list items are marked with their index as a word, such as `first`,
+    // `second`.
+    assert.deepStrictEqual(
+      Object.keys(d.attributes).filter((x) => !ignore.has(x)),
+      []
+    )
+    var exit = this.enter(d)
+    var node = h('li', all.call(this, d))
+    exit()
+    return node
+  }
+
+  function article(d) {
+    assert.deepStrictEqual(Object.keys(d.attributes), ['number'])
+    var exit = this.enter(d)
+    var node = h(
+      'article',
+      {dataNumber: d.attributes.number},
+      all.call(this, d)
+    )
+    exit()
+    return node
+  }
+
+  function text(d) {
+    return u('text', d.value)
+  }
+
+  function comment() {}
+
+  function invalidElement(d) {
+    throw new Error('Cannot handle invalid element `' + d + '`')
+  }
+
+  function unknownElement(d) {
+    throw new Error('Cannot handle unknown element w/ name `' + d.name + '`')
+  }
+
+  function invalid(d) {
+    throw new Error('Cannot handle invalid node `' + d + '`')
+  }
+
+  function unknown(d) {
+    throw new Error('Cannot handle unknown node w/ type `' + d.type + '`')
+  }
+
+  function cleanString(raw) {
+    var value = raw.replace(/^\s*\[\s*(.*)\s*]\s*$/, '&1')
+    return /by sprat|missing|^(\?\??)$/i.test(value) ? '' : value
+  }
+})
