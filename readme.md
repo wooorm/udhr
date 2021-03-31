@@ -574,9 +574,9 @@ The actual declarations are available in semantic HTML as
 
 <!--Definitions-->
 
-[build-badge]: https://img.shields.io/travis/wooorm/udhr.svg
+[build-badge]: https://github.com/wooorm/udhr/workflows/main/badge.svg
 
-[build]: https://travis-ci.org/wooorm/udhr
+[build]: https://github.com/wooorm/udhr/actions
 
 [coverage-badge]: https://img.shields.io/codecov/c/github/wooorm/udhr.svg
 
