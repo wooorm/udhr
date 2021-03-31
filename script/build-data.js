@@ -1,18 +1,16 @@
-'use strict'
-
-var fs = require('fs')
-var path = require('path')
-var assert = require('assert')
-var fromXml = require('xast-util-from-xml')
-var toString = require('xast-util-to-string')
-var $ = require('unist-util-select')
-var h = require('hastscript')
-var u = require('unist-builder')
-var mapz = require('mapz')
-var zwitch = require('zwitch')
-var unified = require('unified')
-var rehypeFormat = require('rehype-format')
-var rehypeSerialize = require('rehype-stringify')
+import fs from 'fs'
+import path from 'path'
+import assert from 'assert'
+import fromXml from 'xast-util-from-xml'
+import toString from 'xast-util-to-string'
+import $ from 'unist-util-select'
+import h from 'hastscript'
+import u from 'unist-builder'
+import {mapz} from 'mapz'
+import {zwitch} from 'zwitch'
+import unified from 'unified'
+import rehypeFormat from 'rehype-format'
+import rehypeSerialize from 'rehype-stringify'
 
 var tree = fromXml(fs.readFileSync(path.join('xml', 'index.xml')))
 
@@ -36,7 +34,10 @@ var index = $.selectAll('element[name=udhr]', tree)
   .filter((d) => d.hasXml)
   .map(({hasXml, ...rest}) => rest)
 
-fs.writeFileSync(path.join('index.json'), JSON.stringify(index, null, 2) + '\n')
+fs.writeFileSync(
+  path.join('index.js'),
+  'export var udhr = ' + JSON.stringify(index, null, 2) + '\n'
+)
 
 index.forEach(function (declaration) {
   var input = path.join('xml', 'udhr_' + declaration.code + '.xml')

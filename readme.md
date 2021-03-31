@@ -9,6 +9,9 @@ rights][index], in [unicode][], in JavaScript.
 
 ## Install
 
+This package is ESM only: Node 12+ is needed to use it and it must be `import`ed
+instead of `require`d.
+
 [npm][]:
 
 ```sh
@@ -18,16 +21,14 @@ npm install udhr
 ## Use
 
 ```js
-var fs = require('fs')
-var path = require('path')
-var udhr = require('udhr')
+import fs from 'fs'
+import path from 'path'
+import {udhr} from 'udhr'
 
 console.log(udhr.find((d) => d.code === 'bod'))
 
 // Declarations are stored as `declaration/$code.html`.
-console.log(
-  String(fs.readFileSync(path.join(require.resolve('udhr'), 'declaration', 'eng.html')))
-)
+console.log(String(fs.readFileSync(path.join('node_modules', 'udhr', 'declaration', 'eng.html'))))
 ```
 
 Yields:
@@ -62,6 +63,9 @@ Yields:
 
 ## API
 
+This package exports the following identifiers: `udhr`.
+There is no default export.
+
 ### `udhr`
 
 Returns an array of information objects.
@@ -69,8 +73,6 @@ Gets information about the documents: their stage, language regions and lat-long
 locations, etcetera.
 
 ```js
-var udhr = require('udhr')
-
 console.log(udhr.find((d) => d.code === 'nob'))
 ```
 

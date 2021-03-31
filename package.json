@@ -21,13 +21,17 @@
   "contributors": [
     "Titus Wormer <tituswormer@gmail.com> (https://wooorm.com)"
   ],
+  "sideEffects": false,
+  "type": "module",
+  "main": "index.js",
   "files": [
     "declaration/",
-    "index.json"
+    "index.js"
   ],
   "devDependencies": {
+    "c8": "^7.7.0",
     "hastscript": "^6.0.0",
-    "mapz": "^1.0.0",
+    "mapz": "^2.0.0",
     "mdast-zone": "^4.0.0",
     "nyc": "^15.0.0",
     "prettier": "^2.0.0",
@@ -42,7 +46,7 @@
     "xast-util-from-xml": "^1.0.0",
     "xast-util-to-string": "^1.0.0",
     "xo": "^0.38.0",
-    "zwitch": "^1.0.0"
+    "zwitch": "^2.0.0"
   },
   "scripts": {
     "generate:scrape": "curl --connect-timeout 5 --max-time 10 -L https://www.unicode.org/udhr/assemblies/udhr_xml.zip -o xml.zip || exit 0",
@@ -50,8 +54,8 @@
     "generate:data": "node script/build-data",
     "generate": "npm run generate:scrape && npm run generate:unzip && npm run generate:data",
     "format": "remark . -qfo && prettier . -w --loglevel warn && xo --fix",
-    "test-api": "node test",
-    "test-coverage": "nyc --reporter lcov tape test.js",
+    "test-api": "node test.js",
+    "test-coverage": "c8 --check-coverage --branches 100 --functions 100 --lines 100 --statements 100 --reporter lcov node test.js",
     "test": "npm run format && npm run test-coverage"
   },
   "nyc": {
@@ -70,8 +74,10 @@
   },
   "xo": {
     "prettier": true,
-    "esnext": false,
     "rules": {
+      "import/no-mutable-exports": "off",
+      "no-var": "off",
+      "prefer-arrow-callback": "off",
       "guard-for-in": "off",
       "unicorn/no-array-for-each": "off",
       "unicorn/no-fn-reference-in-iterator": "off",
@@ -79,15 +85,19 @@
     }
   },
   "remarkConfig": {
+    "#to do: add when `unified-engine` supports ESM": "./script/support",
     "plugins": [
       "preset-wooorm",
+      [
+        "lint-table-pipe-alignment",
+        false
+      ],
       [
         "gfm",
         {
           "tablePipeAlign": false
         }
-      ],
-      "./script/support"
+      ]
     ]
   }
 }

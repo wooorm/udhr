@@ -1,8 +1,6 @@
-'use strict'
-
-var assert = require('assert')
-var test = require('tape')
-var udhr = require('.')
+import assert from 'assert'
+import test from 'tape'
+import {udhr} from './index.js'
 
 test('udhr', function (t) {
   t.equal(typeof udhr, 'object', 'should be an object')

@@ -1,8 +1,6 @@
-'use strict'
-
-var zone = require('mdast-zone')
-var u = require('unist-builder')
-var info = require('..')
+import zone from 'mdast-zone'
+import u from 'unist-builder'
+import {udhr} from '../index.js'
 
 var ohchrBase = 'https://www.ohchr.org/EN/UDHR/Pages/Language.aspx?LangID='
 var isoBase = 'https://iso639-3.sil.org/code/'
@@ -34,8 +32,8 @@ function table() {
         header.map((d) => cell(d))
       )
     ].concat(
-      Object.keys(info).map(function (code) {
-        var value = info[code]
+      Object.keys(udhr).map(function (code) {
+        var value = udhr[code]
         var ohchr = value.ohchr
         var iso = value.iso6393
         var loc = 'No'
