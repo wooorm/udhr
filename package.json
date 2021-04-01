@@ -87,9 +87,9 @@
     }
   },
   "remarkConfig": {
-    "#to do: add when `unified-engine` supports ESM": "./script/support",
     "plugins": [
       "preset-wooorm",
+      "./script/support.js",
       [
         "lint-table-pipe-alignment",
         false
