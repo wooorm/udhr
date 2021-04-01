@@ -115,7 +115,7 @@ while (++index < udhr.length) {
           },
           [
             h('head', [h('title', main.attributes.n)]),
-            one.call({rank: 1, enter}, main)
+            one.call({rank: 0, enter}, main)
           ]
         )
       ])
