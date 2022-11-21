@@ -61,11 +61,12 @@ import fs from 'node:fs/promises'
 import {resolve} from 'import-meta-resolve'
 import {udhr} from 'udhr'
 
-console.log(udhr.find((d) => d.code === 'bod'))
+const bod = udhr.find((d) => d.code === 'bod')
+console.log(bod)
 
 const base = await resolve('udhr', import.meta.url)
 // Declarations are stored as `declaration/$code.html`.
-const url = new URL('declaration/eng.html', base)
+const url = new URL('declaration/' + bod.code + '.html', base)
 
 console.log(String(await fs.readFile(url)))
 ```
@@ -88,15 +89,15 @@ Yields:
 
 ```html
 <!doctype html>
-<html lang="en" dir="ltr" data-code="eng" data-iso6393="eng">
+<html lang="bo" dir="ltr" data-code="bod" data-iso6393="bod">
   <head>
-    <title>English</title>
+    <title>Tibetan, Central</title>
   </head>
   <body>
-    <h1>Universal Declaration of Human Rights</h1>
+    <h1>༄༅༎ ཡོངས་ཁྱབ་གསལ་བསྒྲགས་འགྲོ་བ་མིའི་ཐོབ་ཐང༌།</h1>
     <header>
-      <h2>Preamble</h2>
-      <p>Whereas recognition of the inherent dignity and of the equal and inalienable rights of all members of the human family is the foundation of freedom, justice and peace in the world,</p>
+      <h2>སྔོན་བརྗོད།</h2>
+      <p>༈ འགྲོ་བ་མིའི་ཁྱིམ་ཚང་ཁག་གི་ནང་མི་ཡོངས་ལ་རང་བཞིན་ཉིད་ནས་ཡོད་པའི་ཆེ་མཐོངས་དང་འདྲ་མཉམ། སུས་ཀྱང་འཕྲོག་ཏུ་མི་རུང་བའི་ཐོབ་ཐང་བཅས་ཀྱི་གནད་དོན་རྟོགས པར་བྱེད་པ་ནི། འཛམ་གླིང་ནང་གི་རང་དབང་དང༌། དྲང་བདེན། ཞི་བདེ་བཅས་ཀྱི་རྣང་གཞི་ལྟེ་བ་ཡིན།</p>
 …
 ```
 
