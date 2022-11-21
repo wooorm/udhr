@@ -106,7 +106,7 @@ The actual declarations are available in semantic HTML as
 | Sãotomense | cri | [1128](https://www.ohchr.org/EN/UDHR/Pages/Language.aspx?LangID=1128) | [cri](https://iso639-3.sil.org/code/cri) | ltr | [6.7, 0.3](https://www.openstreetmap.org/#map=5/6.68/0.33) |
 | Crioulo, Upper Guinea (008) | pov | | [pov](https://iso639-3.sil.org/code/pov) | ltr | [13.2, -15.3](https://www.openstreetmap.org/#map=5/13.23/-15.33) |
 | Mbundu (009) | kmb | | [kmb](https://iso639-3.sil.org/code/kmb) | ltr | [-9.0, 14.9](https://www.openstreetmap.org/#map=5/-8.98/14.89) |
-| Tetun Dili | tdt | | [tdt](https://iso639-3.sil.org/code/tdt) | ltr | [125.5, -8.5](https://www.openstreetmap.org/#map=5/125.5/-8.5) |
+| Tetun Dili | tdt | | [tdt](https://iso639-3.sil.org/code/tdt) | ltr | [-8.5, 125.5](https://www.openstreetmap.org/#map=5/-8.5/125.5) |
 | Umbundu (011) | umb | | [umb](https://iso639-3.sil.org/code/umb) | ltr | [-12.5, 14.4](https://www.openstreetmap.org/#map=5/-12.48/14.41) |
 | (Bizisa) | und | [bz1](https://www.ohchr.org/EN/UDHR/Pages/Language.aspx?LangID=bz1) | [und](https://iso639-3.sil.org/code/und) | ltr | [-75.0, 30.0](https://www.openstreetmap.org/#map=5/-75/30) |
 | (Mijisa) | und | [bz2](https://www.ohchr.org/EN/UDHR/Pages/Language.aspx?LangID=bz2) | [und](https://iso639-3.sil.org/code/und) | ltr | [-75.0, 30.0](https://www.openstreetmap.org/#map=5/-75/30) |
@@ -114,6 +114,10 @@ The actual declarations are available in semantic HTML as
 | (Minjiang, spoken) | und | [mi1\_spok](https://www.ohchr.org/EN/UDHR/Pages/Language.aspx?LangID=mi1_spok) | [und](https://iso639-3.sil.org/code/und) | ltr | [-75.0, 30.0](https://www.openstreetmap.org/#map=5/-75/30) |
 | (Minjiang, written) | und | [mi1\_written](https://www.ohchr.org/EN/UDHR/Pages/Language.aspx?LangID=mi1_written) | [und](https://iso639-3.sil.org/code/und) | ltr | [-75.0, 30.0](https://www.openstreetmap.org/#map=5/-75/30) |
 | Drung | duu | [ty1](https://www.ohchr.org/EN/UDHR/Pages/Language.aspx?LangID=ty1) | [duu](https://iso639-3.sil.org/code/duu) | ltr | [28.0, 98.0](https://www.openstreetmap.org/#map=5/28/98) |
+| (Muzzi) | und | [mz1](https://www.ohchr.org/EN/UDHR/Pages/Language.aspx?LangID=mz1) | [und](https://iso639-3.sil.org/code/und) | ltr | [-75.0, 30.0](https://www.openstreetmap.org/#map=5/-75/30) |
+| (Klau) | und | [kl1](https://www.ohchr.org/EN/UDHR/Pages/Language.aspx?LangID=kl1) | [und](https://iso639-3.sil.org/code/und) | ltr | [-75.0, 30.0](https://www.openstreetmap.org/#map=5/-75/30) |
+| (Jinan) | und | [ji1](https://www.ohchr.org/EN/UDHR/Pages/Language.aspx?LangID=ji1) | [und](https://iso639-3.sil.org/code/und) | ltr | [-75.0, 30.0](https://www.openstreetmap.org/#map=5/-75/30) |
+| (Bizisa) | und | [Bz1](https://www.ohchr.org/EN/UDHR/Pages/Language.aspx?LangID=Bz1) | [und](https://iso639-3.sil.org/code/und) | ltr | [-75.0, 30.0](https://www.openstreetmap.org/#map=5/-75/30) |
 | (Yeonbyeon) | und | [ye1](https://www.ohchr.org/EN/UDHR/Pages/Language.aspx?LangID=ye1) | [und](https://iso639-3.sil.org/code/und) | ltr | [-75.0, 30.0](https://www.openstreetmap.org/#map=5/-75/30) |
 | Afar | aa | [aar](https://www.ohchr.org/EN/UDHR/Pages/Language.aspx?LangID=aar) | [aar](https://iso639-3.sil.org/code/aar) | ltr | [12.2, 41.8](https://www.openstreetmap.org/#map=5/12.23/41.81) |
 | Abkhaz | ab | [abk](https://www.ohchr.org/EN/UDHR/Pages/Language.aspx?LangID=abk) | [abk](https://iso639-3.sil.org/code/abk) | ltr | [42.2, 41.3](https://www.openstreetmap.org/#map=5/42.23/41.3) |
@@ -186,16 +190,23 @@ The actual declarations are available in semantic HTML as
 | Chuukese | chk | [tru1](https://www.ohchr.org/EN/UDHR/Pages/Language.aspx?LangID=tru1) | [chk](https://iso639-3.sil.org/code/chk) | ltr | [7.3, 151.6](https://www.openstreetmap.org/#map=5/7.34/151.6) |
 | Cherokee (cased) | chr | | [chr](https://iso639-3.sil.org/code/chr) | ltr | [35.5, -83.2](https://www.openstreetmap.org/#map=5/35.47/-83.16) |
 | Cherokee (uppercase) | chr | | [chr](https://iso639-3.sil.org/code/chr) | ltr | [35.5, -83.2](https://www.openstreetmap.org/#map=5/35.47/-83.16) |
+| Chuvash | cv | [chv](https://www.ohchr.org/EN/UDHR/Pages/Language.aspx?LangID=chv) | [chv](https://iso639-3.sil.org/code/chv) | ltr | [55.0, 47.0](https://www.openstreetmap.org/#map=5/55/47) |
 | Chickasaw | cic | [cic](https://www.ohchr.org/EN/UDHR/Pages/Language.aspx?LangID=cic) | [cic](https://iso639-3.sil.org/code/cic) | ltr | [34.0, -97.1](https://www.openstreetmap.org/#map=5/33.95/-97.13) |
 | Chokwe | cjk | [cjk](https://www.ohchr.org/EN/UDHR/Pages/Language.aspx?LangID=cjk) | [cjk](https://iso639-3.sil.org/code/cjk) | ltr | [-9.7, 21.4](https://www.openstreetmap.org/#map=5/-9.66/21.4) |
 | Chokwe (Angola) | cjk | [cjk](https://www.ohchr.org/EN/UDHR/Pages/Language.aspx?LangID=cjk) | [cjk](https://iso639-3.sil.org/code/cjk) | ltr | [-9.7, 21.4](https://www.openstreetmap.org/#map=5/-9.66/21.4) |
 | Shor | cjs | [cjs](https://www.ohchr.org/EN/UDHR/Pages/Language.aspx?LangID=cjs) | [cjs](https://iso639-3.sil.org/code/cjs) | ltr | [52.3, 88.4](https://www.openstreetmap.org/#map=5/52.33/88.43) |
 | Chinese, Jinyu | cjy | [cjy](https://www.ohchr.org/EN/UDHR/Pages/Language.aspx?LangID=cjy) | [cjy](https://iso639-3.sil.org/code/cjy) | ltr | [38.0, 111.0](https://www.openstreetmap.org/#map=5/38/111) |
 | Kurdish, Central | ckb-Latn | [kdb1](https://www.ohchr.org/EN/UDHR/Pages/Language.aspx?LangID=kdb1) | [ckb](https://iso639-3.sil.org/code/ckb) | ltr | [35.6, 45.8](https://www.openstreetmap.org/#map=5/35.65/45.81) |
-| Chinese, Mandarin (Simplified) | zh-Hans | [chn](https://www.ohchr.org/EN/UDHR/Pages/Language.aspx?LangID=chn) | [cmn](https://iso639-3.sil.org/code/cmn) | ltr | [40.0, 116.2](https://www.openstreetmap.org/#map=5/40.02/116.23) |
+| Chinese, Mandarin (Simplified) | zh | [chn](https://www.ohchr.org/EN/UDHR/Pages/Language.aspx?LangID=chn) | [cmn](https://iso639-3.sil.org/code/cmn) | ltr | [40.0, 116.2](https://www.openstreetmap.org/#map=5/40.02/116.23) |
+| Chinese, Mandarin (Beijing) | zh | [be1](https://www.ohchr.org/EN/UDHR/Pages/Language.aspx?LangID=be1) | [cmn](https://iso639-3.sil.org/code/cmn) | ltr | [39.9, 116.4](https://www.openstreetmap.org/#map=5/39.91/116.38) |
+| Chinese, Mandarin (Guiyang) | zh | [gu1](https://www.ohchr.org/EN/UDHR/Pages/Language.aspx?LangID=gu1) | [cmn](https://iso639-3.sil.org/code/cmn) | ltr | [26.6, 106.6](https://www.openstreetmap.org/#map=5/26.65/106.63) |
+| Chinese, Mandarin (Harbin) | zh | [ha2](https://www.ohchr.org/EN/UDHR/Pages/Language.aspx?LangID=ha2) | [cmn](https://iso639-3.sil.org/code/cmn) | ltr | [45.8, 126.6](https://www.openstreetmap.org/#map=5/45.75/126.63) |
+| Chinese, Mandarin (Nanjing) | zh | [na1](https://www.ohchr.org/EN/UDHR/Pages/Language.aspx?LangID=na1) | [cmn](https://iso639-3.sil.org/code/cmn) | ltr | [32.0, 118.8](https://www.openstreetmap.org/#map=5/32.05/118.76) |
+| Chinese, Mandarin (Tianjin) | zh | [ti1](https://www.ohchr.org/EN/UDHR/Pages/Language.aspx?LangID=ti1) | [cmn](https://iso639-3.sil.org/code/cmn) | ltr | [39.1, 117.2](https://www.openstreetmap.org/#map=5/39.13/117.18) |
 | Chinese, Mandarin (Traditional) | zh-Hant | | [cmn](https://iso639-3.sil.org/code/cmn) | ltr | [40.0, 116.2](https://www.openstreetmap.org/#map=5/40.02/116.23) |
 | Chin, Haka | cnh | [hak](https://www.ohchr.org/EN/UDHR/Pages/Language.aspx?LangID=hak) | [cnh](https://iso639-3.sil.org/code/cnh) | ltr | [22.9, 92.8](https://www.openstreetmap.org/#map=5/22.87/92.82) |
 | Asháninka | cni | [cni](https://www.ohchr.org/EN/UDHR/Pages/Language.aspx?LangID=cni) | [cni](https://iso639-3.sil.org/code/cni) | ltr | [-11.9, -73.9](https://www.openstreetmap.org/#map=5/-11.93/-73.91) |
+| Montenegrin | cnr | [cnr](https://www.ohchr.org/EN/UDHR/Pages/Language.aspx?LangID=cnr) | [cnr](https://iso639-3.sil.org/code/cnr) | ltr | [42.8, 19.5](https://www.openstreetmap.org/#map=5/42.78/19.47) |
 | Colorado | cof | [cof](https://www.ohchr.org/EN/UDHR/Pages/Language.aspx?LangID=cof) | [cof](https://iso639-3.sil.org/code/cof) | ltr | [-0.2, -79.2](https://www.openstreetmap.org/#map=5/-0.21/-79.23) |
 | Corsican | co | [coi](https://www.ohchr.org/EN/UDHR/Pages/Language.aspx?LangID=coi) | [cos](https://iso639-3.sil.org/code/cos) | ltr | [41.7, 9.3](https://www.openstreetmap.org/#map=5/41.7/9.26) |
 | Caquinte | cot | [cot](https://www.ohchr.org/EN/UDHR/Pages/Language.aspx?LangID=cot) | [cot](https://iso639-3.sil.org/code/cot) | ltr | [-11.5, -73.5](https://www.openstreetmap.org/#map=5/-11.48/-73.45) |
@@ -242,6 +253,7 @@ The actual declarations are available in semantic HTML as
 | Friulian | fur | [frl](https://www.ohchr.org/EN/UDHR/Pages/Language.aspx?LangID=frl) | [fur](https://iso639-3.sil.org/code/fur) | ltr | [46.1, 13.1](https://www.openstreetmap.org/#map=5/46.15/13.05) |
 | Fulfulde, Nigerian | fuv | [fum](https://www.ohchr.org/EN/UDHR/Pages/Language.aspx?LangID=fum) | [fuv](https://iso639-3.sil.org/code/fuv) | ltr | [11.0, 11.1](https://www.openstreetmap.org/#map=5/11/11.12) |
 | Fulfulde, Nigerian (2) | fuv | [fuv](https://www.ohchr.org/EN/UDHR/Pages/Language.aspx?LangID=fuv) | [fuv](https://iso639-3.sil.org/code/fuv) | ltr | [11.0, 11.1](https://www.openstreetmap.org/#map=5/11/11.12) |
+| Fur | fvr | [fvr](https://www.ohchr.org/EN/UDHR/Pages/Language.aspx?LangID=fvr) | [fvr](https://iso639-3.sil.org/code/fvr) | ltr | [13.0, 25.0](https://www.openstreetmap.org/#map=5/13/25) |
 | Ga | gaa | [gac2](https://www.ohchr.org/EN/UDHR/Pages/Language.aspx?LangID=gac2) | [gaa](https://iso639-3.sil.org/code/gaa) | ltr | [5.7, -0.2](https://www.openstreetmap.org/#map=5/5.65/-0.19) |
 | Gagauz | gag | [gag](https://www.ohchr.org/EN/UDHR/Pages/Language.aspx?LangID=gag) | [gag](https://iso639-3.sil.org/code/gag) | ltr | [44.6, 28.0](https://www.openstreetmap.org/#map=5/44.6/28.03) |
 | Chinese, Gan | gan | [gan](https://www.ohchr.org/EN/UDHR/Pages/Language.aspx?LangID=gan) | [gan](https://iso639-3.sil.org/code/gan) | ltr | [28.0, 105.0](https://www.openstreetmap.org/#map=5/28/105) |
@@ -264,6 +276,7 @@ The actual declarations are available in semantic HTML as
 | Haitian Creole French (Popular) | ht | [hat1](https://www.ohchr.org/EN/UDHR/Pages/Language.aspx?LangID=hat1) | [hat](https://iso639-3.sil.org/code/hat) | ltr | [19.0, -73.3](https://www.openstreetmap.org/#map=5/19/-73.33) |
 | Hausa (Niger) | ha-NE | [gej](https://www.ohchr.org/EN/UDHR/Pages/Language.aspx?LangID=gej) | [hau](https://iso639-3.sil.org/code/hau) | ltr | [11.2, 8.8](https://www.openstreetmap.org/#map=5/11.15/8.78) |
 | Hausa (Nigeria) | ha-NG | [gej](https://www.ohchr.org/EN/UDHR/Pages/Language.aspx?LangID=gej) | [hau](https://iso639-3.sil.org/code/hau) | ltr | [11.2, 8.8](https://www.openstreetmap.org/#map=5/11.15/8.78) |
+| Hausa | ha | [hau](https://www.ohchr.org/EN/UDHR/Pages/Language.aspx?LangID=hau) | [hau](https://iso639-3.sil.org/code/hau) | ltr | [11.2, 8.8](https://www.openstreetmap.org/#map=5/11.15/8.78) |
 | Hawaiian | haw | [hwi](https://www.ohchr.org/EN/UDHR/Pages/Language.aspx?LangID=hwi) | [haw](https://iso639-3.sil.org/code/haw) | ltr | [19.6, -155.4](https://www.openstreetmap.org/#map=5/19.63/-155.43) |
 | Hmong, Northern Qiandong | hmn | [hea](https://www.ohchr.org/EN/UDHR/Pages/Language.aspx?LangID=hea) | [hea](https://iso639-3.sil.org/code/hea) | ltr | [26.6, 108.2](https://www.openstreetmap.org/#map=5/26.63/108.16) |
 | Hebrew | he | [hbr](https://www.ohchr.org/EN/UDHR/Pages/Language.aspx?LangID=hbr) | [heb](https://iso639-3.sil.org/code/heb) | rtl | [31.1, 35.0](https://www.openstreetmap.org/#map=5/31.11/35.02) |
@@ -277,6 +290,7 @@ The actual declarations are available in semantic HTML as
 | Croatian | hr | [src2](https://www.ohchr.org/EN/UDHR/Pages/Language.aspx?LangID=src2) | [hrv](https://iso639-3.sil.org/code/hrv) | ltr | [45.2, 16.8](https://www.openstreetmap.org/#map=5/45.2/16.83) |
 | Sorbian, Upper | hsb | [wee](https://www.ohchr.org/EN/UDHR/Pages/Language.aspx?LangID=wee) | [hsb](https://iso639-3.sil.org/code/hsb) | ltr | [51.2, 14.4](https://www.openstreetmap.org/#map=5/51.24/14.41) |
 | Huastec (Sierra de Otontepec) | hus | [hus](https://www.ohchr.org/EN/UDHR/Pages/Language.aspx?LangID=hus) | [hus](https://iso639-3.sil.org/code/hus) | ltr | [21.6, -98.5](https://www.openstreetmap.org/#map=5/21.62/-98.5) |
+| Chinese, Xiang | hsn | [hsn](https://www.ohchr.org/EN/UDHR/Pages/Language.aspx?LangID=hsn) | [hsn](https://iso639-3.sil.org/code/hsn) | ltr | [28.1, 113.0](https://www.openstreetmap.org/#map=5/28.11/112.98) |
 | Hungarian | hu | [hng](https://www.ohchr.org/EN/UDHR/Pages/Language.aspx?LangID=hng) | [hun](https://iso639-3.sil.org/code/hun) | ltr | [46.9, 19.7](https://www.openstreetmap.org/#map=5/46.91/19.66) |
 | Huastec (Veracruz) | hus | [1118](https://www.ohchr.org/EN/UDHR/Pages/Language.aspx?LangID=1118) | [hus](https://iso639-3.sil.org/code/hus) | ltr | [21.6, -98.5](https://www.openstreetmap.org/#map=5/21.62/-98.5) |
 | Huitoto, Murui | huu | [huu](https://www.ohchr.org/EN/UDHR/Pages/Language.aspx?LangID=huu) | [huu](https://iso639-3.sil.org/code/huu) | ltr | [-1.1, -73.8](https://www.openstreetmap.org/#map=5/-1.14/-73.83) |
@@ -285,7 +299,9 @@ The actual declarations are available in semantic HTML as
 | Ibibio | ibb | [ibb](https://www.ohchr.org/EN/UDHR/Pages/Language.aspx?LangID=ibb) | [ibb](https://iso639-3.sil.org/code/ibb) | ltr | [5.2, 7.9](https://www.openstreetmap.org/#map=5/5.15/7.87) |
 | Igbo | ig | [igr](https://www.ohchr.org/EN/UDHR/Pages/Language.aspx?LangID=igr) | [ibo](https://iso639-3.sil.org/code/ibo) | ltr | [4.6, 7.2](https://www.openstreetmap.org/#map=5/4.63/7.23) |
 | Ido | io | [1120](https://www.ohchr.org/EN/UDHR/Pages/Language.aspx?LangID=1120) | [ido](https://iso639-3.sil.org/code/ido) | ltr | [-75.0, 20.0](https://www.openstreetmap.org/#map=5/-75/20) |
+| Idoma | idu | [idu](https://www.ohchr.org/EN/UDHR/Pages/Language.aspx?LangID=idu) | [idu](https://iso639-3.sil.org/code/idu) | ltr | [7.2, 8.2](https://www.openstreetmap.org/#map=5/7.19/8.15) |
 | Nuosu | ii | [iii](https://www.ohchr.org/EN/UDHR/Pages/Language.aspx?LangID=iii) | [iii](https://iso639-3.sil.org/code/iii) | ltr | [28.2, 102.1](https://www.openstreetmap.org/#map=5/28.19/102.12) |
+| Ijo, Southeast | ijs | [ijs](https://www.ohchr.org/EN/UDHR/Pages/Language.aspx?LangID=ijs) | [ijs](https://iso639-3.sil.org/code/ijs) | ltr | [5.0, 6.3](https://www.openstreetmap.org/#map=5/5.03/6.33) |
 | Inuktitut, Eastern Canadian | iu | [esb](https://www.ohchr.org/EN/UDHR/Pages/Language.aspx?LangID=esb) | [ike](https://iso639-3.sil.org/code/ike) | ltr | [62.2, -75.6](https://www.openstreetmap.org/#map=5/62.17/-75.61) |
 | Ilocano | ilo | [ilo](https://www.ohchr.org/EN/UDHR/Pages/Language.aspx?LangID=ilo) | [ilo](https://iso639-3.sil.org/code/ilo) | ltr | [15.9, 121.0](https://www.openstreetmap.org/#map=5/15.94/120.99) |
 | Interlingua | ia | [1119](https://www.ohchr.org/EN/UDHR/Pages/Language.aspx?LangID=1119) | [ina](https://iso639-3.sil.org/code/ina) | ltr | [48.2, 2.6](https://www.openstreetmap.org/#map=5/48.2/2.62) |
@@ -296,6 +312,9 @@ The actual declarations are available in semantic HTML as
 | Javanese (Javanese) | jv-Java | | [jav](https://iso639-3.sil.org/code/jav) | ltr | [-0.6, 110.9](https://www.openstreetmap.org/#map=5/-0.57/110.89) |
 | Shuar | jiv | [1125](https://www.ohchr.org/EN/UDHR/Pages/Language.aspx?LangID=1125) | [jiv](https://iso639-3.sil.org/code/jiv) | ltr | [-3.5, -78.2](https://www.openstreetmap.org/#map=5/-3.45/-78.19) |
 | Japanese | ja | [jpn](https://www.ohchr.org/EN/UDHR/Pages/Language.aspx?LangID=jpn) | [jpn](https://iso639-3.sil.org/code/jpn) | ltr | [35.0, 135.0](https://www.openstreetmap.org/#map=5/35/135) |
+| Japanese (Osaka) | ja | [obe](https://www.ohchr.org/EN/UDHR/Pages/Language.aspx?LangID=obe) | [jpn](https://iso639-3.sil.org/code/jpn) | ltr | [34.7, 135.5](https://www.openstreetmap.org/#map=5/34.69/135.5) |
+| Japanese (Tokyo) | ja | [to1](https://www.ohchr.org/EN/UDHR/Pages/Language.aspx?LangID=to1) | [jpn](https://iso639-3.sil.org/code/jpn) | ltr | [35.7, 139.7](https://www.openstreetmap.org/#map=5/35.68/139.68) |
+| Karakalpak | kaa | [kaa](https://www.ohchr.org/EN/UDHR/Pages/Language.aspx?LangID=kaa) | [kaa](https://iso639-3.sil.org/code/kaa) | ltr | [42.5, 59.6](https://www.openstreetmap.org/#map=5/42.47/59.6) |
 | Inuktitut, Greenlandic | kl | [esg](https://www.ohchr.org/EN/UDHR/Pages/Language.aspx?LangID=esg) | [kal](https://iso639-3.sil.org/code/kal) | ltr | [69.4, -52.9](https://www.openstreetmap.org/#map=5/69.38/-52.86) |
 | Kannada | kn | [kjv](https://www.ohchr.org/EN/UDHR/Pages/Language.aspx?LangID=kjv) | [kan](https://iso639-3.sil.org/code/kan) | ltr | [13.6, 76.1](https://www.openstreetmap.org/#map=5/13.59/76.12) |
 | Georgian | ka | [geo](https://www.ohchr.org/EN/UDHR/Pages/Language.aspx?LangID=geo) | [kat](https://iso639-3.sil.org/code/kat) | ltr | [39.4, 45.8](https://www.openstreetmap.org/#map=5/39.37/45.81) |
@@ -371,6 +390,7 @@ The actual declarations are available in semantic HTML as
 | Malay (Arabic) | zlm-Arab | | [zlm](https://iso639-3.sil.org/code/zlm) | rtl | [1.9, 103.0](https://www.openstreetmap.org/#map=5/1.86/103) |
 | Malay (Latin) | zlm-Latn | [mli](https://www.ohchr.org/EN/UDHR/Pages/Language.aspx?LangID=mli) | [zlm](https://iso639-3.sil.org/code/zlm) | ltr | [1.9, 103.0](https://www.openstreetmap.org/#map=5/1.86/103) |
 | Mon | mnw | | [mnw](https://iso639-3.sil.org/code/mnw) | ltr | [10.0, 100.0](https://www.openstreetmap.org/#map=5/10/100) |
+| Moro | mor | [mor](https://www.ohchr.org/EN/UDHR/Pages/Language.aspx?LangID=mor) | [mor](https://iso639-3.sil.org/code/mor) | ltr | [11.0, 30.0](https://www.openstreetmap.org/#map=5/11/30) |
 | Mòoré | mos | [mhm](https://www.ohchr.org/EN/UDHR/Pages/Language.aspx?LangID=mhm) | [mos](https://iso639-3.sil.org/code/mos) | ltr | [10.4, -1.2](https://www.openstreetmap.org/#map=5/10.45/-1.17) |
 | Maori | mi | [mbf](https://www.ohchr.org/EN/UDHR/Pages/Language.aspx?LangID=mbf) | [mri](https://iso639-3.sil.org/code/mri) | ltr | [-38.3, 176.5](https://www.openstreetmap.org/#map=5/-38.29/176.54) |
 | Mixe, Totontepec | mto | [mto](https://www.ohchr.org/EN/UDHR/Pages/Language.aspx?LangID=mto) | [mto](https://iso639-3.sil.org/code/mto) | ltr | [17.2, -96.0](https://www.openstreetmap.org/#map=5/17.22/-96.02) |
@@ -388,6 +408,7 @@ The actual declarations are available in semantic HTML as
 | Nahuatl, Central | nhn | [nhn](https://www.ohchr.org/EN/UDHR/Pages/Language.aspx?LangID=nhn) | [nhn](https://iso639-3.sil.org/code/nhn) | ltr | [19.1, -98.3](https://www.openstreetmap.org/#map=5/19.12/-98.3) |
 | Nganasan | nio | [nio](https://www.ohchr.org/EN/UDHR/Pages/Language.aspx?LangID=nio) | [nio](https://iso639-3.sil.org/code/nio) | ltr | [73.1, 86.2](https://www.openstreetmap.org/#map=5/73.14/86.21) |
 | Niue | niu | [niu](https://www.ohchr.org/EN/UDHR/Pages/Language.aspx?LangID=niu) | [niu](https://iso639-3.sil.org/code/niu) | ltr | [-19.1, -169.9](https://www.openstreetmap.org/#map=5/-19.05/-169.92) |
+| Gilyak | niv | [Nivkh](https://www.ohchr.org/EN/UDHR/Pages/Language.aspx?LangID=Nivkh) | [niv](https://iso639-3.sil.org/code/niv) | ltr | [52.6, 140.7](https://www.openstreetmap.org/#map=5/52.59/140.68) |
 | Naga, Ao | njo | [njo](https://www.ohchr.org/EN/UDHR/Pages/Language.aspx?LangID=njo) | [njo](https://iso639-3.sil.org/code/njo) | ltr | [26.3, 94.4](https://www.openstreetmap.org/#map=5/26.32/94.38) |
 | Kulango, Bouna | nku | [kou](https://www.ohchr.org/EN/UDHR/Pages/Language.aspx?LangID=kou) | [nku](https://iso639-3.sil.org/code/nku) | ltr | [8.5, -2.8](https://www.openstreetmap.org/#map=5/8.46/-2.75) |
 | Dutch | nl | [dut](https://www.ohchr.org/EN/UDHR/Pages/Language.aspx?LangID=dut) | [nld](https://iso639-3.sil.org/code/nld) | ltr | [52.0, 5.0](https://www.openstreetmap.org/#map=5/52/5) |
@@ -473,6 +494,7 @@ The actual declarations are available in semantic HTML as
 | Sinhala | si | [snh](https://www.ohchr.org/EN/UDHR/Pages/Language.aspx?LangID=snh) | [sin](https://iso639-3.sil.org/code/sin) | ltr | [7.0, 81.0](https://www.openstreetmap.org/#map=5/7/81) |
 | Seraiki | skr | [skr](https://www.ohchr.org/EN/UDHR/Pages/Language.aspx?LangID=skr) | [skr](https://iso639-3.sil.org/code/skr) | rtl | [29.6, 71.9](https://www.openstreetmap.org/#map=5/29.55/71.91) |
 | Slovak | sk | [slo](https://www.ohchr.org/EN/UDHR/Pages/Language.aspx?LangID=slo) | [slk](https://iso639-3.sil.org/code/slk) | ltr | [48.5, 18.8](https://www.openstreetmap.org/#map=5/48.55/18.78) |
+| Salar | slr | [slr](https://www.ohchr.org/EN/UDHR/Pages/Language.aspx?LangID=slr) | [slr](https://iso639-3.sil.org/code/slr) | ltr | [35.0, 95.0](https://www.openstreetmap.org/#map=5/35/95) |
 | Slovenian | sl | [slv](https://www.ohchr.org/EN/UDHR/Pages/Language.aspx?LangID=slv) | [slv](https://iso639-3.sil.org/code/slv) | ltr | [46.3, 14.8](https://www.openstreetmap.org/#map=5/46.25/14.78) |
 | Saami, North | se | [lpi](https://www.ohchr.org/EN/UDHR/Pages/Language.aspx?LangID=lpi) | [sme](https://iso639-3.sil.org/code/sme) | ltr | [68.7, 22.1](https://www.openstreetmap.org/#map=5/68.72/22.11) |
 | Samoan | sm | [smy](https://www.ohchr.org/EN/UDHR/Pages/Language.aspx?LangID=smy) | [smo](https://iso639-3.sil.org/code/smo) | ltr | [-13.9, -171.8](https://www.openstreetmap.org/#map=5/-13.92/-171.83) |
@@ -529,6 +551,7 @@ The actual declarations are available in semantic HTML as
 | Tzeltal, Oxchuc | tzh | [tzc1](https://www.ohchr.org/EN/UDHR/Pages/Language.aspx?LangID=tzc1) | [tzh](https://iso639-3.sil.org/code/tzh) | ltr | [16.6, -92.3](https://www.openstreetmap.org/#map=5/16.64/-92.28) |
 | Tamazight, Central Atlas | tzm | [tzm](https://www.ohchr.org/EN/UDHR/Pages/Language.aspx?LangID=tzm) | [tzm](https://iso639-3.sil.org/code/tzm) | ltr | [32.7, -2.4](https://www.openstreetmap.org/#map=5/32.74/-2.41) |
 | Tamazight, Central Atlas (Tifinagh) | tzm-Tfng | | [tzm](https://iso639-3.sil.org/code/tzm) | ltr | [32.7, -2.4](https://www.openstreetmap.org/#map=5/32.74/-2.41) |
+| Uduk | udu | [udu](https://www.ohchr.org/EN/UDHR/Pages/Language.aspx?LangID=udu) | [udu](https://iso639-3.sil.org/code/udu) | ltr | [8.3, 34.5](https://www.openstreetmap.org/#map=5/8.25/34.5) |
 | Uyghur (Arabic) | ug-Arab | [uig](https://www.ohchr.org/EN/UDHR/Pages/Language.aspx?LangID=uig) | [uig](https://iso639-3.sil.org/code/uig) | rtl | [43.7, 79.8](https://www.openstreetmap.org/#map=5/43.67/79.75) |
 | Uyghur (Latin) | ug-Latn | | [uig](https://iso639-3.sil.org/code/uig) | ltr | [43.7, 79.8](https://www.openstreetmap.org/#map=5/43.67/79.75) |
 | Ukrainian | uk | [ukr](https://www.ohchr.org/EN/UDHR/Pages/Language.aspx?LangID=ukr) | [ukr](https://iso639-3.sil.org/code/ukr) | ltr | [48.2, 24.4](https://www.openstreetmap.org/#map=5/48.18/24.4) |
@@ -559,6 +582,7 @@ The actual declarations are available in semantic HTML as
 | Yiddish, Eastern | yi | [ydd](https://www.ohchr.org/EN/UDHR/Pages/Language.aspx?LangID=ydd) | [ydd](https://iso639-3.sil.org/code/ydd) | rtl | [51.8, 19.4](https://www.openstreetmap.org/#map=5/51.75/19.42) |
 | Yukaghir, Northern | ykg | [ykg](https://www.ohchr.org/EN/UDHR/Pages/Language.aspx?LangID=ykg) | [ykg](https://iso639-3.sil.org/code/ykg) | ltr | [65.4, 151.3](https://www.openstreetmap.org/#map=5/65.39/151.32) |
 | Yoruba | yo | [yor](https://www.ohchr.org/EN/UDHR/Pages/Language.aspx?LangID=yor) | [yor](https://iso639-3.sil.org/code/yor) | ltr | [7.2, 3.7](https://www.openstreetmap.org/#map=5/7.15/3.67) |
+| Nenets | yrk | [yrk](https://www.ohchr.org/EN/UDHR/Pages/Language.aspx?LangID=yrk) | [yrk](https://iso639-3.sil.org/code/yrk) | ltr | [66.2, 71.0](https://www.openstreetmap.org/#map=5/66.18/71.02) |
 | Maya, Yucatán | yua | [yua](https://www.ohchr.org/EN/UDHR/Pages/Language.aspx?LangID=yua) | [yua](https://iso639-3.sil.org/code/yua) | ltr | [18.8, -89.0](https://www.openstreetmap.org/#map=5/18.78/-88.96) |
 | Chinese, Yue | yue | [yue](https://www.ohchr.org/EN/UDHR/Pages/Language.aspx?LangID=yue) | [yue](https://iso639-3.sil.org/code/yue) | ltr | [31.1, 121.3](https://www.openstreetmap.org/#map=5/31.13/121.29) |
 | Zapotec, Miahuatlán | zam | [zam](https://www.ohchr.org/EN/UDHR/Pages/Language.aspx?LangID=zam) | [zam](https://iso639-3.sil.org/code/zam) | ltr | [16.2, -96.7](https://www.openstreetmap.org/#map=5/16.22/-96.66) |

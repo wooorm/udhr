@@ -40,8 +40,8 @@ export const udhr = [
     iso6393: 'tdt',
     direction: 'ltr',
     stage: 4,
-    latitude: 125.5,
-    longitude: -8.5
+    latitude: -8.5,
+    longitude: 125.5
   },
   {
     code: '011',
@@ -119,6 +119,50 @@ export const udhr = [
     stage: 4,
     latitude: 28,
     longitude: 98
+  },
+  {
+    code: '021',
+    name: '(Muzzi)',
+    bcp47: 'und',
+    ohchr: 'mz1',
+    iso6393: 'und',
+    direction: 'ltr',
+    stage: 4,
+    latitude: -75,
+    longitude: 30
+  },
+  {
+    code: '022',
+    name: '(Klau)',
+    bcp47: 'und',
+    ohchr: 'kl1',
+    iso6393: 'und',
+    direction: 'ltr',
+    stage: 4,
+    latitude: -75,
+    longitude: 30
+  },
+  {
+    code: '023',
+    name: '(Jinan)',
+    bcp47: 'und',
+    ohchr: 'ji1',
+    iso6393: 'und',
+    direction: 'ltr',
+    stage: 4,
+    latitude: -75,
+    longitude: 30
+  },
+  {
+    code: '025',
+    name: '(Bizisa)',
+    bcp47: 'und',
+    ohchr: 'Bz1',
+    iso6393: 'und',
+    direction: 'ltr',
+    stage: 4,
+    latitude: -75,
+    longitude: 30
   },
   {
     code: '026',
@@ -913,6 +957,17 @@ export const udhr = [
     longitude: -83.16
   },
   {
+    code: 'chv',
+    name: 'Chuvash',
+    bcp47: 'cv',
+    ohchr: 'chv',
+    iso6393: 'chv',
+    direction: 'ltr',
+    stage: 1,
+    latitude: 55,
+    longitude: 47
+  },
+  {
     code: 'cic',
     name: 'Chickasaw',
     bcp47: 'cic',
@@ -981,13 +1036,68 @@ export const udhr = [
   {
     code: 'cmn_hans',
     name: 'Chinese, Mandarin (Simplified)',
-    bcp47: 'zh-Hans',
+    bcp47: 'zh',
     ohchr: 'chn',
     iso6393: 'cmn',
     direction: 'ltr',
     stage: 4,
     latitude: 40.02,
     longitude: 116.23
+  },
+  {
+    code: 'cmn_hans_beijing',
+    name: 'Chinese, Mandarin (Beijing)',
+    bcp47: 'zh',
+    ohchr: 'be1',
+    iso6393: 'cmn',
+    direction: 'ltr',
+    stage: 4,
+    latitude: 39.91,
+    longitude: 116.38
+  },
+  {
+    code: 'cmn_hans_guiyang',
+    name: 'Chinese, Mandarin (Guiyang)',
+    bcp47: 'zh',
+    ohchr: 'gu1',
+    iso6393: 'cmn',
+    direction: 'ltr',
+    stage: 4,
+    latitude: 26.65,
+    longitude: 106.63
+  },
+  {
+    code: 'cmn_hans_harbin',
+    name: 'Chinese, Mandarin (Harbin)',
+    bcp47: 'zh',
+    ohchr: 'ha2',
+    iso6393: 'cmn',
+    direction: 'ltr',
+    stage: 4,
+    latitude: 45.75,
+    longitude: 126.63
+  },
+  {
+    code: 'cmn_hans_nanjing',
+    name: 'Chinese, Mandarin (Nanjing)',
+    bcp47: 'zh',
+    ohchr: 'na1',
+    iso6393: 'cmn',
+    direction: 'ltr',
+    stage: 4,
+    latitude: 32.05,
+    longitude: 118.76
+  },
+  {
+    code: 'cmn_hans_tianjin',
+    name: 'Chinese, Mandarin (Tianjin)',
+    bcp47: 'zh',
+    ohchr: 'ti1',
+    iso6393: 'cmn',
+    direction: 'ltr',
+    stage: 4,
+    latitude: 39.13,
+    longitude: 117.18
   },
   {
     code: 'cmn_hant',
@@ -1021,6 +1131,17 @@ export const udhr = [
     stage: 4,
     latitude: -11.93,
     longitude: -73.91
+  },
+  {
+    code: 'cnr',
+    name: 'Montenegrin',
+    bcp47: 'cnr',
+    ohchr: 'cnr',
+    iso6393: 'cnr',
+    direction: 'ltr',
+    stage: 4,
+    latitude: 42.78,
+    longitude: 19.47
   },
   {
     code: 'cof',
@@ -1529,6 +1650,17 @@ export const udhr = [
     longitude: 11.12
   },
   {
+    code: 'fvr',
+    name: 'Fur',
+    bcp47: 'fvr',
+    ohchr: 'fvr',
+    iso6393: 'fvr',
+    direction: 'ltr',
+    stage: 4,
+    latitude: 13,
+    longitude: 25
+  },
+  {
     code: 'gaa',
     name: 'Ga',
     bcp47: 'gaa',
@@ -1771,6 +1903,17 @@ export const udhr = [
     longitude: 8.78
   },
   {
+    code: 'hau_3',
+    name: 'Hausa',
+    bcp47: 'ha',
+    ohchr: 'hau',
+    iso6393: 'hau',
+    direction: 'ltr',
+    stage: 4,
+    latitude: 11.15,
+    longitude: 8.78
+  },
+  {
     code: 'haw',
     name: 'Hawaiian',
     bcp47: 'haw',
@@ -1914,6 +2057,17 @@ export const udhr = [
     longitude: -98.5
   },
   {
+    code: 'hsn',
+    name: 'Chinese, Xiang',
+    bcp47: 'hsn',
+    ohchr: 'hsn',
+    iso6393: 'hsn',
+    direction: 'ltr',
+    stage: 4,
+    latitude: 28.11,
+    longitude: 112.98
+  },
+  {
     code: 'hun',
     name: 'Hungarian',
     bcp47: 'hu',
@@ -2002,6 +2156,17 @@ export const udhr = [
     longitude: 20
   },
   {
+    code: 'idu',
+    name: 'Idoma',
+    bcp47: 'idu',
+    ohchr: 'idu',
+    iso6393: 'idu',
+    direction: 'ltr',
+    stage: 4,
+    latitude: 7.19,
+    longitude: 8.15
+  },
+  {
     code: 'iii',
     name: 'Nuosu',
     bcp47: 'ii',
@@ -2011,6 +2176,17 @@ export const udhr = [
     stage: 4,
     latitude: 28.19,
     longitude: 102.12
+  },
+  {
+    code: 'ijs',
+    name: 'Ijo, Southeast',
+    bcp47: 'ijs',
+    ohchr: 'ijs',
+    iso6393: 'ijs',
+    direction: 'ltr',
+    stage: 4,
+    latitude: 5.03,
+    longitude: 6.33
   },
   {
     code: 'ike',
@@ -2121,6 +2297,39 @@ export const udhr = [
     stage: 4,
     latitude: 35,
     longitude: 135
+  },
+  {
+    code: 'jpn_osaka',
+    name: 'Japanese (Osaka)',
+    bcp47: 'ja',
+    ohchr: 'obe',
+    iso6393: 'jpn',
+    direction: 'ltr',
+    stage: 4,
+    latitude: 34.69,
+    longitude: 135.5
+  },
+  {
+    code: 'jpn_tokyo',
+    name: 'Japanese (Tokyo)',
+    bcp47: 'ja',
+    ohchr: 'to1',
+    iso6393: 'jpn',
+    direction: 'ltr',
+    stage: 4,
+    latitude: 35.68,
+    longitude: 139.68
+  },
+  {
+    code: 'kaa',
+    name: 'Karakalpak',
+    bcp47: 'kaa',
+    ohchr: 'kaa',
+    iso6393: 'kaa',
+    direction: 'ltr',
+    stage: 4,
+    latitude: 42.47,
+    longitude: 59.6
   },
   {
     code: 'kal',
@@ -2948,6 +3157,17 @@ export const udhr = [
     longitude: 100
   },
   {
+    code: 'mor',
+    name: 'Moro',
+    bcp47: 'mor',
+    ohchr: 'mor',
+    iso6393: 'mor',
+    direction: 'ltr',
+    stage: 4,
+    latitude: 11,
+    longitude: 30
+  },
+  {
     code: 'mos',
     name: 'Mòoré',
     bcp47: 'mos',
@@ -3133,6 +3353,17 @@ export const udhr = [
     stage: 4,
     latitude: -19.05,
     longitude: -169.92
+  },
+  {
+    code: 'niv',
+    name: 'Gilyak',
+    bcp47: 'niv',
+    ohchr: 'Nivkh',
+    iso6393: 'niv',
+    direction: 'ltr',
+    stage: 4,
+    latitude: 52.59,
+    longitude: 140.68
   },
   {
     code: 'njo',
@@ -4070,6 +4301,17 @@ export const udhr = [
     longitude: 18.78
   },
   {
+    code: 'slr',
+    name: 'Salar',
+    bcp47: 'slr',
+    ohchr: 'slr',
+    iso6393: 'slr',
+    direction: 'ltr',
+    stage: 4,
+    latitude: 35,
+    longitude: 95
+  },
+  {
     code: 'slv',
     name: 'Slovenian',
     bcp47: 'sl',
@@ -4686,6 +4928,17 @@ export const udhr = [
     longitude: -2.41
   },
   {
+    code: 'udu',
+    name: 'Uduk',
+    bcp47: 'udu',
+    ohchr: 'udu',
+    iso6393: 'udu',
+    direction: 'ltr',
+    stage: 4,
+    latitude: 8.25,
+    longitude: 34.5
+  },
+  {
     code: 'uig_arab',
     name: 'Uyghur (Arabic)',
     bcp47: 'ug-Arab',
@@ -5014,6 +5267,17 @@ export const udhr = [
     stage: 4,
     latitude: 7.15,
     longitude: 3.67
+  },
+  {
+    code: 'yrk',
+    name: 'Nenets',
+    bcp47: 'yrk',
+    ohchr: 'yrk',
+    iso6393: 'yrk',
+    direction: 'ltr',
+    stage: 4,
+    latitude: 66.18,
+    longitude: 71.02
   },
   {
     code: 'yua',
