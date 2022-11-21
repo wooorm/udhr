@@ -1,6 +1,13 @@
-// @ts-ignore remove when typed
-import zone from 'mdast-zone'
-import u from 'unist-builder'
+/**
+ * @typedef {import('unist').Node} Node
+ * @typedef {import('mdast').Root} Root
+ * @typedef {import('mdast').TableCell} TableCell
+ * @typedef {import('mdast').Table} Table
+ * @typedef {import('mdast').PhrasingContent} PhrasingContent
+ */
+
+import {zone} from 'mdast-zone'
+import {u} from 'unist-builder'
 import {udhr} from '../index.js'
 
 var ohchrBase = 'https://www.ohchr.org/EN/UDHR/Pages/Language.aspx?LangID='
@@ -14,29 +21,15 @@ export default function support() {
 }
 
 /**
- * @typedef {import('unist').Node} Node
- * @typedef {import('mdast').Root} Root
- * @typedef {import('mdast').TableCell} TableCell
- * @typedef {import('mdast').Link} Link
- * @typedef {import('mdast').PhrasingContent} PhrasingContent
- */
-
-/**
  * @param {Root} tree
  */
 function transformer(tree) {
-  zone(tree, 'support', replace)
+  zone(tree, 'support', function (start, _, end) {
+    return [start, table(), end]
+  })
 }
 
-/**
- * @param {Node?} start
- * @param {unknown} _
- * @param {Node?} end
- */
-function replace(start, _, end) {
-  return [start, table(), end]
-}
-
+/** @returns {Table} */
 function table() {
   var header = ['Name', 'BCP 47', 'OHCHR', 'ISO 639-3', 'Direction', 'Location']
   var content = [

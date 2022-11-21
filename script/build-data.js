@@ -1,19 +1,16 @@
-import fs from 'fs'
-import path from 'path'
-import assert from 'assert'
-// @ts-ignore remove when typed
-import fromXml from 'xast-util-from-xml'
-// @ts-ignore remove when typed
-import toString from 'xast-util-to-string'
-import $ from 'unist-util-select'
-import h from 'hastscript'
-import u from 'unist-builder'
+import fs from 'node:fs'
+import path from 'node:path'
+import assert from 'node:assert'
+import {fromXml} from 'xast-util-from-xml'
+import {toString} from 'xast-util-to-string'
+import {select, selectAll} from 'unist-util-select'
+import {h} from 'hastscript'
+import {u} from 'unist-builder'
 import {mapz} from 'mapz'
 import {zwitch} from 'zwitch'
-import unified from 'unified'
-// @ts-ignore remove when typed
+import {unified} from 'unified'
 import rehypeFormat from 'rehype-format'
-import rehypeSerialize from 'rehype-stringify'
+import rehypeStringify from 'rehype-stringify'
 
 /**
  * @typedef {import('xast').Root} Root
@@ -30,10 +27,9 @@ import rehypeSerialize from 'rehype-stringify'
  * @property {(node: XastElement) => () => void} enter
  */
 
-/** @type {Root} */
 var xml = fromXml(fs.readFileSync(path.join('xml', 'index.xml')))
 
-var udhr = $.selectAll('element[name=udhr]', xml)
+var udhr = selectAll('element[name=udhr]', xml)
   .map((/** @type {XastElement} */ element) => {
     var {attributes} = element
     var location = attributes.loc.split(',').map((d) => Number.parseFloat(d))
@@ -82,7 +78,7 @@ var one = zwitch('type', {
 
 var all = mapz(one, {key: 'children', gapless: true})
 
-var processor = unified().use(rehypeFormat).use(rehypeSerialize)
+var processor = unified().use(rehypeFormat).use(rehypeStringify)
 
 var index = -1
 /** @type {XastElement} */
@@ -92,7 +88,7 @@ var doc
 
 while (++index < udhr.length) {
   // @ts-ignore
-  main = $.select(
+  main = select(
     'element[name=udhr]',
     fromXml(
       fs.readFileSync(path.join('xml', 'udhr_' + udhr[index].code + '.xml'))

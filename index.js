@@ -2427,7 +2427,7 @@ export var udhr = [
     iso6393: 'kqs',
     direction: 'ltr',
     stage: 4,
-    latitude: 9.183333,
+    latitude: 9.183_333,
     longitude: -10.1
   },
   {

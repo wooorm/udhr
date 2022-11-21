@@ -111,8 +111,8 @@ The actual declarations are available in semantic HTML as
 | (Bizisa) | und | [bz1](https://www.ohchr.org/EN/UDHR/Pages/Language.aspx?LangID=bz1) | [und](https://iso639-3.sil.org/code/und) | ltr | [-75.0, 30.0](https://www.openstreetmap.org/#map=5/-75/30) |
 | (Mijisa) | und | [bz2](https://www.ohchr.org/EN/UDHR/Pages/Language.aspx?LangID=bz2) | [und](https://iso639-3.sil.org/code/und) | ltr | [-75.0, 30.0](https://www.openstreetmap.org/#map=5/-75/30) |
 | (Maiunan) | und | [ma1](https://www.ohchr.org/EN/UDHR/Pages/Language.aspx?LangID=ma1) | [und](https://iso639-3.sil.org/code/und) | ltr | [-75.0, 30.0](https://www.openstreetmap.org/#map=5/-75/30) |
-| (Minjiang, spoken) | und | [mi1_spok](https://www.ohchr.org/EN/UDHR/Pages/Language.aspx?LangID=mi1_spok) | [und](https://iso639-3.sil.org/code/und) | ltr | [-75.0, 30.0](https://www.openstreetmap.org/#map=5/-75/30) |
-| (Minjiang, written) | und | [mi1_written](https://www.ohchr.org/EN/UDHR/Pages/Language.aspx?LangID=mi1_written) | [und](https://iso639-3.sil.org/code/und) | ltr | [-75.0, 30.0](https://www.openstreetmap.org/#map=5/-75/30) |
+| (Minjiang, spoken) | und | [mi1\_spok](https://www.ohchr.org/EN/UDHR/Pages/Language.aspx?LangID=mi1_spok) | [und](https://iso639-3.sil.org/code/und) | ltr | [-75.0, 30.0](https://www.openstreetmap.org/#map=5/-75/30) |
+| (Minjiang, written) | und | [mi1\_written](https://www.ohchr.org/EN/UDHR/Pages/Language.aspx?LangID=mi1_written) | [und](https://iso639-3.sil.org/code/und) | ltr | [-75.0, 30.0](https://www.openstreetmap.org/#map=5/-75/30) |
 | Drung | duu | [ty1](https://www.ohchr.org/EN/UDHR/Pages/Language.aspx?LangID=ty1) | [duu](https://iso639-3.sil.org/code/duu) | ltr | [28.0, 98.0](https://www.openstreetmap.org/#map=5/28/98) |
 | (Yeonbyeon) | und | [ye1](https://www.ohchr.org/EN/UDHR/Pages/Language.aspx?LangID=ye1) | [und](https://iso639-3.sil.org/code/und) | ltr | [-75.0, 30.0](https://www.openstreetmap.org/#map=5/-75/30) |
 | Afar | aa | [aar](https://www.ohchr.org/EN/UDHR/Pages/Language.aspx?LangID=aar) | [aar](https://iso639-3.sil.org/code/aar) | ltr | [12.2, 41.8](https://www.openstreetmap.org/#map=5/12.23/41.81) |
