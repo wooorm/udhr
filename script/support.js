@@ -15,17 +15,13 @@ const locationBase = 'https://www.openstreetmap.org/#map=5/'
 
 const own = {}.hasOwnProperty
 
+/** @type {import('unified').Plugin<[], Root>} */
 export default function support() {
-  return transformer
-}
-
-/**
- * @param {Root} tree
- */
-function transformer(tree) {
-  zone(tree, 'support', function (start, _, end) {
-    return [start, table(), end]
-  })
+  return function (tree) {
+    zone(tree, 'support', function (start, _, end) {
+      return [start, table(), end]
+    })
+  }
 }
 
 /** @returns {Table} */

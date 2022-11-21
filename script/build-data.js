@@ -12,9 +12,10 @@
  * @property {(node: XastElement) => () => void} enter
  */
 
-import fs from 'node:fs'
-import path from 'node:path'
-import assert from 'node:assert'
+/* eslint-disable no-await-in-loop */
+
+import assert from 'node:assert/strict'
+import fs from 'node:fs/promises'
 import {fromXml} from 'xast-util-from-xml'
 import {toString} from 'xast-util-to-string'
 import {select, selectAll} from 'unist-util-select'
@@ -26,12 +27,28 @@ import {unified} from 'unified'
 import rehypeFormat from 'rehype-format'
 import rehypeStringify from 'rehype-stringify'
 
-const xml = fromXml(fs.readFileSync(path.join('xml', 'index.xml')))
+const xml = fromXml(
+  String(await fs.readFile(new URL('../xml/index.xml', import.meta.url)))
+)
 
-const udhr = selectAll('element[name=udhr]', xml)
-  .map((/** @type {XastElement} */ element) => {
+const elements = /** @type {Array<XastElement>} */ (
+  selectAll('element[name=udhr]', xml)
+)
+
+const udhrs = await Promise.all(
+  elements.map(async (/** @type {XastElement} */ element) => {
     const {attributes} = element
     const location = attributes.loc.split(',').map((d) => Number.parseFloat(d))
+
+    let exists = false
+
+    try {
+      await fs.access(
+        new URL('../xml/udhr_' + attributes.f + '.xml', import.meta.url),
+        fs.constants.R_OK
+      )
+      exists = true
+    } catch {}
 
     return {
       code: attributes.f,
@@ -43,14 +60,15 @@ const udhr = selectAll('element[name=udhr]', xml)
       stage: Number.parseInt(attributes.stage, 10),
       latitude: location[0] || null,
       longitude: location[1] || null,
-      hasXml: fs.existsSync(path.join('xml', 'udhr_' + attributes.f + '.xml'))
+      hasXml: exists
     }
   })
-  .filter((d) => d.hasXml)
-  .map(({hasXml, ...rest}) => rest)
+)
 
-fs.writeFileSync(
-  path.join('index.js'),
+const udhr = udhrs.filter((d) => d.hasXml).map(({hasXml, ...rest}) => rest)
+
+await fs.writeFile(
+  new URL('../index.js', import.meta.url),
   'export const udhr = ' + JSON.stringify(udhr, null, 2) + '\n'
 )
 
@@ -83,14 +101,16 @@ let index = -1
 
 while (++index < udhr.length) {
   const tree = fromXml(
-    fs.readFileSync(path.join('xml', 'udhr_' + udhr[index].code + '.xml'))
+    await fs.readFile(
+      new URL('../xml/udhr_' + udhr[index].code + '.xml', import.meta.url)
+    )
   )
   const main = /** @type {XastElement} */ (select('element[name=udhr]', tree))
 
   console.log('%s (%s)', main.attributes.n, main.attributes.key)
 
   const doc = processor.stringify(
-    processor.runSync(
+    await processor.run(
       u('root', [
         u('doctype', {name: 'html'}),
         h(
@@ -110,7 +130,10 @@ while (++index < udhr.length) {
     )
   )
 
-  fs.writeFileSync(path.join('declaration', udhr[index].code + '.html'), doc)
+  await fs.writeFile(
+    new URL('../declaration/' + udhr[index].code + '.html', import.meta.url),
+    doc
+  )
 }
 
 /**
@@ -289,3 +312,5 @@ function cleanString(raw) {
   const value = raw.replace(/^\s*\[\s*(.*)\s*]\s*$/, '&1')
   return /by sprat|missing|^(\?\??)$/i.test(value) ? '' : value
 }
+
+/* eslint-enable no-await-in-loop */
