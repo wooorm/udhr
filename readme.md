@@ -64,9 +64,9 @@ import {udhr} from 'udhr'
 console.log(udhr.find((d) => d.code === 'bod'))
 
 const base = await resolve('udhr', import.meta.url)
+// Declarations are stored as `declaration/$code.html`.
 const url = new URL('declaration/eng.html', base)
 
-// Declarations are stored as `declaration/$code.html`.
 console.log(String(await fs.readFile(url)))
 ```
 
