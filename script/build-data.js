@@ -1,3 +1,17 @@
+/**
+ * @typedef {import('xast').Text} XastText
+ * @typedef {import('xast').Element} XastElement
+ * @typedef {import('xast').Node} XastNode
+ * @typedef {import('hast').Text} HastText
+ * @typedef {import('hast').Element} HastElement
+ */
+
+/**
+ * @typedef {Object} Context
+ * @property {number} rank
+ * @property {(node: XastElement) => () => void} enter
+ */
+
 import fs from 'node:fs'
 import path from 'node:path'
 import assert from 'node:assert'
@@ -12,27 +26,12 @@ import {unified} from 'unified'
 import rehypeFormat from 'rehype-format'
 import rehypeStringify from 'rehype-stringify'
 
-/**
- * @typedef {import('xast').Root} Root
- * @typedef {import('xast').Text} XastText
- * @typedef {import('xast').Element} XastElement
- * @typedef {import('xast').Node} XastNode
- * @typedef {import('hast').Text} HastText
- * @typedef {import('hast').Element} HastElement
- */
+const xml = fromXml(fs.readFileSync(path.join('xml', 'index.xml')))
 
-/**
- * @typedef {Object} Context
- * @property {number} rank
- * @property {(node: XastElement) => () => void} enter
- */
-
-var xml = fromXml(fs.readFileSync(path.join('xml', 'index.xml')))
-
-var udhr = selectAll('element[name=udhr]', xml)
+const udhr = selectAll('element[name=udhr]', xml)
   .map((/** @type {XastElement} */ element) => {
-    var {attributes} = element
-    var location = attributes.loc.split(',').map((d) => Number.parseFloat(d))
+    const {attributes} = element
+    const location = attributes.loc.split(',').map((d) => Number.parseFloat(d))
 
     return {
       code: attributes.f,
@@ -52,10 +51,10 @@ var udhr = selectAll('element[name=udhr]', xml)
 
 fs.writeFileSync(
   path.join('index.js'),
-  'export var udhr = ' + JSON.stringify(udhr, null, 2) + '\n'
+  'export const udhr = ' + JSON.stringify(udhr, null, 2) + '\n'
 )
 
-var element = zwitch('name', {
+const element = zwitch('name', {
   invalid: invalidElement,
   unknown: unknownElement,
   handlers: {
@@ -70,34 +69,27 @@ var element = zwitch('name', {
   }
 })
 
-var one = zwitch('type', {
+const one = zwitch('type', {
   invalid,
   unknown,
   handlers: {element, text, comment}
 })
 
-var all = mapz(one, {key: 'children', gapless: true})
+const all = mapz(one, {key: 'children', gapless: true})
 
-var processor = unified().use(rehypeFormat).use(rehypeStringify)
+const processor = unified().use(rehypeFormat).use(rehypeStringify)
 
-var index = -1
-/** @type {XastElement} */
-var main
-/** @type {string} */
-var doc
+let index = -1
 
 while (++index < udhr.length) {
-  // @ts-ignore
-  main = select(
-    'element[name=udhr]',
-    fromXml(
-      fs.readFileSync(path.join('xml', 'udhr_' + udhr[index].code + '.xml'))
-    )
+  const tree = fromXml(
+    fs.readFileSync(path.join('xml', 'udhr_' + udhr[index].code + '.xml'))
   )
+  const main = /** @type {XastElement} */ (select('element[name=udhr]', tree))
 
   console.log('%s (%s)', main.attributes.n, main.attributes.key)
 
-  doc = processor.stringify(
+  const doc = processor.stringify(
     processor.runSync(
       u('root', [
         u('doctype', {name: 'html'}),
@@ -126,7 +118,7 @@ while (++index < udhr.length) {
  * @this {Context}
  */
 function enter(node) {
-  var rank = this.rank
+  const rank = this.rank
 
   if (node.children.some((d) => d.type === 'element' && d.name === 'title')) {
     this.rank++
@@ -144,7 +136,7 @@ function enter(node) {
  * @returns {HastElement}
  */
 function title(d) {
-  var value = cleanString(toString(d))
+  const value = cleanString(toString(d))
   assert.deepStrictEqual(Object.keys(d.attributes), [])
   return h('h' + this.rank, value ? u('text', value) : [])
 }
@@ -155,7 +147,7 @@ function title(d) {
  * @returns {HastElement}
  */
 function para(d) {
-  var value = cleanString(toString(d))
+  const value = cleanString(toString(d))
   assert.deepStrictEqual(Object.keys(d.attributes), [])
   return value ? h('p', [u('text', value)]) : undefined
 }
@@ -175,8 +167,8 @@ function note(d) {
  */
 function preamble(d) {
   assert.deepStrictEqual(Object.keys(d.attributes), [])
-  var exit = this.enter(d)
-  var node = h('header', all.call(this, d))
+  const exit = this.enter(d)
+  const node = h('header', all.call(this, d))
   exit()
   return node
 }
@@ -188,8 +180,8 @@ function preamble(d) {
  */
 function orderedlist(d) {
   assert.deepStrictEqual(Object.keys(d.attributes), [])
-  var exit = this.enter(d)
-  var node = h('ol', all.call(this, d))
+  const exit = this.enter(d)
+  const node = h('ol', all.call(this, d))
   exit()
   return node
 }
@@ -200,15 +192,15 @@ function orderedlist(d) {
  * @returns {HastElement}
  */
 function listitem(d) {
-  var ignore = new Set(['tag', 'label'])
+  const ignore = new Set(['tag', 'label'])
   // Some list items are marked with their index as a word, such as `first`,
   // `second`.
   assert.deepStrictEqual(
     Object.keys(d.attributes).filter((x) => !ignore.has(x)),
     []
   )
-  var exit = this.enter(d)
-  var node = h('li', all.call(this, d))
+  const exit = this.enter(d)
+  const node = h('li', all.call(this, d))
   exit()
   return node
 }
@@ -220,8 +212,12 @@ function listitem(d) {
  */
 function article(d) {
   assert.deepStrictEqual(Object.keys(d.attributes), ['number'])
-  var exit = this.enter(d)
-  var node = h('article', {dataNumber: d.attributes.number}, all.call(this, d))
+  const exit = this.enter(d)
+  const node = h(
+    'article',
+    {dataNumber: d.attributes.number},
+    all.call(this, d)
+  )
   exit()
   return node
 }
@@ -232,8 +228,8 @@ function article(d) {
  * @returns {HastElement}
  */
 function root(d) {
-  var exit = this.enter(d)
-  var node = h('body', all.call(this, d))
+  const exit = this.enter(d)
+  const node = h('body', all.call(this, d))
   exit()
   return node
 }
@@ -290,6 +286,6 @@ function unknown(d) {
  * @returns {string}
  */
 function cleanString(raw) {
-  var value = raw.replace(/^\s*\[\s*(.*)\s*]\s*$/, '&1')
+  const value = raw.replace(/^\s*\[\s*(.*)\s*]\s*$/, '&1')
   return /by sprat|missing|^(\?\??)$/i.test(value) ? '' : value
 }

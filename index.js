@@ -1,4 +1,4 @@
-export var udhr = [
+export const udhr = [
   {
     code: '007',
     name: 'Sãotomense',

@@ -9,28 +9,28 @@ test('udhr', function (t) {
 
 test('udhr[]', function (t) {
   t.doesNotThrow(function () {
-    var index = -1
+    let index = -1
     while (++index < udhr.length) {
       assert.strictEqual(typeof udhr[index], 'object')
     }
   }, 'should be an object')
 
   t.doesNotThrow(function () {
-    var index = -1
+    let index = -1
     while (++index < udhr.length) {
       assert.strictEqual(typeof udhr[index].iso6393, 'string')
     }
   }, 'should have an iso')
 
   t.doesNotThrow(function () {
-    var index = -1
+    let index = -1
     while (++index < udhr.length) {
       assert.strictEqual(typeof udhr[index].bcp47, 'string')
     }
   }, 'should have a bcp')
 
   t.doesNotThrow(function () {
-    var index = -1
+    let index = -1
     while (++index < udhr.length) {
       assert(
         typeof udhr[index].ohchr === 'string' || udhr[index].ohchr === null
@@ -39,26 +39,24 @@ test('udhr[]', function (t) {
   }, 'should have an ohchr')
 
   t.doesNotThrow(function () {
-    var index = -1
+    let index = -1
     while (++index < udhr.length) {
       assert.strictEqual(typeof udhr[index].code, 'string')
     }
   }, 'should have a code')
 
   t.doesNotThrow(function () {
-    var index = -1
+    let index = -1
     while (++index < udhr.length) {
       assert.strictEqual(typeof udhr[index].name, 'string')
     }
   }, 'should have a name')
 
   t.doesNotThrow(function () {
-    var index = -1
-    /** @type {number} */
-    var stage
+    let index = -1
 
     while (++index < udhr.length) {
-      stage = udhr[index].stage
+      const stage = udhr[index].stage
       assert(typeof stage === 'number')
       assert(Math.round(stage) === stage)
       assert(stage > 0)
@@ -67,7 +65,7 @@ test('udhr[]', function (t) {
   }, 'should have a stage')
 
   t.doesNotThrow(function () {
-    var index = -1
+    let index = -1
     while (++index < udhr.length) {
       assert(
         typeof udhr[index].latitude === 'number' ||
@@ -77,7 +75,7 @@ test('udhr[]', function (t) {
   }, 'should have a `latitude`')
 
   t.doesNotThrow(function () {
-    var index = -1
+    let index = -1
     while (++index < udhr.length) {
       assert(
         typeof udhr[index].longitude === 'number' ||

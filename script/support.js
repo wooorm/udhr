@@ -1,5 +1,4 @@
 /**
- * @typedef {import('unist').Node} Node
  * @typedef {import('mdast').Root} Root
  * @typedef {import('mdast').TableCell} TableCell
  * @typedef {import('mdast').Table} Table
@@ -10,11 +9,11 @@ import {zone} from 'mdast-zone'
 import {u} from 'unist-builder'
 import {udhr} from '../index.js'
 
-var ohchrBase = 'https://www.ohchr.org/EN/UDHR/Pages/Language.aspx?LangID='
-var isoBase = 'https://iso639-3.sil.org/code/'
-var locationBase = 'https://www.openstreetmap.org/#map=5/'
+const ohchrBase = 'https://www.ohchr.org/EN/UDHR/Pages/Language.aspx?LangID='
+const isoBase = 'https://iso639-3.sil.org/code/'
+const locationBase = 'https://www.openstreetmap.org/#map=5/'
 
-var own = {}.hasOwnProperty
+const own = {}.hasOwnProperty
 
 export default function support() {
   return transformer
@@ -31,25 +30,32 @@ function transformer(tree) {
 
 /** @returns {Table} */
 function table() {
-  var header = ['Name', 'BCP 47', 'OHCHR', 'ISO 639-3', 'Direction', 'Location']
-  var content = [
+  const header = [
+    'Name',
+    'BCP 47',
+    'OHCHR',
+    'ISO 639-3',
+    'Direction',
+    'Location'
+  ]
+  const content = [
     u(
       'tableRow',
       header.map((d) => cell(d))
     )
   ]
   /** @type {string} */
-  var key
+  let key
 
   for (key in udhr) {
     if (!own.call(udhr, key)) continue
 
     /** @type {string|PhrasingContent} */
-    var ohchr = udhr[key].ohchr
+    let ohchr = udhr[key].ohchr
     /** @type {string|PhrasingContent} */
-    var iso = udhr[key].iso6393
+    let iso = udhr[key].iso6393
     /** @type {string|PhrasingContent} */
-    var loc = 'No'
+    let loc = 'No'
 
     if (ohchr) {
       ohchr = u('link', {url: ohchrBase + ohchr}, [u('text', ohchr)])
