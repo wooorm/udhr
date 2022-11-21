@@ -4,31 +4,70 @@
 [![Coverage][coverage-badge]][coverage]
 [![Downloads][downloads-badge]][downloads]
 
-The most translated copyright-free document, the [universal declaration of human
-rights][index], in [unicode][], in JavaScript.
+The most translated copyright-free document on this planet:
+the [universal declaration of human rights][index], in [unicode][],
+in JavaScript.
+
+## Contents
+
+*   [What is this?](#what-is-this)
+*   [When should I use this?](#when-should-i-use-this)
+*   [Install](#install)
+*   [Use](#use)
+*   [API](#api)
+    *   [`udhr`](#udhr-1)
+*   [Data](#data)
+*   [Types](#types)
+*   [Compatibility](#compatibility)
+*   [Contribute](#contribute)
+*   [Security](#security)
+*   [License](#license)
+
+## What is this?
+
+This package exposes all UDHRs.
+
+## When should I use this?
+
+Perhaps when you are dealing with natural language detection?
 
 ## Install
 
-This package is ESM only: Node 12+ is needed to use it and it must be `import`ed
-instead of `require`d.
-
-[npm][]:
+This package is [ESM only][esm].
+In Node.js (version 14.14+, 16.0+), install with [npm][]:
 
 ```sh
 npm install udhr
 ```
 
+In Deno with [`esm.sh`][esmsh]:
+
+```js
+import {udhr} from 'https://esm.sh/udhr@5'
+```
+
+In browsers with [`esm.sh`][esmsh]:
+
+```html
+<script type="module">
+  import {udhr} from 'https://esm.sh/udhr@5?bundle'
+</script>
+```
+
 ## Use
 
 ```js
-import fs from 'fs'
-import path from 'path'
+import fs from 'node:fs/promises'
+import {resolve} from 'import-meta-resolve'
 import {udhr} from 'udhr'
 
 console.log(udhr.find((d) => d.code === 'bod'))
 
+const base = await resolve('udhr', import.meta.url)
+const url = new URL('declaration/eng.html', base)
+
 // Declarations are stored as `declaration/$code.html`.
-console.log(String(fs.readFileSync(path.join('node_modules', 'udhr', 'declaration', 'eng.html'))))
+console.log(String(await fs.readFile(url)))
 ```
 
 Yields:
@@ -63,14 +102,14 @@ Yields:
 
 ## API
 
-This package exports the following identifiers: `udhr`.
+This package exports the identifier `udhr`.
 There is no default export.
 
 ### `udhr`
 
-Returns an array of information objects.
-Gets information about the documents: their stage, language regions and lat-long
-locations, etcetera.
+List of info objects.
+Gets info about the documents: their stage, language regions and lat/lng
+locations, \&c.
 
 ```js
 console.log(udhr.find((d) => d.code === 'nob'))
@@ -92,12 +131,10 @@ Yields:
 }
 ```
 
-### Declarations
-
 The actual declarations are available in semantic HTML as
 `udhr/declaration/$code.html`.
 
-## Supported declarations
+## Data
 
 <!--support start-->
 
@@ -594,9 +631,29 @@ The actual declarations are available in semantic HTML as
 
 <!--support end-->
 
+## Types
+
+This package is fully typed with [TypeScript][].
+It exports the additional type `Info`.
+
+## Compatibility
+
+This package is at least compatible with all maintained versions of Node.js.
+As of now, that is Node.js 14.14+ and 16.0+.
+It also works in Deno and modern browsers.
+
+## Contribute
+
+Yes please!
+See [How to Contribute to Open Source][contribute].
+
+## Security
+
+This package is safe.
+
 ## License
 
-[MIT](license) © [Titus Wormer](https://wooorm.com)
+[MIT][license] © [Titus Wormer][author]
 
 <!--Definitions-->
 
@@ -612,7 +669,19 @@ The actual declarations are available in semantic HTML as
 
 [downloads]: https://www.npmjs.com/package/udhr
 
-[npm]: https://docs.npmjs.com/cli/install
+[esm]: https://gist.github.com/sindresorhus/a39789f98801d908bbc7ff3ecc99d99c
+
+[esmsh]: https://esm.sh
+
+[typescript]: https://www.typescriptlang.org
+
+[contribute]: https://opensource.guide/how-to-contribute/
+
+[license]: license
+
+[author]: https://wooorm.com
+
+[npm]: https://www.npmjs.com
 
 [index]: https://www.ohchr.org/EN/UDHR/Pages/UDHRIndex.aspx
 
