@@ -1,3 +1,18 @@
+/**
+ * @typedef Info
+ * @property {string} code
+ * @property {string} name
+ * @property {string|null} bcp47
+ * @property {string|null} ohchr
+ * @property {string|null} iso6393
+ * @property {'ltr'|'rtl'|'ttb'|null} direction
+ * @property {1|2|3|4|5} stage
+ * @property {number|null} latitude
+ * @property {number|null} longitude
+ * @property {boolean} hasXml
+ *
+ * @type {Array<Info>}
+ */
 export const udhr = [
   {
     code: '007',

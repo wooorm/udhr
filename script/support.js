@@ -46,11 +46,11 @@ function table() {
   for (key in udhr) {
     if (!own.call(udhr, key)) continue
 
-    /** @type {string|PhrasingContent} */
+    /** @type {string|PhrasingContent|null} */
     let ohchr = udhr[key].ohchr
-    /** @type {string|PhrasingContent} */
+    /** @type {string|PhrasingContent|null} */
     let iso = udhr[key].iso6393
-    /** @type {string|PhrasingContent} */
+    /** @type {string|PhrasingContent|null} */
     let loc = 'No'
 
     if (ohchr) {
@@ -96,8 +96,14 @@ function table() {
    * @returns {TableCell}
    */
   function cell(value) {
-    return u('tableCell', [
-      typeof value === 'string' ? u('text', value) : value
-    ])
+    /** @type {Array<PhrasingContent>} */
+    const children = []
+    const child = value
+      ? typeof value === 'string'
+        ? u('text', value)
+        : value
+      : null
+    if (child) children.push(child)
+    return u('tableCell', children)
   }
 }

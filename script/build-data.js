@@ -1,15 +1,26 @@
 /**
  * @typedef {import('xast').Text} XastText
  * @typedef {import('xast').Element} XastElement
- * @typedef {import('xast').Node} XastNode
  * @typedef {import('hast').Text} HastText
  * @typedef {import('hast').Element} HastElement
- */
-
-/**
- * @typedef {Object} Context
+ *
+ * @typedef Context
  * @property {number} rank
  * @property {(node: XastElement) => () => void} enter
+ *
+ * Note: Please keep `Info` in sync with `index.js` generated below.
+ *
+ * @typedef Info
+ * @property {string} code
+ * @property {string} name
+ * @property {string|null} bcp47
+ * @property {string|null} ohchr
+ * @property {string|null} iso6393
+ * @property {'ltr'|'rtl'|'ttb'|null} direction
+ * @property {1|2|3|4|5} stage
+ * @property {number|null} latitude
+ * @property {number|null} longitude
+ * @property {boolean} hasXml
  */
 
 /* eslint-disable no-await-in-loop */
@@ -36,9 +47,11 @@ const elements = /** @type {Array<XastElement>} */ (
 )
 
 const udhrs = await Promise.all(
-  elements.map(async (/** @type {XastElement} */ element) => {
-    const {attributes} = element
-    const location = attributes.loc.split(',').map((d) => Number.parseFloat(d))
+  elements.map(async (element) => {
+    const {attributes = {}} = element
+    const location = (attributes.loc || '')
+      .split(',')
+      .map((d) => Number.parseFloat(d))
 
     let exists = false
 
@@ -50,18 +63,37 @@ const udhrs = await Promise.all(
       exists = true
     } catch {}
 
-    return {
+    const direction = attributes.dir
+    const stage = Number.parseInt(attributes.stage || '', 10)
+
+    assert(typeof attributes.f === 'string')
+    assert(typeof attributes.n === 'string')
+    console.log(direction)
+    assert(
+      direction === 'ltr' ||
+        direction === 'rtl' ||
+        direction === 'ttb' ||
+        direction === undefined
+    )
+    assert(
+      stage === 1 || stage === 2 || stage === 3 || stage === 4 || stage === 5
+    )
+
+    /** @type {Info} */
+    const info = {
       code: attributes.f,
       name: attributes.n,
       bcp47: attributes.bcp47 || null,
       ohchr: attributes.ohchr || null,
       iso6393: attributes['iso639-3'] || null,
-      direction: attributes.dir || null,
-      stage: Number.parseInt(attributes.stage, 10),
+      direction: direction || null,
+      stage,
       latitude: location[0] || null,
       longitude: location[1] || null,
       hasXml: exists
     }
+
+    return info
   })
 )
 
@@ -69,7 +101,26 @@ const udhr = udhrs.filter((d) => d.hasXml).map(({hasXml, ...rest}) => rest)
 
 await fs.writeFile(
   new URL('../index.js', import.meta.url),
-  'export const udhr = ' + JSON.stringify(udhr, null, 2) + '\n'
+  // Note: Please keep `Info` in sync with above type generated below.
+  [
+    '/**',
+    ' * @typedef Info',
+    ' * @property {string} code',
+    ' * @property {string} name',
+    ' * @property {string|null} bcp47',
+    ' * @property {string|null} ohchr',
+    ' * @property {string|null} iso6393',
+    " * @property {'ltr'|'rtl'|'ttb'|null} direction",
+    ' * @property {1|2|3|4|5} stage',
+    ' * @property {number|null} latitude',
+    ' * @property {number|null} longitude',
+    ' * @property {boolean} hasXml',
+    ' *',
+    ' * @type {Array<Info>}',
+    ' */',
+    'export const udhr = ' + JSON.stringify(udhr, null, 2),
+    ''
+  ].join('\n')
 )
 
 const element = zwitch('name', {
@@ -106,8 +157,9 @@ while (++index < udhr.length) {
     )
   )
   const main = /** @type {XastElement} */ (select('element[name=udhr]', tree))
+  const attributes = main.attributes || {}
 
-  console.log('%s (%s)', main.attributes.n, main.attributes.key)
+  console.log('%s (%s)', attributes.n, attributes.key)
 
   const doc = processor.stringify(
     await processor.run(
@@ -116,13 +168,13 @@ while (++index < udhr.length) {
         h(
           'html',
           {
-            lang: main.attributes['xml:lang'],
-            dir: main.attributes.dir,
-            dataCode: main.attributes.key,
-            dataIso6393: main.attributes['iso639-3']
+            lang: attributes['xml:lang'],
+            dir: attributes.dir,
+            dataCode: attributes.key,
+            dataIso6393: attributes['iso639-3']
           },
           [
-            h('head', [h('title', main.attributes.n)]),
+            h('head', [h('title', attributes.n)]),
             one.call({rank: 0, enter}, main)
           ]
         )
@@ -160,18 +212,18 @@ function enter(node) {
  */
 function title(d) {
   const value = cleanString(toString(d))
-  assert.deepStrictEqual(Object.keys(d.attributes), [])
+  assert.deepStrictEqual(Object.keys(d.attributes || {}), [])
   return h('h' + this.rank, value ? u('text', value) : [])
 }
 
 /**
  * @this {Context}
  * @param {XastElement} d
- * @returns {HastElement}
+ * @returns {HastElement|undefined}
  */
 function para(d) {
   const value = cleanString(toString(d))
-  assert.deepStrictEqual(Object.keys(d.attributes), [])
+  assert.deepStrictEqual(Object.keys(d.attributes || {}), [])
   return value ? h('p', [u('text', value)]) : undefined
 }
 
@@ -180,7 +232,7 @@ function para(d) {
  * @param {XastElement} d
  */
 function note(d) {
-  assert.deepStrictEqual(Object.keys(d.attributes), [])
+  assert.deepStrictEqual(Object.keys(d.attributes || {}), [])
 }
 
 /**
@@ -189,7 +241,7 @@ function note(d) {
  * @returns {HastElement}
  */
 function preamble(d) {
-  assert.deepStrictEqual(Object.keys(d.attributes), [])
+  assert.deepStrictEqual(Object.keys(d.attributes || {}), [])
   const exit = this.enter(d)
   const node = h('header', all.call(this, d))
   exit()
@@ -202,7 +254,7 @@ function preamble(d) {
  * @returns {HastElement}
  */
 function orderedlist(d) {
-  assert.deepStrictEqual(Object.keys(d.attributes), [])
+  assert.deepStrictEqual(Object.keys(d.attributes || {}), [])
   const exit = this.enter(d)
   const node = h('ol', all.call(this, d))
   exit()
@@ -219,7 +271,7 @@ function listitem(d) {
   // Some list items are marked with their index as a word, such as `first`,
   // `second`.
   assert.deepStrictEqual(
-    Object.keys(d.attributes).filter((x) => !ignore.has(x)),
+    Object.keys(d.attributes || {}).filter((x) => !ignore.has(x)),
     []
   )
   const exit = this.enter(d)
@@ -234,13 +286,10 @@ function listitem(d) {
  * @returns {HastElement}
  */
 function article(d) {
-  assert.deepStrictEqual(Object.keys(d.attributes), ['number'])
+  const attributes = d.attributes || {}
+  assert.deepStrictEqual(Object.keys(attributes), ['number'])
   const exit = this.enter(d)
-  const node = h(
-    'article',
-    {dataNumber: d.attributes.number},
-    all.call(this, d)
-  )
+  const node = h('article', {dataNumber: attributes.number}, all.call(this, d))
   exit()
   return node
 }
@@ -271,7 +320,7 @@ function comment() {}
 /**
  * @this {Context}
  * @param {unknown} d
- * @never
+ * @returns {never}
  */
 function invalidElement(d) {
   throw new Error('Cannot handle invalid element `' + d + '`')
@@ -279,17 +328,18 @@ function invalidElement(d) {
 
 /**
  * @this {Context}
- * @param {XastElement} d
- * @never
+ * @param {unknown} d
+ * @returns {never}
  */
 function unknownElement(d) {
+  // @ts-expect-error: it’s an element.
   throw new Error('Cannot handle unknown element w/ name `' + d.name + '`')
 }
 
 /**
  * @this {Context}
  * @param {unknown} d
- * @never
+ * @returns {never}
  */
 function invalid(d) {
   throw new Error('Cannot handle invalid node `' + d + '`')
@@ -297,10 +347,11 @@ function invalid(d) {
 
 /**
  * @this {Context}
- * @param {XastNode} d
- * @never
+ * @param {unknown} d
+ * @returns {never}
  */
 function unknown(d) {
+  // @ts-expect-error: it’s a node.
   throw new Error('Cannot handle unknown node w/ type `' + d.type + '`')
 }
 
