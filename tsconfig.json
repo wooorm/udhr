@@ -1,5 +1,5 @@
 {
-  "include": ["script/**.js"],
+  "include": ["**/**.js"],
   "exclude": ["coverage", "node_modules"],
   "compilerOptions": {
     "checkJs": true,
