@@ -9,6 +9,7 @@
  * @property {(node: XastElement) => () => void} enter
  *
  * Note: Please keep `Info` in sync with `index.js` generated below.
+ * Do remove `hasXml` though.
  *
  * @typedef Info
  * @property {string} code
@@ -18,8 +19,8 @@
  * @property {string|null} iso6393
  * @property {'ltr'|'rtl'|'ttb'|null} direction
  * @property {1|2|3|4|5} stage
- * @property {number|null} latitude
- * @property {number|null} longitude
+ * @property {number} latitude
+ * @property {number} longitude
  * @property {boolean} hasXml
  */
 
@@ -68,7 +69,6 @@ const udhrs = await Promise.all(
 
     assert(typeof attributes.f === 'string')
     assert(typeof attributes.n === 'string')
-    console.log(direction)
     assert(
       direction === 'ltr' ||
         direction === 'rtl' ||
@@ -88,8 +88,8 @@ const udhrs = await Promise.all(
       iso6393: attributes['iso639-3'] || null,
       direction: direction || null,
       stage,
-      latitude: location[0] || null,
-      longitude: location[1] || null,
+      latitude: location[0],
+      longitude: location[1],
       hasXml: exists
     }
 
@@ -102,6 +102,7 @@ const udhr = udhrs.filter((d) => d.hasXml).map(({hasXml, ...rest}) => rest)
 await fs.writeFile(
   new URL('../index.js', import.meta.url),
   // Note: Please keep `Info` in sync with above type generated below.
+  // Do remove `hasXml` though.
   [
     '/**',
     ' * @typedef Info',
@@ -112,9 +113,12 @@ await fs.writeFile(
     ' * @property {string|null} iso6393',
     " * @property {'ltr'|'rtl'|'ttb'|null} direction",
     ' * @property {1|2|3|4|5} stage',
-    ' * @property {number|null} latitude',
-    ' * @property {number|null} longitude',
-    ' * @property {boolean} hasXml',
+    ' * @property {number} latitude',
+    ' * @property {number} longitude',
+    ' */',
+    '',
+    '/**',
+    ' * Universal Declaration of Human Rights (Unicode)',
     ' *',
     ' * @type {Array<Info>}',
     ' */',

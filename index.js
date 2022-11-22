@@ -7,9 +7,12 @@
  * @property {string|null} iso6393
  * @property {'ltr'|'rtl'|'ttb'|null} direction
  * @property {1|2|3|4|5} stage
- * @property {number|null} latitude
- * @property {number|null} longitude
- * @property {boolean} hasXml
+ * @property {number} latitude
+ * @property {number} longitude
+ */
+
+/**
+ * Universal Declaration of Human Rights (Unicode)
  *
  * @type {Array<Info>}
  */
