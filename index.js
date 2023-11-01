@@ -73,17 +73,6 @@ export const udhr = [
     longitude: 14.41
   },
   {
-    code: '012',
-    name: '(Bizisa)',
-    bcp47: 'und',
-    ohchr: 'bz1',
-    iso6393: 'und',
-    direction: 'ltr',
-    stage: 4,
-    latitude: -75,
-    longitude: 30
-  },
-  {
     code: '013',
     name: '(Mijisa)',
     bcp47: 'und',
@@ -194,6 +183,97 @@ export const udhr = [
     longitude: 30
   },
   {
+    code: '027',
+    name: 'Gumuz',
+    bcp47: 'guk',
+    ohchr:
+      'https://www.ohchr.org/en/human-rights/universal-declaration/translations/gumuz',
+    iso6393: 'guk',
+    direction: 'ltr',
+    stage: 4,
+    latitude: 11.05,
+    longitude: 35.93
+  },
+  {
+    code: '028',
+    name: 'Kafa',
+    bcp47: 'kbr',
+    ohchr:
+      'https://www.ohchr.org/en/human-rights/universal-declaration/translations/kafi-noono',
+    iso6393: 'kbr',
+    direction: 'ltr',
+    stage: 4,
+    latitude: 7.34,
+    longitude: 36.17
+  },
+  {
+    code: '029',
+    name: 'Sidamo',
+    bcp47: 'sid',
+    ohchr:
+      'https://www.ohchr.org/en/human-rights/universal-declaration/translations/sidaamu-afoo',
+    iso6393: 'sid',
+    direction: 'ltr',
+    stage: 4,
+    latitude: 6.74,
+    longitude: 38.37
+  },
+  {
+    code: '030',
+    name: 'Kituba (2)',
+    bcp47: 'ktu',
+    ohchr: 'https://www.ohchr.org/en/node/104406',
+    iso6393: 'ktu',
+    direction: 'ltr',
+    stage: 4,
+    latitude: -2.3,
+    longitude: 17.15
+  },
+  {
+    code: '032',
+    name: 'South Azerbaijani',
+    bcp47: 'azb',
+    ohchr: 'https://www.ohchr.org/en/node/104397',
+    iso6393: 'azb',
+    direction: 'ltr',
+    stage: 4,
+    latitude: 36.51,
+    longitude: 48.43
+  },
+  {
+    code: '041',
+    name: 'Latvian (2)',
+    bcp47: 'lv',
+    ohchr: 'lat',
+    iso6393: 'lvs',
+    direction: 'ltr',
+    stage: 4,
+    latitude: 56.83,
+    longitude: 24.31
+  },
+  {
+    code: '042',
+    name: 'Spanish (resolution)',
+    bcp47: 'es',
+    ohchr: null,
+    iso6393: 'spa',
+    direction: 'ltr',
+    stage: 4,
+    latitude: 40.44,
+    longitude: -1.12
+  },
+  {
+    code: '043',
+    name: 'Zarma',
+    bcp47: 'dje',
+    ohchr: 'zarma',
+    iso6393: 'dje',
+    direction: 'ltr',
+    stage: 4,
+    latitude: 12.86,
+    longitude: 2.41
+  },
+  {
     code: 'aar',
     name: 'Afar',
     bcp47: 'aa',
@@ -208,7 +288,8 @@ export const udhr = [
     code: 'abk',
     name: 'Abkhaz',
     bcp47: 'ab',
-    ohchr: 'abk',
+    ohchr:
+      'https://www.ohchr.org/en/human-rights/universal-declaration/translations/abkhaz',
     iso6393: 'abk',
     direction: 'ltr',
     stage: 4,
@@ -340,7 +421,7 @@ export const udhr = [
     code: 'aka_fante',
     name: 'Fante',
     bcp47: 'ak',
-    ohchr: 'tws3',
+    ohchr: 'https://www.ohchr.org/en/node/102556',
     iso6393: 'fat',
     direction: 'ltr',
     stage: 4,
@@ -1451,7 +1532,8 @@ export const udhr = [
     code: 'epo',
     name: 'Esperanto',
     bcp47: 'eo',
-    ohchr: '1115',
+    ohchr:
+      'https://www.ohchr.org/en/human-rights/universal-declaration/translations/esperanto',
     iso6393: 'epo',
     direction: 'ltr',
     stage: 4,
@@ -2010,14 +2092,14 @@ export const udhr = [
   },
   {
     code: 'hna',
-    name: 'Mina',
-    bcp47: 'hna',
+    name: 'Gen',
+    bcp47: 'gej',
     ohchr: 'hna',
-    iso6393: 'hna',
+    iso6393: 'gej',
     direction: 'ltr',
     stage: 4,
-    latitude: 10.38,
-    longitude: 13.84
+    latitude: 6.26,
+    longitude: 1.68
   },
   {
     code: 'hni',
@@ -2100,7 +2182,8 @@ export const udhr = [
     code: 'hus',
     name: 'Huastec (Veracruz)',
     bcp47: 'hus',
-    ohchr: '1118',
+    ohchr:
+      'https://www.ohchr.org/en/human-rights/universal-declaration/translations/tenek-huasteco',
     iso6393: 'hus',
     direction: 'ltr',
     stage: 4,
@@ -2166,7 +2249,8 @@ export const udhr = [
     code: 'ido',
     name: 'Ido',
     bcp47: 'io',
-    ohchr: '1120',
+    ohchr:
+      'https://www.ohchr.org/en/human-rights/universal-declaration/translations/ido',
     iso6393: 'ido',
     direction: 'ltr',
     stage: 4,
@@ -2232,7 +2316,8 @@ export const udhr = [
     code: 'ina',
     name: 'Interlingua',
     bcp47: 'ia',
-    ohchr: '1119',
+    ohchr:
+      'https://www.ohchr.org/en/human-rights/universal-declaration/translations/interlingua',
     iso6393: 'ina',
     direction: 'ltr',
     stage: 4,
@@ -2452,7 +2537,8 @@ export const udhr = [
     code: 'kek',
     name: "Q'eqchi'",
     bcp47: 'kek',
-    ohchr: '1116',
+    ohchr:
+      'https://www.ohchr.org/en/human-rights/universal-declaration/translations/qechikekchi',
     iso6393: 'kek',
     direction: 'ltr',
     stage: 4,
@@ -3310,7 +3396,8 @@ export const udhr = [
     code: 'ndo',
     name: 'Ndonga',
     bcp47: 'ng',
-    ohchr: '1114',
+    ohchr:
+      'https://www.ohchr.org/en/human-rights/universal-declaration/translations/oshiwambo-ndonga',
     iso6393: 'ndo',
     direction: 'ltr',
     stage: 4,
@@ -3618,7 +3705,8 @@ export const udhr = [
     code: 'ote',
     name: 'Otomi, Mezquital',
     bcp47: 'ote',
-    ohchr: '1111',
+    ohchr:
+      'https://www.ohchr.org/en/human-rights/universal-declaration/translations/nahnu-otomi',
     iso6393: 'ote',
     direction: 'ltr',
     stage: 4,
@@ -3860,7 +3948,8 @@ export const udhr = [
     code: 'quc',
     name: "K'iche', Central",
     bcp47: 'quc',
-    ohchr: '1117',
+    ohchr:
+      'https://www.ohchr.org/en/human-rights/universal-declaration/translations/kiche-quiche',
     iso6393: 'quc',
     direction: 'ltr',
     stage: 4,
@@ -4850,7 +4939,8 @@ export const udhr = [
     code: 'tsz',
     name: 'Purepecha',
     bcp47: 'tsz',
-    ohchr: '1112',
+    ohchr:
+      'https://www.ohchr.org/en/human-rights/universal-declaration/translations/purhepecha',
     iso6393: 'tsz',
     direction: 'ltr',
     stage: 4,
