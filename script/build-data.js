@@ -3,6 +3,7 @@
  * @typedef {import('xast').Element} XastElement
  * @typedef {import('hast').Text} HastText
  * @typedef {import('hast').Element} HastElement
+ * @typedef {import('hast').Root} HastRoot
  *
  * @typedef Context
  * @property {number} rank
@@ -165,25 +166,23 @@ while (++index < udhr.length) {
 
   console.log('%s (%s)', attributes.n, attributes.key)
 
-  const doc = processor.stringify(
-    await processor.run(
-      u('root', [
-        u('doctype', {name: 'html'}),
-        h(
-          'html',
-          {
-            lang: attributes['xml:lang'],
-            dir: attributes.dir,
-            dataCode: attributes.key,
-            dataIso6393: attributes['iso639-3']
-          },
-          [
-            h('head', [h('title', attributes.n)]),
-            one.call({rank: 0, enter}, main)
-          ]
-        )
-      ])
+  /** @type {HastRoot} */
+  const hastRoot = u('root', [
+    u('doctype', {name: 'html'}),
+    h(
+      'html',
+      {
+        lang: attributes['xml:lang'],
+        dir: attributes.dir,
+        dataCode: attributes.key,
+        dataIso6393: attributes['iso639-3']
+      },
+      [h('head', [h('title', attributes.n)]), one.call({rank: 0, enter}, main)]
     )
+  ])
+
+  const doc = processor.stringify(
+    /** @type {HastRoot} */ (await processor.run(hastRoot))
   )
 
   await fs.writeFile(
