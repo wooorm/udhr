@@ -14,7 +14,7 @@
     "c8": "^10.0.0",
     "hast-util-format": "^1.0.0",
     "hast-util-to-html": "^9.0.0",
-    "hastscript": "^8.0.0",
+    "hastscript": "^9.0.0",
     "mapz": "^2.0.0",
     "mdast-zone": "^6.0.0",
     "prettier": "^3.0.0",

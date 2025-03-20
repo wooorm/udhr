@@ -225,7 +225,7 @@ function enter(node) {
 function title(d) {
   const value = cleanString(toString(d))
   assert.deepEqual(Object.keys(d.attributes), [])
-  return h('h' + this.rank, value ? {type: 'text', value} : [])
+  return h('h' + this.rank, value ? [{type: 'text', value}] : [])
 }
 
 /**
