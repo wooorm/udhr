@@ -2,84 +2,86 @@ import assert from 'node:assert/strict'
 import test from 'node:test'
 import {udhr} from './index.js'
 
-test('udhr', function () {
-  assert.equal(typeof udhr, 'object', 'should be an object')
+test('udhr', async function (t) {
+  await t.test('should expose the public api', async function () {
+    assert.deepEqual(Object.keys(await import('./index.js')).sort(), ['udhr'])
+  })
 })
 
-test('udhr[]', function () {
-  assert.doesNotThrow(function () {
-    let index = -1
-    while (++index < udhr.length) {
-      assert.strictEqual(typeof udhr[index], 'object')
-    }
-  }, 'should be an object')
+test('udhr[]', async function (t) {
+  await t.test('should be an object', async function () {
+    assert.doesNotThrow(function () {
+      for (const info of udhr) {
+        assert.strictEqual(typeof info, 'object')
+      }
+    })
+  })
 
-  assert.doesNotThrow(function () {
-    let index = -1
-    while (++index < udhr.length) {
-      assert.strictEqual(typeof udhr[index].iso6393, 'string')
-    }
-  }, 'should have an iso')
+  await t.test('should have an iso', async function () {
+    assert.doesNotThrow(function () {
+      for (const info of udhr) {
+        assert.strictEqual(typeof info.iso6393, 'string')
+      }
+    })
+  })
 
-  assert.doesNotThrow(function () {
-    let index = -1
-    while (++index < udhr.length) {
-      assert.strictEqual(typeof udhr[index].bcp47, 'string')
-    }
-  }, 'should have a bcp')
+  await t.test('should have a bcp', async function () {
+    assert.doesNotThrow(function () {
+      for (const info of udhr) {
+        assert.strictEqual(typeof info.bcp47, 'string')
+      }
+    })
+  })
 
-  assert.doesNotThrow(function () {
-    let index = -1
-    while (++index < udhr.length) {
-      assert(
-        typeof udhr[index].ohchr === 'string' || udhr[index].ohchr === null
-      )
-    }
-  }, 'should have an ohchr')
+  await t.test('should have an ohchr', async function () {
+    assert.doesNotThrow(function () {
+      for (const info of udhr) {
+        assert(typeof info.ohchr === 'string' || info.ohchr === null)
+      }
+    })
+  })
 
-  assert.doesNotThrow(function () {
-    let index = -1
-    while (++index < udhr.length) {
-      assert.strictEqual(typeof udhr[index].code, 'string')
-    }
-  }, 'should have a code')
+  await t.test('should have a code', async function () {
+    assert.doesNotThrow(function () {
+      for (const info of udhr) {
+        assert.strictEqual(typeof info.code, 'string')
+      }
+    })
+  })
 
-  assert.doesNotThrow(function () {
-    let index = -1
-    while (++index < udhr.length) {
-      assert.strictEqual(typeof udhr[index].name, 'string')
-    }
-  }, 'should have a name')
+  await t.test('should have a name', async function () {
+    assert.doesNotThrow(function () {
+      for (const info of udhr) {
+        assert.strictEqual(typeof info.name, 'string')
+      }
+    })
+  })
 
-  assert.doesNotThrow(function () {
-    let index = -1
+  await t.test('should have a stage', async function () {
+    assert.doesNotThrow(function () {
+      for (const info of udhr) {
+        const stage = info.stage
+        assert(typeof stage === 'number')
+        assert(Math.round(stage) === stage)
+        assert(stage > 0)
+        assert(stage < 6)
+      }
+    })
+  })
 
-    while (++index < udhr.length) {
-      const stage = udhr[index].stage
-      assert(typeof stage === 'number')
-      assert(Math.round(stage) === stage)
-      assert(stage > 0)
-      assert(stage < 6)
-    }
-  }, 'should have a stage')
+  await t.test('should have a `latitude`', async function () {
+    assert.doesNotThrow(function () {
+      for (const info of udhr) {
+        assert(typeof info.latitude === 'number' || info.latitude === null)
+      }
+    })
+  })
 
-  assert.doesNotThrow(function () {
-    let index = -1
-    while (++index < udhr.length) {
-      assert(
-        typeof udhr[index].latitude === 'number' ||
-          udhr[index].latitude === null
-      )
-    }
-  }, 'should have a `latitude`')
-
-  assert.doesNotThrow(function () {
-    let index = -1
-    while (++index < udhr.length) {
-      assert(
-        typeof udhr[index].longitude === 'number' ||
-          udhr[index].longitude === null
-      )
-    }
-  }, 'should have a `longitude`')
+  await t.test('should have a `longitude`', async function () {
+    assert.doesNotThrow(function () {
+      for (const info of udhr) {
+        assert(typeof info.longitude === 'number' || info.longitude === null)
+      }
+    })
+  })
 })

@@ -1,119 +1,113 @@
+/* eslint-disable no-await-in-loop, unicorn/no-this-assignment */
+
 /**
- * @typedef {import('xast').Text} XastText
- * @typedef {import('xast').Element} XastElement
- * @typedef {import('hast').Text} HastText
- * @typedef {import('hast').Element} HastElement
- * @typedef {import('hast').Root} HastRoot
- *
- * @typedef Context
- * @property {number} rank
- * @property {(node: XastElement) => () => void} enter
- *
- * Note: Please keep `Info` in sync with `index.js` generated below.
- * Do remove `hasXml` though.
- *
- * @typedef Info
- * @property {string} code
- * @property {string} name
- * @property {string|null} bcp47
- * @property {string|null} ohchr
- * @property {string|null} iso6393
- * @property {'ltr'|'rtl'|'ttb'|null} direction
- * @property {1|2|3|4|5} stage
- * @property {number} latitude
- * @property {number} longitude
- * @property {boolean} hasXml
+ * @import {Element as HastElement, Root as HastRoot, Text as HastText} from 'hast'
+ * @import {Element as XastElement, Text as XastText} from 'xast'
  */
 
-/* eslint-disable no-await-in-loop */
+/**
+ * @typedef Context
+ * @property {number} rank
+ * @property {(node: XastElement) => () => undefined} enter
+ */
+
+// To do: `undefined`.
+/**
+ * @typedef Info
+ * @property {string | null} bcp47
+ * @property {string} code
+ * @property {'ltr' | 'rtl' | 'ttb' | null} direction
+ * @property {string | null} iso6393
+ * @property {number} latitude
+ * @property {number} longitude
+ * @property {string} name
+ * @property {string | null} ohchr
+ * @property {1 | 2 | 3 | 4 | 5} stage
+ */
 
 import assert from 'node:assert/strict'
 import fs from 'node:fs/promises'
+import {h} from 'hastscript'
+import {format} from 'hast-util-format'
+import {toHtml} from 'hast-util-to-html'
+import {mapz} from 'mapz'
+import {selectAll, select} from 'unist-util-select'
 import {fromXml} from 'xast-util-from-xml'
 import {toString} from 'xast-util-to-string'
-import {select, selectAll} from 'unist-util-select'
-import {h} from 'hastscript'
-import {u} from 'unist-builder'
-import {mapz} from 'mapz'
 import {zwitch} from 'zwitch'
-import {unified} from 'unified'
-import rehypeFormat from 'rehype-format'
-import rehypeStringify from 'rehype-stringify'
 
 const xml = fromXml(
-  String(await fs.readFile(new URL('../xml/index.xml', import.meta.url)))
+  await fs.readFile(new URL('../xml/index.xml', import.meta.url), 'utf8')
 )
 
 const elements = /** @type {Array<XastElement>} */ (
   selectAll('element[name=udhr]', xml)
 )
 
-const udhrs = await Promise.all(
-  elements.map(async (element) => {
-    const {attributes = {}} = element
-    const location = (attributes.loc || '')
-      .split(',')
-      .map((d) => Number.parseFloat(d))
+/** @type {Array<Info>} */
+const udhr = []
 
-    let exists = false
-
-    try {
-      await fs.access(
-        new URL('../xml/udhr_' + attributes.f + '.xml', import.meta.url),
-        fs.constants.R_OK
-      )
-      exists = true
-    } catch {}
-
-    const direction = attributes.dir
-    const stage = Number.parseInt(attributes.stage || '', 10)
-
-    assert(typeof attributes.f === 'string')
-    assert(typeof attributes.n === 'string')
-    assert(
-      direction === 'ltr' ||
-        direction === 'rtl' ||
-        direction === 'ttb' ||
-        direction === undefined
+for (const element of elements) {
+  try {
+    await fs.access(
+      new URL('../xml/udhr_' + element.attributes.f + '.xml', import.meta.url),
+      fs.constants.R_OK
     )
-    assert(
-      stage === 1 || stage === 2 || stage === 3 || stage === 4 || stage === 5
-    )
+  } catch {
+    continue
+  }
 
-    /** @type {Info} */
-    const info = {
-      code: attributes.f,
-      name: attributes.n,
-      bcp47: attributes.bcp47 || null,
-      ohchr: attributes.ohchr || null,
-      iso6393: attributes['iso639-3'] || null,
-      direction: direction || null,
-      stage,
-      latitude: location[0],
-      longitude: location[1],
-      hasXml: exists
-    }
+  /** @type {Array<number>} */
+  const location = []
 
-    return info
+  for (const d of (element.attributes.loc || '').split(',')) {
+    location.push(Number.parseFloat(d))
+  }
+
+  const direction = element.attributes.dir
+  const stage = Number.parseInt(element.attributes.stage || '', 10)
+
+  assert(typeof element.attributes.f === 'string')
+  assert(typeof element.attributes.n === 'string')
+  assert(
+    direction === 'ltr' ||
+      direction === 'rtl' ||
+      direction === 'ttb' ||
+      direction === undefined
+  )
+  assert(
+    stage === 1 || stage === 2 || stage === 3 || stage === 4 || stage === 5
+  )
+  // To do: perhaps allow `0`.
+  assert(location.length === 2)
+
+  udhr.push({
+    code: element.attributes.f,
+    name: element.attributes.n,
+    bcp47: element.attributes.bcp47 || null,
+    ohchr: element.attributes.ohchr || null,
+    iso6393: element.attributes['iso639-3'] || null,
+    direction: direction || null,
+    stage,
+    latitude: location[0],
+    longitude: location[1]
   })
-)
-
-const udhr = udhrs.filter((d) => d.hasXml).map(({hasXml, ...rest}) => rest)
+}
 
 await fs.writeFile(
   new URL('../index.js', import.meta.url),
   // Note: Please keep `Info` in sync with above type generated below.
-  // Do remove `hasXml` though.
+  // To do: sort type; `ReadonlyArray`, `null`.
   [
     '/**',
     ' * @typedef Info',
     ' * @property {string} code',
     ' * @property {string} name',
-    ' * @property {string|null} bcp47',
-    ' * @property {string|null} ohchr',
-    ' * @property {string|null} iso6393',
-    " * @property {'ltr'|'rtl'|'ttb'|null} direction",
-    ' * @property {1|2|3|4|5} stage',
+    ' * @property {string | null} bcp47',
+    ' * @property {string | null} ohchr',
+    ' * @property {string | null} iso6393',
+    " * @property {'ltr' | 'rtl' | 'ttb' | null} direction",
+    ' * @property {1 | 2 | 3 | 4 | 5} stage',
     ' * @property {number} latitude',
     ' * @property {number} longitude',
     ' */',
@@ -123,71 +117,72 @@ await fs.writeFile(
     ' *',
     ' * @type {Array<Info>}',
     ' */',
-    'export const udhr = ' + JSON.stringify(udhr, null, 2),
+    'export const udhr = ' + JSON.stringify(udhr, undefined, 2),
     ''
   ].join('\n')
 )
 
 const element = zwitch('name', {
-  invalid: invalidElement,
-  unknown: unknownElement,
   handlers: {
-    udhr: root,
-    title,
-    para,
-    orderedlist,
+    article,
     listitem,
     note,
-    article,
-    preamble
-  }
+    orderedlist,
+    para,
+    preamble,
+    title,
+    udhr: root
+  },
+  invalid: invalidElement,
+  unknown: unknownElement
 })
 
 const one = zwitch('type', {
+  handlers: {comment, element, text},
   invalid,
-  unknown,
-  handlers: {element, text, comment}
+  unknown
 })
 
-const all = mapz(one, {key: 'children', gapless: true})
+const all = mapz(one, {gapless: true, key: 'children'})
 
-const processor = unified().use(rehypeFormat).use(rehypeStringify)
-
-let index = -1
-
-while (++index < udhr.length) {
+for (const info of udhr) {
   const tree = fromXml(
     await fs.readFile(
-      new URL('../xml/udhr_' + udhr[index].code + '.xml', import.meta.url)
+      new URL('../xml/udhr_' + info.code + '.xml', import.meta.url)
     )
   )
   const main = /** @type {XastElement} */ (select('element[name=udhr]', tree))
-  const attributes = main.attributes || {}
 
-  console.log('%s (%s)', attributes.n, attributes.key)
+  console.log('%s (%s)', main.attributes.n, main.attributes.key)
 
   /** @type {HastRoot} */
-  const hastRoot = u('root', [
-    u('doctype', {name: 'html'}),
-    h(
-      'html',
-      {
-        lang: attributes['xml:lang'],
-        dir: attributes.dir,
-        dataCode: attributes.key,
-        dataIso6393: attributes['iso639-3']
-      },
-      [h('head', [h('title', attributes.n)]), one.call({rank: 0, enter}, main)]
-    )
-  ])
+  const hastRoot = {
+    type: 'root',
+    children: [
+      {type: 'doctype'},
+      h(
+        'html',
+        {
+          // To do: sort.
+          lang: main.attributes['xml:lang'],
+          dir: main.attributes.dir,
+          dataCode: main.attributes.key,
+          dataIso6393: main.attributes['iso639-3']
+        },
+        [
+          h('head', [h('title', main.attributes.n)]),
+          // To do: clean.
+          one.call({enter, rank: 0}, main)
+        ]
+      )
+    ]
+  }
 
-  const value = processor.stringify(
-    /** @type {HastRoot} */ (await processor.run(hastRoot))
-  )
+  format(hastRoot)
 
   await fs.writeFile(
-    new URL('../declaration/' + udhr[index].code + '.html', import.meta.url),
-    value
+    new URL('../declaration/' + info.code + '.html', import.meta.url),
+    toHtml(hastRoot)
   )
 }
 
@@ -196,16 +191,24 @@ while (++index < udhr.length) {
  * @this {Context}
  */
 function enter(node) {
-  const rank = this.rank
+  const context = this
+  const rank = context.rank
 
-  if (node.children.some((d) => d.type === 'element' && d.name === 'title')) {
-    this.rank++
-    return () => {
-      this.rank = rank
+  for (const child of node.children) {
+    if (child.type === 'element' && child.name === 'title') {
+      context.rank++
+      // To do: should be possible to always return `restore`?
+      return restore
     }
   }
 
-  return () => {}
+  return noop
+
+  function noop() {}
+
+  function restore() {
+    context.rank = rank
+  }
 }
 
 /**
@@ -215,19 +218,19 @@ function enter(node) {
  */
 function title(d) {
   const value = cleanString(toString(d))
-  assert.deepStrictEqual(Object.keys(d.attributes || {}), [])
-  return h('h' + this.rank, value ? u('text', value) : [])
+  assert.deepEqual(Object.keys(d.attributes), [])
+  return h('h' + this.rank, value ? {type: 'text', value} : [])
 }
 
 /**
  * @this {Context}
  * @param {XastElement} d
- * @returns {HastElement|undefined}
+ * @returns {HastElement | undefined}
  */
 function para(d) {
   const value = cleanString(toString(d))
-  assert.deepStrictEqual(Object.keys(d.attributes || {}), [])
-  return value ? h('p', [u('text', value)]) : undefined
+  assert.deepEqual(Object.keys(d.attributes), [])
+  return value ? h('p', [{type: 'text', value}]) : undefined
 }
 
 /**
@@ -235,7 +238,7 @@ function para(d) {
  * @param {XastElement} d
  */
 function note(d) {
-  assert.deepStrictEqual(Object.keys(d.attributes || {}), [])
+  assert.deepEqual(Object.keys(d.attributes), [])
 }
 
 /**
@@ -244,7 +247,7 @@ function note(d) {
  * @returns {HastElement}
  */
 function preamble(d) {
-  assert.deepStrictEqual(Object.keys(d.attributes || {}), [])
+  assert.deepEqual(Object.keys(d.attributes), [])
   const exit = this.enter(d)
   const node = h('header', all.call(this, d))
   exit()
@@ -257,7 +260,7 @@ function preamble(d) {
  * @returns {HastElement}
  */
 function orderedlist(d) {
-  assert.deepStrictEqual(Object.keys(d.attributes || {}), [])
+  assert.deepEqual(Object.keys(d.attributes), [])
   const exit = this.enter(d)
   const node = h('ol', all.call(this, d))
   exit()
@@ -270,13 +273,18 @@ function orderedlist(d) {
  * @returns {HastElement}
  */
 function listitem(d) {
-  const ignore = new Set(['tag', 'label'])
   // Some list items are marked with their index as a word, such as `first`,
   // `second`.
-  assert.deepStrictEqual(
-    Object.keys(d.attributes || {}).filter((x) => !ignore.has(x)),
-    []
-  )
+  /** @type {Array<string>} */
+  const keys = []
+
+  for (const key in Object.keys(d)) {
+    if (key !== 'label' && key !== 'tag') {
+      keys.push(key)
+    }
+  }
+
+  assert.deepEqual(keys, [])
   const exit = this.enter(d)
   const node = h('li', all.call(this, d))
   exit()
@@ -289,10 +297,13 @@ function listitem(d) {
  * @returns {HastElement}
  */
 function article(d) {
-  const attributes = d.attributes || {}
-  assert.deepStrictEqual(Object.keys(attributes), ['number'])
+  assert.deepEqual(Object.keys(d.attributes), ['number'])
   const exit = this.enter(d)
-  const node = h('article', {dataNumber: attributes.number}, all.call(this, d))
+  const node = h(
+    'article',
+    {dataNumber: d.attributes.number},
+    all.call(this, d)
+  )
   exit()
   return node
 }
@@ -315,7 +326,7 @@ function root(d) {
  * @returns {HastText}
  */
 function text(d) {
-  return u('text', d.value.replace(/\r\n?/g, '\n'))
+  return {type: 'text', value: d.value.replace(/\r\n?/g, '\n')}
 }
 
 function comment() {}
@@ -366,5 +377,3 @@ function cleanString(raw) {
   const value = raw.replace(/^\s*\[\s*(.*)\s*]\s*$/, '&1')
   return /by sprat|missing|^(\?\??)$/i.test(value) ? '' : value
 }
-
-/* eslint-enable no-await-in-loop */

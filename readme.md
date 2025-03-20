@@ -62,14 +62,18 @@ import fs from 'node:fs/promises'
 import {resolve} from 'import-meta-resolve'
 import {udhr} from 'udhr'
 
-const bod = udhr.find((d) => d.code === 'bod')
-console.log(bod)
+for (const d of udhr) {
+  if (d.code === 'bod') {
+    console.log(d)
+    break
+  }
+}
 
 const base = await resolve('udhr', import.meta.url)
 // Declarations are stored as `declaration/$code.html`.
-const url = new URL('declaration/' + bod.code + '.html', base)
+const url = new URL('declaration/bod.html', base)
 
-console.log(String(await fs.readFile(url)))
+console.log(await fs.readFile(url, 'utf8'))
 ```
 
 Yields:
@@ -114,22 +118,27 @@ Gets info about the documents: their stage, language regions and lat/lng
 locations, \&c.
 
 ```js
-console.log(udhr.find((d) => d.code === 'nob'))
+for (const d of udhr) {
+  if (d.code === 'ydd') {
+    console.log(d)
+    break
+  }
+}
 ```
 
 Yields:
 
 ```js
 {
-  code: 'nob',
-  name: 'Norwegian, Bokmål',
-  bcp47: 'nb',
-  ohchr: 'nrr',
-  iso6393: 'nob',
-  direction: 'ltr',
+  code: 'ydd',
+  name: 'Yiddish, Eastern',
+  bcp47: 'yi',
+  ohchr: 'ydd',
+  iso6393: 'ydd',
+  direction: 'rtl',
   stage: 4,
-  latitude: 61,
-  longitude: 8
+  latitude: 51.75,
+  longitude: 19.42
 }
 ```
 
