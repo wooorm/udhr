@@ -181,13 +181,13 @@ while (++index < udhr.length) {
     )
   ])
 
-  const doc = processor.stringify(
+  const value = processor.stringify(
     /** @type {HastRoot} */ (await processor.run(hastRoot))
   )
 
   await fs.writeFile(
     new URL('../declaration/' + udhr[index].code + '.html', import.meta.url),
-    doc
+    value
   )
 }
 

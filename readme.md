@@ -1,27 +1,28 @@
 # udhr
 
-[![Build][build-badge]][build]
-[![Coverage][coverage-badge]][coverage]
-[![Downloads][downloads-badge]][downloads]
+[![Build][badge-build-image]][badge-build-url]
+[![Coverage][badge-coverage-image]][badge-coverage-url]
+[![Downloads][badge-downloads-image]][badge-downloads-url]
 
 The most translated copyright-free document on this planet:
-the [universal declaration of human rights][index], in [unicode][],
+the [universal declaration of human rights][ohchr-index],
+in [unicode][unicode-udhr],
 in JavaScript.
 
 ## Contents
 
-*   [What is this?](#what-is-this)
-*   [When should I use this?](#when-should-i-use-this)
-*   [Install](#install)
-*   [Use](#use)
-*   [API](#api)
-    *   [`udhr`](#udhr-1)
-*   [Data](#data)
-*   [Types](#types)
-*   [Compatibility](#compatibility)
-*   [Contribute](#contribute)
-*   [Security](#security)
-*   [License](#license)
+* [What is this?](#what-is-this)
+* [When should I use this?](#when-should-i-use-this)
+* [Install](#install)
+* [Use](#use)
+* [API](#api)
+  * [`udhr`](#udhr-1)
+* [Data](#data)
+* [Types](#types)
+* [Compatibility](#compatibility)
+* [Contribute](#contribute)
+* [Security](#security)
+* [License](#license)
 
 ## What is this?
 
@@ -647,13 +648,13 @@ It exports the additional type `Info`.
 ## Compatibility
 
 This package is at least compatible with all maintained versions of Node.js.
-As of now, that is Node.js 14.14+ and 16.0+.
+As of now, that is Node.js 14+ and 16+.
 It also works in Deno and modern browsers.
 
 ## Contribute
 
 Yes please!
-See [How to Contribute to Open Source][contribute].
+See [How to Contribute to Open Source][opensource-guide-contribute].
 
 ## Security
 
@@ -661,36 +662,36 @@ This package is safe.
 
 ## License
 
-[MIT][license] © [Titus Wormer][author]
+[MIT][file-license] © [Titus Wormer][wooorm]
 
 <!--Definitions-->
 
-[build-badge]: https://github.com/wooorm/udhr/workflows/main/badge.svg
+[badge-build-image]: https://github.com/wooorm/udhr/workflows/main/badge.svg
 
-[build]: https://github.com/wooorm/udhr/actions
+[badge-build-url]: https://github.com/wooorm/udhr/actions
 
-[coverage-badge]: https://img.shields.io/codecov/c/github/wooorm/udhr.svg
+[badge-coverage-image]: https://img.shields.io/codecov/c/github/wooorm/udhr.svg
 
-[coverage]: https://codecov.io/github/wooorm/udhr
+[badge-coverage-url]: https://codecov.io/github/wooorm/udhr
 
-[downloads-badge]: https://img.shields.io/npm/dm/udhr.svg
+[badge-downloads-image]: https://img.shields.io/npm/dm/udhr.svg
 
-[downloads]: https://www.npmjs.com/package/udhr
+[badge-downloads-url]: https://www.npmjs.com/package/udhr
 
 [esm]: https://gist.github.com/sindresorhus/a39789f98801d908bbc7ff3ecc99d99c
 
 [esmsh]: https://esm.sh
 
-[typescript]: https://www.typescriptlang.org
-
-[contribute]: https://opensource.guide/how-to-contribute/
-
-[license]: license
-
-[author]: https://wooorm.com
+[file-license]: license
 
 [npm]: https://www.npmjs.com
 
-[index]: https://www.ohchr.org/EN/UDHR/Pages/UDHRIndex.aspx
+[ohchr-index]: https://www.ohchr.org/EN/UDHR/Pages/UDHRIndex.aspx
 
-[unicode]: https://www.unicode.org/udhr/
+[opensource-guide-contribute]: https://opensource.guide/how-to-contribute/
+
+[typescript]: https://www.typescriptlang.org
+
+[unicode-udhr]: https://www.unicode.org/udhr/
+
+[wooorm]: https://wooorm.com
