@@ -18,7 +18,6 @@ in JavaScript.
 * [API](#api)
   * [`udhr`](#udhr-1)
 * [Data](#data)
-* [Types](#types)
 * [Compatibility](#compatibility)
 * [Contribute](#contribute)
 * [Security](#security)
@@ -35,7 +34,8 @@ Perhaps when you are dealing with natural language detection?
 ## Install
 
 This package is [ESM only][esm].
-In Node.js (version 14.14+, 16.0+), install with [npm][]:
+In Node.js (version 14+),
+install with [npm][]:
 
 ```sh
 npm install udhr
@@ -108,14 +108,18 @@ Yields:
 
 ## API
 
-This package exports the identifier `udhr`.
+This package exports the identifier [`udhr`][api-udhr].
+It exports the [TypeScript][] type [`Info`][api-info].
 There is no default export.
 
 ### `udhr`
 
-List of info objects.
-Gets info about the documents: their stage, language regions and lat/lng
-locations, \&c.
+List of info objects ([`Array<Info>`][api-info]).
+
+Gets info about the documents:
+their stage,
+lat/lng locations,
+\&c.
 
 ```js
 for (const d of udhr) {
@@ -144,6 +148,26 @@ Yields:
 
 The actual declarations are available in semantic HTML as
 `udhr/declaration/$code.html`.
+
+### `Info`
+
+Info (TypeScript type).
+
+###### Type
+
+```ts
+interface Info {
+  bcp47: string | null
+  code: string
+  direction: 'ltr' | 'rtl' | 'ttb' | null
+  iso6393: string | null
+  latitude: number
+  longitude: number
+  name: string
+  ohchr: string | null
+  stage: 1 | 2 | 3 | 4 | 5
+}
+```
 
 ## Data
 
@@ -649,15 +673,11 @@ The actual declarations are available in semantic HTML as
 
 <!--support end-->
 
-## Types
-
-This package is fully typed with [TypeScript][].
-It exports the additional type `Info`.
-
 ## Compatibility
 
 This package is at least compatible with all maintained versions of Node.js.
-As of now, that is Node.js 14+ and 16+.
+As of now,
+that is Node.js 14+ and 16+.
 It also works in Deno and modern browsers.
 
 ## Contribute
@@ -674,6 +694,10 @@ This package is safe.
 [MIT][file-license] © [Titus Wormer][wooorm]
 
 <!--Definitions-->
+
+[api-info]: #info
+
+[api-udhr]: #udhr
 
 [badge-build-image]: https://github.com/wooorm/udhr/workflows/main/badge.svg
 
