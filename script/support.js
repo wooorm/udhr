@@ -67,48 +67,42 @@ export default function remarkInjectSupport() {
             },
             {
               type: 'tableCell',
-              children: info.bcp47 ? [{type: 'text', value: info.bcp47}] : []
-            },
-            {
-              type: 'tableCell',
-              children: info.iso6393
-                ? [
-                    {
-                      type: 'link',
-                      url: 'https://iso639-3.sil.org/code/' + info.iso6393,
-                      children: [{type: 'text', value: info.iso6393}]
-                    }
-                  ]
-                : []
-            },
-            {
-              type: 'tableCell',
-              children: info.direction
-                ? [{type: 'text', value: info.direction}]
-                : []
+              children: [{type: 'text', value: info.bcp47}]
             },
             {
               type: 'tableCell',
               children: [
-                info.latitude && info.longitude
-                  ? {
-                      type: 'link',
-                      url:
-                        'https://www.openstreetmap.org/#map=5/' +
-                        info.latitude +
-                        '/' +
-                        info.longitude,
-                      children: [
-                        {
-                          type: 'text',
-                          value:
-                            info.latitude.toFixed(1) +
-                            ', ' +
-                            info.longitude.toFixed(1)
-                        }
-                      ]
+                {
+                  type: 'link',
+                  url: 'https://iso639-3.sil.org/code/' + info.iso6393,
+                  children: [{type: 'text', value: info.iso6393}]
+                }
+              ]
+            },
+            {
+              type: 'tableCell',
+              children: [{type: 'text', value: info.direction}]
+            },
+            {
+              type: 'tableCell',
+              children: [
+                {
+                  type: 'link',
+                  url:
+                    'https://www.openstreetmap.org/#map=5/' +
+                    info.latitude +
+                    '/' +
+                    info.longitude,
+                  children: [
+                    {
+                      type: 'text',
+                      value:
+                        info.latitude.toFixed(1) +
+                        ', ' +
+                        info.longitude.toFixed(1)
                     }
-                  : {type: 'text', value: 'No'}
+                  ]
+                }
               ]
             }
           ]

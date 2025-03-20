@@ -11,17 +11,16 @@
  * @property {(node: XastElement) => () => undefined} enter
  */
 
-// To do: `undefined`.
 /**
  * @typedef Info
- * @property {string | null} bcp47
+ * @property {string} bcp47
  * @property {string} code
- * @property {'ltr' | 'rtl' | 'ttb' | null} direction
- * @property {string | null} iso6393
+ * @property {'ltr' | 'rtl' | 'ttb'} direction
+ * @property {string} iso6393
  * @property {number} latitude
  * @property {number} longitude
  * @property {string} name
- * @property {string | null} ohchr
+ * @property {string | undefined} ohchr
  * @property {1 | 2 | 3 | 4 | 5} stage
  */
 
@@ -70,30 +69,29 @@ for (const element of elements) {
     location.push(Number.parseFloat(d))
   }
 
-  const direction = element.attributes.dir
   const stage = Number.parseInt(element.attributes.stage || '', 10)
 
+  assert(typeof element.attributes.bcp47 === 'string')
   assert(typeof element.attributes.f === 'string')
+  assert(typeof element.attributes['iso639-3'] === 'string')
   assert(typeof element.attributes.n === 'string')
   assert(
-    direction === 'ltr' ||
-      direction === 'rtl' ||
-      direction === 'ttb' ||
-      direction === undefined
+    element.attributes.dir === 'ltr' ||
+      element.attributes.dir === 'rtl' ||
+      element.attributes.dir === 'ttb'
   )
   assert(
     stage === 1 || stage === 2 || stage === 3 || stage === 4 || stage === 5
   )
-  // To do: perhaps allow `0`.
   assert(location.length === 2)
 
   udhr.push({
     code: element.attributes.f,
     name: element.attributes.n,
-    bcp47: element.attributes.bcp47 || null,
-    ohchr: element.attributes.ohchr || null,
-    iso6393: element.attributes['iso639-3'] || null,
-    direction: direction || null,
+    bcp47: element.attributes.bcp47,
+    ohchr: element.attributes.ohchr || undefined,
+    iso6393: element.attributes['iso639-3'],
+    direction: element.attributes.dir,
     stage,
     latitude: location[0],
     longitude: location[1]
@@ -103,16 +101,16 @@ for (const element of elements) {
 await fs.writeFile(
   new URL('../index.js', import.meta.url),
   // Note: Please keep `Info` in sync with above type generated below.
-  // To do: sort type; `ReadonlyArray`, `null`.
+  // To do: sort type; `ReadonlyArray`.
   [
     '/**',
     ' * @typedef Info',
     ' * @property {string} code',
     ' * @property {string} name',
-    ' * @property {string | null} bcp47',
-    ' * @property {string | null} ohchr',
-    ' * @property {string | null} iso6393',
-    " * @property {'ltr' | 'rtl' | 'ttb' | null} direction",
+    ' * @property {string} bcp47',
+    ' * @property {string} [ohchr]',
+    ' * @property {string} iso6393',
+    " * @property {'ltr' | 'rtl' | 'ttb'} direction",
     ' * @property {1 | 2 | 3 | 4 | 5} stage',
     ' * @property {number} latitude',
     ' * @property {number} longitude',

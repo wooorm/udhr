@@ -36,7 +36,7 @@ test('udhr[]', async function (t) {
   await t.test('should have an ohchr', async function () {
     assert.doesNotThrow(function () {
       for (const info of udhr) {
-        assert(typeof info.ohchr === 'string' || info.ohchr === null)
+        assert(typeof info.ohchr === 'string' || info.ohchr === undefined)
       }
     })
   })
@@ -72,7 +72,7 @@ test('udhr[]', async function (t) {
   await t.test('should have a `latitude`', async function () {
     assert.doesNotThrow(function () {
       for (const info of udhr) {
-        assert(typeof info.latitude === 'number' || info.latitude === null)
+        assert(typeof info.latitude === 'number')
       }
     })
   })
@@ -80,7 +80,7 @@ test('udhr[]', async function (t) {
   await t.test('should have a `longitude`', async function () {
     assert.doesNotThrow(function () {
       for (const info of udhr) {
-        assert(typeof info.longitude === 'number' || info.longitude === null)
+        assert(typeof info.longitude === 'number')
       }
     })
   })

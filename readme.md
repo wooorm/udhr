@@ -126,14 +126,14 @@ Info (TypeScript type).
 
 ```ts
 interface Info {
-  bcp47: string | null
+  bcp47: string
   code: string
-  direction: 'ltr' | 'rtl' | 'ttb' | null
-  iso6393: string | null
+  direction?: 'ltr' | 'rtl' | 'ttb'
+  iso6393: string
   latitude: number
   longitude: number
   name: string
-  ohchr: string | null
+  ohchr?: string
   stage: 1 | 2 | 3 | 4 | 5
 }
 ```
