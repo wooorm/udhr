@@ -2,17 +2,17 @@
  * @typedef Info
  * @property {string} code
  * @property {string} name
- * @property {string|null} bcp47
- * @property {string|null} ohchr
- * @property {string|null} iso6393
- * @property {'ltr'|'rtl'|'ttb'|null} direction
- * @property {1|2|3|4|5} stage
+ * @property {string | null} bcp47
+ * @property {string | null} ohchr
+ * @property {string | null} iso6393
+ * @property {'ltr' | 'rtl' | 'ttb' | null} direction
+ * @property {1 | 2 | 3 | 4 | 5} stage
  * @property {number} latitude
  * @property {number} longitude
  */
 
 /**
- * Universal Declaration of Human Rights (Unicode)
+ * Universal Declaration of Human Rights.
  *
  * @type {Array<Info>}
  */
@@ -266,12 +266,323 @@ export const udhr = [
     code: '043',
     name: 'Zarma',
     bcp47: 'dje',
-    ohchr: 'zarma',
+    ohchr:
+      'https://www.ohchr.org/en/human-rights/universal-declaration/translations/zarma',
     iso6393: 'dje',
     direction: 'ltr',
     stage: 4,
     latitude: 12.86,
     longitude: 2.41
+  },
+  {
+    code: '044',
+    name: 'Mirandese',
+    bcp47: 'mwl',
+    ohchr:
+      'https://www.ohchr.org/en/human-rights/universal-declaration/translations/mirandes',
+    iso6393: 'mwl',
+    direction: 'ltr',
+    stage: 4,
+    latitude: 41.54,
+    longitude: -6.38
+  },
+  {
+    code: '045',
+    name: 'Maasai',
+    bcp47: 'mas',
+    ohchr:
+      'https://www.ohchr.org/en/human-rights/universal-declaration/translations/maa',
+    iso6393: 'mas',
+    direction: 'ltr',
+    stage: 4,
+    latitude: -3.14,
+    longitude: 36.46
+  },
+  {
+    code: '046',
+    name: 'Malay, Papuan',
+    bcp47: 'pmy',
+    ohchr:
+      'https://www.ohchr.org/en/human-rights/universal-declaration/translations/papuan',
+    iso6393: 'pmy',
+    direction: 'ltr',
+    stage: 4,
+    latitude: -2.53,
+    longitude: 139.65
+  },
+  {
+    code: '047',
+    name: 'Malay, Ambonese',
+    bcp47: 'abs',
+    ohchr:
+      'https://www.ohchr.org/en/human-rights/universal-declaration/translations/ambonese',
+    iso6393: 'abs',
+    direction: 'ltr',
+    stage: 4,
+    latitude: -3.71,
+    longitude: 128.18
+  },
+  {
+    code: '048',
+    name: 'Minangkabau (2)',
+    bcp47: 'min',
+    ohchr:
+      'https://www.ohchr.org/en/human-rights/universal-declaration/translations/minangnese',
+    iso6393: 'min',
+    direction: 'ltr',
+    stage: 4,
+    latitude: -0.9,
+    longitude: 100.44
+  },
+  {
+    code: '049',
+    name: 'Banjar',
+    bcp47: 'bjn',
+    ohchr:
+      'https://www.ohchr.org/en/human-rights/universal-declaration/translations/banjarnese',
+    iso6393: 'bjn',
+    direction: 'ltr',
+    stage: 4,
+    latitude: 0.75,
+    longitude: 115.79
+  },
+  {
+    code: '050',
+    name: '(Bataknese)',
+    bcp47: 'und',
+    ohchr:
+      'https://www.ohchr.org/en/human-rights/universal-declaration/translations/bataknese',
+    iso6393: 'und',
+    direction: 'ltr',
+    stage: 4,
+    latitude: -75,
+    longitude: 30
+  },
+  {
+    code: '052',
+    name: 'Morisyen',
+    bcp47: 'mfe',
+    ohchr:
+      'https://www.ohchr.org/en/human-rights/universal-declaration/translations/mauritian-kreol',
+    iso6393: 'mfe',
+    direction: 'ltr',
+    stage: 4,
+    latitude: -20.26,
+    longitude: 57.55
+  },
+  {
+    code: '053',
+    name: 'Hausa (2)',
+    bcp47: 'hau',
+    ohchr:
+      'https://www.ohchr.org/en/human-rights/universal-declaration/translations/haoussa',
+    iso6393: 'hau',
+    direction: 'ltr',
+    stage: 4,
+    latitude: 11.15,
+    longitude: 8.78
+  },
+  {
+    code: '054',
+    name: 'Catalan (2)',
+    bcp47: 'cat',
+    ohchr:
+      'https://www.ohchr.org/en/human-rights/universal-declaration/translations/valencian',
+    iso6393: 'cat',
+    direction: 'ltr',
+    stage: 4,
+    latitude: 41.45,
+    longitude: 1.57
+  },
+  {
+    code: '055',
+    name: 'Jamaican Creole English',
+    bcp47: 'jam',
+    ohchr:
+      'https://www.ohchr.org/en/human-rights/universal-declaration/translations/patwa',
+    iso6393: 'jam',
+    direction: 'ltr',
+    stage: 4,
+    latitude: 18.13,
+    longitude: -77.26
+  },
+  {
+    code: '056',
+    name: 'Saint Lucian Creole French',
+    bcp47: 'acf',
+    ohchr:
+      'https://www.ohchr.org/en/human-rights/universal-declaration/translations/kweyol',
+    iso6393: 'acf',
+    direction: 'ltr',
+    stage: 4,
+    latitude: 15.39,
+    longitude: -61.36
+  },
+  {
+    code: '057',
+    name: 'Maay',
+    bcp47: 'ymm',
+    ohchr:
+      'https://www.ohchr.org/en/human-rights/universal-declaration/translations/maay',
+    iso6393: 'ymm',
+    direction: 'ltr',
+    stage: 4,
+    latitude: 3.22,
+    longitude: 43.62
+  },
+  {
+    code: '058',
+    name: 'Somali (Af Marka)',
+    bcp47: 'so',
+    ohchr:
+      'https://www.ohchr.org/en/human-rights/universal-declaration/translations/af-marka',
+    iso6393: 'som',
+    direction: 'ltr',
+    stage: 4,
+    latitude: 1.71,
+    longitude: 44.77
+  },
+  {
+    code: '059',
+    name: 'North Saami (2)',
+    bcp47: 'se',
+    ohchr:
+      'https://www.ohchr.org/en/human-rights/universal-declaration/translations/north-saami',
+    iso6393: 'sme',
+    direction: 'ltr',
+    stage: 4,
+    latitude: 68.72,
+    longitude: 22.11
+  },
+  {
+    code: '060',
+    name: 'Inari Saami',
+    bcp47: 'smn',
+    ohchr:
+      'https://www.ohchr.org/en/human-rights/universal-declaration/translations/inari-saami',
+    iso6393: 'smn',
+    direction: 'ltr',
+    stage: 4,
+    latitude: 69.42,
+    longitude: 27.87
+  },
+  {
+    code: '061',
+    name: 'Skolt Saami',
+    bcp47: 'sms',
+    ohchr:
+      'https://www.ohchr.org/en/human-rights/universal-declaration/translations/skolt-saami',
+    iso6393: 'sms',
+    direction: 'ltr',
+    stage: 4,
+    latitude: 68.83,
+    longitude: 29.72
+  },
+  {
+    code: '062',
+    name: 'Swahili (Chimwiini)',
+    bcp47: 'sw',
+    ohchr:
+      'https://www.ohchr.org/en/human-rights/universal-declaration/translations/chimwiini',
+    iso6393: 'swh',
+    direction: 'ltr',
+    stage: 4,
+    latitude: 1.11,
+    longitude: 44.03
+  },
+  {
+    code: '063',
+    name: 'Swahili (Kibajuni)',
+    bcp47: 'sw',
+    ohchr:
+      'https://www.ohchr.org/en/human-rights/universal-declaration/translations/kibajuni',
+    iso6393: 'swh',
+    direction: 'ltr',
+    stage: 4,
+    latitude: 1.11,
+    longitude: 44.03
+  },
+  {
+    code: '064',
+    name: 'Dabarre',
+    bcp47: 'dbr',
+    ohchr:
+      'https://www.ohchr.org/en/human-rights/universal-declaration/translations/dabarre',
+    iso6393: 'dbr',
+    direction: 'ltr',
+    stage: 4,
+    latitude: 1.22,
+    longitude: 43.33
+  },
+  {
+    code: '065',
+    name: 'Garre',
+    bcp47: 'gex',
+    ohchr:
+      'https://www.ohchr.org/en/human-rights/universal-declaration/translations/garre',
+    iso6393: 'gex',
+    direction: 'ltr',
+    stage: 4,
+    latitude: 2.3,
+    longitude: 44.69
+  },
+  {
+    code: '066',
+    name: 'Jiiddu',
+    bcp47: 'jii',
+    ohchr:
+      'https://www.ohchr.org/en/human-rights/universal-declaration/translations/jiiddu',
+    iso6393: 'jii',
+    direction: 'ltr',
+    stage: 4,
+    latitude: 1.84,
+    longitude: 44.13
+  },
+  {
+    code: '067',
+    name: 'Finnish (2)',
+    bcp47: 'fi',
+    ohchr:
+      'https://www.ohchr.org/en/human-rights/universal-declaration/translations/finnish',
+    iso6393: 'fin',
+    direction: 'ltr',
+    stage: 4,
+    latitude: 64.76,
+    longitude: 25.56
+  },
+  {
+    code: '068',
+    name: 'French (Welche)',
+    bcp47: 'fr',
+    ohchr:
+      'https://www.ohchr.org/en/human-rights/universal-declaration/translations/welche',
+    iso6393: 'fra',
+    direction: 'ltr',
+    stage: 4,
+    latitude: 48.49,
+    longitude: 7.19
+  },
+  {
+    code: '069',
+    name: 'Maori (2)',
+    bcp47: 'mi',
+    ohchr: 'mbf',
+    iso6393: 'mri',
+    direction: 'ltr',
+    stage: 4,
+    latitude: -38.29,
+    longitude: 176.54
+  },
+  {
+    code: '071',
+    name: 'Kabyle',
+    bcp47: 'kab',
+    ohchr: null,
+    iso6393: 'kab',
+    direction: 'ltr',
+    stage: 4,
+    latitude: 36.41,
+    longitude: 4.76
   },
   {
     code: 'aar',
@@ -568,8 +879,19 @@ export const udhr = [
     iso6393: 'oci',
     direction: 'ltr',
     stage: 4,
-    latitude: 44.14,
-    longitude: 6.83
+    latitude: 45.13,
+    longitude: 3.13
+  },
+  {
+    code: 'ayo',
+    name: 'Ayoreo',
+    bcp47: 'ayo',
+    ohchr: 'ayo',
+    iso6393: 'ayo',
+    direction: 'ltr',
+    stage: 4,
+    latitude: -18,
+    longitude: -62
   },
   {
     code: 'ayr',
@@ -869,6 +1191,18 @@ export const udhr = [
     longitude: 25.05
   },
   {
+    code: 'bvi',
+    name: 'Belanda Viri',
+    bcp47: 'bvi',
+    ohchr:
+      'https://www.ohchr.org/en/human-rights/universal-declaration/translations/balanda-viri',
+    iso6393: 'bvi',
+    direction: 'ltr',
+    stage: 4,
+    latitude: 7.41,
+    longitude: 27.7
+  },
+  {
     code: 'cab',
     name: 'Garifuna',
     bcp47: 'cab',
@@ -891,15 +1225,26 @@ export const udhr = [
     longitude: -90.99
   },
   {
+    code: 'cas',
+    name: 'Tsimané',
+    bcp47: 'cas',
+    ohchr: 'cas',
+    iso6393: 'cas',
+    direction: 'ltr',
+    stage: 4,
+    latitude: -14,
+    longitude: -68
+  },
+  {
     code: 'cat',
-    name: 'Catalan-Valencian-Balear',
+    name: 'Catalan',
     bcp47: 'ca',
     ohchr: 'cln',
     iso6393: 'cat',
     direction: 'ltr',
     stage: 4,
-    latitude: 41.9,
-    longitude: 3.39
+    latitude: 41.45,
+    longitude: 1.57
   },
   {
     code: 'cbi',
@@ -1524,7 +1869,7 @@ export const udhr = [
     ohchr: 'eng',
     iso6393: 'eng',
     direction: 'ltr',
-    stage: 5,
+    stage: 4,
     latitude: 53,
     longitude: -1
   },
@@ -1679,7 +2024,7 @@ export const udhr = [
     ohchr: 'frn',
     iso6393: 'fra',
     direction: 'ltr',
-    stage: 5,
+    stage: 4,
     latitude: 48,
     longitude: 2
   },
@@ -1880,6 +2225,17 @@ export const udhr = [
     stage: 4,
     latitude: 54.23,
     longitude: -4.85
+  },
+  {
+    code: 'gnw',
+    name: 'Guarani, Western Bolivian',
+    bcp47: 'gnw',
+    ohchr: 'gnw',
+    iso6393: 'gnw',
+    direction: 'ltr',
+    stage: 4,
+    latitude: -18,
+    longitude: -62
   },
   {
     code: 'gsw1',
@@ -2463,7 +2819,7 @@ export const udhr = [
     ohchr: 'geo',
     iso6393: 'kat',
     direction: 'ltr',
-    stage: 5,
+    stage: 4,
     latitude: 39.37,
     longitude: 45.81
   },
@@ -2916,8 +3272,8 @@ export const udhr = [
     iso6393: 'oci',
     direction: 'ltr',
     stage: 4,
-    latitude: 44.14,
-    longitude: 6.83
+    latitude: 43.89,
+    longitude: 2.54
   },
   {
     code: 'lns',
@@ -3191,8 +3547,8 @@ export const udhr = [
     iso6393: 'min',
     direction: 'ltr',
     stage: 4,
-    latitude: 4.17,
-    longitude: 96.25
+    latitude: -0.9,
+    longitude: 100.44
   },
   {
     code: 'miq',
@@ -3303,6 +3659,17 @@ export const udhr = [
     stage: 4,
     latitude: 17.22,
     longitude: -96.02
+  },
+  {
+    code: 'mtp',
+    name: 'Wichí Lhamtés Nocten',
+    bcp47: 'mtp',
+    ohchr: 'mtp',
+    iso6393: 'mtp',
+    direction: 'ltr',
+    stage: 4,
+    latitude: -22,
+    longitude: -64
   },
   {
     code: 'mxi',
@@ -3615,47 +3982,47 @@ export const udhr = [
   },
   {
     code: 'oci_1',
-    name: 'Occitan (Francoprovençal, Fribourg)',
-    bcp47: 'oc',
+    name: 'Francoprovençal (Fribourg)',
+    bcp47: 'frp',
     ohchr: 'Fr3',
-    iso6393: 'oci',
+    iso6393: 'frp',
     direction: 'ltr',
     stage: 4,
-    latitude: 44.14,
-    longitude: 6.83
+    latitude: 46.8,
+    longitude: 7.17
   },
   {
     code: 'oci_2',
-    name: 'Occitan (Francoprovençal, Savoie)',
-    bcp47: 'oc',
+    name: 'Francoprovençal (Savoie)',
+    bcp47: 'frp',
     ohchr: 'fr2',
-    iso6393: 'oci',
+    iso6393: 'frp',
     direction: 'ltr',
     stage: 4,
-    latitude: 44.14,
-    longitude: 6.83
+    latitude: 45.59,
+    longitude: 6.76
   },
   {
     code: 'oci_3',
-    name: 'Occitan (Francoprovençal, Vaud)',
-    bcp47: 'oc',
+    name: 'Francoprovençal (Vaud)',
+    bcp47: 'frp',
     ohchr: 'fr4',
-    iso6393: 'oci',
+    iso6393: 'frp',
     direction: 'ltr',
     stage: 4,
-    latitude: 44.14,
-    longitude: 6.83
+    latitude: 46.36,
+    longitude: 7.08
   },
   {
     code: 'oci_4',
-    name: 'Occitan (Francoprovençal, Valais)',
-    bcp47: 'oc',
+    name: 'Francoprovençal (Valais)',
+    bcp47: 'frp',
     ohchr: 'frp',
-    iso6393: 'oci',
+    iso6393: 'frp',
     direction: 'ltr',
     stage: 4,
-    latitude: 44.14,
-    longitude: 6.83
+    latitude: 46.18,
+    longitude: 7.4
   },
   {
     code: 'ojb',
@@ -3896,7 +4263,7 @@ export const udhr = [
     ohchr: null,
     iso6393: 'por',
     direction: 'ltr',
-    stage: 5,
+    stage: 4,
     latitude: -15,
     longitude: -47
   },
@@ -3907,7 +4274,7 @@ export const udhr = [
     ohchr: 'por',
     iso6393: 'por',
     direction: 'ltr',
-    stage: 5,
+    stage: 4,
     latitude: 39.91,
     longitude: -8.1
   },
@@ -3941,8 +4308,8 @@ export const udhr = [
     iso6393: 'oci',
     direction: 'ltr',
     stage: 4,
-    latitude: 44.14,
-    longitude: 6.83
+    latitude: 44,
+    longitude: 6
   },
   {
     code: 'quc',
@@ -3977,6 +4344,17 @@ export const udhr = [
     stage: 4,
     latitude: -1.37,
     longitude: -78.85
+  },
+  {
+    code: 'qul',
+    name: 'Quechua, North Bolivian',
+    bcp47: 'qul',
+    ohchr: 'qul',
+    iso6393: 'qul',
+    direction: 'ltr',
+    stage: 4,
+    latitude: -14,
+    longitude: -68
   },
   {
     code: 'quy',
@@ -4381,7 +4759,7 @@ export const udhr = [
     ohchr: 'snh',
     iso6393: 'sin',
     direction: 'ltr',
-    stage: 5,
+    stage: 4,
     latitude: 7,
     longitude: 81
   },
@@ -4431,7 +4809,7 @@ export const udhr = [
   },
   {
     code: 'sme',
-    name: 'Saami, North',
+    name: 'North Saami',
     bcp47: 'se',
     ohchr: 'lpi',
     iso6393: 'sme',
@@ -4549,6 +4927,17 @@ export const udhr = [
     stage: 4,
     latitude: 44.32,
     longitude: 21.92
+  },
+  {
+    code: 'srq',
+    name: 'Sirionó',
+    bcp47: 'srq',
+    ohchr: 'srq',
+    iso6393: 'srq',
+    direction: 'ltr',
+    stage: 4,
+    latitude: -15,
+    longitude: -63
   },
   {
     code: 'srr',
@@ -4826,6 +5215,17 @@ export const udhr = [
     longitude: 9.26
   },
   {
+    code: 'tji',
+    name: 'Tujia, Nothern',
+    bcp47: 'tji',
+    ohchr: 'tji',
+    iso6393: 'tji',
+    direction: 'ltr',
+    stage: 4,
+    latitude: 32,
+    longitude: 110
+  },
+  {
     code: 'tly',
     name: 'Talysh',
     bcp47: 'tly',
@@ -4835,6 +5235,17 @@ export const udhr = [
     stage: 4,
     latitude: 38.46,
     longitude: 48.63
+  },
+  {
+    code: 'tna',
+    name: 'Tacana',
+    bcp47: 'tna',
+    ohchr: 'tna',
+    iso6393: 'tna',
+    direction: 'ltr',
+    stage: 4,
+    latitude: -13,
+    longitude: -68
   },
   {
     code: 'tob',
@@ -4901,6 +5312,17 @@ export const udhr = [
     stage: 4,
     latitude: -9.42,
     longitude: 147.3
+  },
+  {
+    code: 'trn',
+    name: 'Trinitario',
+    bcp47: 'trn',
+    ohchr: 'trn',
+    iso6393: 'trn',
+    direction: 'ltr',
+    stage: 4,
+    latitude: -15,
+    longitude: -65
   },
   {
     code: 'tsn',
@@ -5408,6 +5830,17 @@ export const udhr = [
     stage: 4,
     latitude: 31.13,
     longitude: 121.29
+  },
+  {
+    code: 'yuz',
+    name: 'Yuracare',
+    bcp47: 'yuz',
+    ohchr: 'yuz',
+    iso6393: 'yuz',
+    direction: 'ltr',
+    stage: 4,
+    latitude: -17,
+    longitude: -65
   },
   {
     code: 'zam',

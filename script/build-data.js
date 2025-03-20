@@ -60,7 +60,13 @@ for (const element of elements) {
   /** @type {Array<number>} */
   const location = []
 
-  for (const d of (element.attributes.loc || '').split(',')) {
+  // To do: remove when released: `https://github.com/eric-muller/udhr/commit/a28b68b`
+  const loc =
+    element.attributes.loc === '36.41,f4.76'
+      ? '36.41,4.76'
+      : element.attributes.loc || ''
+
+  for (const d of loc.split(',')) {
     location.push(Number.parseFloat(d))
   }
 
@@ -113,7 +119,7 @@ await fs.writeFile(
     ' */',
     '',
     '/**',
-    ' * Universal Declaration of Human Rights (Unicode)',
+    ' * Universal Declaration of Human Rights.',
     ' *',
     ' * @type {Array<Info>}',
     ' */',
@@ -278,7 +284,7 @@ function listitem(d) {
   /** @type {Array<string>} */
   const keys = []
 
-  for (const key in Object.keys(d)) {
+  for (const key of Object.keys(d.attributes)) {
     if (key !== 'label' && key !== 'tag') {
       keys.push(key)
     }

@@ -4,7 +4,7 @@
   "contributors": [
     "Titus Wormer <tituswormer@gmail.com> (https://wooorm.com)"
   ],
-  "description": "Universal Declaration of Human Rights (Unicode)",
+  "description": "Universal Declaration of Human Rights",
   "devDependencies": {
     "@types/hast": "^3.0.0",
     "@types/mdast": "^4.0.0",
@@ -77,7 +77,7 @@
     "build": "tsc --build --clean && tsc --build && type-coverage",
     "format": "remark --frail --output --quiet -- . && prettier --log-level warn --write -- . && xo --fix",
     "generate:data": "node --conditions development script/build-data",
-    "generate:scrape": "curl --connect-timeout 5 --location https://www.unicode.org/udhr/assemblies/udhr_xml.zip --max-time 10 --output xml.zip || exit 0",
+    "generate:scrape": "curl --connect-timeout 5 --location http://efele.net/udhr/assemblies/udhr_xml.zip --max-time 10 --output xml.zip || exit 0",
     "generate:unzip": "unzip -o -d xml xml.zip || exit 0",
     "generate": "npm run generate:scrape && npm run generate:unzip && npm run generate:data",
     "test-api": "node --conditions development test.js",
