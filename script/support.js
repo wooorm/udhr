@@ -74,7 +74,7 @@ export default function remarkInjectSupport() {
               children: [
                 {
                   type: 'link',
-                  url: 'https://iso639-3.sil.org/code/' + info.iso6393,
+                  url: 'https://en.wikipedia.org/wiki/ISO_639:' + info.iso6393,
                   children: [{type: 'text', value: info.iso6393}]
                 }
               ]
