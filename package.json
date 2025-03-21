@@ -26,6 +26,7 @@
     "xast-util-to-string": "^3.0.0",
     "xo": "^0.60.0"
   },
+  "exports": "./index.js",
   "files": [
     "declaration/",
     "index.d.ts.map",
@@ -45,7 +46,6 @@
     "universal"
   ],
   "license": "MIT",
-  "main": "index.js",
   "name": "udhr",
   "prettier": {
     "bracketSpacing": false,
