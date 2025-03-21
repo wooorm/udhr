@@ -89,7 +89,11 @@ export default function remarkInjectSupport() {
                 {
                   type: 'link',
                   url:
-                    'https://www.openstreetmap.org/#map=5/' +
+                    'https://www.openstreetmap.org/?mlat=' +
+                    info.latitude +
+                    '&mlon=' +
+                    info.longitude +
+                    '#map=5/' +
                     info.latitude +
                     '/' +
                     info.longitude,
