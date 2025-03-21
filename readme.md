@@ -34,7 +34,7 @@ Perhaps when you are dealing with natural language detection?
 ## Install
 
 This package is [ESM only][esm].
-In Node.js (version 14+),
+In Node.js (version 18+),
 install with [npm][]:
 
 ```sh
@@ -683,7 +683,7 @@ interface Info {
 
 This package is at least compatible with all maintained versions of Node.js.
 As of now,
-that is Node.js 14+ and 16+.
+that is Node.js 18+.
 It also works in Deno and modern browsers.
 
 ## Contribute
