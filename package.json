@@ -15,7 +15,6 @@
     "hast-util-format": "^1.0.0",
     "hast-util-to-html": "^9.0.0",
     "hastscript": "^9.0.0",
-    "mapz": "^2.0.0",
     "mdast-zone": "^6.0.0",
     "prettier": "^3.0.0",
     "remark-cli": "^12.0.0",
@@ -25,8 +24,7 @@
     "unist-util-select": "^5.0.0",
     "xast-util-from-xml": "^4.0.0",
     "xast-util-to-string": "^3.0.0",
-    "xo": "^0.60.0",
-    "zwitch": "^2.0.0"
+    "xo": "^0.60.0"
   },
   "files": [
     "declaration/",

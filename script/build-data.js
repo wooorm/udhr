@@ -1,14 +1,15 @@
-/* eslint-disable no-await-in-loop, unicorn/no-this-assignment */
+/* eslint-disable no-await-in-loop */
 
 /**
- * @import {Element as HastElement, Root as HastRoot, Text as HastText} from 'hast'
- * @import {Element as XastElement, Text as XastText} from 'xast'
+ * @import {ElementContent as HastElementContent, Element as HastElement, Root as HastRoot, Text as HastText} from 'hast'
+ * @import {Element as XastElement, Nodes as XastNodes, Parent as XastParent, Text as XastText} from 'xast'
  */
 
 /**
- * @typedef Context
+ * @typedef State
+ *   Info passed around.
  * @property {number} rank
- * @property {(node: XastElement) => () => undefined} enter
+ *   Current heading rank.
  */
 
 /**
@@ -29,11 +30,9 @@ import fs from 'node:fs/promises'
 import {h} from 'hastscript'
 import {format} from 'hast-util-format'
 import {toHtml} from 'hast-util-to-html'
-import {mapz} from 'mapz'
 import {selectAll, select} from 'unist-util-select'
 import {fromXml} from 'xast-util-from-xml'
 import {toString} from 'xast-util-to-string'
-import {zwitch} from 'zwitch'
 
 const xml = fromXml(
   await fs.readFile(new URL('../xml/index.xml', import.meta.url), 'utf8')
@@ -86,68 +85,53 @@ for (const element of elements) {
   assert(location.length === 2)
 
   udhr.push({
-    code: element.attributes.f,
-    name: element.attributes.n,
     bcp47: element.attributes.bcp47,
-    ohchr: element.attributes.ohchr || undefined,
-    iso6393: element.attributes['iso639-3'],
+    code: element.attributes.f,
     direction: element.attributes.dir,
-    stage,
+    iso6393: element.attributes['iso639-3'],
     latitude: location[0],
-    longitude: location[1]
+    longitude: location[1],
+    name: element.attributes.n,
+    ohchr: element.attributes.ohchr || undefined,
+    stage
   })
 }
 
 await fs.writeFile(
   new URL('../index.js', import.meta.url),
   // Note: Please keep `Info` in sync with above type generated below.
-  // To do: sort type; `ReadonlyArray`.
   [
     '/**',
     ' * @typedef Info',
-    ' * @property {string} code',
-    ' * @property {string} name',
     ' * @property {string} bcp47',
-    ' * @property {string} [ohchr]',
-    ' * @property {string} iso6393',
+    ' *   BCP 47 language tag.',
+    ' * @property {string} code',
+    ' *   Code of encoding.',
     " * @property {'ltr' | 'rtl' | 'ttb'} direction",
-    ' * @property {1 | 2 | 3 | 4 | 5} stage',
+    ' *   Direction.',
+    ' * @property {string} iso6393',
+    ' *   ISO 639-3 code.',
     ' * @property {number} latitude',
+    ' *   Latitude.',
     ' * @property {number} longitude',
+    ' *   Longitude.',
+    ' * @property {string} name',
+    ' *   Name of language.',
+    ' * @property {string} [ohchr]',
+    ' *   Link or code.',
+    ' * @property {1 | 2 | 3 | 4 | 5} stage',
+    ' *   Stage of encoding.',
     ' */',
     '',
     '/**',
     ' * Universal Declaration of Human Rights.',
     ' *',
-    ' * @type {Array<Info>}',
+    ' * @type {ReadonlyArray<Info>}',
     ' */',
     'export const udhr = ' + JSON.stringify(udhr, undefined, 2),
     ''
   ].join('\n')
 )
-
-const element = zwitch('name', {
-  handlers: {
-    article,
-    listitem,
-    note,
-    orderedlist,
-    para,
-    preamble,
-    title,
-    udhr: root
-  },
-  invalid: invalidElement,
-  unknown: unknownElement
-})
-
-const one = zwitch('type', {
-  handlers: {comment, element, text},
-  invalid,
-  unknown
-})
-
-const all = mapz(one, {gapless: true, key: 'children'})
 
 for (const info of udhr) {
   const tree = fromXml(
@@ -167,17 +151,12 @@ for (const info of udhr) {
       h(
         'html',
         {
-          // To do: sort.
-          lang: main.attributes['xml:lang'],
-          dir: main.attributes.dir,
           dataCode: main.attributes.key,
-          dataIso6393: main.attributes['iso639-3']
+          dataIso6393: main.attributes['iso639-3'],
+          dir: main.attributes.dir,
+          lang: main.attributes['xml:lang']
         },
-        [
-          h('head', [h('title', main.attributes.n)]),
-          // To do: clean.
-          one.call({enter, rank: 0}, main)
-        ]
+        [h('head', [h('title', main.attributes.n)]), one({rank: 0}, main)]
       )
     ]
   }
@@ -191,186 +170,150 @@ for (const info of udhr) {
 }
 
 /**
- * @param {XastElement} node
- * @this {Context}
+ * @param {State} state
+ *   Info passed around.
+ * @param {XastParent} node
+ *   Node.
+ * @returns {Array<HastElementContent>}
+ *   Results.
  */
-function enter(node) {
-  const context = this
-  const rank = context.rank
+function all(state, node) {
+  /** @type {Array<HastElementContent>} */
+  const results = []
+  let increment = false
 
   for (const child of node.children) {
     if (child.type === 'element' && child.name === 'title') {
-      context.rank++
-      // To do: should be possible to always return `restore`?
-      return restore
+      increment = true
+      break
     }
   }
 
-  return noop
+  if (increment) state.rank++
 
-  function noop() {}
+  for (const child of node.children) {
+    const result = one(state, child)
+    if (result) results.push(result)
+  }
 
-  function restore() {
-    context.rank = rank
+  if (increment) state.rank--
+
+  return results
+}
+
+/**
+ * @param {State} state
+ *   Info passed around.
+ * @param {XastNodes} node
+ *   Node.
+ * @returns {HastElementContent | undefined}
+ *   Result.
+ */
+function one(state, node) {
+  if (node.type === 'element') {
+    if (node.name === 'article') return article(state, node)
+    if (node.name === 'listitem') return listitem(state, node)
+    if (node.name === 'note') return note(state, node)
+    if (node.name === 'orderedlist') return orderedlist(state, node)
+    if (node.name === 'para') return para(state, node)
+    if (node.name === 'preamble') return preamble(state, node)
+    if (node.name === 'title') return title(state, node)
+    if (node.name === 'udhr') return root(state, node)
+  }
+
+  if (node.type === 'text') {
+    return text(state, node)
   }
 }
 
 /**
- * @this {Context}
+ * @param {State} state
  * @param {XastElement} d
  * @returns {HastElement}
  */
-function title(d) {
+function title(state, d) {
   const value = cleanString(toString(d))
-  assert.deepEqual(Object.keys(d.attributes), [])
-  return h('h' + this.rank, value ? [{type: 'text', value}] : [])
+  assert.deepEqual(d.attributes, {})
+  return h('h' + state.rank, value ? [{type: 'text', value}] : [])
 }
 
 /**
- * @this {Context}
+ * @param {State} state
  * @param {XastElement} d
  * @returns {HastElement | undefined}
  */
-function para(d) {
+function para(state, d) {
   const value = cleanString(toString(d))
-  assert.deepEqual(Object.keys(d.attributes), [])
+  assert.deepEqual(d.attributes, {})
   return value ? h('p', [{type: 'text', value}]) : undefined
 }
 
 /**
- * @this {Context}
+ * @param {State} state
  * @param {XastElement} d
+ * @returns {undefined}
  */
-function note(d) {
-  assert.deepEqual(Object.keys(d.attributes), [])
+function note(state, d) {
+  assert.deepEqual(d.attributes, {})
 }
 
 /**
- * @this {Context}
+ * @param {State} state
  * @param {XastElement} d
  * @returns {HastElement}
  */
-function preamble(d) {
-  assert.deepEqual(Object.keys(d.attributes), [])
-  const exit = this.enter(d)
-  const node = h('header', all.call(this, d))
-  exit()
-  return node
+function preamble(state, d) {
+  assert.deepEqual(d.attributes, {})
+  return h('header', all(state, d))
 }
 
 /**
- * @this {Context}
+ * @param {State} state
  * @param {XastElement} d
  * @returns {HastElement}
  */
-function orderedlist(d) {
-  assert.deepEqual(Object.keys(d.attributes), [])
-  const exit = this.enter(d)
-  const node = h('ol', all.call(this, d))
-  exit()
-  return node
+function orderedlist(state, d) {
+  assert.deepEqual(d.attributes, {})
+  return h('ol', all(state, d))
 }
 
 /**
- * @this {Context}
+ * @param {State} state
  * @param {XastElement} d
  * @returns {HastElement}
  */
-function listitem(d) {
-  // Some list items are marked with their index as a word, such as `first`,
-  // `second`.
-  /** @type {Array<string>} */
-  const keys = []
-
-  for (const key of Object.keys(d.attributes)) {
-    if (key !== 'label' && key !== 'tag') {
-      keys.push(key)
-    }
-  }
-
-  assert.deepEqual(keys, [])
-  const exit = this.enter(d)
-  const node = h('li', all.call(this, d))
-  exit()
-  return node
+function listitem(state, d) {
+  const {label, tag, ...rest} = d.attributes
+  assert.deepEqual(rest, {})
+  return h('li', all(state, d))
 }
 
 /**
- * @this {Context}
+ * @param {State} state
  * @param {XastElement} d
  * @returns {HastElement}
  */
-function article(d) {
+function article(state, d) {
   assert.deepEqual(Object.keys(d.attributes), ['number'])
-  const exit = this.enter(d)
-  const node = h(
-    'article',
-    {dataNumber: d.attributes.number},
-    all.call(this, d)
-  )
-  exit()
-  return node
+  return h('article', {dataNumber: d.attributes.number}, all(state, d))
 }
 
 /**
- * @this {Context}
+ * @param {State} state
  * @param {XastElement} d
  * @returns {HastElement}
  */
-function root(d) {
-  const exit = this.enter(d)
-  const node = h('body', all.call(this, d))
-  exit()
-  return node
+function root(state, d) {
+  return h('body', all(state, d))
 }
 
 /**
- * @this {Context}
+ * @param {State} state
  * @param {XastText} d
  * @returns {HastText}
  */
-function text(d) {
+function text(state, d) {
   return {type: 'text', value: d.value.replace(/\r\n?/g, '\n')}
-}
-
-function comment() {}
-
-/**
- * @this {Context}
- * @param {unknown} d
- * @returns {never}
- */
-function invalidElement(d) {
-  throw new Error('Cannot handle invalid element `' + d + '`')
-}
-
-/**
- * @this {Context}
- * @param {unknown} d
- * @returns {never}
- */
-function unknownElement(d) {
-  // @ts-expect-error: it’s an element.
-  throw new Error('Cannot handle unknown element w/ name `' + d.name + '`')
-}
-
-/**
- * @this {Context}
- * @param {unknown} d
- * @returns {never}
- */
-function invalid(d) {
-  throw new Error('Cannot handle invalid node `' + d + '`')
-}
-
-/**
- * @this {Context}
- * @param {unknown} d
- * @returns {never}
- */
-function unknown(d) {
-  // @ts-expect-error: it’s a node.
-  throw new Error('Cannot handle unknown node w/ type `' + d.type + '`')
 }
 
 /**
