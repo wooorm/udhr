@@ -44,14 +44,14 @@ npm install udhr
 In Deno with [`esm.sh`][esmsh]:
 
 ```js
-import {udhr} from 'https://esm.sh/udhr@5'
+import {udhr} from 'https://esm.sh/udhr@6'
 ```
 
 In browsers with [`esm.sh`][esmsh]:
 
 ```html
 <script type="module">
-  import {udhr} from 'https://esm.sh/udhr@5?bundle'
+  import {udhr} from 'https://esm.sh/udhr@6?bundle'
 </script>
 ```
 
